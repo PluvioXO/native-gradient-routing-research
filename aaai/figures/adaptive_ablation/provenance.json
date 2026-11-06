@@ -1,0 +1,33 @@
+{
+  "audit": {
+    "complete": true,
+    "training_banks": 24,
+    "evaluated_banks": 24,
+    "verified_export_files": 35835,
+    "plan_sha256": "a80c8a908055bef574a1137b24005cef06c547473d163b9da82de3c114ed6278",
+    "archive_inventory_sha256": "a2f8f0c383781d38c82b456b09902557d5c1c1a61d9a12ee660b7f371e7a4ca7",
+    "counts": {
+      "training_updates": 15360,
+      "prediction_rows": 817920,
+      "retention_rows": 262944,
+      "wiki_target_tokens": 4325376
+    },
+    "frozen_baseline_identical": true,
+    "source_hashes_verified": true,
+    "limitation": "Recomputed answers, aggregate likelihoods and counts; did not rerun model forwards or optimization."
+  },
+  "inputs": {
+    "casr-adaptive-ablation-results-20261031.tar.gz": "05314c4b23f925650f167d06a8d29a707419d60c99df372a731b5c517e2feee9",
+    "analyse.py": "a1da46bdcfff4d407be24fc1326d54a438a97767f4e132697ce050c4e56a7153",
+    "per_bank.json": "2aca43da06d9a36d73067907f599a4428d4ab6be11c1d1b09152396b6bd48b68",
+    "paper_artifacts.py": "72dd45ff4a73dadaaa6a2136131e65e81574f91d7acd46a426aa0e79be565d59"
+  },
+  "outputs": {
+    "loss_ablation.png": "78a5f4087fffbb3a73b3c15c49df68f9ddeada87b9667bc4746c14e9b11877a9",
+    "loss_ablation.pdf": "32ba6a9c3292b7375b9595a8f03dcc4edff23ee8d1abfb24436479c5f09b380e",
+    "composition_table.tex": "31dc03d5611c8b3ee36663c64bfd216d25ae8c757b2204af52704dbc3e59eafc",
+    "primary_table.tex": "b8785364525a86d2628a61ce2799b78b794c2d6cc57391826ed2004aca02e46f",
+    "coexistence_curves.pdf": "4f0eb6400596b11cc33d8fd9cc0810d3433a673400d26e10a1bee23de90e6e34",
+    "retention_compute_table.tex": "46a2d87a2543aea9c5361883de58084c93668a1467a60559c947c5d825c07b9b"
+  }
+}

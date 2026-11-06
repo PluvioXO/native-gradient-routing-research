@@ -1,0 +1,369 @@
+{
+  "protocol": "selective-native-gradient-coupling-v8",
+  "config": {
+    "version": 8,
+    "seed": 31,
+    "parents": [
+      "shared4",
+      "shared8"
+    ],
+    "arms": [
+      "clean",
+      "global",
+      "local",
+      "lookahead"
+    ],
+    "strengths": [
+      0.001,
+      0.01
+    ],
+    "defense_updates": 128,
+    "defense_lrs": {
+      "clean": 3e-05,
+      "global_": 1e-06,
+      "local": 3e-05,
+      "lookahead": 3e-05
+    },
+    "fd_epsilon": 0.01,
+    "conserve": 0.1,
+    "clip": 1.0,
+    "meta_weight": 0.1,
+    "meta_every": 8,
+    "meta_steps": 4,
+    "meta_lr": 1e-06,
+    "attack_updates": 256,
+    "repair_updates": 128,
+    "attack_lrs": [
+      1e-06,
+      1e-05,
+      5e-05
+    ],
+    "repair_lr": 1e-06,
+    "worlds": 512,
+    "reserve_gib": 80
+  },
+  "sources": {
+    "PROTOCOL.md": "fae4807607afb2a0e2800f5a951bf785924b23b6c48ce22031ee3236032daade",
+    "analyse.py": "7b9b8c2a3033540379b5f218066e9d3408599b8e70aa94676554f17971202734",
+    "design.py": "e70aa29843d1065bc91c3f7f1246192f3906b702b062910ae50a2bcc1f6d0285",
+    "experiment.py": "62dd37bc04b82c25735090fae3fc693521e7f562959c084bb9cb68fb6d0dd8b2",
+    "mechanism.py": "82e875e864a6ef4e9936af09d5af7d6c4e1075380c9e4097bdc0ea0407a13b0f",
+    "reference_v7/PROTOCOL.md": "db64bc981798da790a50f74b77246e22d62bb17dfda3b5af1854a6638556296d",
+    "reference_v7/analyse.py": "0b5f0d5efa12c240fcb40d01b494bfd3002154942d71f8f7eb6e59fc40034779",
+    "reference_v7/attack.py": "f93ecdbb5a6c0cab7cbf1046405cfbe583eb80f119795c486dd1130699c9dc33",
+    "reference_v7/protocol.py": "73940e773ae5124f4cb4f76b8c15664e45891538e0234c6b6c890f1d4cf54597",
+    "reference_v7/reference_v3/campaign.py": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce",
+    "reference_v7/reference_v3/data.py": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8",
+    "reference_v7/reference_v3/excluded_worlds.json": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18",
+    "reference_v7/reference_v3/legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "reference_v7/reference_v3/observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "reference_v7/reference_v3/original_manifest.json": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e",
+    "reference_v7/reference_v3/reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57",
+    "reference_v7/reference_v3/reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "reference_v7/reference_v3/run.py": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0",
+    "reference_v7/reference_v3/test_run.py": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb",
+    "reference_v7/test_protocol.py": "b27f7afd125138b2203e875bc6ebb844cae61c754f25f60e2e3e1412edb9759e",
+    "reference_v7/test_torch.py": "1d8c3d726a06e352a77e868339a4aac61af1f3489aa367b3b6c2db66946e7463",
+    "test_experiment.py": "0fcd311e31b60ac7ff95509dea255c2abe8c89158180987e1facf42cdd8e0812"
+  },
+  "previous": "/mnt/fast1/mn866/casr-refusal-removal-20261106",
+  "previous_manifest_sha256": "33243e0ad481297fb53dcc44f8c6e083c18a6326e5d3e7ea0d4625cd95d98f7d",
+  "parents": {
+    "shared4": {
+      "folder": "/mnt/fast1/mn866/casr-refusal-removal-20261106/results/parents/shared4",
+      "ready": {
+        "run": "5a4e0a9bf2c28373d6ce2441dd60ebfc1d5e0797c0c52dbda94876cb18da411d",
+        "parent": {
+          "input": "/mnt/fast1/mn866/casr-refusal-removal-20261106/inputs/models/shared4",
+          "checkpoint_sha256": "a49f49703d0ed2c4651af7ac701b588f79683150eba8eb31d62047c6a211fe6c",
+          "original_step": 480,
+          "identity": {
+            "run": "5cf0e1da210edf39fca4537f397125c8618c55a93703fcc70b5aedcdd0b4d395",
+            "job": {
+              "id": "policy_shared4_s31_lr100",
+              "kind": "policy",
+              "condition": "shared4",
+              "seed": 31,
+              "geometry": "native",
+              "width": 4,
+              "placement": "same",
+              "teacher": "cap_native4_s31",
+              "lr_factor": 1.0,
+              "calibration": true
+            },
+            "stage": "policy",
+            "mask_hash": "9ad1803b462a616047d0b1aa67b19653d0ed361726defb829c6896d4612215d6",
+            "parent": "4af67790365190ed7de423afa259ff6998b55dee536ef4015cf1be6402de8f93"
+          }
+        },
+        "parameter_hash": "0a55be87ff1bfcd6df4d19d2a532ce20f2315406823afa50705c338511bcf3b6",
+        "checkpoint_sha256": "6e36e01f82da1b7488c9c57effdd53dd11a0ebad17d24fed92df196e27e24e32",
+        "teacher_sha256": "1ca1f6b3b1dfa491211d9ade06388289ca45d380f9e061ba70e0f1b5a5484b4a",
+        "materialization_effective_weights_exact": true,
+        "baseline_response_replay_exact": true,
+        "trainable_scalars": 494032768,
+        "original_step": 480
+      },
+      "layout": [
+        {
+          "name": "model.layers.11.mlp.up_proj",
+          "axis": 0,
+          "indices": [
+            [
+              4430,
+              4719,
+              1884,
+              2292
+            ],
+            [
+              3739,
+              2108,
+              4425,
+              3270
+            ]
+          ]
+        },
+        {
+          "name": "model.layers.11.mlp.gate_proj",
+          "axis": 0,
+          "indices": [
+            [
+              4430,
+              4719,
+              1884,
+              2292
+            ],
+            [
+              3739,
+              2108,
+              4425,
+              3270
+            ]
+          ]
+        },
+        {
+          "name": "model.layers.11.mlp.down_proj",
+          "axis": 1,
+          "indices": [
+            [
+              4430,
+              4719,
+              1884,
+              2292
+            ],
+            [
+              3739,
+              2108,
+              4425,
+              3270
+            ]
+          ]
+        }
+      ]
+    },
+    "shared8": {
+      "folder": "/mnt/fast1/mn866/casr-refusal-removal-20261106/results/parents/shared8",
+      "ready": {
+        "run": "5a4e0a9bf2c28373d6ce2441dd60ebfc1d5e0797c0c52dbda94876cb18da411d",
+        "parent": {
+          "input": "/mnt/fast1/mn866/casr-refusal-removal-20261106/inputs/models/shared8",
+          "checkpoint_sha256": "6b7da5327f1ae4a5363cb0d7f5a173a61eaeb0436e0181d978709b3308687e5a",
+          "original_step": 384,
+          "identity": {
+            "run": "5cf0e1da210edf39fca4537f397125c8618c55a93703fcc70b5aedcdd0b4d395",
+            "job": {
+              "id": "policy_shared8_s31_lr100",
+              "kind": "policy",
+              "condition": "shared8",
+              "seed": 31,
+              "geometry": "native",
+              "width": 8,
+              "placement": "same",
+              "teacher": "cap_native4_s31",
+              "lr_factor": 1.0,
+              "calibration": true
+            },
+            "stage": "policy",
+            "mask_hash": "c53aae3c9dc14d58e73e6f6dd61ac9283305955c850d6c81f779cda8ef7cb7a6",
+            "parent": "4af67790365190ed7de423afa259ff6998b55dee536ef4015cf1be6402de8f93"
+          }
+        },
+        "parameter_hash": "616d4ca2e9aefe1ef0614788dfd57748429cac00591c74c16e1b6bc89759f27d",
+        "checkpoint_sha256": "070065ff4252f5cf3b1d90d5f8403df4b8bc8db6bd7066e828b157b60ab3dc0e",
+        "teacher_sha256": "f368010e9384cc1fcc12a35c3f83e7d2d10e7ac001326a0c3919bcc4d095187f",
+        "materialization_effective_weights_exact": true,
+        "baseline_response_replay_exact": true,
+        "trainable_scalars": 494032768,
+        "original_step": 384
+      },
+      "layout": [
+        {
+          "name": "model.layers.11.mlp.up_proj",
+          "axis": 0,
+          "indices": [
+            [
+              4430,
+              4719,
+              1884,
+              2292,
+              3739,
+              2108,
+              4425,
+              3270
+            ],
+            [
+              3269,
+              3825,
+              430,
+              4763,
+              2689,
+              2256,
+              3634,
+              2976
+            ]
+          ]
+        },
+        {
+          "name": "model.layers.11.mlp.gate_proj",
+          "axis": 0,
+          "indices": [
+            [
+              4430,
+              4719,
+              1884,
+              2292,
+              3739,
+              2108,
+              4425,
+              3270
+            ],
+            [
+              3269,
+              3825,
+              430,
+              4763,
+              2689,
+              2256,
+              3634,
+              2976
+            ]
+          ]
+        },
+        {
+          "name": "model.layers.11.mlp.down_proj",
+          "axis": 1,
+          "indices": [
+            [
+              4430,
+              4719,
+              1884,
+              2292,
+              3739,
+              2108,
+              4425,
+              3270
+            ],
+            [
+              3269,
+              3825,
+              430,
+              4763,
+              2689,
+              2256,
+              3634,
+              2976
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "data_sha256": "ddc26a63d957ba78d29e083c4fcd51c49ae7f7ea75a12155e54f9fecfd8ad73c",
+  "defense_jobs": {
+    "shared4__clean__b0": {
+      "parent": "shared4",
+      "arm": "clean",
+      "beta": 0.0,
+      "limit": 128
+    },
+    "shared4__global__b0.001": {
+      "parent": "shared4",
+      "arm": "global",
+      "beta": 0.001,
+      "limit": 128
+    },
+    "shared4__global__b0.01": {
+      "parent": "shared4",
+      "arm": "global",
+      "beta": 0.01,
+      "limit": 128
+    },
+    "shared4__local__b0.001": {
+      "parent": "shared4",
+      "arm": "local",
+      "beta": 0.001,
+      "limit": 128
+    },
+    "shared4__local__b0.01": {
+      "parent": "shared4",
+      "arm": "local",
+      "beta": 0.01,
+      "limit": 128
+    },
+    "shared4__lookahead__b0.001": {
+      "parent": "shared4",
+      "arm": "lookahead",
+      "beta": 0.001,
+      "limit": 128
+    },
+    "shared4__lookahead__b0.01": {
+      "parent": "shared4",
+      "arm": "lookahead",
+      "beta": 0.01,
+      "limit": 128
+    },
+    "shared8__clean__b0": {
+      "parent": "shared8",
+      "arm": "clean",
+      "beta": 0.0,
+      "limit": 128
+    },
+    "shared8__global__b0.001": {
+      "parent": "shared8",
+      "arm": "global",
+      "beta": 0.001,
+      "limit": 128
+    },
+    "shared8__global__b0.01": {
+      "parent": "shared8",
+      "arm": "global",
+      "beta": 0.01,
+      "limit": 128
+    },
+    "shared8__local__b0.001": {
+      "parent": "shared8",
+      "arm": "local",
+      "beta": 0.001,
+      "limit": 128
+    },
+    "shared8__local__b0.01": {
+      "parent": "shared8",
+      "arm": "local",
+      "beta": 0.01,
+      "limit": 128
+    },
+    "shared8__lookahead__b0.001": {
+      "parent": "shared8",
+      "arm": "lookahead",
+      "beta": 0.001,
+      "limit": 128
+    },
+    "shared8__lookahead__b0.01": {
+      "parent": "shared8",
+      "arm": "lookahead",
+      "beta": 0.01,
+      "limit": 128
+    }
+  },
+  "smoke": false
+}

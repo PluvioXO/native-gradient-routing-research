@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "counts": {
+    "train": {
+      "examples": 1920,
+      "worlds": 1684,
+      "sha256": "e393fcc6ee8694562cc4cd323ddfc61e68cd1d88a29454f268c8549376bc93d9"
+    },
+    "dev": {
+      "examples": 480,
+      "worlds": 421,
+      "sha256": "fea70f6fae1db5477ff27c20b6a108b59891d9ef89cb168545bf43cd9a80f381"
+    },
+    "test": {
+      "examples": 960,
+      "worlds": 844,
+      "sha256": "8ad41496ae9cff6da8c28e9961ec4c3fae7147a1e51cfdaed494a69284e01683"
+    },
+    "depth_probe": {
+      "examples": 640,
+      "worlds": 563,
+      "sha256": "e2f67275e1124f56eb2aea9b14d77bb8f865fe3d1eb4eb11a97327275aa54de0"
+    }
+  },
+  "exact_and_world_overlap_with_archive": 0,
+  "split_world_overlap": 0,
+  "labels_recomputed": true,
+  "target_blind_prompts": true
+}

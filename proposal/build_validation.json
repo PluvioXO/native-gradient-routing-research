@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-06",
+  "source_sha256": "50dbeb0fe4c1aa6c65377c85f2e8c0fda29ec6c60e3e4486c24f9d19f35d4927",
+  "sources": {
+    "ai_usage_statement.tex": "ab9050eaec68cd2552b779becb5d8e3fa3daf1b72367dcb2ee62895a7701aa0c",
+    "method_diagrams.tex": "b3821a21816afc8e920abe1b915f836490e5b625668bc30cbb3e3ffa0016c468",
+    "project_proposal.tex": "50dbeb0fe4c1aa6c65377c85f2e8c0fda29ec6c60e3e4486c24f9d19f35d4927",
+    "project_proposal_core.tex": "d0e5378b1ec60d2dc5e0ca95073daeaa93d687858dc2e2721a1abb893b120bfe",
+    "proposal_body.tex": "1cbb3f55b7458c8e9d3f0e870ac21a6ffbd7a9790771ad4b629ad2fe167a5439",
+    "proposal_evidence.tex": "7d55743b49b7987ead9299224d199c05c455ff65039c379a7743d70232f169b0",
+    "proposal_literature_review.tex": "d85556bab4341abfd5ee9cc7a910c685a38a6534468c414a89a3c05ff8daeeff",
+    "proposal_references.tex": "40ae33b3e5149f7e4856d341f465cd176dd4e68f4db2a72ff6fdd917ab366e69",
+    "proposal_summary.tex": "5eafaae4d5f17b1f22b4e44306b3679fb946bf0932f8b011f31bf14431c1f0f6",
+    "plot_overview.py": "cde8e593863215f5318a73f178c64c411c0e7062a8181e33b38d01db0d7e7fec",
+    "README.md": "6dc6c76ba7157928c928f26eee8f3508664b966b57b4f6eddc9676d9868bfc94",
+    "example_review.md": "545964e54b6ff5143a01f24b28ba89610d6a46ca09ad4e7d3b7bb0684529a877",
+    "literature_review_sources.json": "f2a1f855d06194d9001e7fda35a724906f792447f26038f1d7ef56236885a666"
+  },
+  "versions": {
+    "project_proposal": {
+      "pages": 26,
+      "sha256": "de4ed87a64a036f80e144c6f2936f791129b17d7b1137c2f81cefecc24508fe6",
+      "compile_warnings": [],
+      "bibliography_entries": 49,
+      "all_bibliography_entries_cited": true,
+      "rendered_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "visual_review": "All pages reviewed as contact sheets; review, AI statement, references and core final page also inspected at full resolution.",
+      "visually_checked_at_full_resolution": [
+        7,
+        19,
+        20
+      ],
+      "pdf_bookmarks": 16,
+      "ai_usage_statement_pdf_pages": [
+        19
+      ],
+      "reference_pdf_pages": [
+        19,
+        20
+      ]
+    },
+    "project_proposal_core": {
+      "pages": 4,
+      "sha256": "2c92e6f2c6ac709fd4a480134c996badfbed56f31ae284ec30ff4f8ab0263e46",
+      "compile_warnings": [],
+      "bibliography_entries": 17,
+      "all_bibliography_entries_cited": true,
+      "rendered_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visual_review": "All pages reviewed as contact sheets; review, AI statement, references and core final page also inspected at full resolution.",
+      "visually_checked_at_full_resolution": [
+        4
+      ],
+      "pdf_bookmarks": 4,
+      "ai_usage_statement_pdf_pages": [
+        4
+      ],
+      "reference_pdf_pages": [
+        4
+      ]
+    }
+  },
+  "figures": 5,
+  "result_figures": 3,
+  "method_diagrams": 2,
+  "planning_figures": 1,
+  "diagram_layout": "Original AAAI native and LoRA PDFs side by side in Figure 1; each 49% of text width.",
+  "removed": "Repeated appendix graph galleries; duplicate repository-only page.",
+  "hypothesis_assessments": 23,
+  "internal_evidence_groups": 22,
+  "bibliography_entries": {
+    "detailed": 49,
+    "core": 17
+  },
+  "plot_inputs": {
+    "figures/overview.pdf": "a2376757e5bcffaf4f471fd072262991881fe2efceba651aef1abffe32f69d7c",
+    "../aaai/figures/fresh_confirmation/primary_contrasts.pdf": "f53d8eb9c9de5ae846acb2659b01f82948c421eda5cb35bff550bcadb67735fd",
+    "figures/removal_trajectories.pdf": "10b156a028a83e28f3c482f4bae873bbddf8a98c74751e50fa42ab58f7d9ed09",
+    "../aaai/figures/fig1_method.pdf": "0127af1457fe7b577aa3f7590730f49c65fead9b78db8dc3e4f0d8f21d33ec9d",
+    "../aaai/figures/fig1_lora_version.pdf": "682a8a13dc0e83c2facd4fac55c4ba1afddd8a84f68139cf7f996b2d425c5b79"
+  },
+  "plot_provenance_verified": true,
+  "completed_studies_included": [
+    "Fresh-bank capability confirmation (192 jobs / six new paired seeds)",
+    "Refusal sampler V5",
+    "Refusal decoder V6",
+    "Refusal removal V7 (12 fits)"
+  ],
+  "ongoing_study": "Garlick V8 selective coupling; no scientific result claimed.",
+  "compile": "latexmk -pdf -interaction=nonstopmode -halt-on-error; logs in /tmp/casr-proposal-literature-20261106",
+  "no_model_calls_or_gpu_experiments_for_this_update": true,
+  "known_limits": [
+    "Author-created GitHub URL remains a placeholder.",
+    "Unconfirmed assessment dates remain TBC.",
+    "Actual prior effort and the provisional 260-hour follow-up plan need reconciliation with the 600-hour total.",
+    "The joint brief gives short-proposal guidance; extended-project status does not establish acceptance of a longer submission. A four-page version is retained.",
+    "The AI-format guide linked in the supplied brief returned 404; disclosure follows the supplied precise-acknowledgement instruction.",
+    "Recent navigation studies use one seed; V8 coupling remains recorded as ongoing."
+  ],
+  "unit": "CM32028 Extended Project",
+  "notional_hours": 600,
+  "credits": 30,
+  "external_literature_sources": 47,
+  "earlier_annotated_inventory_sources": 187,
+  "literature_review_source_register": "literature_review_sources.json",
+  "literature_register_sha256": "f2a1f855d06194d9001e7fda35a724906f792447f26038f1d7ef56236885a666",
+  "review_scope": "Targeted critical synthesis of primary abstracts and selected passages; not 187 full readings or a systematic review.",
+  "ai_usage_statement": "Shared full/condensed disclosure in ai_usage_statement.tex: design, code, analysis, literature, prose, figures and PDF checks.",
+  "module_check": "Supplied shared lecture slides 1, 4 and 8 identify CM32028 Extended Project and the 30-credit / 600-hour workload."
+}

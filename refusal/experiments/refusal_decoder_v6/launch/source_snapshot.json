@@ -1,0 +1,15 @@
+{
+  "archive": "source_snapshot_20261106.tar.gz",
+  "sha256": "f81fe5b88f5dd7e1340e90358495ee9336cbbddc4771c59b1bbf4cb7e9f94107",
+  "files": {
+    "PROTOCOL.md": "d0d85b0d5e549d26659b37a5405f067522b63caf7374a39e767154143f0d2376",
+    "README.md": "c990bde8b6dd6bf8e6e2d2ab090bd43155259f569b9609173972b5c4b9dfd401",
+    "analyse.py": "36b0a43f992f58166c409069c73ae32ebd0776bf11fd39854f81f764e58c2e53",
+    "diagnostic.py": "d843e48a8f4f611511ba9d4f4bee7686c06252ac4c64622b5f0ba1eb735f86ac",
+    "launch.sh": "bf0a77df6113feea84f8bf4295fd28fdd55e69fccadc5509e05a1ec8e3d94da4",
+    "logic.py": "2c64249514eeb1a87f47964377db6e60d2e0fe411b4d51380dafb9544430ad35",
+    "test_logic.py": "44c73ff2e6f88e306e25eae7b2788e387079b957e3725c4fca39aa1bd32894f7",
+    "v5_audit.json": "298b1b079f598c542323b90fbcfda418ea1b0552ccd9a07aad2a9874ff7ae67c",
+    "v5_bundle.json": "66046adecb1604e12cf601da193143748ade063414cf37e90e8526a8770d0736"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checks_passed": true,
+  "utc": "2026-11-05T15:13:15.917328+00:00",
+  "cpu_tests": 14,
+  "hardware_smoke_only": true,
+  "policy_fits": 6,
+  "endpoint_reports": 16,
+  "observational_reports": 16,
+  "resume_checks": [
+    {
+      "job": "policy_shared8_balanced_s31_lr010",
+      "restored_from_update": 1,
+      "final_update": 3,
+      "max_parameter_difference": 0.0,
+      "optimizer_and_rng_verified": true,
+      "rtol": 1e-05,
+      "atol": 1e-08
+    },
+    {
+      "job": "policy_full_balanced_s31_lr010",
+      "restored_from_update": 1,
+      "final_update": 3,
+      "max_parameter_difference": 0.0,
+      "optimizer_and_rng_verified": true,
+      "rtol": 1e-05,
+      "atol": 1e-08
+    }
+  ],
+  "all_training_sample_ids_verified": true,
+  "smoke_analysis_generated": true,
+  "production_preflight_passed": true
+}

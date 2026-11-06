@@ -1,0 +1,108 @@
+{
+  "checks_passed": true,
+  "records": 81984,
+  "checks": [
+    {
+      "model": "shared4__original",
+      "phase": "dev",
+      "n": 1248,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared4__original",
+      "phase": "heldout",
+      "n": 12416,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared4__balanced",
+      "phase": "dev",
+      "n": 1248,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared4__balanced",
+      "phase": "heldout",
+      "n": 12416,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared8__original",
+      "phase": "dev",
+      "n": 1248,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared8__original",
+      "phase": "heldout",
+      "n": 12416,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared8__balanced",
+      "phase": "dev",
+      "n": 1248,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "shared8__balanced",
+      "phase": "heldout",
+      "n": 12416,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "full__original",
+      "phase": "dev",
+      "n": 1248,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "full__original",
+      "phase": "heldout",
+      "n": 12416,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "full__balanced",
+      "phase": "dev",
+      "n": 1248,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    },
+    {
+      "model": "full__balanced",
+      "phase": "heldout",
+      "n": 12416,
+      "cached_original_rows_exact": true,
+      "counterfactual_path_and_format_rescored": true,
+      "parameters_unchanged": true
+    }
+  ],
+  "thresholds_reproduced_from_development_only": true,
+  "auc_independently_counted": true,
+  "no_model_forward_or_training": true,
+  "source_sha256": "5d3ad8005e814cf6823889c2a7a2c097f2de4b1327d87665ce2e2b9f60904b19",
+  "manifest_sha256": "fdbf88241690c1835b313af040263f796fd29cd27367baa3690ad41e419a8759",
+  "calibration_sha256": "66905c00500277f0d8cc49bc410cc66ce8cf1c9da05602439ffa5206ac6a09a5"
+}

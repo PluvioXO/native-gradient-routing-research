@@ -1,0 +1,73 @@
+{
+  "active": [
+    {
+      "gpu": "0",
+      "id": "independent_native_s101_t0",
+      "pid": 2901067,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "1",
+      "id": "independent_native_s101_t1",
+      "pid": 2901068,
+      "step": 20,
+      "total": 320
+    },
+    {
+      "gpu": "2",
+      "id": "independent_native_s101_t2",
+      "pid": 2901069,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "3",
+      "id": "independent_native_s101_t3",
+      "pid": 2901070,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "4",
+      "id": "independent_native_s101_t4",
+      "pid": 2901071,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "5",
+      "id": "independent_native_s101_t5",
+      "pid": 2901072,
+      "step": 0,
+      "total": 320
+    }
+  ],
+  "by_kind": {
+    "bank": {
+      "done": 0,
+      "total": 12
+    },
+    "independent": {
+      "done": 0,
+      "total": 96
+    },
+    "main": {
+      "done": 0,
+      "total": 36
+    },
+    "merge": {
+      "done": 0,
+      "total": 48
+    }
+  },
+  "completed": 0,
+  "execution_revision": "38197416bb728f7fa8d46ee039dba1a754e1ba5e4d1550f61d38bbde9b7165b9",
+  "failed": [],
+  "free_gib": 557.8006820678711,
+  "host": "ogg",
+  "launcher_state": "running",
+  "pending": 186,
+  "planned": 192,
+  "updated_utc": "2026-11-02T14:45:58Z"
+}

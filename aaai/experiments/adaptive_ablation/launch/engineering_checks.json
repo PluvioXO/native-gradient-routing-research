@@ -1,0 +1,16 @@
+{
+  "cpu_checks_passed": [
+    "Both parameterizations: ownership, frozen teachers, rollback, zero-weight controls, preservation-only and conservation-only losses",
+    "Final bank loading and complete evaluation path"
+  ],
+  "python": "/var/tmp/casr-mn866-composition/venv/bin/python",
+  "host": "ogg.cs.bath.ac.uk",
+  "source_sha256": {
+    "build_inputs.py": "85a8847c4810070fb76033ba6b70152f3c36b1cdf43bc9bf4950ffeaa9d1c88d",
+    "run_study.py": "b32d0ee09bc4572279d7472f823abf0d5f30edb0d8b08b1ca7beb49e1c083ba1",
+    "run_aware.py": "51488be8cd618c4f42ade72d661c7bbfa6fbb63a85995f9e17f5cdc590ca4b75",
+    "test_aware.py": "652ac5766f4e9a6cb2b21157b615ca04f5cb4dc054822f2e4c059796071ad0f9",
+    "aware_update.py": "07a085696a056e184021b896375264e4ee9ecf55d17f87e5f77abca479b77ce6",
+    "scheduler.py": "d4ab9136131f9322f71e26e38bc529ce2411d9aa1e7bad57dad46170027b8927"
+  }
+}

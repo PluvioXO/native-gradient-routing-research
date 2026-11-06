@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering\small
+\begin{tabularx}{\textwidth}{lYrrrr}
+\toprule
+Head & Update & Clean & \multicolumn{2}{c}{Restoration MSE} & Swap \\
+& & accuracy & Semantic & Own route & accuracy \\
+\midrule
+Frozen & Ordinary & 1.00000 & 2.2479 & 2.2479 & 0.34517 \\
+Frozen & Semantic route & 1.00000 & 0.5057 & 0.5057 & 0.70359 \\
+Frozen & Random route & 1.00000 & 2.9825 & 0.1972 & 0.33304 \\
+Frozen & Semantic constraint & 0.99998 & $<10^{-20}$ & $<10^{-20}$ & 0.96975 \\
+Frozen & Random constraint & 1.00000 & 2.7668 & $<10^{-20}$ & 0.33504 \\
+\midrule
+Trainable & Ordinary & 1.00000 & 2.0553 & 2.0553 & 0.52247 \\
+Trainable & Semantic route & 1.00000 & 1.9203 & 1.9203 & 0.66521 \\
+Trainable & Random route & 1.00000 & 2.5139 & 2.0095 & 0.59425 \\
+Trainable & Semantic constraint & 1.00000 & 2.1510 & 2.1510 & 0.70090 \\
+Trainable & Random constraint & 1.00000 & 2.5234 & 2.0361 & 0.59636 \\
+\bottomrule
+\end{tabularx}
+\caption{Population outcomes in the coupled, inherited-copy condition. Restoration MSE measures remaining output change relative to the initial model; zero means that change is erased. Random-arm entries average 20 orientations. For the ordinary arm, the own-route column uses the common semantic span.}
+\label{tab:toy}
+\end{table}

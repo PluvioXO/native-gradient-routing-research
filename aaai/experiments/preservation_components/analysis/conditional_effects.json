@@ -1,0 +1,1346 @@
+[
+  {
+    "support": "native",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.8333333333333286,
+      0.1041666666666714,
+      0.4166666666666572
+    ],
+    "mean": -0.10416666666666667,
+    "sd": 0.6505206248331608
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "accuracy_8",
+    "paired": [
+      2.812499999999993,
+      -1.3541666666666643,
+      -1.0416666666666643
+    ],
+    "mean": 0.1388888888888881,
+    "sd": 2.320681223820404
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "wiki_change",
+    "paired": [
+      0.20734820917449603,
+      -10.327848089932255,
+      -0.08552112744515483
+    ],
+    "mean": -3.4020070027343046,
+    "sd": 5.999741593262369
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "mc_change",
+    "paired": [
+      0.5020080321285141,
+      -0.7028112449799196,
+      0.0
+    ],
+    "mean": -0.06693440428380186,
+    "sd": 0.6051921459178422
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "accuracy_1",
+    "paired": [
+      1.3541666666666714,
+      -0.4166666666666643,
+      0.625
+    ],
+    "mean": 0.5208333333333357,
+    "sd": 0.8900003901372439
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "accuracy_8",
+    "paired": [
+      0.4166666666666643,
+      0.8333333333333286,
+      1.5625
+    ],
+    "mean": 0.9374999999999977,
+    "sd": 0.5799754544614621
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "wiki_change",
+    "paired": [
+      0.09387850497426697,
+      1.335109486443553,
+      -0.03779788867326328
+    ],
+    "mean": 0.4637300342481856,
+    "sd": 0.7575033204166362
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "mc_change",
+    "paired": [
+      0.502008032128514,
+      0.3012048192771083,
+      -0.20080321285140562
+    ],
+    "mean": 0.20080321285140554,
+    "sd": 0.36200314010682616
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.10416666666665719,
+      -0.1041666666666643,
+      0.1041666666666714
+    ],
+    "mean": -0.03472222222221669,
+    "sd": 0.12028130608117135
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      -4.6875,
+      -1.875,
+      1.875
+    ],
+    "mean": -1.5625,
+    "sd": 3.2923917977664807
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "wiki_change",
+    "paired": [
+      0.04659705736620445,
+      -0.12419483615877525,
+      0.06754583497223798
+    ],
+    "mean": -0.0033506479401109366,
+    "sd": 0.10517699934143271
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.20080321285140545,
+      0.20080321285140562,
+      0.10040160642570273
+    ],
+    "mean": 0.033467202141900965,
+    "sd": 0.20900261038816584
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "accuracy_1",
+    "paired": [
+      0.0,
+      -0.4166666666666643,
+      0.625
+    ],
+    "mean": 0.06944444444444524,
+    "sd": 0.5242940580049121
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "accuracy_8",
+    "paired": [
+      2.7083333333333357,
+      -1.250000000000007,
+      -0.9375000000000071
+    ],
+    "mean": 0.17361111111110716,
+    "sd": 2.20068776076262
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "wiki_change",
+    "paired": [
+      -0.0473967368426198,
+      0.16299989799932746,
+      0.07615165090764098
+    ],
+    "mean": 0.06391827068811622,
+    "sd": 0.10573044822519442
+  },
+  {
+    "support": "native",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "mc_change",
+    "paired": [
+      -0.10040160642570281,
+      -0.3012048192771084,
+      -0.5020080321285141
+    ],
+    "mean": -0.3012048192771084,
+    "sd": 0.20080321285140562
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "accuracy_1",
+    "paired": [
+      -1.3541666666666714,
+      0.5208333333333357,
+      -0.3125000000000142
+    ],
+    "mean": -0.38194444444444997,
+    "sd": 0.939427031838106
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "accuracy_8",
+    "paired": [
+      5.104166666666664,
+      -2.9166666666666643,
+      5.8333333333333215
+    ],
+    "mean": 2.673611111111107,
+    "sd": 4.855030919724552
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "wiki_change",
+    "paired": [
+      -0.6095235468303493,
+      -11.359859336091535,
+      -0.7054515863772925
+    ],
+    "mean": -4.224944823099726,
+    "sd": 6.179203377294576
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "mc_change",
+    "paired": [
+      0.5020080321285141,
+      -0.20080321285140545,
+      -0.6024096385542168
+    ],
+    "mean": -0.10040160642570273,
+    "sd": 0.5590124862279139
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "accuracy_1",
+    "paired": [
+      0.8333333333333286,
+      0.0,
+      -0.1041666666666714
+    ],
+    "mean": 0.2430555555555524,
+    "sd": 0.513841964824608
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "accuracy_8",
+    "paired": [
+      2.7083333333333357,
+      -0.7291666666666714,
+      8.437499999999986
+    ],
+    "mean": 3.4722222222222165,
+    "sd": 4.630830284125118
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "wiki_change",
+    "paired": [
+      -0.7229932510305783,
+      0.3030982402842728,
+      -0.657728347605401
+    ],
+    "mean": -0.35920778611723553,
+    "sd": 0.574501376291294
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "mc_change",
+    "paired": [
+      0.502008032128514,
+      0.8032128514056225,
+      -0.8032128514056224
+    ],
+    "mean": 0.16733601070950468,
+    "sd": 0.8539056775216246
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.4166666666666643,
+      0.4166666666666643,
+      -0.10416666666665719
+    ],
+    "mean": -0.03472222222221907,
+    "sd": 0.420984571284099
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      0.1041666666666643,
+      -0.9375,
+      7.395833333333336
+    ],
+    "mean": 2.1875,
+    "sd": 4.54051973285487
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "wiki_change",
+    "paired": [
+      1.797887077069249,
+      0.5303687957626035,
+      0.7054340911807344
+    ],
+    "mean": 1.0112299880041957,
+    "sd": 0.6868653406943656
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.7028112449799195,
+      -1.1102230246251565e-16,
+      0.40160642570281124
+    ],
+    "mean": -0.1004016064257028,
+    "sd": 0.5590124862279138
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.3125000000000071,
+      0.1041666666666643,
+      0.4166666666666714
+    ],
+    "mean": 0.06944444444444287,
+    "sd": 0.36582131086294817
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "accuracy_8",
+    "paired": [
+      7.5,
+      -0.3125000000000071,
+      4.583333333333329
+    ],
+    "mean": 3.923611111111107,
+    "sd": 3.9478113075944243
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "wiki_change",
+    "paired": [
+      1.7038932828604247,
+      0.8175635299207062,
+      0.7140399071161374
+    ],
+    "mean": 1.0784989066324229,
+    "sd": 0.544075251672831
+  },
+  {
+    "support": "native",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "mc_change",
+    "paired": [
+      -0.6024096385542169,
+      -0.5020080321285141,
+      -0.20080321285140557
+    ],
+    "mean": -0.4350736278447122,
+    "sd": 0.209002610388166
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.625,
+      0.2083333333333357,
+      -0.3125000000000142
+    ],
+    "mean": -0.2430555555555595,
+    "sd": 0.4209845712841046
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "accuracy_8",
+    "paired": [
+      3.749999999999993,
+      0.5208333333333357,
+      0.1041666666666643
+    ],
+    "mean": 1.458333333333331,
+    "sd": 1.9955462563195812
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "wiki_change",
+    "paired": [
+      -8.368916214811573,
+      -16.47547424676785,
+      -5.2402527567323665
+    ],
+    "mean": -10.02821440610393,
+    "sd": 5.798491471775944
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "mc_change",
+    "paired": [
+      0.6024096385542168,
+      0.10040160642570284,
+      -0.20080321285140557
+    ],
+    "mean": 0.16733601070950468,
+    "sd": 0.4057682614786526
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      0.1041666666666714,
+      0.0,
+      -0.625
+    ],
+    "mean": -0.17361111111110952,
+    "sd": 0.3943686351250207
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      -3.75,
+      0.0,
+      3.0208333333333286
+    ],
+    "mean": -0.24305555555555713,
+    "sd": 3.3919541578947148
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "wiki_change",
+    "paired": [
+      -8.529667366619865,
+      -6.27182099299437,
+      -5.087185794314974
+    ],
+    "mean": -6.629558051309736,
+    "sd": 1.7489001389684284
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.10040160642570273,
+      1.0040160642570282,
+      -0.10040160642570284
+    ],
+    "mean": 0.26773761713520755,
+    "sd": 0.6376358394664542
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      0.3125000000000071,
+      0.1041666666666643,
+      -0.10416666666665719
+    ],
+    "mean": 0.1041666666666714,
+    "sd": 0.20833333333333215
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      -1.250000000000007,
+      2.5,
+      1.6666666666666785
+    ],
+    "mean": 0.9722222222222238,
+    "sd": 1.9690898442719262
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "wiki_change",
+    "paired": [
+      -5.961505590911974,
+      -4.585246114913711,
+      -3.8293670791743395
+    ],
+    "mean": -4.792039595000008,
+    "sd": 1.081007084094894
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.6024096385542168,
+      0.3012048192771082,
+      0.8032128514056225
+    ],
+    "mean": 0.16733601070950463,
+    "sd": 0.7123091249595971
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "accuracy_1",
+    "paired": [
+      -1.0416666666666643,
+      0.1041666666666643,
+      -0.10416666666665719
+    ],
+    "mean": -0.34722222222221905,
+    "sd": 0.6103609663627408
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "accuracy_8",
+    "paired": [
+      1.0416666666666643,
+      0.4166666666666643,
+      -0.8333333333333286
+    ],
+    "mean": 0.20833333333333334,
+    "sd": 0.9547032697824628
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "wiki_change",
+    "paired": [
+      -6.102780832728861,
+      -5.757355703357937,
+      -3.7154175395934352
+    ],
+    "mean": -5.191851358560077,
+    "sd": 1.2902411582109556
+  },
+  {
+    "support": "native",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "mc_change",
+    "paired": [
+      -1.2048192771084336,
+      -0.3012048192771085,
+      0.502008032128514
+    ],
+    "mean": -0.33467202141900937,
+    "sd": 0.8539056775216247
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.2083333333333286,
+      -0.1041666666666714,
+      0.3125000000000071
+    ],
+    "mean": 2.3684757858670005e-15,
+    "sd": 0.2755990949025646
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "accuracy_8",
+    "paired": [
+      -0.5208333333333286,
+      1.7708333333333357,
+      -6.770833333333329
+    ],
+    "mean": -1.840277777777774,
+    "sd": 4.421053900665834
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "wiki_change",
+    "paired": [
+      -0.26186390437073115,
+      0.09448535769840483,
+      -0.027844892641626373
+    ],
+    "mean": -0.06507447977131757,
+    "sd": 0.181068304136008
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "aware",
+    "after": "self_only",
+    "field": "mc_change",
+    "paired": [
+      1.1102230246251565e-16,
+      0.10040160642570281,
+      -0.3012048192771084
+    ],
+    "mean": -0.06693440428380183,
+    "sd": 0.20900261038816595
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.4166666666666714,
+      2.812500000000007,
+      -0.6249999999999929
+    ],
+    "mean": 0.5902777777777809,
+    "sd": 1.9273179286636026
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "accuracy_8",
+    "paired": [
+      -1.6666666666666714,
+      0.625,
+      0.4166666666666643
+    ],
+    "mean": -0.2083333333333357,
+    "sd": 1.2672421938121312
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "wiki_change",
+    "paired": [
+      0.123218706541528,
+      0.4724534451259199,
+      0.11225813704189846
+    ],
+    "mean": 0.23597676290311545,
+    "sd": 0.204868126967735
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_only",
+    "after": "preservation_only",
+    "field": "mc_change",
+    "paired": [
+      0.20080321285140568,
+      -0.10040160642570284,
+      -0.40160642570281124
+    ],
+    "mean": -0.1004016064257028,
+    "sd": 0.30120481927710846
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.4166666666666714,
+      2.187499999999993,
+      0.7291666666666714
+    ],
+    "mean": 0.8333333333333309,
+    "sd": 1.3052045923064222
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      -1.77083333333335,
+      -1.5625,
+      -0.7291666666666572
+    ],
+    "mean": -1.354166666666669,
+    "sd": 0.5511981898051347
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "wiki_change",
+    "paired": [
+      -0.04616331703224397,
+      -0.04267159427464584,
+      0.007323310609819167
+    ],
+    "mean": -0.027170533565690214,
+    "sd": 0.029923519118867422
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "conservation_only",
+    "after": "self_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.20080321285140568,
+      -0.3012048192771084,
+      -0.10040160642570278
+    ],
+    "mean": -0.20080321285140562,
+    "sd": 0.10040160642570281
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.625,
+      0.5208333333333286,
+      0.2083333333333286
+    ],
+    "mean": 0.03472222222221907,
+    "sd": 0.5923167399038856
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "accuracy_8",
+    "paired": [
+      -1.5625,
+      0.7291666666666714,
+      -1.0416666666666785
+    ],
+    "mean": -0.6250000000000023,
+    "sd": 1.201308603611546
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "wiki_change",
+    "paired": [
+      0.04517004803750169,
+      0.18640312845001894,
+      0.06963121457768118
+    ],
+    "mean": 0.1004014636884006,
+    "sd": 0.0754771616017318
+  },
+  {
+    "support": "lora",
+    "term": "self",
+    "before": "foreign_conserve",
+    "after": "preserve",
+    "field": "mc_change",
+    "paired": [
+      0.10040160642570284,
+      -0.3012048192771084,
+      -0.10040160642570273
+    ],
+    "mean": -0.10040160642570277,
+    "sd": 0.20080321285140562
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.10416666666665719,
+      -2.5,
+      0.7291666666666714
+    ],
+    "mean": -0.6249999999999952,
+    "sd": 1.6764038478574077
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "accuracy_8",
+    "paired": [
+      3.8541666666666714,
+      7.8125,
+      1.5625
+    ],
+    "mean": 4.409722222222224,
+    "sd": 3.1618201216200577
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "wiki_change",
+    "paired": [
+      -1.6860326318099759,
+      -2.9276135941299852,
+      -3.7178790611937407
+    ],
+    "mean": -2.7771750957112338,
+    "sd": 1.0242430300005732
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "aware",
+    "after": "foreign_only",
+    "field": "mc_change",
+    "paired": [
+      -0.10040160642570273,
+      0.40160642570281113,
+      1.2048192771084336
+    ],
+    "mean": 0.502008032128514,
+    "sd": 0.6583773618777108
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.3125,
+      0.4166666666666785,
+      -0.2083333333333286
+    ],
+    "mean": -0.03472222222221669,
+    "sd": 0.39436863512502474
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "accuracy_8",
+    "paired": [
+      2.7083333333333286,
+      6.666666666666664,
+      8.749999999999993
+    ],
+    "mean": 6.041666666666662,
+    "sd": 3.068941638053382
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "wiki_change",
+    "paired": [
+      -1.3009500208977167,
+      -2.54964550670247,
+      -3.577776031510216
+    ],
+    "mean": -2.476123853036801,
+    "sd": 1.1401921968767843
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_only",
+    "after": "preservation_only",
+    "field": "mc_change",
+    "paired": [
+      0.10040160642570284,
+      0.2008032128514055,
+      1.104417670682731
+    ],
+    "mean": 0.46854082998661306,
+    "sd": 0.5529689304504118
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      0.0,
+      1.4583333333333357,
+      -0.10416666666665719
+    ],
+    "mean": 0.45138888888889284,
+    "sd": 0.8735934462089653
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      2.291666666666657,
+      0.8333333333333286,
+      5.7291666666666785
+    ],
+    "mean": 2.951388888888888,
+    "sd": 2.513706638574769
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "wiki_change",
+    "paired": [
+      -0.13087702788807665,
+      -0.11278439241411142,
+      -0.19475954636121173
+    ],
+    "mean": -0.14614032222113327,
+    "sd": 0.04306631609025594
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "conservation_only",
+    "after": "foreign_conserve",
+    "field": "mc_change",
+    "paired": [
+      0.3012048192771085,
+      0.5020080321285141,
+      1.4056224899598393
+    ],
+    "mean": 0.7362784471218207,
+    "sd": 0.5882997266146902
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.2083333333333286,
+      -0.2083333333333286,
+      -0.625
+    ],
+    "mean": -0.34722222222221905,
+    "sd": 0.24056261216234678
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "accuracy_8",
+    "paired": [
+      2.500000000000007,
+      3.125,
+      5.416666666666657
+    ],
+    "mean": 3.680555555555555,
+    "sd": 1.535648915798324
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "wiki_change",
+    "paired": [
+      -0.039543662818330994,
+      0.11629033031055336,
+      -0.13245164239334972
+    ],
+    "mean": -0.018568324967042454,
+    "sd": 0.12569055590870415
+  },
+  {
+    "support": "lora",
+    "term": "foreign",
+    "before": "self_conserve",
+    "after": "preserve",
+    "field": "mc_change",
+    "paired": [
+      0.602409638554217,
+      0.5020080321285141,
+      1.4056224899598395
+    ],
+    "mean": 0.8366800535475235,
+    "sd": 0.49526936368637026
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "accuracy_1",
+    "paired": [
+      -0.2083333333333286,
+      -2.7083333333333286,
+      0.3125000000000071
+    ],
+    "mean": -0.86805555555555,
+    "sd": 1.6148633269768737
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "accuracy_8",
+    "paired": [
+      2.6041666666666785,
+      7.187500000000007,
+      -2.9166666666666714
+    ],
+    "mean": 2.2916666666666714,
+    "sd": 5.059326851908711
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "wiki_change",
+    "paired": [
+      -7.188200499318232,
+      -9.027634247688244,
+      -9.05054894851589
+    ],
+    "mean": -8.422127898507455,
+    "sd": 1.0686738935385836
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "aware",
+    "after": "conservation_only",
+    "field": "mc_change",
+    "paired": [
+      -0.502008032128514,
+      -1.1102230246251565e-16,
+      -0.20080321285140565
+    ],
+    "mean": -0.23427041499330659,
+    "sd": 0.2526718351830906
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.4166666666666714,
+      -0.4166666666666643,
+      0.7291666666666714
+    ],
+    "mean": -0.03472222222222143,
+    "sd": 0.6615471834464496
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      1.3541666666666572,
+      3.8541666666666714,
+      3.125
+    ],
+    "mean": 2.7777777777777763,
+    "sd": 1.2856603181648418
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "wiki_change",
+    "paired": [
+      -6.972499911979745,
+      -9.164791199661295,
+      -9.015380745264444
+    ],
+    "mean": -8.384223952301827,
+    "sd": 1.2248691544357904
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "self_only",
+    "after": "self_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.7028112449799198,
+      -0.40160642570281135,
+      0.0
+    ],
+    "mean": -0.3681392235609104,
+    "sd": 0.35259885384379985
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.1041666666666714,
+      1.250000000000007,
+      -0.5208333333333215
+    ],
+    "mean": 0.20833333333333806,
+    "sd": 0.9258535851370406
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "accuracy_8",
+    "paired": [
+      1.0416666666666643,
+      0.2083333333333357,
+      1.250000000000007
+    ],
+    "mean": 0.8333333333333357,
+    "sd": 0.5511981898051239
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "wiki_change",
+    "paired": [
+      -5.633044895396333,
+      -6.212805045972369,
+      -5.527429433683362
+    ],
+    "mean": -5.791093125017355,
+    "sd": 0.36901133403309905
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "foreign_only",
+    "after": "foreign_conserve",
+    "field": "mc_change",
+    "paired": [
+      -0.10040160642570273,
+      0.10040160642570278,
+      0.0
+    ],
+    "mean": 1.850371707708594e-17,
+    "sd": 0.10040160642570276
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "accuracy_1",
+    "paired": [
+      -0.3125,
+      -1.0416666666666714,
+      0.3125
+    ],
+    "mean": -0.3472222222222238,
+    "sd": 0.6777507394424724
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "accuracy_8",
+    "paired": [
+      1.1458333333333357,
+      0.3125000000000071,
+      -0.2083333333333357
+    ],
+    "mean": 0.416666666666669,
+    "sd": 0.6830665129481269
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "wiki_change",
+    "paired": [
+      -5.711093553900359,
+      -6.49885536264827,
+      -5.570056356147579
+    ],
+    "mean": -5.926668424232069,
+    "sd": 0.500521020695503
+  },
+  {
+    "support": "lora",
+    "term": "conservation",
+    "before": "preservation_only",
+    "after": "preserve",
+    "field": "mc_change",
+    "paired": [
+      -0.20080321285140557,
+      -0.10040160642570281,
+      0.3012048192771085
+    ],
+    "mean": 4.625929269271486e-17,
+    "sd": 0.26563768183379427
+  }
+]

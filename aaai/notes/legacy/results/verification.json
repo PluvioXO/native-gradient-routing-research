@@ -1,0 +1,21 @@
+{
+  "soft_stability_grid_points": 40200,
+  "soft_stability_formula_disagreements": 0,
+  "soft_stability_closed_form_eigenvalue_error": 3.3306690738754696e-16,
+  "nullspace_projector_idempotence_error": 9.614813431917819e-17,
+  "nullspace_complement_update_norm": 2.3037127760972e-17,
+  "readout_gain_normalization_max_error": 6.471196191751294e-16,
+  "conditional_capacity_kernel_max_error": 8.484678758270063e-16,
+  "total_runs": 800,
+  "seeds": 20,
+  "steps": 12000,
+  "learning_rate": 0.05,
+  "finite_difference_gradient_error": 9.285475166542767e-11,
+  "maximum_constraint_complement_drift": 2.6299774044872074e-12,
+  "maximum_frozen_head_erasure_bound_violation": 0.0,
+  "diverged_runs": 0,
+  "converged_runs": 800,
+  "python_version": "3.14.2",
+  "numpy_version": "2.5.3",
+  "matplotlib_version": "3.11.2"
+}

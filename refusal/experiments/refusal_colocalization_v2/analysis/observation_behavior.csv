@@ -1,0 +1,10 @@
+job,allowed_correct,blocked_refusal,false_refusal,refused,answered,behavior_partition_available
+base,0.041666666666666664,0.0,0.0,0,96,False
+full_off,1.0,0.0,0.0,0,96,False
+full_on,1.0,0.0,0.0,0,96,False
+native4,1.0,0.0,0.0,0,96,False
+native128,0.9791666666666666,0.0,0.0,0,96,False
+scattered_cap,0.041666666666666664,0.0,0.0,0,96,False
+policy_same,1.0,1.0,0.0,48,48,True
+policy_different,0.0,0.020833333333333332,0.0,1,95,False
+policy_full,1.0,1.0,0.0,48,48,True

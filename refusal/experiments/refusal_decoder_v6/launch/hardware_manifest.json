@@ -1,0 +1,368 @@
+{
+  "protocol": "saved-model-decoder-diagnostic-v1",
+  "smoke": true,
+  "sources": {
+    "PROTOCOL.md": "d0d85b0d5e549d26659b37a5405f067522b63caf7374a39e767154143f0d2376",
+    "analyse.py": "36b0a43f992f58166c409069c73ae32ebd0776bf11fd39854f81f764e58c2e53",
+    "diagnostic.py": "d843e48a8f4f611511ba9d4f4bee7686c06252ac4c64622b5f0ba1eb735f86ac",
+    "logic.py": "2c64249514eeb1a87f47964377db6e60d2e0fe411b4d51380dafb9544430ad35",
+    "test_logic.py": "44c73ff2e6f88e306e25eae7b2788e387079b957e3725c4fca39aa1bd32894f7",
+    "v5_audit.json": "298b1b079f598c542323b90fbcfda418ea1b0552ccd9a07aad2a9874ff7ae67c",
+    "v5_bundle.json": "66046adecb1604e12cf601da193143748ade063414cf37e90e8526a8770d0736"
+  },
+  "old_root": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results",
+  "old_run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+  "old_source": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/source",
+  "model_protocol": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "seed": 31,
+    "seeds": [
+      31
+    ],
+    "lr_factors": [
+      1.0,
+      0.3,
+      0.1
+    ],
+    "data_seed": 41106,
+    "layer": 11,
+    "max_width": 128,
+    "tiny_worlds": 8,
+    "train_worlds": 256,
+    "dev_worlds": 24,
+    "test_worlds": 128,
+    "observe_worlds": 16,
+    "ood_worlds": 64,
+    "wording_worlds": 64,
+    "preserve_worlds": 8,
+    "train_depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ood_depths": [
+      5,
+      6
+    ],
+    "rehearsal_per_task": 32,
+    "general_per_task": 32,
+    "old_fit_per_label": 48,
+    "old_eval_per_label": 24,
+    "benchmark_per_task": 96,
+    "benchmark_dev_per_task": 32,
+    "basic_steps": 512,
+    "hard_steps": 2048,
+    "policy_steps": 1024,
+    "eval_max_new_tokens": 32,
+    "cap_threshold": 0.8,
+    "cap_case_threshold": 0.7,
+    "eval_every": 64,
+    "full_lr": 1e-05,
+    "sparse_lr": 0.0003,
+    "warmup": 32,
+    "conserve": 0.05,
+    "preserve": 0.1,
+    "allowed_threshold": 0.8,
+    "refusal_threshold": 0.9,
+    "false_refusal_threshold": 0.1,
+    "retention_drop": 0.1,
+    "choice_mass_ratio": 0.8,
+    "paired_budget_control": false,
+    "observational_only": true,
+    "direction_penalty": 0.0,
+    "direction_intervention": false,
+    "version": 5,
+    "study": "original-versus-balanced-refusal-sampling",
+    "hardware_smoke": false,
+    "samplers": [
+      "original",
+      "balanced"
+    ],
+    "imported_acquisitions": true,
+    "inference": "exploratory; inspected V4 bank; one seed"
+  },
+  "models": {
+    "shared4__original": {
+      "job": "policy_shared4_original_s31_lr010",
+      "spec": {
+        "kind": "policy",
+        "condition": "shared4",
+        "sampler": "original",
+        "seed": 31,
+        "geometry": "native",
+        "width": 4,
+        "placement": "same",
+        "teacher": "cap_native4_s31",
+        "lr_factor": 0.1,
+        "calibration": true
+      },
+      "identity": {
+        "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+        "job": {
+          "id": "policy_shared4_original_s31_lr010",
+          "kind": "policy",
+          "condition": "shared4",
+          "sampler": "original",
+          "seed": 31,
+          "geometry": "native",
+          "width": 4,
+          "placement": "same",
+          "teacher": "cap_native4_s31",
+          "lr_factor": 0.1,
+          "calibration": true
+        },
+        "stage": "policy",
+        "mask_hash": "9ad1803b462a616047d0b1aa67b19653d0ed361726defb829c6896d4612215d6",
+        "parent": "8674f32395457763d887fdaa6961443b8c946c42800b8437f81486ffd4a7e4ce"
+      },
+      "checkpoint": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared4_original_s31_lr010/final.pt",
+      "checkpoint_sha256": "bea9ac6aaac21fd9414a4ac6aa42c53a0f430526ab88e95de9fe33dedcb4cb58",
+      "refs": {
+        "dev": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared4_original_s31_lr010/policy/dev_1024.json",
+          "sha256": "616b2fcafb9faa96a86bb91fe587f23f00c869f809322f0a9fd7c610ac53f02c"
+        },
+        "heldout": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared4_original_s31_lr010/test_final.json",
+          "sha256": "8a68fae7eb73b835801f6a6c9cda47b9c0eb01a2e68c38c316a38abb130512f0"
+        }
+      }
+    },
+    "shared4__balanced": {
+      "job": "policy_shared4_balanced_s31_lr100",
+      "spec": {
+        "kind": "policy",
+        "condition": "shared4",
+        "sampler": "balanced",
+        "seed": 31,
+        "geometry": "native",
+        "width": 4,
+        "placement": "same",
+        "teacher": "cap_native4_s31",
+        "lr_factor": 1.0,
+        "calibration": true
+      },
+      "identity": {
+        "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+        "job": {
+          "id": "policy_shared4_balanced_s31_lr100",
+          "kind": "policy",
+          "condition": "shared4",
+          "sampler": "balanced",
+          "seed": 31,
+          "geometry": "native",
+          "width": 4,
+          "placement": "same",
+          "teacher": "cap_native4_s31",
+          "lr_factor": 1.0,
+          "calibration": true
+        },
+        "stage": "policy",
+        "mask_hash": "9ad1803b462a616047d0b1aa67b19653d0ed361726defb829c6896d4612215d6",
+        "parent": "8674f32395457763d887fdaa6961443b8c946c42800b8437f81486ffd4a7e4ce"
+      },
+      "checkpoint": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared4_balanced_s31_lr100/final.pt",
+      "checkpoint_sha256": "574e2cb88eedef081a926544687e5b1321b0c0eae4e1704fd0c773d57b815f39",
+      "refs": {
+        "dev": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared4_balanced_s31_lr100/policy/dev_1024.json",
+          "sha256": "79aaf6d0256a5a43ed07374990453dad7ffb1fbfd33a303b75c7e937d9f4f0b8"
+        },
+        "heldout": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared4_balanced_s31_lr100/test_final.json",
+          "sha256": "7b570f10f9c39fd9d61c52b485b744f232aeab54a35f91015f28e01c0af211f5"
+        }
+      }
+    },
+    "shared8__original": {
+      "job": "policy_shared8_original_s31_lr010",
+      "spec": {
+        "kind": "policy",
+        "condition": "shared8",
+        "sampler": "original",
+        "seed": 31,
+        "geometry": "native",
+        "width": 8,
+        "placement": "same",
+        "teacher": "cap_native8_s31",
+        "lr_factor": 0.1,
+        "calibration": true
+      },
+      "identity": {
+        "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+        "job": {
+          "id": "policy_shared8_original_s31_lr010",
+          "kind": "policy",
+          "condition": "shared8",
+          "sampler": "original",
+          "seed": 31,
+          "geometry": "native",
+          "width": 8,
+          "placement": "same",
+          "teacher": "cap_native8_s31",
+          "lr_factor": 0.1,
+          "calibration": true
+        },
+        "stage": "policy",
+        "mask_hash": "fc18f22cfcd304fd8fb88741d6396e99bcefb03fa3c2c51353528c4a2a750244",
+        "parent": "286d25f2c51f064bb8976bca217729f113bdfad54daab377cfc49a8f0fa17b23"
+      },
+      "checkpoint": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared8_original_s31_lr010/final.pt",
+      "checkpoint_sha256": "fde549ebb4a9616fc59e83404dc8a57039d8b74f84f5cf9316e434e1640834b3",
+      "refs": {
+        "dev": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared8_original_s31_lr010/policy/dev_1024.json",
+          "sha256": "5109aa19f3dd80645d577f9f295f4aa805713ab74dc73c4f9ff4ab909d6c7a71"
+        },
+        "heldout": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared8_original_s31_lr010/test_final.json",
+          "sha256": "934e043d3fea20e73743c67e41f0d443465b5f5f0014f5b73a9377172478dff0"
+        }
+      }
+    },
+    "shared8__balanced": {
+      "job": "policy_shared8_balanced_s31_lr010",
+      "spec": {
+        "kind": "policy",
+        "condition": "shared8",
+        "sampler": "balanced",
+        "seed": 31,
+        "geometry": "native",
+        "width": 8,
+        "placement": "same",
+        "teacher": "cap_native8_s31",
+        "lr_factor": 0.1,
+        "calibration": true
+      },
+      "identity": {
+        "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+        "job": {
+          "id": "policy_shared8_balanced_s31_lr010",
+          "kind": "policy",
+          "condition": "shared8",
+          "sampler": "balanced",
+          "seed": 31,
+          "geometry": "native",
+          "width": 8,
+          "placement": "same",
+          "teacher": "cap_native8_s31",
+          "lr_factor": 0.1,
+          "calibration": true
+        },
+        "stage": "policy",
+        "mask_hash": "fc18f22cfcd304fd8fb88741d6396e99bcefb03fa3c2c51353528c4a2a750244",
+        "parent": "286d25f2c51f064bb8976bca217729f113bdfad54daab377cfc49a8f0fa17b23"
+      },
+      "checkpoint": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared8_balanced_s31_lr010/final.pt",
+      "checkpoint_sha256": "22e680797400a1f2c86574ccf22bf40ff3d390c919a3891a34974c2ea02aced2",
+      "refs": {
+        "dev": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared8_balanced_s31_lr010/policy/dev_1024.json",
+          "sha256": "8e5c2b984ce68573dada93145226dd8ae6737b1fac67f6d9353e3ee87ea76bc9"
+        },
+        "heldout": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_shared8_balanced_s31_lr010/test_final.json",
+          "sha256": "8d3e02326e2181aecf70b2e525082c04c4d591221a0fbd094cbf9c9dcef1711c"
+        }
+      }
+    },
+    "full__original": {
+      "job": "policy_full_original_s31_lr010",
+      "spec": {
+        "kind": "policy",
+        "condition": "full",
+        "sampler": "original",
+        "seed": 31,
+        "geometry": "full",
+        "width": 0,
+        "placement": "same",
+        "teacher": "cap_full_s31",
+        "lr_factor": 0.1,
+        "calibration": true
+      },
+      "identity": {
+        "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+        "job": {
+          "id": "policy_full_original_s31_lr010",
+          "kind": "policy",
+          "condition": "full",
+          "sampler": "original",
+          "seed": 31,
+          "geometry": "full",
+          "width": 0,
+          "placement": "same",
+          "teacher": "cap_full_s31",
+          "lr_factor": 0.1,
+          "calibration": true
+        },
+        "stage": "policy",
+        "mask_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "parent": "7300d66ffffb94e66c70aaade06fd76b3907f032c354e02d0c40eb56e64754b2"
+      },
+      "checkpoint": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_full_original_s31_lr010/final.pt",
+      "checkpoint_sha256": "2f2ed0ae9aa565612764963b956b5e7cbd252f5bc4d7ca9fa2f40d23f32ef134",
+      "refs": {
+        "dev": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_full_original_s31_lr010/policy/dev_1024.json",
+          "sha256": "b7798f6b2c3d90db186dbd7b11d4f786e8fdf2a7772adf2f21083ecc229cbae9"
+        },
+        "heldout": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_full_original_s31_lr010/test_final.json",
+          "sha256": "271496108dcff48ccf00e8fc0f910f0fe182d94ce5707304af0aa1d1912d51a6"
+        }
+      }
+    },
+    "full__balanced": {
+      "job": "policy_full_balanced_s31_lr100",
+      "spec": {
+        "kind": "policy",
+        "condition": "full",
+        "sampler": "balanced",
+        "seed": 31,
+        "geometry": "full",
+        "width": 0,
+        "placement": "same",
+        "teacher": "cap_full_s31",
+        "lr_factor": 1.0,
+        "calibration": true
+      },
+      "identity": {
+        "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+        "job": {
+          "id": "policy_full_balanced_s31_lr100",
+          "kind": "policy",
+          "condition": "full",
+          "sampler": "balanced",
+          "seed": 31,
+          "geometry": "full",
+          "width": 0,
+          "placement": "same",
+          "teacher": "cap_full_s31",
+          "lr_factor": 1.0,
+          "calibration": true
+        },
+        "stage": "policy",
+        "mask_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+        "parent": "7300d66ffffb94e66c70aaade06fd76b3907f032c354e02d0c40eb56e64754b2"
+      },
+      "checkpoint": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_full_balanced_s31_lr100/final.pt",
+      "checkpoint_sha256": "c7cadb9f822d879e274f008a776dc7d6769329902d29218f1c76616d63d5c497",
+      "refs": {
+        "dev": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_full_balanced_s31_lr100/policy/dev_1024.json",
+          "sha256": "9b420ccc29c345d3fa120cf5808e8275185d18dba4c46f4cec944da68864748d"
+        },
+        "heldout": {
+          "path": "/mnt/fast1/mn866/casr-refusal-sampler-20261105/results/jobs/policy_full_balanced_s31_lr100/test_final.json",
+          "sha256": "3d426bc997bf802a62c14e9ef11d68a004d2a40290c896ed5dbc0f5dc328233f"
+        }
+      }
+    }
+  },
+  "batch_size": 4,
+  "chunk_size": 64,
+  "max_new_tokens": 32,
+  "optimizer_created": false
+}

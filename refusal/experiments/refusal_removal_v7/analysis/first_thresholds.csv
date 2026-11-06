@@ -1,0 +1,13 @@
+job,parent,objective,lr,first_zero_refusal,first_task_success,first_full_success,final_development_success
+shared4__ordinary__lr1e-06,shared4,ordinary,1e-06,1,,,False
+shared4__ordinary__lr1e-05,shared4,ordinary,1e-05,1,,,False
+shared4__ordinary__lr5e-05,shared4,ordinary,5e-05,1,,,False
+shared4__preserve__lr1e-06,shared4,preserve,1e-06,1,24.0,32.0,False
+shared4__preserve__lr1e-05,shared4,preserve,1e-05,1,32.0,,False
+shared4__preserve__lr5e-05,shared4,preserve,5e-05,1,128.0,,False
+shared8__ordinary__lr1e-06,shared8,ordinary,1e-06,2,,,False
+shared8__ordinary__lr1e-05,shared8,ordinary,1e-05,2,,,False
+shared8__ordinary__lr5e-05,shared8,ordinary,5e-05,1,,,False
+shared8__preserve__lr1e-06,shared8,preserve,1e-06,2,4.0,4.0,False
+shared8__preserve__lr1e-05,shared8,preserve,1e-05,2,96.0,,False
+shared8__preserve__lr5e-05,shared8,preserve,5e-05,1,192.0,,False

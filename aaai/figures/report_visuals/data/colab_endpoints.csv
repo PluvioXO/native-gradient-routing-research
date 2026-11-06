@@ -1,0 +1,7 @@
+seed,arm,lr,comparable_start,complete,initial_refusal,first_observed_half_refusal_step,first_observed_half_refusal_epoch,half_refusal_not_observed,first_observed_answer_recovery_step,first_observed_answer_recovery_epoch,answer_recovery_not_observed,refusal_auc,arc_easy_change_at_half_refusal,winogrande_change_at_half_refusal,arc_easy_change_at_answer_recovery,winogrande_change_at_answer_recovery
+31,channels,1e-05,True,True,1.0,1,0.015625,False,1,0.015625,False,0.00390625,-0.03125,-0.03125,-0.03125,-0.03125
+31,channels,3e-05,True,True,1.0,1,0.015625,False,1,0.015625,False,0.00390625,-0.03125,-0.21875,-0.03125,-0.21875
+31,full,1e-05,True,True,1.0,2,0.03125,False,2,0.03125,False,0.0113525390625,0.0625,-0.03125,0.0625,-0.03125
+31,full,3e-05,True,True,1.0,1,0.015625,False,2,0.03125,False,0.006103515625,0.0,-0.03125,-0.03125,-0.0625
+31,scattered,1e-05,True,True,0.96875,1,0.015625,False,1,0.015625,False,0.0037841796875,0.09375,0.0625,0.09375,0.0625
+31,scattered,3e-05,True,True,0.96875,1,0.015625,False,1,0.015625,False,0.0037841796875,0.09375,0.15625,0.09375,0.15625

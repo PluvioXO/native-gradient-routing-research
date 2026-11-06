@@ -1,0 +1,43 @@
+{
+  "updated": 1793220309.578427,
+  "total": 12,
+  "finished": [],
+  "failed": [],
+  "pending": [
+    "full_s31",
+    "layer03_s47",
+    "layer12_s47",
+    "layer22_s47",
+    "full_s47",
+    "layer03_s71",
+    "layer12_s71",
+    "layer22_s71",
+    "full_s71"
+  ],
+  "running": [
+    {
+      "job": "layer03_s31",
+      "pid": 3787459,
+      "gpus": [
+        0,
+        1
+      ]
+    },
+    {
+      "job": "layer12_s31",
+      "pid": 3787460,
+      "gpus": [
+        2,
+        3
+      ]
+    },
+    {
+      "job": "layer22_s31",
+      "pid": 3787461,
+      "gpus": [
+        4,
+        5
+      ]
+    }
+  ]
+}

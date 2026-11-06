@@ -1,0 +1,44 @@
+{
+  "time": 1793766417.7594156,
+  "training_complete": false,
+  "completed_training": 1,
+  "planned_training": 5,
+  "running": [
+    {
+      "job": "full_off",
+      "test": false,
+      "pid": 954271,
+      "gpus": [
+        1,
+        2
+      ]
+    },
+    {
+      "job": "full_on",
+      "test": false,
+      "pid": 954272,
+      "gpus": [
+        3,
+        4
+      ]
+    },
+    {
+      "job": "native4",
+      "test": false,
+      "pid": 954273,
+      "gpus": [
+        5
+      ]
+    },
+    {
+      "job": "native128",
+      "test": false,
+      "pid": 954278,
+      "gpus": [
+        0
+      ]
+    }
+  ],
+  "failures": [],
+  "direction_measurements_observational_only": true
+}

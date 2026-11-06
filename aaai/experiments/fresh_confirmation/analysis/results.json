@@ -1,0 +1,548 @@
+{
+  "primary": [
+    {
+      "support": "lora",
+      "contrast": "foreign_conserve minus self_conserve",
+      "n": 6,
+      "paired_pp": [
+        0.9374999999999929,
+        -0.7291666666666643,
+        9.479166666666664,
+        1.25,
+        -0.625,
+        0.7291666666666714
+      ],
+      "mean_pp": 1.8402777777777775,
+      "sd_pp": 3.832238672204633,
+      "ci95_pp": [
+        -2.181410065421429,
+        5.861965620976984
+      ],
+      "p_two_sided": 0.29243571519307243,
+      "p_holm": 0.5848714303861449,
+      "meets_prespecified_success": false
+    },
+    {
+      "support": "native",
+      "contrast": "foreign_conserve minus self_conserve",
+      "n": 6,
+      "paired_pp": [
+        0.3124999999999929,
+        1.5625,
+        -1.1458333333333357,
+        1.5625,
+        0.4166666666666714,
+        0.1041666666666714
+      ],
+      "mean_pp": 0.46875,
+      "sd_pp": 1.0158253007612421,
+      "ci95_pp": [
+        -0.5972932745269048,
+        1.5347932745269048
+      ],
+      "p_two_sided": 0.3096317979013433,
+      "p_holm": 0.5848714303861449,
+      "meets_prespecified_success": false
+    }
+  ],
+  "secondary_exploratory": [
+    {
+      "support": "lora",
+      "contrast": "without_pointer",
+      "n": 6,
+      "paired_pp": [
+        1.6666666666666643,
+        -1.3095238095238102,
+        11.666666666666664,
+        0.8333333333333357,
+        -0.3571428571428541,
+        0.952380952380949
+      ],
+      "mean_pp": 2.2420634920634916,
+      "sd_pp": 4.7364897176125185,
+      "ci95_pp": [
+        -2.7285776255999514,
+        7.212704609726934
+      ],
+      "p_two_sided": 0.2986138351628937
+    },
+    {
+      "support": "lora",
+      "contrast": "task_0",
+      "n": 6,
+      "paired_pp": [
+        2.5,
+        -1.6666666666666679,
+        83.33333333333333,
+        3.333333333333343,
+        -1.666666666666666,
+        2.499999999999999
+      ],
+      "mean_pp": 14.722222222222221,
+      "sd_pp": 33.68426382793054,
+      "ci95_pp": [
+        -20.627244742467227,
+        50.07168918691167
+      ],
+      "p_two_sided": 0.33328962259122236
+    },
+    {
+      "support": "lora",
+      "contrast": "task_1",
+      "n": 6,
+      "paired_pp": [
+        -4.166666666666671,
+        3.3333333333333286,
+        -5.833333333333329,
+        4.166666666666671,
+        -2.5,
+        -0.8333333333333428
+      ],
+      "mean_pp": -0.9722222222222238,
+      "sd_pp": 4.028256676510553,
+      "ci95_pp": [
+        -5.199618345201348,
+        3.2551739007569
+      ],
+      "p_two_sided": 0.5801083292354515
+    },
+    {
+      "support": "lora",
+      "contrast": "task_2",
+      "n": 6,
+      "paired_pp": [
+        -1.6666666666666572,
+        -0.8333333333333286,
+        0.8333333333333286,
+        0.0,
+        -0.8333333333333428,
+        3.333333333333343
+      ],
+      "mean_pp": 0.13888888888889048,
+      "sd_pp": 1.780813380536069,
+      "ci95_pp": [
+        -1.7299601406493101,
+        2.007737918427091
+      ],
+      "p_two_sided": 0.8560092340671508
+    },
+    {
+      "support": "lora",
+      "contrast": "task_3",
+      "n": 6,
+      "paired_pp": [
+        0.8333333333333286,
+        0.0,
+        1.6666666666666572,
+        -5.0,
+        -0.8333333333333286,
+        -2.499999999999986
+      ],
+      "mean_pp": -0.9722222222222214,
+      "sd_pp": 2.439072379835017,
+      "ci95_pp": [
+        -3.5318717059070037,
+        1.5874272614625609
+      ],
+      "p_two_sided": 0.3737204340821989
+    },
+    {
+      "support": "lora",
+      "contrast": "task_4",
+      "n": 6,
+      "paired_pp": [
+        6.666666666666664,
+        1.6666666666666714,
+        -8.333333333333336,
+        3.3333333333333357,
+        3.3333333333333357,
+        5.833333333333336
+      ],
+      "mean_pp": 2.0833333333333344,
+      "sd_pp": 5.4198708471697,
+      "ci95_pp": [
+        -3.60447229731979,
+        7.771138963986459
+      ],
+      "p_two_sided": 0.38965095226746416
+    },
+    {
+      "support": "lora",
+      "contrast": "task_5",
+      "n": 6,
+      "paired_pp": [
+        -1.6666666666666714,
+        -2.5,
+        0.8333333333333357,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_pp": -0.5555555555555559,
+      "sd_pp": 1.2546210878484696,
+      "ci95_pp": [
+        -1.8721996397088105,
+        0.7610885285976988
+      ],
+      "p_two_sided": 0.32758249926618527
+    },
+    {
+      "support": "lora",
+      "contrast": "task_6",
+      "n": 6,
+      "paired_pp": [
+        2.499999999999993,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -3.3333333333333357
+      ],
+      "mean_pp": -0.13888888888889048,
+      "sd_pp": 1.8571682944940855,
+      "ci95_pp": [
+        -2.0878674864158246,
+        1.8100897086380439
+      ],
+      "p_two_sided": 0.8618488154751487
+    },
+    {
+      "support": "lora",
+      "contrast": "task_7",
+      "n": 6,
+      "paired_pp": [
+        2.5,
+        -5.833333333333332,
+        3.333333333333332,
+        4.166666666666668,
+        -2.5,
+        0.8333333333333321
+      ],
+      "mean_pp": 0.4166666666666667,
+      "sd_pp": 3.864007706456543,
+      "ci95_pp": [
+        -3.6383607333215706,
+        4.471694066654904
+      ],
+      "p_two_sided": 0.8022170436348313
+    },
+    {
+      "support": "lora",
+      "contrast": "foreign_conserve minus conservation_only",
+      "n": 6,
+      "paired_pp": [
+        0.3125,
+        1.6666666666666714,
+        8.125,
+        3.0208333333333286,
+        -0.6250000000000071,
+        1.3541666666666714
+      ],
+      "mean_pp": 2.3090277777777772,
+      "sd_pp": 3.106484500053731,
+      "ci95_pp": [
+        -0.9510277713630666,
+        5.569083326918621
+      ],
+      "p_two_sided": 0.1282955066003593
+    },
+    {
+      "support": "native",
+      "contrast": "without_pointer",
+      "n": 6,
+      "paired_pp": [
+        -0.1190476190476204,
+        1.7857142857142847,
+        -0.5952380952380949,
+        0.2380952380952408,
+        0.8333333333333357,
+        0.5952380952380949
+      ],
+      "mean_pp": 0.4563492063492068,
+      "sd_pp": 0.8262167783197227,
+      "ci95_pp": [
+        -0.41071212709955,
+        1.3234105397979636
+      ],
+      "p_two_sided": 0.2340313746525362
+    },
+    {
+      "support": "native",
+      "contrast": "task_0",
+      "n": 6,
+      "paired_pp": [
+        -0.8333333333333339,
+        -3.333333333333334,
+        0.0,
+        -1.666666666666666,
+        8.333333333333336,
+        -2.5000000000000018
+      ],
+      "mean_pp": 0.0,
+      "sd_pp": 4.249182927993989,
+      "ci95_pp": [
+        -4.4592440050744635,
+        4.4592440050744635
+      ],
+      "p_two_sided": 1.0
+    },
+    {
+      "support": "native",
+      "contrast": "task_1",
+      "n": 6,
+      "paired_pp": [
+        3.3333333333333286,
+        0.0,
+        -5.0,
+        10.833333333333329,
+        -2.5000000000000036,
+        -3.333333333333343
+      ],
+      "mean_pp": 0.5555555555555518,
+      "sd_pp": 5.813458204571208,
+      "ci95_pp": [
+        -5.5452946753671934,
+        6.656405786478297
+      ],
+      "p_two_sided": 0.8242039068367737
+    },
+    {
+      "support": "native",
+      "contrast": "task_2",
+      "n": 6,
+      "paired_pp": [
+        0.0,
+        1.6666666666666714,
+        2.5,
+        -0.8333333333333286,
+        0.8333333333333428,
+        2.5
+      ],
+      "mean_pp": 1.1111111111111143,
+      "sd_pp": 1.360827634879542,
+      "ci95_pp": [
+        -0.31698990868683663,
+        2.539212130909065
+      ],
+      "p_two_sided": 0.10193947882985731
+    },
+    {
+      "support": "native",
+      "contrast": "task_3",
+      "n": 6,
+      "paired_pp": [
+        -1.6666666666666714,
+        9.166666666666671,
+        -2.5,
+        2.500000000000014,
+        -0.8333333333333286,
+        3.333333333333343
+      ],
+      "mean_pp": 1.6666666666666714,
+      "sd_pp": 4.346134936801769,
+      "ci95_pp": [
+        -2.894322231810186,
+        6.227655565143529
+      ],
+      "p_two_sided": 0.39068401654962853
+    },
+    {
+      "support": "native",
+      "contrast": "task_4",
+      "n": 6,
+      "paired_pp": [
+        5.0,
+        4.166666666666671,
+        -1.6666666666666643,
+        8.333333333333329,
+        -4.166666666666671,
+        -2.5
+      ],
+      "mean_pp": 1.5277777777777775,
+      "sd_pp": 4.983769954859771,
+      "ci95_pp": [
+        -3.7023680338948664,
+        6.757923589450422
+      ],
+      "p_two_sided": 0.48653224764932734
+    },
+    {
+      "support": "native",
+      "contrast": "task_5",
+      "n": 6,
+      "paired_pp": [
+        0.0,
+        0.8333333333333357,
+        -1.6666666666666643,
+        -1.6666666666666643,
+        1.6666666666666714,
+        3.3333333333333357
+      ],
+      "mean_pp": 0.416666666666669,
+      "sd_pp": 1.9543398999264294,
+      "ci95_pp": [
+        -1.6342872767868772,
+        2.4676206101202154
+      ],
+      "p_two_sided": 0.6238111263214203
+    },
+    {
+      "support": "native",
+      "contrast": "task_6",
+      "n": 6,
+      "paired_pp": [
+        0.0,
+        0.8333333333333286,
+        0.0,
+        -0.8333333333333286,
+        0.0,
+        0.0
+      ],
+      "mean_pp": 0.0,
+      "sd_pp": 0.5270462766947269,
+      "ci95_pp": [
+        -0.5531011466379268,
+        0.5531011466379268
+      ],
+      "p_two_sided": 1.0
+    },
+    {
+      "support": "native",
+      "contrast": "task_7",
+      "n": 6,
+      "paired_pp": [
+        -3.333333333333332,
+        -0.8333333333333321,
+        -0.8333333333333321,
+        -4.166666666666668,
+        0.0,
+        0.0
+      ],
+      "mean_pp": -1.5277777777777775,
+      "sd_pp": 1.7808133805360675,
+      "ci95_pp": [
+        -3.396626807315976,
+        0.3410712517604213
+      ],
+      "p_two_sided": 0.08958917392934126
+    },
+    {
+      "support": "native",
+      "contrast": "foreign_conserve minus conservation_only",
+      "n": 6,
+      "paired_pp": [
+        0.10416666666665719,
+        1.4583333333333286,
+        -1.0416666666666714,
+        1.5625,
+        -1.25,
+        0.7291666666666714
+      ],
+      "mean_pp": 0.2604166666666643,
+      "sd_pp": 1.212546534044044,
+      "ci95_pp": [
+        -1.0120728811915047,
+        1.5329062145248333
+      ],
+      "p_two_sided": 0.6213279780793309
+    }
+  ],
+  "protocol": {
+    "coefficients": {
+      "conservation_only": [
+        0,
+        0,
+        1
+      ],
+      "foreign_conserve": [
+        0,
+        0.5,
+        1
+      ],
+      "self_conserve": [
+        0.5,
+        0,
+        1
+      ]
+    },
+    "continuation_lr": {
+      "lora": 9e-05,
+      "native": 3e-05
+    },
+    "continuation_steps": 640,
+    "data_seed": 20261102,
+    "date": "2026-11-02",
+    "difficulty_change": "Depths shift from 1/2/3 to 2/3/4 in all eight tasks. One-step arithmetic and shallow bracket domains are too small to provide a fully new balanced, world-disjoint bank. This is a prespecified harder-instance replication, not an identical-distribution rerun.",
+    "engineering": "Six independent Ogg GPU workers; atomic local/durable recovery including Adam/RNG; raw rollouts, snapshots and predictions retained outside home quota; 60 GiB free-space stop; no Drive sync.",
+    "holdout": "Only train and development may be run before all independent and continuation training jobs finish. No fresh test/probe model evaluation until the global training barrier is satisfied. Software/GPU smoke tests substitute training examples for dev/test/probe.",
+    "independent_lr": {
+      "lora": 0.0003,
+      "native": 0.0001
+    },
+    "independent_steps": 320,
+    "model": "Qwen/Qwen2.5-0.5B",
+    "modes": [
+      "conservation_only",
+      "self_conserve",
+      "foreign_conserve"
+    ],
+    "original_dataset_sha256": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0",
+    "per_task_per_depth": {
+      "depth_probe": 40,
+      "dev": 20,
+      "test": 40,
+      "train": 80
+    },
+    "primary": "Foreign+conservation minus self+conservation in final-step, unit-strength all-eight test macro accuracy; paired across six new seeds, separately for native and LoRA.",
+    "probe_depths": [
+      5,
+      6
+    ],
+    "procedure": "All independent specialists retrained from the pinned pretrained checkpoint on the fresh train split. Each continuation arm starts from the same fresh step-320 owner weights and Adam histories for its support/seed. All eight skills active during continuation; only current-owner gradients. Self/foreign/neutral passes remain in all arms, including zero-weight controls. No learning-rate or coefficient search, checkpoint selection, calibration, or test-driven changes.",
+    "provenance": "Prospective protocol fixed before fresh-data model evaluation. Prior exploratory results informed the fixed hypotheses and coefficients.",
+    "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "scope": "Fresh instances and six new training/allocation seeds; same small model and same eight synthetic task families. This does not establish cross-model, real-world, or new-task-family generalization.",
+    "secondary": [
+      "Foreign+conservation minus conservation-only",
+      "Macro contrast excluding pointer following",
+      "Every individual task contrast",
+      "Owner-alone to all-eight interference gap",
+      "Owner-removal dependence",
+      "Depth-5/6 extrapolation",
+      "Reused fixed MC/WikiText retention panels",
+      "Measured time/tokens/memory"
+    ],
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503,
+      607
+    ],
+    "split_policy": "Exclude exact questions and underlying worlds from all four splits of the archived eight-task bank and all prompt demonstrations. New splits must be world-disjoint. Reuse pointer maps across depths only within the same split. Algorithm primitives and templates are intentionally shared.",
+    "study": "fresh-bank-six-seed-confirmation-v1",
+    "success": "For each support, the six-seed paired mean must be positive and its two-sided 95% Student-t interval exclude zero. Two prespecified support tests are Holm-adjusted at familywise alpha .05. Report every seed and all outcomes even if these criteria fail.",
+    "supports": {
+      "lora": 1,
+      "native": 4
+    },
+    "task_names": [
+      "arithmetic",
+      "pointer",
+      "boolean",
+      "brackets",
+      "sorting",
+      "stack",
+      "shortest_path",
+      "sudoku"
+    ],
+    "training_depths": [
+      2,
+      3,
+      4
+    ]
+  },
+  "source_plan_sha256": "dded5f980d596ee6561412fec2b74edea0b981e9837954af921ca3d5fbf0ffdf",
+  "caveat": "Six paired training/allocation seeds on one fixed fresh bank, one model, shared task families, and a prespecified harder depth distribution. Secondary comparisons are unadjusted exploratory results."
+}

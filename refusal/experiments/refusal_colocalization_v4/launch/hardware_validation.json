@@ -1,0 +1,28 @@
+{
+  "checks_passed": true,
+  "time": 1793801174.918909,
+  "hardware_smoke_only": true,
+  "completed_jobs": 21,
+  "endpoint_reports": 21,
+  "initial_parent_clones_verified": 15,
+  "candidates_per_condition": {
+    "shared1": 3,
+    "shared2": 3,
+    "shared4": 3,
+    "shared8": 3,
+    "full": 3
+  },
+  "observational_hash_pairs_verified": 21,
+  "source_hashes": {
+    "run.py": "6a3045d84eeadc665a208501c0ee668f746d12c572295304bf62cf87bed65a73",
+    "campaign.py": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50",
+    "legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "data.py": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de",
+    "observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "test_run.py": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5",
+    "excluded_worlds.json": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909",
+    "reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+  },
+  "research_thresholds_not_tested": true
+}

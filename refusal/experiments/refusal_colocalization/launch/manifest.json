@@ -1,0 +1,40 @@
+{
+  "protocol": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "seed": 31,
+    "widths": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128
+    ],
+    "layer": 11,
+    "max_width": 128,
+    "capability_steps": 512,
+    "joint_steps": 512,
+    "sparse_lr": 0.0003,
+    "full_lr": 1e-05,
+    "preserve": 0.1,
+    "conserve": 0.02,
+    "dev_every": 64,
+    "checkpoint_every": 32,
+    "train_pairs": 512,
+    "dev_pairs": 96,
+    "test_pairs": 256,
+    "wording_pairs": 64,
+    "max_new_tokens": 12,
+    "warmup": 32,
+    "version": 1
+  },
+  "source": {
+    "run.py": "5213cbbb2002f5080f6edb29b9ae250e33edbe73c73d859516f42647f743dd00",
+    "removal.py": "36638d1dafdb78c606191565233a3e28232a4e05b07899740b695bb263aab508",
+    "refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+  },
+  "data_sha256": "370400ef7444e7262f2c0fc561308a59041fb2b54bfb6a01ff83eb10a0068357"
+}

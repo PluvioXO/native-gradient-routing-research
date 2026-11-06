@@ -1,0 +1,783 @@
+role,task,id,answer,response,strict_correct,answer_parsed_correct,format_only_error,refusal_language,truncated
+base__final,addition,general_test_addition_0,38,38,True,True,False,False,False
+base__final,addition,general_test_addition_1,39,39,True,True,False,False,False
+base__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+base__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+base__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+base__final,addition,general_test_addition_5,26,26,True,True,False,False,False
+base__final,addition,general_test_addition_6,40,40,True,True,False,False,False
+base__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+base__final,addition,general_test_addition_8,28,28,True,True,False,False,False
+base__final,addition,general_test_addition_9,13,13,True,True,False,False,False
+base__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+base__final,addition,general_test_addition_11,24,23,False,False,False,False,False
+base__final,addition,general_test_addition_12,41,41,True,True,False,False,False
+base__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+base__final,addition,general_test_addition_14,10,10,True,True,False,False,False
+base__final,addition,general_test_addition_15,48,48,True,True,False,False,False
+base__final,addition,general_test_addition_16,36,36,True,True,False,False,False
+base__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+base__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+base__final,addition,general_test_addition_19,11,11,True,True,False,False,False
+base__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+base__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+base__final,addition,general_test_addition_22,39,39,True,True,False,False,False
+base__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+base__final,addition,general_test_addition_24,33,33,True,True,False,False,False
+base__final,addition,general_test_addition_25,47,47,True,True,False,False,False
+base__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+base__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+base__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+base__final,addition,general_test_addition_29,22,22,True,True,False,False,False
+base__final,addition,general_test_addition_30,38,38,True,True,False,False,False
+base__final,addition,general_test_addition_31,30,30,True,True,False,False,False
+base__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+base__final,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+base__final,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+base__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+base__final,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+base__final,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+base__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+base__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+base__final,copy,general_test_copy_8,iqzxm,"I'm sorry, but I cannot copy and paste text into my system as it is not allowed. However, I can assist you with any other questions or tasks",False,False,False,True,True
+base__final,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+base__final,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+base__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+base__final,copy,general_test_copy_12,imzrv,"I'm sorry, but I cannot copy and paste text into my system as it is not allowed. However, I can assist you with any other questions or tasks",False,False,False,True,True
+base__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+base__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+base__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+base__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+base__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+base__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+base__final,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+base__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+base__final,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+base__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+base__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+base__final,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+base__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+base__final,copy,general_test_copy_26,hydzm,"Here is the string ""hydzm"" exactly as it was provided:
+
+""hydzm""",False,False,False,False,False
+base__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+base__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+base__final,copy,general_test_copy_29,ztlex,"Here is the string ""ztlex"" copied exactly as it was:
+
+""ztlex""",False,False,False,False,False
+base__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+base__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_0,38,48,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_1,39,49,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_5,26,26,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_6,40,46,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_8,28,38,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_9,13,12,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_11,24,25,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_12,41,44,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_14,10,20,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_15,48,58,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_16,36,46,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_19,11,12,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_22,39,49,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_24,33,23,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_25,47,57,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+cap_full_s31__final,addition,general_test_addition_29,22,34,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_30,38,48,False,False,False,False,False
+cap_full_s31__final,addition,general_test_addition_31,30,30,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_1,ysicm,"I'm sorry, I can't copy this string.",False,False,False,True,False
+cap_full_s31__final,copy,general_test_copy_2,teiyx,"I'm sorry, I can't copy this string.",False,False,False,True,False
+cap_full_s31__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_4,sbjen,sbnj,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_5,qwecy,qecy,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_8,iqzxm,Iqzxm,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_9,iywnd,Iywnd,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_10,xcbqs,Here is the string: xcbqs,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_12,imzrv,Izrv,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_19,xyfuk,"I'm sorry, I can't copy this string.",False,False,False,True,False
+cap_full_s31__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_21,xpajz,"I'm sorry, I can't copy this string.",False,False,False,True,False
+cap_full_s31__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_24,kmzgc,kzgc,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_26,hydzm,hdyzm,False,False,False,False,False
+cap_full_s31__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_29,ztlex,ztlex,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+cap_full_s31__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_0,38,38,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_1,39,39,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_5,26,26,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_6,40,40,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+cap_native4_s31__final,addition,general_test_addition_8,28,28,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_9,13,13,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_11,24,23,False,False,False,False,False
+cap_native4_s31__final,addition,general_test_addition_12,41,41,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_14,10,10,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_15,48,48,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_16,36,36,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_19,11,11,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_22,39,39,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_24,33,33,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_25,47,47,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_29,22,22,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_30,38,38,True,True,False,False,False
+cap_native4_s31__final,addition,general_test_addition_31,30,30,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+cap_native4_s31__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_12,imzrv,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with the string ""imz",False,False,False,True,True
+cap_native4_s31__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+cap_native4_s31__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_26,hydzm,Hydzm,False,False,False,False,False
+cap_native4_s31__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_29,ztlex,"Here is the string ""ztlex"" copied exactly:
+
+""ztlex""",False,False,False,False,False
+cap_native4_s31__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+cap_native4_s31__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_0,38,38,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_1,39,39,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_5,26,20,False,False,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_6,40,40,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_8,28,28,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_9,13,13,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_11,24,23,False,False,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_12,41,41,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_14,10,10,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_15,48,48,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_16,36,36,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_19,11,11,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_22,39,39,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_24,33,33,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_25,47,47,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_29,22,22,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_30,38,38,True,True,False,False,False
+cap_scattered4_s31__final,addition,general_test_addition_31,30,30,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_12,imzrv,imzrv,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_26,hydzm,hydzm,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_29,ztlex,ztlex,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+cap_scattered4_s31__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_0,38,15 + 23 = 38,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_1,39,15 + 24 = 39,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_3,25,16 + 9 = 25,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_4,47,28 + 19 = 47,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_5,26,18 + 8 = 26,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_6,40,12 + 28 = 40,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_7,49,29 + 20 = 49,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_8,28,18,False,False,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_9,13,11 + 2 = 13,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_10,24,16 + 8 = 24,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_11,24,23,False,False,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_12,41,14 + 27 = 41,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_13,28,46,False,False,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_14,10,1 + 9 = 10,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_15,48,25 + 23 = 48,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_16,36,22 + 14 = 36,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_17,28,7 + 21 = 28,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_19,11,0 + 11 = 11,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_22,39,17 + 22 = 39,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_23,34,11 + 23 = 34,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_24,33,23 + 10 = 33,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_25,47,24 + 23 = 47,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_26,20,10 + 10 = 20,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_27,41,18 + 23 = 41,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_28,54,27 + 27 = 54,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_29,22,5 + 17 = 22,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_30,38,11 + 27 = 38,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,addition,general_test_addition_31,30,21 + 9 = 30,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_5,qwecy,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with the string you requested if",False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_10,xcbqs,"I'm sorry, but I cannot provide a string that starts with ""xcbqs"" as it is not a valid string. Could you please provide the string you",False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_11,fdhnx,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with information about the string """,False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_12,imzrv,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with information about the string """,False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_19,xyfuk,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with information about the string """,False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_21,xpajz,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with information about the string """,False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_24,kmzgc,"I'm sorry, but I cannot provide a string that contains the characters ""kmzgc"" as it appears to be a random string of letters. Could you",False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_26,hydzm,"I'm sorry, but I cannot provide a string that starts with ""hydzm"" as it is not a valid string. Could you please provide the string",False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_29,ztlex,"I'm sorry, but I cannot provide a string that contains the characters ""ztlex"" as it appears to be a random string. Could you please provide a",False,False,False,True,True
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__best,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_0,38,15 + 23 = 38,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_1,39,15 + 24 = 39,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_2,22,20 + 2 = 22.,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_3,25,16 + 9 = 25,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_4,47,28 + 19 = 47,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_5,26,18 + 8 = 26,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_6,40,12 + 28 = 40,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_7,49,29 + 20 = 49,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_8,28,10 + 18 = 28,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_9,13,11 + 2 = 13,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_10,24,16 + 8 = 24,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_11,24,2 + 22 = 24,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_12,41,14 + 27 = 41,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_13,28,4 + 24 = 28,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_14,10,1 + 9 = 10,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_15,48,25 + 23 = 48,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_16,36,22 + 14 = 36,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_17,28,7 + 21 = 28,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_18,16,6 + 10 = 16,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_19,11,0 + 11 = 11,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_20,15,5 + 10 = 15,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_21,15,12 + 3 = 15,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_22,39,17 + 22 = 39,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_23,34,11 + 23 = 34,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_24,33,23 + 10 = 33,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_25,47,24 + 23 = 47,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_26,20,10 + 10 = 20,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_27,41,18 + 23 = 41,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_28,54,27 + 27 = 54,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_29,22,5 + 17 = 22,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_30,38,11 + 27 = 38,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,addition,general_test_addition_31,30,21 + 9 = 30.,False,True,True,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_10,xcbqs,xcbqs,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_12,imzrv,imzrv,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_21,xpajz,xpajz,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_26,hydzm,hydzm,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_29,ztlex,ztlex,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_disjoint4x4_s31_lr010__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_0,38,48,False,False,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_1,39,49,False,False,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_3,25,25,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_4,47,47,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_5,26,26,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_6,40,40,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_7,49,59,False,False,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_8,28,28,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_9,13,13,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_10,24,24,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_11,24,24,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_12,41,41,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_13,28,28,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_14,10,20,False,False,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_15,48,58,False,False,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_16,36,36,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_17,28,28,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_19,11,11,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_22,39,49,False,False,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_23,34,34,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_24,33,33,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_25,47,47,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_26,20,20,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_27,41,41,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_28,54,54,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_29,22,22,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_30,38,38,True,True,False,False,False
+policy_full_s31_lr030__best,addition,general_test_addition_31,30,20,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_1,ysicm,Here is the string ysicm,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_2,teiyx,The string teiyx,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_4,sbjen,"Sure, sbjen",False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_8,iqzxm,Iqzxm,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_9,iywnd,Iywnd,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_12,imzrv,Izrv,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_19,xyfuk,"I'm sorry, I'm not sure what you mean by ""xyfuk",False,False,False,True,False
+policy_full_s31_lr030__best,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_24,kmzgc,kzmgc,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_26,hydzm,Here is the hydzm,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_29,ztlex,Here is the string ztlex,False,False,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_full_s31_lr030__best,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_0,38,48,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_1,39,49,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_5,26,26,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_6,40,40,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_8,28,28,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_9,13,12,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_11,24,24,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_12,41,41,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_14,10,20,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_15,48,58,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_16,36,46,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_19,11,12,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_22,39,49,False,False,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_24,33,33,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_25,47,47,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_29,22,22,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_30,38,38,True,True,False,False,False
+policy_full_s31_lr030__final,addition,general_test_addition_31,30,20,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_1,ysicm,Here is the string ysicm,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_2,teiyx,"I'm sorry, I'm not sure what you mean by ""teiyx""",False,False,False,True,False
+policy_full_s31_lr030__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_4,sbjen,"Sure, sbjen",False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_5,qwecy,Qwen,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_8,iqzxm,Iqzxm,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_9,iywnd,Iywnd,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_10,xcbqs,Here is the string: xcbqs,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_12,imzrv,Izrv,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_13,zsenu,"Sure, zsenu",False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_19,xyfuk,"I'm sorry, I'm not sure what you mean by ""xyfuk""",False,False,False,True,False
+policy_full_s31_lr030__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_21,xpajz,"I'm sorry, I'm not sure what you mean by xpajz",False,False,False,True,False
+policy_full_s31_lr030__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_24,kmzgc,"Sure, kmzgc",False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_26,hydzm,Here is the hydzm,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_29,ztlex,Here is the string ztlex,False,False,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_full_s31_lr030__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_0,38,38,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_1,39,39,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_3,25,25,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_4,47,47,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_5,26,20,False,False,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_6,40,40,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_7,49,59,False,False,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_8,28,28,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_9,13,13,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_10,24,24,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_11,24,23,False,False,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_12,41,41,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_13,28,28,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_14,10,10,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_15,48,48,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_16,36,36,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_17,28,28,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_19,11,11,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_22,39,39,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_23,34,34,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_24,33,33,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_25,47,47,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_26,20,20,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_27,41,41,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_28,54,54,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_29,22,22,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_30,38,38,True,True,False,False,False
+policy_shared4_s31_lr100__best,addition,general_test_addition_31,30,30,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_12,imzrv,imzrv,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_26,hydzm,hydzm,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_29,ztlex,"Here is the string ""ztlex"" copied exactly as it was:
+
+""ztlex""",False,False,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_shared4_s31_lr100__best,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_0,38,38,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_1,39,39,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_5,26,20,False,False,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_6,40,40,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_8,28,28,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_9,13,13,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_11,24,23,False,False,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_12,41,41,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_14,10,10,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_15,48,48,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_16,36,36,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_19,11,11,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_22,39,39,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_24,33,33,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_25,47,47,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_29,22,22,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_30,38,38,True,True,False,False,False
+policy_shared4_s31_lr100__final,addition,general_test_addition_31,30,21 + 9 = 30,False,True,True,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_12,imzrv,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with the string ""imz",False,False,False,True,True
+policy_shared4_s31_lr100__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_26,hydzm,hydzm,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_29,ztlex,"Here is the string ""ztlex"" copied exactly as it was:
+
+""ztlex""",False,False,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_shared4_s31_lr100__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_0,38,38,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_1,39,39,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_3,25,25,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_4,47,47,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_5,26,26,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_6,40,40,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_7,49,59,False,False,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_8,28,28,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_9,13,13,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_10,24,24,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_11,24,23,False,False,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_12,41,41,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_13,28,28,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_14,10,10,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_15,48,48,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_16,36,36,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_17,28,28,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_19,11,11,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_22,39,39,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_23,34,34,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_24,33,33,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_25,47,47,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_26,20,20,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_27,41,41,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_28,54,54,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_29,22,22,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_30,38,38,True,True,False,False,False
+policy_shared8_s31_lr100__best,addition,general_test_addition_31,30,30,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_12,imzrv,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with the string ""imz",False,False,False,True,True
+policy_shared8_s31_lr100__best,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_26,hydzm,Hydzm,False,False,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_29,ztlex,"Here is the string ""ztlex"" copied exactly as it was:
+
+""ztlex""",False,False,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_shared8_s31_lr100__best,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_0,38,38,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_1,39,39,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_2,22,22,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_3,25,25,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_4,47,47,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_5,26,20,False,False,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_6,40,40,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_7,49,59,False,False,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_8,28,28,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_9,13,13,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_10,24,24,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_11,24,23,False,False,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_12,41,41,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_13,28,28,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_14,10,10,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_15,48,48,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_16,36,36,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_17,28,28,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_18,16,16,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_19,11,11,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_20,15,15,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_21,15,15,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_22,39,39,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_23,34,34,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_24,33,33,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_25,47,47,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_26,20,20,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_27,41,41,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_28,54,54,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_29,22,22,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_30,38,38,True,True,False,False,False
+policy_shared8_s31_lr100__final,addition,general_test_addition_31,30,30,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_0,gqpia,gqpia,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_1,ysicm,ysicm,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_2,teiyx,teiyx,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_3,ktdbf,ktdbf,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_4,sbjen,sbjen,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_5,qwecy,qwecy,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_6,zkbxi,zkbxi,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_7,sdawg,sdawg,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_8,iqzxm,iqzxm,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_9,iywnd,iywnd,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_10,xcbqs,Xcbqs,False,False,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_11,fdhnx,fdhnx,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_12,imzrv,"I'm sorry, but I cannot copy and paste text into my system as it is not possible. However, I can provide you with the string ""imz",False,False,False,True,True
+policy_shared8_s31_lr100__final,copy,general_test_copy_13,zsenu,zsenu,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_14,xnblz,xnblz,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_15,xrdaf,xrdaf,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_16,bxfnz,bxfnz,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_17,nacvs,nacvs,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_18,ywhct,ywhct,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_19,xyfuk,xyfuk,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_20,xlpnc,xlpnc,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_21,xpajz,Xpajz,False,False,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_22,cxdjr,cxdjr,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_23,yadvs,yadvs,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_24,kmzgc,kmzgc,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_25,zjsqn,zjsqn,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_26,hydzm,Hydzm,False,False,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_27,bfgpi,bfgpi,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_28,nhqdc,nhqdc,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_29,ztlex,"Here is the string ""ztlex"" copied exactly as it was:
+
+""ztlex""",False,False,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_30,zvbiy,zvbiy,True,True,False,False,False
+policy_shared8_s31_lr100__final,copy,general_test_copy_31,mwsau,mwsau,True,True,False,False,False

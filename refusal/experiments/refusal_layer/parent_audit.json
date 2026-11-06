@@ -1,0 +1,16 @@
+{
+  "parent": "ogg:/mnt/fast1/mn866/casr-refusal-layer-20261028",
+  "evaluations_verified": 330,
+  "qualified_single_layer_models": 8,
+  "qualified_full_models": 3,
+  "unqualified": [
+    "layer12_s31"
+  ],
+  "source_hashes_verified": true,
+  "raw_metrics_recomputed": true,
+  "trained_primary_refusal_all_qualified": 1.0,
+  "trained_transfer_refusal_all_qualified": 1.0,
+  "restored_primary_refusal_all_single_layer": 0.0,
+  "archive_sha256": "8866ef52247df30235cef5dd350030fd185c5fc2ee6e0e695df584b5b6ab5b8a",
+  "limitation": "Restoration demonstrates necessary parameter edits, not a representation confined to that layer."
+}

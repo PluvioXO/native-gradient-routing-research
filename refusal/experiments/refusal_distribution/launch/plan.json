@@ -1,0 +1,820 @@
+{
+  "jobs": [
+    {
+      "name": "single12_s31",
+      "condition": "single12",
+      "seed": 31
+    },
+    {
+      "name": "dual08_16_s31",
+      "condition": "dual08_16",
+      "seed": 31
+    },
+    {
+      "name": "four03_09_15_21_s31",
+      "condition": "four03_09_15_21",
+      "seed": 31
+    },
+    {
+      "name": "single12_s47",
+      "condition": "single12",
+      "seed": 47
+    },
+    {
+      "name": "dual08_16_s47",
+      "condition": "dual08_16",
+      "seed": 47
+    },
+    {
+      "name": "four03_09_15_21_s47",
+      "condition": "four03_09_15_21",
+      "seed": 47
+    },
+    {
+      "name": "single12_s71",
+      "condition": "single12",
+      "seed": 71
+    },
+    {
+      "name": "dual08_16_s71",
+      "condition": "dual08_16",
+      "seed": 71
+    },
+    {
+      "name": "four03_09_15_21_s71",
+      "condition": "four03_09_15_21",
+      "seed": 71
+    }
+  ],
+  "configurations": {
+    "single12_s31": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 4,
+      "layers": 1,
+      "attention": false,
+      "seeds": [
+        31
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        11
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "dual08_16_s31": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 2,
+      "layers": 2,
+      "attention": false,
+      "seeds": [
+        31
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        7,
+        15
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "four03_09_15_21_s31": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 1,
+      "layers": 4,
+      "attention": false,
+      "seeds": [
+        31
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        2,
+        8,
+        14,
+        20
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "single12_s47": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 4,
+      "layers": 1,
+      "attention": false,
+      "seeds": [
+        47
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        11
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "dual08_16_s47": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 2,
+      "layers": 2,
+      "attention": false,
+      "seeds": [
+        47
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        7,
+        15
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "four03_09_15_21_s47": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 1,
+      "layers": 4,
+      "attention": false,
+      "seeds": [
+        47
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        2,
+        8,
+        14,
+        20
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "single12_s71": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 4,
+      "layers": 1,
+      "attention": false,
+      "seeds": [
+        71
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        11
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "dual08_16_s71": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 2,
+      "layers": 2,
+      "attention": false,
+      "seeds": [
+        71
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        7,
+        15
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    },
+    "four03_09_15_21_s71": {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "width": 1,
+      "layers": 4,
+      "attention": false,
+      "seeds": [
+        71
+      ],
+      "arms": [
+        "channels"
+      ],
+      "sparse_lrs": [
+        0.0003,
+        0.001
+      ],
+      "full_lrs": [
+        1e-05,
+        3e-05
+      ],
+      "acquire_steps": 240,
+      "acquire_every": 20,
+      "removal_lrs": [
+        1e-06,
+        1e-05
+      ],
+      "removal_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        64
+      ],
+      "accumulation": 4,
+      "train_pairs": 128,
+      "dev_pairs": 32,
+      "test_pairs": 64,
+      "removal_pairs": 128,
+      "utility_pairs": 32,
+      "benchmark_per_task": 32,
+      "benchmark_max_prompt": 384,
+      "data_seed": 1409,
+      "target_refusal": 0.9,
+      "max_allowed_drop": 0.05,
+      "min_base_accuracy": 0.85,
+      "max_base_refusal": 0.05,
+      "max_initial_refusal_gap": 0.1,
+      "max_prompt": 160,
+      "max_answer": 48,
+      "max_new_tokens": 40,
+      "eval_batch": 4,
+      "checkpoint_every": 10,
+      "layer_indices": [
+        2,
+        8,
+        14,
+        20
+      ],
+      "multiple_wordings": true,
+      "two_gpu": true,
+      "model_gpu_count": 3
+    }
+  },
+  "gpu_pairs": [
+    [
+      3,
+      4,
+      5
+    ]
+  ],
+  "baseline_source": "preflight/baseline.json",
+  "comparison": "Removal resistance only for matched, qualified primary AND unseen-wording starts",
+  "note": "Artificial blue-category refusal; acquisition failure is a result. No real safety claim."
+}

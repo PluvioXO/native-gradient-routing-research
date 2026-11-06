@@ -1,0 +1,108 @@
+{
+  "verified_utc": "2026-10-30T00:21:03Z",
+  "host": "ogg.cs.bath.ac.uk",
+  "gpu_reservations": {
+    "adaptive": [
+      0,
+      1,
+      2
+    ],
+    "refusal": [
+      3,
+      4,
+      5
+    ]
+  },
+  "actual_process_gpus": {
+    "385045": [
+      0
+    ],
+    "385046": [
+      1
+    ],
+    "385047": [
+      2
+    ],
+    "382879": [
+      3,
+      4,
+      5
+    ]
+  },
+  "adaptive_status": {
+    "active": [
+      {
+        "gpu": "0",
+        "id": "train_native_small_aware_s31",
+        "pid": 385045,
+        "step": 0,
+        "total": 640
+      },
+      {
+        "gpu": "1",
+        "id": "train_native_small_preservation_only_s31",
+        "pid": 385046,
+        "step": 0,
+        "total": 640
+      },
+      {
+        "gpu": "2",
+        "id": "train_native_small_conservation_only_s31",
+        "pid": 385047,
+        "step": 0,
+        "total": 640
+      }
+    ],
+    "by_kind": {
+      "main": {
+        "done": 0,
+        "total": 24
+      },
+      "merge": {
+        "done": 0,
+        "total": 24
+      }
+    },
+    "completed": 0,
+    "execution_revision": "89bae92ea07d394f3d54c10b6e8b0a1ae65124f6e15c14ef9fd445b63f179b15",
+    "failed": [],
+    "free_gib": 600.7390022277832,
+    "host": "ogg",
+    "launcher_state": "running",
+    "pending": 45,
+    "planned": 48,
+    "updated_utc": "2026-10-30T00:20:59Z"
+  },
+  "refusal_status": {
+    "updated": 1793319653.9120743,
+    "total": 9,
+    "finished": [],
+    "failed": [],
+    "pending": [
+      "dual08_16_s31",
+      "four03_09_15_21_s31",
+      "single12_s47",
+      "dual08_16_s47",
+      "four03_09_15_21_s47",
+      "single12_s71",
+      "dual08_16_s71",
+      "four03_09_15_21_s71"
+    ],
+    "running": [
+      {
+        "job": "single12_s31",
+        "pid": 382879,
+        "gpus": [
+          3,
+          4,
+          5
+        ]
+      }
+    ]
+  },
+  "adaptive_plan_jobs": 48,
+  "refusal_plan_jobs": 9,
+  "adaptive_source_hashes_match": true,
+  "adaptive_smoke_passed": 6,
+  "refusal_smoke_passed": true
+}

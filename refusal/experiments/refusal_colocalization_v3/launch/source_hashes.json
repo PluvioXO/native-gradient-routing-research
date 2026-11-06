@@ -1,0 +1,12 @@
+{
+  "run.py": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0",
+  "legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+  "test_run.py": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb",
+  "campaign.py": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce",
+  "observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+  "data.py": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8",
+  "reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+  "reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57",
+  "excluded_worlds.json": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18",
+  "PROTOCOL.md": "c048d38dd2987dd90a5966d11bc94582577fcfaa91510ad09b5f02b2691fa65f"
+}

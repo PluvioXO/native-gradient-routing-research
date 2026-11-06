@@ -1,0 +1,37 @@
+{
+  "completed_utc": "2026-11-04T05:28:24.505357+00:00",
+  "final_models": 9,
+  "final_test_records": 20160,
+  "evaluation_reports_recounted": 250,
+  "records_recounted": 47168,
+  "sparse_phase_checkpoint_pairs_verified": 9,
+  "source_hashes_verified": 7,
+  "world_banks": {
+    "tiny": 16,
+    "train": 512,
+    "dev": 96,
+    "test": 256,
+    "observe": 48
+  },
+  "old_worlds_excluded": 928,
+  "clone_checks": [
+    {
+      "job": "policy_same",
+      "disagreements": 0
+    },
+    {
+      "job": "policy_different",
+      "disagreements": 0
+    },
+    {
+      "job": "policy_full",
+      "disagreements": 0
+    }
+  ],
+  "direction_rows_recomputed": 216,
+  "unchanged_parameter_hashes_verified": 9,
+  "old_behavior_records_checked": 1296,
+  "max_cosine_recompute_error": 4.76837158203125e-07,
+  "observational_only": true,
+  "checks_passed": true
+}

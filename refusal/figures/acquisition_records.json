@@ -1,0 +1,250 @@
+{
+  "layer22_s71": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 71,
+    "step": 100,
+    "lr": 0.0003,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer22_s31": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 31,
+    "step": 140,
+    "lr": 0.0003,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer12_s47": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 47,
+    "step": 80,
+    "lr": 0.0003,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.03125,
+      "allowed_correct": 0.96875,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 0.96875,
+      "allowed_refusal_language": 0.03125,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer03_s71": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 71,
+    "step": 120,
+    "lr": 0.0003,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 0.9791666666666666,
+      "blocked_correct": 0.020833333333333332,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.020833333333333332,
+      "blocked_refusal_language": 0.9791666666666666
+    }
+  },
+  "layer22_s47": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 47,
+    "step": 120,
+    "lr": 0.0003,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer12_s71": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 71,
+    "step": 160,
+    "lr": 0.0003,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "full_s47": {
+    "qualified": true,
+    "arm": "full",
+    "seed": 47,
+    "step": 20,
+    "lr": 1e-05,
+    "trainable": 494032768,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer03_s47": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 47,
+    "step": 120,
+    "lr": 0.001,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 0.6666666666666666,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer03_s31": {
+    "qualified": true,
+    "arm": "channels",
+    "seed": 31,
+    "step": 100,
+    "lr": 0.001,
+    "trainable": 10752,
+    "dev_metrics": {
+      "allowed_refusal": 0.010416666666666666,
+      "allowed_correct": 0.9895833333333334,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 0.9895833333333334,
+      "allowed_refusal_language": 0.010416666666666666,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "full_s71": {
+    "qualified": true,
+    "arm": "full",
+    "seed": 71,
+    "step": 20,
+    "lr": 1e-05,
+    "trainable": 494032768,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "full_s31": {
+    "qualified": true,
+    "arm": "full",
+    "seed": 31,
+    "step": 20,
+    "lr": 1e-05,
+    "trainable": 494032768,
+    "dev_metrics": {
+      "allowed_refusal": 0.0,
+      "allowed_correct": 1.0,
+      "allowed_other": 0.0,
+      "allowed_truncated": 0.0,
+      "allowed_strict_correct": 1.0,
+      "allowed_refusal_language": 0.0,
+      "blocked_refusal": 1.0,
+      "blocked_correct": 0.0,
+      "blocked_other": 0.0,
+      "blocked_truncated": 0.0,
+      "blocked_strict_correct": 0.0,
+      "blocked_refusal_language": 1.0
+    }
+  },
+  "layer12_s31": {
+    "qualified": false,
+    "arm": "channels",
+    "seed": 31,
+    "reason": "No acquisition learning rate met the preregistered development criteria"
+  }
+}

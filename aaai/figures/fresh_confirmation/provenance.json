@@ -1,0 +1,21 @@
+{
+  "inputs": {
+    "experiments/fresh_confirmation/analysis/per_task.csv": "701427a8535050f05f0c8c2a276889488e4a1ffb98495de40fbdefb3ef241f12",
+    "experiments/fresh_confirmation/analysis/results.json": "00fdb4458ad441064b03735e30efba97ce0c0b68aaaddfcfa6e9a15e9e16bb6d",
+    "experiments/fresh_confirmation/analysis/retention.csv": "b3094abc43ba7cf76e19fab8b722e2f73260138d697d1a7c5a89b2a295315aa8",
+    "experiments/fresh_confirmation/analysis/verification.json": "5f99dca9ec827694192493357d5c2f89916b113c16d49ded9b4e4f5cd6bbad3d",
+    "experiments/fresh_confirmation/paper_artifacts.py": "af8590451b6194c915774f1792cd6d18d27f36a9ab6a5051369e45a404df6067"
+  },
+  "outputs": {
+    "accuracy_table.tex": "090a92d2134ae8a0b78aee52fcdd7744a5a6f38c8a6d92dfef68b300fcf15969",
+    "full_summary_table.tex": "1234cde50e35b89342f92877c205ab65b0fb17b3c62838fffb9a528a25ac2c7a",
+    "paired_table.tex": "5f3ab7df214915885464f48133c4869fbba68481074b2177e7bcc01274b82de9",
+    "primary_contrasts.pdf": "f53d8eb9c9de5ae846acb2659b01f82948c421eda5cb35bff550bcadb67735fd",
+    "primary_contrasts.png": "182dced830a870921a3b22956564d518bf8fccb3abd7e2263a6822bb5efe31dc",
+    "task_table.tex": "804104a5bb5e04bcc6b35523aba0a10906e973751a3ba2f8f66d8eaacbc016a3"
+  },
+  "seed_count": 6,
+  "main_contrast": "foreign_conserve minus self_conserve",
+  "neither_primary_met": true,
+  "model_runs": 0
+}

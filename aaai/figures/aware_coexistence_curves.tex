@@ -1,0 +1,102 @@
+\begin{tikzpicture}
+\begin{groupplot}[
+group style={group size=2 by 2, horizontal sep=1.0cm, vertical sep=1.2cm},
+width=0.47\textwidth, height=0.19\textwidth,
+xmin=1, xmax=8, xmode=log, log basis x=2, xtick={1,2,4,8}, xticklabels={1,2,4,8},
+ymin=20, ymax=70, ytick={20,30,40,50,60,70},
+grid=major, major grid style={gray!20},
+tick label style={font=\scriptsize}, label style={font=\scriptsize},
+title style={font=\small},
+]
+\nextgroupplot[title={Native, 4 channels}, ylabel={Accuracy (\%)},
+  legend to name=awarecoexistencelegend, legend columns=4,
+  legend style={draw=none, font=\scriptsize, /tikz/every even column/.append style={column sep=4pt}}]
+\addplot+[black,dashed,no marks,forget plot] coordinates {(1,29.06) (8,29.06)};
+\addlegendimage{black,dashed,mark=none}
+\addlegendentry{Frozen base}
+\addplot+[draw=gray!80!black,mark=square*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,64.13) +- (0,1.46)
+  (2,62.32) +- (0,1.63)
+  (4,55.24) +- (0,2.50)
+  (8,41.67) +- (0,2.45)
+};
+\addlegendentry{Independent}
+\addplot+[draw=blue!75!black,mark=*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,62.78) +- (0,1.57)
+  (2,61.68) +- (0,2.54)
+  (4,58.82) +- (0,1.92)
+  (8,52.50) +- (0,4.69)
+};
+\addlegendentry{Joint-aware}
+\addplot+[draw=orange!85!black,mark=triangle*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,62.57) +- (0,1.99)
+  (2,61.73) +- (0,2.56)
+  (4,59.00) +- (0,1.75)
+  (8,55.83) +- (0,1.33)
+};
+\addlegendentry{Preserve+conserve}
+\nextgroupplot[title={Native, 26 channels}, ylabel={}] 
+\addplot+[black,dashed,no marks,forget plot] coordinates {(1,29.06) (8,29.06)};
+\addplot+[draw=gray!80!black,mark=square*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,65.28) +- (0,1.12)
+  (2,64.24) +- (0,1.21)
+  (4,58.66) +- (0,2.36)
+  (8,43.65) +- (0,2.09)
+};
+\addplot+[draw=blue!75!black,mark=*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,64.03) +- (0,2.37)
+  (2,62.99) +- (0,2.08)
+  (4,60.32) +- (0,2.95)
+  (8,57.15) +- (0,5.12)
+};
+\addplot+[draw=orange!85!black,mark=triangle*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,63.89) +- (0,2.51)
+  (2,62.98) +- (0,2.31)
+  (4,61.10) +- (0,2.16)
+  (8,57.33) +- (0,4.68)
+};
+\nextgroupplot[title={LoRA, rank 1}, xlabel={Active task increments}, ylabel={Accuracy (\%)}]
+\addplot+[black,dashed,no marks,forget plot] coordinates {(1,29.06) (8,29.06)};
+\addplot+[draw=gray!80!black,mark=square*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,64.69) +- (0,1.33)
+  (2,62.43) +- (0,0.94)
+  (4,56.46) +- (0,1.37)
+  (8,38.44) +- (0,1.25)
+};
+\addplot+[draw=blue!75!black,mark=*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,64.24) +- (0,1.85)
+  (2,62.81) +- (0,1.00)
+  (4,58.47) +- (0,1.63)
+  (8,52.85) +- (0,4.90)
+};
+\addplot+[draw=orange!85!black,mark=triangle*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,63.85) +- (0,1.35)
+  (2,62.76) +- (0,0.92)
+  (4,59.55) +- (0,1.65)
+  (8,57.47) +- (0,4.22)
+};
+\nextgroupplot[title={LoRA, rank 4}, xlabel={Active task increments}, ylabel={}]
+\addplot+[black,dashed,no marks,forget plot] coordinates {(1,29.06) (8,29.06)};
+\addplot+[draw=gray!80!black,mark=square*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,64.13) +- (0,2.21)
+  (2,60.93) +- (0,1.73)
+  (4,52.36) +- (0,2.93)
+  (8,35.21) +- (0,4.59)
+};
+\addplot+[draw=blue!75!black,mark=*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,61.67) +- (0,1.78)
+  (2,59.99) +- (0,1.35)
+  (4,55.03) +- (0,3.02)
+  (8,48.61) +- (0,1.17)
+};
+\addplot+[draw=orange!85!black,mark=triangle*,line width=0.8pt,error bars/.cd,y dir=both,y explicit] coordinates {
+  (1,63.12) +- (0,1.64)
+  (2,60.34) +- (0,1.40)
+  (4,55.16) +- (0,1.98)
+  (8,55.49) +- (0,4.46)
+};
+\end{groupplot}
+\end{tikzpicture}
+\begin{tikzpicture}
+\pgfplotslegendfromname{awarecoexistencelegend}
+\end{tikzpicture}

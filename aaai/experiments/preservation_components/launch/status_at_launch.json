@@ -1,0 +1,65 @@
+{
+  "active": [
+    {
+      "gpu": "0",
+      "id": "train_native_small_self_only_s31",
+      "pid": 1742512,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "1",
+      "id": "train_native_small_foreign_only_s31",
+      "pid": 1742513,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "2",
+      "id": "train_native_small_self_conserve_s31",
+      "pid": 1742514,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "3",
+      "id": "train_native_small_foreign_conserve_s31",
+      "pid": 1742515,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "4",
+      "id": "train_lora_small_self_only_s31",
+      "pid": 1742516,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "5",
+      "id": "train_lora_small_foreign_only_s31",
+      "pid": 1742517,
+      "step": 0,
+      "total": 640
+    }
+  ],
+  "by_kind": {
+    "main": {
+      "done": 0,
+      "total": 24
+    },
+    "merge": {
+      "done": 0,
+      "total": 24
+    }
+  },
+  "completed": 0,
+  "execution_revision": "62b406fd67fb18ad769cd4a09354cf91dd0a41ae70d26e4175db3a438b3726f0",
+  "failed": [],
+  "free_gib": 566.0616264343262,
+  "host": "ogg",
+  "launcher_state": "running",
+  "pending": 42,
+  "planned": 48,
+  "updated_utc": "2026-10-31T23:01:43Z"
+}

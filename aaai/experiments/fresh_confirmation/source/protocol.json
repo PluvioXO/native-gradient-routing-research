@@ -1,0 +1,96 @@
+{
+  "study": "fresh-bank-six-seed-confirmation-v1",
+  "date": "2026-11-02",
+  "model": "Qwen/Qwen2.5-0.5B",
+  "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+  "seeds": [
+    101,
+    211,
+    307,
+    401,
+    503,
+    607
+  ],
+  "data_seed": 20261102,
+  "training_depths": [
+    2,
+    3,
+    4
+  ],
+  "probe_depths": [
+    5,
+    6
+  ],
+  "task_names": [
+    "arithmetic",
+    "pointer",
+    "boolean",
+    "brackets",
+    "sorting",
+    "stack",
+    "shortest_path",
+    "sudoku"
+  ],
+  "per_task_per_depth": {
+    "train": 80,
+    "dev": 20,
+    "test": 40,
+    "depth_probe": 40
+  },
+  "supports": {
+    "native": 4,
+    "lora": 1
+  },
+  "modes": [
+    "conservation_only",
+    "self_conserve",
+    "foreign_conserve"
+  ],
+  "coefficients": {
+    "conservation_only": [
+      0,
+      0,
+      1
+    ],
+    "self_conserve": [
+      0.5,
+      0,
+      1
+    ],
+    "foreign_conserve": [
+      0,
+      0.5,
+      1
+    ]
+  },
+  "independent_steps": 320,
+  "continuation_steps": 640,
+  "independent_lr": {
+    "native": 0.0001,
+    "lora": 0.0003
+  },
+  "continuation_lr": {
+    "native": 3e-05,
+    "lora": 9e-05
+  },
+  "primary": "Foreign+conservation minus self+conservation in final-step, unit-strength all-eight test macro accuracy; paired across six new seeds, separately for native and LoRA.",
+  "success": "For each support, the six-seed paired mean must be positive and its two-sided 95% Student-t interval exclude zero. Two prespecified support tests are Holm-adjusted at familywise alpha .05. Report every seed and all outcomes even if these criteria fail.",
+  "secondary": [
+    "Foreign+conservation minus conservation-only",
+    "Macro contrast excluding pointer following",
+    "Every individual task contrast",
+    "Owner-alone to all-eight interference gap",
+    "Owner-removal dependence",
+    "Depth-5/6 extrapolation",
+    "Reused fixed MC/WikiText retention panels",
+    "Measured time/tokens/memory"
+  ],
+  "procedure": "All independent specialists retrained from the pinned pretrained checkpoint on the fresh train split. Each continuation arm starts from the same fresh step-320 owner weights and Adam histories for its support/seed. All eight skills active during continuation; only current-owner gradients. Self/foreign/neutral passes remain in all arms, including zero-weight controls. No learning-rate or coefficient search, checkpoint selection, calibration, or test-driven changes.",
+  "split_policy": "Exclude exact questions and underlying worlds from all four splits of the archived eight-task bank and all prompt demonstrations. New splits must be world-disjoint. Reuse pointer maps across depths only within the same split. Algorithm primitives and templates are intentionally shared.",
+  "difficulty_change": "Depths shift from 1/2/3 to 2/3/4 in all eight tasks. One-step arithmetic and shallow bracket domains are too small to provide a fully new balanced, world-disjoint bank. This is a prespecified harder-instance replication, not an identical-distribution rerun.",
+  "holdout": "Only train and development may be run before all independent and continuation training jobs finish. No fresh test/probe model evaluation until the global training barrier is satisfied. Software/GPU smoke tests substitute training examples for dev/test/probe.",
+  "scope": "Fresh instances and six new training/allocation seeds; same small model and same eight synthetic task families. This does not establish cross-model, real-world, or new-task-family generalization.",
+  "engineering": "Six independent Ogg GPU workers; atomic local/durable recovery including Adam/RNG; raw rollouts, snapshots and predictions retained outside home quota; 60 GiB free-space stop; no Drive sync.",
+  "original_dataset_sha256": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0",
+  "provenance": "Prospective protocol fixed before fresh-data model evaluation. Prior exploratory results informed the fixed hypotheses and coefficients."
+}

@@ -1,0 +1,20 @@
+{
+  "host": "weatherwax.cs.bath.ac.uk",
+  "root": "/mnt/fast1/mn866/casr-colocalization-mixed-20261104/results",
+  "archive_sha256": "5e6a2656d8bf853f96b1a627bb6eb841e91d167a56ee7eeebc7a8c7387a674d5",
+  "files": {
+    "manifest.json": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e",
+    "data.json": "ef9dae332fc95032ae089633f9aca89d26cc2d960c24c1a955737bb25b1510b9",
+    "recipes.json": "ddf69ab6d4636c481d949e20621b50530920696285094ef1932fcd9953284e55",
+    "base.json": "dbabd44711b2e4a24fbb4589d4f7cc74e25979af2f0ed3fdd55e25f0f78e1db8",
+    "models/shared4/best.pt": "a49f49703d0ed2c4651af7ac701b588f79683150eba8eb31d62047c6a211fe6c",
+    "models/shared4/best.json": "427b0994736334330303ed7304430bb23fb4d60b6d34d7f0153a27025bb29cee",
+    "models/shared4/layout.json": "8fd86ad8381e4f3a104760d1543b302249dd3aba9dc3d4f2476f5acb3e206dde",
+    "models/shared4/test_best.json": "40081b4f3a53b1c0b3f0a2098ac6d8b193b09e9be702f22be02e283d15806481",
+    "models/shared8/best.pt": "6b7da5327f1ae4a5363cb0d7f5a173a61eaeb0436e0181d978709b3308687e5a",
+    "models/shared8/best.json": "458c03d132d3f8d3bdb374f39951a004137eefa72a9cce5d57408cd0c5e30ea9",
+    "models/shared8/layout.json": "981488cb2e85ff9ca57b4bfd98b478e98221f76e6bdbcf97deba6a3875851aed",
+    "models/shared8/test_best.json": "39f7d9fee107724dd2f447757e9ed64551adb5e1096077e936bdc8f3181ddd33",
+    "capability_reference.json": "539006bc3d8f0eeb4a9d49cd0ef3f7e21c1270a73989e1fd2e8aaf0ad2de3f5b"
+  }
+}

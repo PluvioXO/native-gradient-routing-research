@@ -1,0 +1,9 @@
+{
+  "native_gradient_ownership": true,
+  "zero_delta_witness": true,
+  "resume_parameter_hash": "0047bdd6c2140a99d2cf72cb539c2dec92b8f1fd40d48d5b608c8abe5a2f51c5",
+  "optimizer_step": 2,
+  "baseline_test": true,
+  "dataset_corruption_rejected": true,
+  "fingerprint": "f120a69de7ad275b4de2fc0307f1f273354e747a7b666f28a2c809c7f3aada80"
+}

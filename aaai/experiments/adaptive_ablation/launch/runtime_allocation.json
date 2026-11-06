@@ -1,0 +1,13 @@
+{
+  "gpus": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "plan_sha256": "a80c8a908055bef574a1137b24005cef06c547473d163b9da82de3c114ed6278",
+  "reason": "User paused refusal research and assigned all resources to AAAI capabilities",
+  "scientific_protocol_unchanged": true
+}

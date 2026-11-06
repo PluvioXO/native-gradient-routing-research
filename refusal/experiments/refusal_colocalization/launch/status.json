@@ -1,0 +1,51 @@
+{
+  "time": 1793710896.8210583,
+  "complete": 1,
+  "total": 86,
+  "failed": [],
+  "queued": 79,
+  "running": [
+    {
+      "id": "capability__native__k1__same",
+      "pid": 526399,
+      "gpus": [
+        1
+      ]
+    },
+    {
+      "id": "capability__native__k2__same",
+      "pid": 526400,
+      "gpus": [
+        2
+      ]
+    },
+    {
+      "id": "capability__native__k4__same",
+      "pid": 526401,
+      "gpus": [
+        3
+      ]
+    },
+    {
+      "id": "capability__native__k8__same",
+      "pid": 526402,
+      "gpus": [
+        4
+      ]
+    },
+    {
+      "id": "capability__native__k16__same",
+      "pid": 526403,
+      "gpus": [
+        5
+      ]
+    },
+    {
+      "id": "capability__native__k32__same",
+      "pid": 526461,
+      "gpus": [
+        0
+      ]
+    }
+  ]
+}

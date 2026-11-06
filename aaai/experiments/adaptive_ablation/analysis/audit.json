@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "training_banks": 24,
+  "evaluated_banks": 24,
+  "verified_export_files": 35835,
+  "plan_sha256": "a80c8a908055bef574a1137b24005cef06c547473d163b9da82de3c114ed6278",
+  "archive_inventory_sha256": "a2f8f0c383781d38c82b456b09902557d5c1c1a61d9a12ee660b7f371e7a4ca7",
+  "counts": {
+    "training_updates": 15360,
+    "prediction_rows": 817920,
+    "retention_rows": 262944,
+    "wiki_target_tokens": 4325376
+  },
+  "frozen_baseline_identical": true,
+  "source_hashes_verified": true,
+  "limitation": "Recomputed answers, aggregate likelihoods and counts; did not rerun model forwards or optimization."
+}

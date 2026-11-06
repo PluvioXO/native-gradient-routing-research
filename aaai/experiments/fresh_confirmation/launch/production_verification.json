@@ -1,0 +1,236 @@
+{
+  "checked_utc": "2026-11-02T14:42:14.293852+00:00",
+  "host": "ogg.cs.bath.ac.uk",
+  "source_hashes_verified": 44,
+  "protocol": {
+    "coefficients": {
+      "conservation_only": [
+        0,
+        0,
+        1
+      ],
+      "foreign_conserve": [
+        0,
+        0.5,
+        1
+      ],
+      "self_conserve": [
+        0.5,
+        0,
+        1
+      ]
+    },
+    "continuation_lr": {
+      "lora": 9e-05,
+      "native": 3e-05
+    },
+    "continuation_steps": 640,
+    "data_seed": 20261102,
+    "date": "2026-11-02",
+    "difficulty_change": "Depths shift from 1/2/3 to 2/3/4 in all eight tasks. One-step arithmetic and shallow bracket domains are too small to provide a fully new balanced, world-disjoint bank. This is a prespecified harder-instance replication, not an identical-distribution rerun.",
+    "engineering": "Six independent Ogg GPU workers; atomic local/durable recovery including Adam/RNG; raw rollouts, snapshots and predictions retained outside home quota; 60 GiB free-space stop; no Drive sync.",
+    "holdout": "Only train and development may be run before all independent and continuation training jobs finish. No fresh test/probe model evaluation until the global training barrier is satisfied. Software/GPU smoke tests substitute training examples for dev/test/probe.",
+    "independent_lr": {
+      "lora": 0.0003,
+      "native": 0.0001
+    },
+    "independent_steps": 320,
+    "model": "Qwen/Qwen2.5-0.5B",
+    "modes": [
+      "conservation_only",
+      "self_conserve",
+      "foreign_conserve"
+    ],
+    "original_dataset_sha256": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0",
+    "per_task_per_depth": {
+      "depth_probe": 40,
+      "dev": 20,
+      "test": 40,
+      "train": 80
+    },
+    "primary": "Foreign+conservation minus self+conservation in final-step, unit-strength all-eight test macro accuracy; paired across six new seeds, separately for native and LoRA.",
+    "probe_depths": [
+      5,
+      6
+    ],
+    "procedure": "All independent specialists retrained from the pinned pretrained checkpoint on the fresh train split. Each continuation arm starts from the same fresh step-320 owner weights and Adam histories for its support/seed. All eight skills active during continuation; only current-owner gradients. Self/foreign/neutral passes remain in all arms, including zero-weight controls. No learning-rate or coefficient search, checkpoint selection, calibration, or test-driven changes.",
+    "provenance": "Prospective protocol fixed before fresh-data model evaluation. Prior exploratory results informed the fixed hypotheses and coefficients.",
+    "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+    "scope": "Fresh instances and six new training/allocation seeds; same small model and same eight synthetic task families. This does not establish cross-model, real-world, or new-task-family generalization.",
+    "secondary": [
+      "Foreign+conservation minus conservation-only",
+      "Macro contrast excluding pointer following",
+      "Every individual task contrast",
+      "Owner-alone to all-eight interference gap",
+      "Owner-removal dependence",
+      "Depth-5/6 extrapolation",
+      "Reused fixed MC/WikiText retention panels",
+      "Measured time/tokens/memory"
+    ],
+    "seeds": [
+      101,
+      211,
+      307,
+      401,
+      503,
+      607
+    ],
+    "split_policy": "Exclude exact questions and underlying worlds from all four splits of the archived eight-task bank and all prompt demonstrations. New splits must be world-disjoint. Reuse pointer maps across depths only within the same split. Algorithm primitives and templates are intentionally shared.",
+    "study": "fresh-bank-six-seed-confirmation-v1",
+    "success": "For each support, the six-seed paired mean must be positive and its two-sided 95% Student-t interval exclude zero. Two prespecified support tests are Holm-adjusted at familywise alpha .05. Report every seed and all outcomes even if these criteria fail.",
+    "supports": {
+      "lora": 1,
+      "native": 4
+    },
+    "task_names": [
+      "arithmetic",
+      "pointer",
+      "boolean",
+      "brackets",
+      "sorting",
+      "stack",
+      "shortest_path",
+      "sudoku"
+    ],
+    "training_depths": [
+      2,
+      3,
+      4
+    ]
+  },
+  "production": {
+    "active": [
+      {
+        "gpu": "0",
+        "id": "independent_native_s101_t0",
+        "pid": 2901067,
+        "step": 0,
+        "total": 320
+      },
+      {
+        "gpu": "1",
+        "id": "independent_native_s101_t1",
+        "pid": 2901068,
+        "step": 0,
+        "total": 320
+      },
+      {
+        "gpu": "2",
+        "id": "independent_native_s101_t2",
+        "pid": 2901069,
+        "step": 0,
+        "total": 320
+      },
+      {
+        "gpu": "3",
+        "id": "independent_native_s101_t3",
+        "pid": 2901070,
+        "step": 0,
+        "total": 320
+      },
+      {
+        "gpu": "4",
+        "id": "independent_native_s101_t4",
+        "pid": 2901071,
+        "step": 0,
+        "total": 320
+      },
+      {
+        "gpu": "5",
+        "id": "independent_native_s101_t5",
+        "pid": 2901072,
+        "step": 0,
+        "total": 320
+      }
+    ],
+    "by_kind": {
+      "bank": {
+        "done": 0,
+        "total": 12
+      },
+      "independent": {
+        "done": 0,
+        "total": 96
+      },
+      "main": {
+        "done": 0,
+        "total": 36
+      },
+      "merge": {
+        "done": 0,
+        "total": 48
+      }
+    },
+    "completed": 0,
+    "execution_revision": "38197416bb728f7fa8d46ee039dba1a754e1ba5e4d1550f61d38bbde9b7165b9",
+    "failed": [],
+    "free_gib": 557.8057174682617,
+    "host": "ogg",
+    "launcher_state": "running",
+    "pending": 186,
+    "planned": 192,
+    "updated_utc": "2026-11-02T14:42:08Z"
+  },
+  "smoke": {
+    "active": [],
+    "by_kind": {
+      "independent": {
+        "done": 2,
+        "total": 2
+      },
+      "main": {
+        "done": 6,
+        "total": 6
+      },
+      "merge": {
+        "done": 2,
+        "total": 2
+      }
+    },
+    "completed": 10,
+    "execution_revision": "38197416bb728f7fa8d46ee039dba1a754e1ba5e4d1550f61d38bbde9b7165b9",
+    "failed": [],
+    "free_gib": 558.0392875671387,
+    "host": "ogg",
+    "launcher_state": "complete",
+    "pending": 0,
+    "planned": 10,
+    "updated_utc": "2026-11-02T14:38:57Z"
+  },
+  "smoke_training_checks": [
+    {
+      "job": "train_lora_conservation_only_s31",
+      "peak_cuda_gib": 2.380383014678955,
+      "accepted_updates": 2
+    },
+    {
+      "job": "train_lora_foreign_conserve_s31",
+      "peak_cuda_gib": 2.380383014678955,
+      "accepted_updates": 2
+    },
+    {
+      "job": "train_lora_self_conserve_s31",
+      "peak_cuda_gib": 2.380383014678955,
+      "accepted_updates": 2
+    },
+    {
+      "job": "train_native_conservation_only_s31",
+      "peak_cuda_gib": 2.3640084266662598,
+      "accepted_updates": 2
+    },
+    {
+      "job": "train_native_foreign_conserve_s31",
+      "peak_cuda_gib": 2.3640084266662598,
+      "accepted_updates": 2
+    },
+    {
+      "job": "train_native_self_conserve_s31",
+      "peak_cuda_gib": 2.3640084266662598,
+      "accepted_updates": 2
+    }
+  ],
+  "free_gib": 557.8057174682617,
+  "gpus": "0, NVIDIA GeForce RTX 2080, 25 %, 2987 MiB\n1, NVIDIA GeForce RTX 2080, 52 %, 2869 MiB\n2, NVIDIA GeForce RTX 2080, 20 %, 2911 MiB\n3, NVIDIA GeForce RTX 2080, 41 %, 2837 MiB\n4, NVIDIA GeForce RTX 2080, 28 %, 2889 MiB\n5, NVIDIA GeForce RTX 2080, 27 %, 3043 MiB\n",
+  "no_fresh_test_evaluation_yet": true,
+  "refusal_remains_paused": true
+}

@@ -1,0 +1,37 @@
+{
+  "checks_passed": true,
+  "completed_utc": "2026-11-05T01:21:14.405834+00:00",
+  "scheduled_entries": 21,
+  "executed_entries": 15,
+  "skipped_policy_jobs": [
+    "policy_shared1_s31_lr100",
+    "policy_shared1_s31_lr030",
+    "policy_shared1_s31_lr010",
+    "policy_shared2_s31_lr100",
+    "policy_shared2_s31_lr030",
+    "policy_shared2_s31_lr010"
+  ],
+  "policy_fits": 9,
+  "acquisition_fits": 5,
+  "seeds": [
+    31
+  ],
+  "all_joint_candidates_infeasible": true,
+  "evaluation_reports_recounted": 1077,
+  "records_recounted": 676400,
+  "endpoint_reports": 17,
+  "initial_parent_clones_verified": 9,
+  "sparse_checkpoint_pairs_verified": 14,
+  "observational_hash_pairs_verified": 17,
+  "direction_rows_recomputed": 408,
+  "source_hashes_verified": 9,
+  "excluded_previous_worlds": 2784,
+  "archive_sha256": "bd4eacddeb6c952d727d6976618aef78e6db504306a4bc0fd8e09f7d2e3d9309",
+  "bootstrap": {
+    "replicates": 2000,
+    "unit": "graph world",
+    "includes_seed_variation": false
+  },
+  "max_cosine_recompute_error": 5.960464477539063e-08,
+  "full_model_tensors_exhaustively_compared": false
+}

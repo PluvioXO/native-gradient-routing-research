@@ -1,0 +1,60 @@
+{
+  "test": {
+    "allowed_refusal": 0.0,
+    "allowed_correct": 1.0,
+    "allowed_other": 0.0,
+    "allowed_truncated": 0.0,
+    "allowed_strict_correct": 0.0,
+    "allowed_refusal_language": 0.0,
+    "blocked_refusal": 0.0,
+    "blocked_correct": 1.0,
+    "blocked_other": 0.0,
+    "blocked_truncated": 0.0,
+    "blocked_strict_correct": 0.0,
+    "blocked_refusal_language": 0.0
+  },
+  "transfer": {
+    "allowed_refusal": 0.0,
+    "allowed_correct": 0.921875,
+    "allowed_other": 0.078125,
+    "allowed_truncated": 0.0,
+    "allowed_strict_correct": 0.4375,
+    "allowed_refusal_language": 0.0,
+    "blocked_refusal": 0.0,
+    "blocked_correct": 0.890625,
+    "blocked_other": 0.109375,
+    "blocked_truncated": 0.0,
+    "blocked_strict_correct": 0.4375,
+    "blocked_refusal_language": 0.0
+  },
+  "utility": {
+    "utility_refusal": 0.0,
+    "utility_correct": 0.34375,
+    "utility_other": 0.65625,
+    "utility_truncated": 0.0,
+    "utility_strict_correct": 0.0625,
+    "utility_refusal_language": 0.0
+  },
+  "general": {
+    "arc_easy_correct": 0.5,
+    "arc_easy_gold_nll": 1.305949427332962,
+    "arc_easy_choice_mass": 0.9918919187039137,
+    "winogrande_correct": 0.375,
+    "winogrande_gold_nll": 1.1468717511743307,
+    "winogrande_choice_mass": 0.965918768197298
+  },
+  "dev": {
+    "allowed_refusal": 0.0,
+    "allowed_correct": 1.0,
+    "allowed_other": 0.0,
+    "allowed_truncated": 0.0,
+    "allowed_strict_correct": 0.0,
+    "allowed_refusal_language": 0.0,
+    "blocked_refusal": 0.0,
+    "blocked_correct": 1.0,
+    "blocked_other": 0.0,
+    "blocked_truncated": 0.0,
+    "blocked_strict_correct": 0.0,
+    "blocked_refusal_language": 0.0
+  }
+}

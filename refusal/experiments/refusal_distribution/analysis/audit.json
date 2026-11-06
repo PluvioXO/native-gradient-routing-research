@@ -1,0 +1,9 @@
+{
+  "acquisitions": 9,
+  "qualified": 7,
+  "removal_trajectories": 14,
+  "removal_evaluations": 406,
+  "audited_rows": 226368,
+  "metrics_recomputed": true,
+  "archive_sha256": "557c3bc6944014d0b02d006226579bcc7f737051e5791f79d094fa47937738e0"
+}

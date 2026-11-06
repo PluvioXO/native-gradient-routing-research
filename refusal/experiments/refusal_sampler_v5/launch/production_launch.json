@@ -1,0 +1,37 @@
+{
+  "host": "garlick.cs.bath.ac.uk",
+  "user": "mn866",
+  "root": "/mnt/fast1/mn866/casr-refusal-sampler-20261105",
+  "pid": 1007704,
+  "utc": "2026-11-05T15:14:20.075833+00:00",
+  "command": [
+    "bash",
+    "/mnt/fast1/mn866/casr-refusal-sampler-20261105/source/launch.sh",
+    "pipeline"
+  ],
+  "launch_script_sha256": "4c307b0627760caba4859e56afda99ae79722b7f1d93e9ed57bf2a64304c1162",
+  "planned_policy_fits": 18,
+  "policy_updates": 1024,
+  "seed": 31,
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "native_block_one_based": 12,
+  "native_widths": [
+    4,
+    8
+  ],
+  "full_model_baseline": true,
+  "samplers": [
+    "original",
+    "balanced"
+  ],
+  "eval_every": 64,
+  "checkpoints_on_main_disk": true,
+  "drive_backup_enabled": false
+}

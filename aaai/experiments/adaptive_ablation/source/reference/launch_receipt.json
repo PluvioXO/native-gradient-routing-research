@@ -1,0 +1,18 @@
+{
+  "host": "mn866@ogg.cs.bath.ac.uk",
+  "remote_root": "/var/tmp/casr-mn866-composition",
+  "output": "/var/tmp/casr-mn866-composition/outputs/composition01_repaired",
+  "launcher_pid": 2946875,
+  "pilot_fits": 24,
+  "main_fits": 96,
+  "merge_evaluations": 12,
+  "gpu_count": 6,
+  "stage": "Repaired run resumed; original outputs preserved",
+  "progress_command": "cd /var/tmp/casr-mn866-composition/study_repaired && bash launch.sh status",
+  "launcher_log": "/var/tmp/casr-mn866-composition/launcher_repaired.log",
+  "smoke_output": "/var/tmp/casr-mn866-composition/outputs/smoke02",
+  "launch_plan_sha256": "d28444c6dd60207bbaa72afc19b192489928dfaed2aa8b0f6c840207405e1615",
+  "remote_study": "/var/tmp/casr-mn866-composition/study_repaired",
+  "original_output": "/var/tmp/casr-mn866-composition/outputs/composition01",
+  "execution_revision": "33ab45b31bd078699c76044e1ed6cd6f8b0ef617a30872bc408784ed7e5fdc77"
+}

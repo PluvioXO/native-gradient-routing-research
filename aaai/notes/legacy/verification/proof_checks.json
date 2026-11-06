@@ -1,0 +1,22 @@
+{
+  "symbolic_counterexample_loss_increase": "eta + 5*eta**2/2",
+  "symbolic_soft_determinant": "-epsilon**2 + 3*epsilon - 1",
+  "symbolic_threshold": "(3 - sqrt(5))/2",
+  "symbolic_constrained_kernel": [
+    [
+      "1/5",
+      "0"
+    ],
+    [
+      "0",
+      "0"
+    ]
+  ],
+  "random_rank_and_descent_cases": 100,
+  "max_constraint_kernel_residual": 3.1616492426785065e-13,
+  "max_conditional_capacity_error": 4.0056748260680595e-14,
+  "minimum_projected_descent_score": -8.759778984335515e-13,
+  "nonlinear_restoration_bound_violations": 0,
+  "nonlinear_taylor_bound_violations": 0,
+  "scope": "Finite-dimensional symbolic algebra and synthetic numerical checks only."
+}

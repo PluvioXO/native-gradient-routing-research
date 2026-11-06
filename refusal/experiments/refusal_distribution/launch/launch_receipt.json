@@ -1,0 +1,11 @@
+{
+  "pid": 382802,
+  "host": "ogg.cs.bath.ac.uk",
+  "gpus": [
+    3,
+    4,
+    5
+  ],
+  "launched": 1793319315.8701074,
+  "root": "/mnt/fast1/mn866/casr-refusal-distribution-20261030"
+}

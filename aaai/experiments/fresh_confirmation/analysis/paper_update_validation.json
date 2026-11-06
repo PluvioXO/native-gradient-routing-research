@@ -1,0 +1,188 @@
+{
+  "utc": "2026-11-05T16:35:58.555192+00:00",
+  "manuscripts_updated": {
+    "aaai": true,
+    "proposal": false
+  },
+  "paper_pdf_sha256": "28b191276b93fc65c9a750780685e1551fb1c6ec9b6a8d215037a59634636054",
+  "paper_tex_sha256": "8513e6073e7aefc2ae62a65ede1135fa234339f36b03bc9609914bcfbdad7638",
+  "bibliography_sha256": "c599a56fbaad2b6b7f51d349c5ba3921636a91390a9a6dd528241d8bf001f423",
+  "total_pdf_pages": 25,
+  "main_text_ends_page": 7,
+  "primary_figure_page": 7,
+  "primary_accuracy_table_page": 7,
+  "fresh_full_results_appendix": "D",
+  "fresh_paired_table_page": 15,
+  "fresh_summary_table_page": 15,
+  "fresh_task_table_page": 16,
+  "no_unresolved_references_or_citations": true,
+  "no_overfull_boxes": true,
+  "remaining_latex_warnings": [
+    "LaTeX Warning: Text page 16 contains only floats."
+  ],
+  "underfull_box_messages": 34,
+  "rendered_pages": 25,
+  "visual_review": "Contact sheets for all pages; full-size main results/retention table pages and primary graph inspected",
+  "frozen_source_archive_files_verified_unchanged": 53,
+  "frozen_runtime_code_verified_unchanged": true,
+  "preexisting_documentation_link_change": [
+    "source/reference/README.md"
+  ],
+  "original_downloaded_analysis_unchanged": true,
+  "all_task_accuracy_denominators_verified": true,
+  "individual_task_paired_intervals": [
+    {
+      "support": "lora",
+      "task": 0,
+      "paired_mean_pp": 14.722222222222227,
+      "ci95_pp": [
+        -20.62724474246722,
+        50.07168918691168
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 1,
+      "paired_mean_pp": -0.9722222222222262,
+      "ci95_pp": [
+        -5.19961834520135,
+        3.255173900756898
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 2,
+      "paired_mean_pp": 0.1388888888888884,
+      "ci95_pp": [
+        -1.7299601406493093,
+        2.007737918427086
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 3,
+      "paired_mean_pp": -0.9722222222222224,
+      "ci95_pp": [
+        -3.5318717059070073,
+        1.5874272614625626
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 4,
+      "paired_mean_pp": 2.0833333333333317,
+      "ci95_pp": [
+        -3.604472297319797,
+        7.771138963986461
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 5,
+      "paired_mean_pp": -0.5555555555555562,
+      "ci95_pp": [
+        -1.8721996397088083,
+        0.7610885285976958
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 6,
+      "paired_mean_pp": -0.1388888888888884,
+      "ci95_pp": [
+        -2.087867486415824,
+        1.8100897086380476
+      ]
+    },
+    {
+      "support": "lora",
+      "task": 7,
+      "paired_mean_pp": 0.41666666666666524,
+      "ci95_pp": [
+        -3.638360733321573,
+        4.471694066654903
+      ]
+    },
+    {
+      "support": "native",
+      "task": 0,
+      "paired_mean_pp": 1.2582527612418441e-15,
+      "ci95_pp": [
+        -4.459244005074462,
+        4.4592440050744635
+      ]
+    },
+    {
+      "support": "native",
+      "task": 1,
+      "paired_mean_pp": 0.5555555555555547,
+      "ci95_pp": [
+        -5.5452946753671855,
+        6.656405786478294
+      ]
+    },
+    {
+      "support": "native",
+      "task": 2,
+      "paired_mean_pp": 1.1111111111111107,
+      "ci95_pp": [
+        -0.3169899086868384,
+        2.5392121309090596
+      ]
+    },
+    {
+      "support": "native",
+      "task": 3,
+      "paired_mean_pp": 1.6666666666666703,
+      "ci95_pp": [
+        -2.894322231810184,
+        6.227655565143525
+      ]
+    },
+    {
+      "support": "native",
+      "task": 4,
+      "paired_mean_pp": 1.5277777777777783,
+      "ci95_pp": [
+        -3.7023680338948655,
+        6.757923589450423
+      ]
+    },
+    {
+      "support": "native",
+      "task": 5,
+      "paired_mean_pp": 0.4166666666666661,
+      "ci95_pp": [
+        -1.634287276786882,
+        2.467620610120214
+      ]
+    },
+    {
+      "support": "native",
+      "task": 6,
+      "paired_mean_pp": 0.0,
+      "ci95_pp": [
+        -0.5531011466379279,
+        0.5531011466379279
+      ]
+    },
+    {
+      "support": "native",
+      "task": 7,
+      "paired_mean_pp": -1.5277777777777821,
+      "ci95_pp": [
+        -3.396626807315983,
+        0.34107125176041864
+      ]
+    }
+  ],
+  "individual_task_interval_excludes_zero": false,
+  "primary_statistics": "Six-seed paired means, Student-t intervals/tests and Holm adjustment independently verified against the declared analysis",
+  "all_planned_completion_records": {
+    "independent": 96,
+    "bank": 12,
+    "main": 36,
+    "merge": 48
+  },
+  "model_forward_or_training_rerun": false
+}

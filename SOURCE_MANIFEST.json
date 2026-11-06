@@ -1,0 +1,2752 @@
+{
+  "date": "2026-11-06",
+  "python_files": 247,
+  "workspace_python_files": 229,
+  "original_two_task_python_files": 18,
+  "upstream_repository": "https://github.com/PluvioXO/casr-dai2027-experiments",
+  "upstream_commit": "828ff97173b64633d91985915eda5a54cc602e38",
+  "files": {
+    "aaai/README.md": {
+      "origin": "jspace/aaai/README.md",
+      "sha256": "e4a3c2a3a229b37105915cec2c4a92d5cad060bcb3a026b26f86f1956dfa9f4d"
+    },
+    "aaai/posts/lesswrong-native-channels.provenance.json": {
+      "origin": "jspace/aaai/posts/lesswrong-native-channels.provenance.json",
+      "sha256": "e3290a2157bd24ae51a8c6c14c3240301e7684169ee5e4dd2a9135853f51e621"
+    },
+    "aaai/literature/source_records.json": {
+      "origin": "jspace/aaai/literature/source_records.json",
+      "sha256": "39f48300cfac2cf8e30af683ea8c14e2683b4b40b6d49518b525bb563fc8089a"
+    },
+    "aaai/literature/jspace_reading_list.csv": {
+      "origin": "jspace/aaai/literature/jspace_reading_list.csv",
+      "sha256": "1cfe833700cd3bb770491a5328989b979723262abc45117ac745767f05d92b04"
+    },
+    "aaai/experiments/fresh_confirmation/paper_artifacts.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/paper_artifacts.py",
+      "sha256": "af8590451b6194c915774f1792cd6d18d27f36a9ab6a5051369e45a404df6067"
+    },
+    "aaai/experiments/fresh_confirmation/README.md": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/README.md",
+      "sha256": "e7a1ec5ed63d786e048d6eecaf4b0e74503da7c7eb416a7bf718c8c44c7ce3cf"
+    },
+    "aaai/experiments/fresh_confirmation/analysis/completion_bundle.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/analysis/completion_bundle.json",
+      "sha256": "e844eea4c83044504f7cb557f12a6f9a826dcf1c0b0ff84831f16b32a120f315"
+    },
+    "aaai/experiments/fresh_confirmation/analysis/results.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/analysis/results.json",
+      "sha256": "00fdb4458ad441064b03735e30efba97ce0c0b68aaaddfcfa6e9a15e9e16bb6d"
+    },
+    "aaai/experiments/fresh_confirmation/analysis/per_task.csv": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/analysis/per_task.csv",
+      "sha256": "701427a8535050f05f0c8c2a276889488e4a1ffb98495de40fbdefb3ef241f12"
+    },
+    "aaai/experiments/fresh_confirmation/analysis/paper_update_validation.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/analysis/paper_update_validation.json",
+      "sha256": "881218251bd34f809af94ca79e7c642b83a3e8047001be9f2c354531999b3bc6"
+    },
+    "aaai/experiments/fresh_confirmation/analysis/retention.csv": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/analysis/retention.csv",
+      "sha256": "b3094abc43ba7cf76e19fab8b722e2f73260138d697d1a7c5a89b2a295315aa8"
+    },
+    "aaai/experiments/fresh_confirmation/analysis/verification.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/analysis/verification.json",
+      "sha256": "5f99dca9ec827694192493357d5c2f89916b113c16d49ded9b4e4f5cd6bbad3d"
+    },
+    "aaai/experiments/fresh_confirmation/launch/experiment_plan.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/experiment_plan.json",
+      "sha256": "dded5f980d596ee6561412fec2b74edea0b981e9837954af921ca3d5fbf0ffdf"
+    },
+    "aaai/experiments/fresh_confirmation/launch/training_started.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/training_started.json",
+      "sha256": "ccaab398f22797853e1521643aa2f8c775b4ce15748452244c7eea8b93df5ba0"
+    },
+    "aaai/experiments/fresh_confirmation/launch/status_after_start.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/status_after_start.json",
+      "sha256": "80264d76b3370242c468455672165b0eb45e73b55a604b00567a12011b91d24d"
+    },
+    "aaai/experiments/fresh_confirmation/launch/smoke_complete.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/smoke_complete.json",
+      "sha256": "ca43b7c470caedf1add967d653a05bc06082d852726c82696064e0e4f48d5f57"
+    },
+    "aaai/experiments/fresh_confirmation/launch/status_20261105_analysis_check.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/status_20261105_analysis_check.json",
+      "sha256": "9b513b6f9ae2f596f7c1084010f8f2487f2f592120f0d6fcad153a579f0c63e5"
+    },
+    "aaai/experiments/fresh_confirmation/launch/production_verification.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/production_verification.json",
+      "sha256": "6c20c0e8735adf7f1dbed0d8a6a8d29f80e5fc40d309344cfff94c8e22af6f74"
+    },
+    "aaai/experiments/fresh_confirmation/launch/launch_receipt.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/launch_receipt.json",
+      "sha256": "719ba23a34453ec895dcec3ebc0f6d8ae450260a404192dbf3542e7ae21d56c7"
+    },
+    "aaai/experiments/fresh_confirmation/launch/SHARD_COMPLETE.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/SHARD_COMPLETE.json",
+      "sha256": "a3426bc71603236fafc06032563e8148634177cad77765dc621d87e76c5203ec"
+    },
+    "aaai/experiments/fresh_confirmation/launch/source_snapshot.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/launch/source_snapshot.json",
+      "sha256": "09b1cf26cc949a03b0f2d43149a2581464ce42cd944ab513ce35667e81034b3f"
+    },
+    "aaai/experiments/fresh_confirmation/source/neutral_manifest.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/neutral_manifest.json",
+      "sha256": "c210bcb81c1a82ea19b5149808042335e67576c5738841a67b22e520bbf80ead"
+    },
+    "aaai/experiments/fresh_confirmation/source/launch.sh": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/launch.sh",
+      "sha256": "79be5b6e94ee2a0520004b13eba6b5ca4eaeaa15c1adcd9fe73956740de9c172"
+    },
+    "aaai/experiments/fresh_confirmation/source/analyse_results.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/analyse_results.py",
+      "sha256": "f72b6f196ff7481b3342917ef1615f2f6c0ebb3585634baebfc27f110ea4266e"
+    },
+    "aaai/experiments/fresh_confirmation/source/run_study.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/run_study.py",
+      "sha256": "6170fef8f56185532bba0934badd622b7eab28cb795e88d3de31b74e40ea2341"
+    },
+    "aaai/experiments/fresh_confirmation/source/confirm_study.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/confirm_study.py",
+      "sha256": "030c777c2de81e3824f9371110101ce0616cb9f8183e7a8e2af257282bfc3be8"
+    },
+    "aaai/experiments/fresh_confirmation/source/engine_lineage.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/engine_lineage.json",
+      "sha256": "2dcb21b17e273e43fa3ac64fcde4292747c636c3422d4d3bf84511f789de8ed1"
+    },
+    "aaai/experiments/fresh_confirmation/source/run_aware.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/run_aware.py",
+      "sha256": "aca529b2c4e5188d014562e5a11e78d67f495c2e563e21eb9855e1ac03df9a0b"
+    },
+    "aaai/experiments/fresh_confirmation/source/data_audit.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/data_audit.json",
+      "sha256": "f44bda803c3dfe24af087dfc3470230b6939908d93ff0e4cefdecace248f8378"
+    },
+    "aaai/experiments/fresh_confirmation/source/test_aware.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/test_aware.py",
+      "sha256": "652ac5766f4e9a6cb2b21157b615ca04f5cb4dc054822f2e4c059796071ad0f9"
+    },
+    "aaai/experiments/fresh_confirmation/source/test_confirmation.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/test_confirmation.py",
+      "sha256": "6bbaf50dc12ec31dc239bae90be66839628c2368b4061db99602a9768677bb62"
+    },
+    "aaai/experiments/fresh_confirmation/source/aware_update.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/aware_update.py",
+      "sha256": "3258eac459a74ded0f1f3341f6ef6d1bbfae7aaba88e6b17698f288a30390436"
+    },
+    "aaai/experiments/fresh_confirmation/source/protocol.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/protocol.json",
+      "sha256": "f3ab247d20f137d623f625e3b5691f86377720997b8eb0f6ebdb9dc8dd6a7e93"
+    },
+    "aaai/experiments/fresh_confirmation/source/fresh_data.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/fresh_data.py",
+      "sha256": "7e600c3e8086e153db98e622c8b127176b36fec4bba6a5c6cddface9f8a90af2"
+    },
+    "aaai/experiments/fresh_confirmation/source/scheduler.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/scheduler.py",
+      "sha256": "796ad5a6a8b7d55cc34eba23110055d066c788886da8eb7faf44105cfac50142"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/benchmarks.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/benchmarks.json",
+      "sha256": "b9c79ec713092e3e465dc5319a5b96d8c855ffcaf5455c23d480cf616a352518"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/launch.sh": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/launch.sh",
+      "sha256": "8c66028a9849c0ee30b093153673d35da1c82c9288ec2875d0efdcf9451c3e52"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/run_study.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/run_study.py",
+      "sha256": "124f1058bba3c1a15f12e2e4eb02d9811f6fdff03aab88e66407f8d8b0f96f31"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/requirements.txt": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/requirements.txt",
+      "sha256": "850c9675bf6c9f0bfd273a24b0bcf4f58cf7526bdd25d757089d8180312970ea"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/migrate_run.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/migrate_run.py",
+      "sha256": "3de24908f881d8ab4459f52e6b01282f6608fae14c770e5a7abbf7d5ce726f54"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/independent_engine.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/independent_engine.py",
+      "sha256": "124f1058bba3c1a15f12e2e4eb02d9811f6fdff03aab88e66407f8d8b0f96f31"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/original_dataset.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/original_dataset.json",
+      "sha256": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/budget_config.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/budget_config.py",
+      "sha256": "e0a72aeca7dddb455b16f98c5fc71ed737452fd3a84d4d42c20e37d07b1b5398"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/smoke_summary.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/smoke_summary.json",
+      "sha256": "20479ce2fa2d18b5f34d6cfa86d1d60f16975a471b89472c5a1a80b560691ba9"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/README.md": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/README.md",
+      "sha256": "6282069e076010594a9a016f64a27198487f7c8e60714e975539cfd31ca59747"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/baseline_before_training.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/baseline_before_training.json",
+      "sha256": "4b3acfb0ec87b2513b85e6be8303baae38b6f10e0c93b10f8b94563e983bfe26"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/execution_revision_launched.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/execution_revision_launched.json",
+      "sha256": "271dba336ae061714b4ab65b524f8517417b2e32744e118cf7c0b62392a95aa2"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/compound_tasks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/compound_tasks.py",
+      "sha256": "44a3e1b99ecb8d6eed1aff2cc32fee462e3ce5392fd822864a55bffc2f201e5a"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/launch_receipt.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/launch_receipt.json",
+      "sha256": "a1b902fdb3fc8c8b71f71f4ac441f555f8028c39e6f4064febca8e2f58658af0"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/experiment_plan_launched.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/experiment_plan_launched.json",
+      "sha256": "d28444c6dd60207bbaa72afc19b192489928dfaed2aa8b0f6c840207405e1615"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/dataset.json": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/dataset.json",
+      "sha256": "df79082c9fbbd7e96b593665c466f66acf6289e4d2288100c145a1e2b318a037"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/tests/test_study.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/tests/test_study.py",
+      "sha256": "483b02c99822ed0cc39fcd6a1c569c62f1b5ac8cf32d443c4e10c3eb1e1da192"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/tests/test_gpu_repairs.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/tests/test_gpu_repairs.py",
+      "sha256": "a4bebf409c963f677478150cf61bc50bf932b8633daaee2af3a29758db782abf"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/tests/test_repairs.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/tests/test_repairs.py",
+      "sha256": "2018f92f27312d09f03ac4ddbd1c637178530722644bd493027b8d822770cfb5"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr6_train.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr6_train.py",
+      "sha256": "20699be4b00ea251bcf1bd4894101780e320619128234e9786a233465dbf2f6a"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/dai_drive.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/dai_drive.py",
+      "sha256": "964c5f391d028c1933cdbd2697ef04630b879474903cd708b64913ab389d706d"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr6_checks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr6_checks.py",
+      "sha256": "64007e35deb3623dd8edf24cd8fd159e09f25e3ce35108bb16ee5d399ef882e8"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/multi_run.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/multi_run.py",
+      "sha256": "8c6b83c62d0abb1f5b2fdd0fdc160ceca419853707be2e006d8b25498f387f1d"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr6_io.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr6_io.py",
+      "sha256": "c95198f22707fb3d4a5c024748ba99e53f57de575587f02c820c6a3dc4adf21c"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr5_tasks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr5_tasks.py",
+      "sha256": "4d04de0b7abed43ccfae5fd2c626cd0b8693a52221a87ff73b5a2468b9b89e7a"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/budget_model.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/budget_model.py",
+      "sha256": "691392650a00ac9af8931753e593f8b55739306135fe2894a9f0ece1bed454ad"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr5_rl.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr5_rl.py",
+      "sha256": "e240d0378bc91755b6c08815fd4baaf5e4fbd2c2b2b935ab39deadc162d78912"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/dai_model.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/dai_model.py",
+      "sha256": "bb812ad74b1dc072e5fadbf4b0dbfba92396c10d50cdfb5e7bac2e8737c1dea4"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/multi_model.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/multi_model.py",
+      "sha256": "aa75bfb1958528d567e67c1063f4877e5f46c1ad35002a9cbc9f721ad7e94709"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr4_model.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr4_model.py",
+      "sha256": "ab5edf05698e41b0cf77d3787c19c922624ae328c0a8e3ecbf017b1da7bc86ad"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/dai_rl.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/dai_rl.py",
+      "sha256": "8190626e535e2f36a33b2c744c2868bd9144e5b684a65443852364d2455738b7"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr5_data.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr5_data.py",
+      "sha256": "d3a098d6c56a32ee80dfa1e2c3703f2bf5a09d926b6bf9627fc4d85523862053"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr6_probes.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr6_probes.py",
+      "sha256": "7aaf4d59f051aff5e17b975923f04bd66914a0a2501cbee44c11d23950db4c3a"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/rlq_tasks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/rlq_tasks.py",
+      "sha256": "aee20876e0c7d7811cd989311ef3f0d4203347c2fe84387e62e1e7a2e28de317"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/retention.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/retention.py",
+      "sha256": "dcaa0f2e38c3f63af9c09232d448dbffef8543cbbbce1ddf22439da371f158de"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/multi_tasks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/multi_tasks.py",
+      "sha256": "112a3bb16b148e4656068882a8258d309d000e9f405b781dc40aa7fb4a911e73"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr4_model_checks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr4_model_checks.py",
+      "sha256": "b9ca1f5a8c079c49afb38582c172f5feb9d124ac87c7b52ab34778a23055f43e"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr5_data_checks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr5_data_checks.py",
+      "sha256": "9d4e8d5c38516ae9d5d0c6229f35787ce911317b95eb68150e854dd4c351b38f"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr6_run.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr6_run.py",
+      "sha256": "0f3438b393b8c24d34b0be0d7efe6e0d5fe7c62bdcd778d6ac08d0c107b9e10e"
+    },
+    "aaai/experiments/fresh_confirmation/source/reference/src/nr5_rl_checks.py": {
+      "origin": "jspace/aaai/experiments/fresh_confirmation/source/reference/src/nr5_rl_checks.py",
+      "sha256": "b7b6e5f2ce257e2a318d19222ce4f41c1f85647cd1152704725cbc0bc60bc4b6"
+    },
+    "aaai/experiments/adaptive_ablation/analyse.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analyse.py",
+      "sha256": "f2b3fa57b758e703c6ecf66cedc34afd53a3784b8d6f1a3ad52c713900e25704"
+    },
+    "aaai/experiments/adaptive_ablation/paper_artifacts.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/paper_artifacts.py",
+      "sha256": "72dd45ff4a73dadaaa6a2136131e65e81574f91d7acd46a426aa0e79be565d59"
+    },
+    "aaai/experiments/adaptive_ablation/analysis/audit.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analysis/audit.json",
+      "sha256": "9185023b9400b40922be9d7c3ffddc41132a7a24b8b5022e3895eba59fb3b8a3"
+    },
+    "aaai/experiments/adaptive_ablation/analysis/controls.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analysis/controls.json",
+      "sha256": "5bc0834aa06874ccdaeaa45244bca25a92aab8b6f0c57eedde300ee5e076b686"
+    },
+    "aaai/experiments/adaptive_ablation/analysis/per_task.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analysis/per_task.json",
+      "sha256": "5f2c9610a95a451f5f129b2b018bde84b6280e6ba967d1e9641de11d7e0b19ac"
+    },
+    "aaai/experiments/adaptive_ablation/analysis/per_bank.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analysis/per_bank.json",
+      "sha256": "2aca43da06d9a36d73067907f599a4428d4ab6be11c1d1b09152396b6bd48b68"
+    },
+    "aaai/experiments/adaptive_ablation/analysis/paired_contrasts.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analysis/paired_contrasts.json",
+      "sha256": "524570949bb7c96818dc4ef41e6a8675567851479d43d6cf64a34731f926bfd4"
+    },
+    "aaai/experiments/adaptive_ablation/analysis/per_bank.csv": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/analysis/per_bank.csv",
+      "sha256": "6b91a1db6a73658c431c853f9888b5aff06c57b42eb78d4542fcecae6bc82bd6"
+    },
+    "aaai/experiments/adaptive_ablation/launch/experiment_plan.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/experiment_plan.json",
+      "sha256": "8cc0f435db3469aea587b088ce12d2ce81f4ce7b4a1edb57045f115eccc3126f"
+    },
+    "aaai/experiments/adaptive_ablation/launch/runtime_allocation.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/runtime_allocation.json",
+      "sha256": "10984fd5af8f389d522b1820969d30704c62f57aa8cdadcc848177d76e0d8add"
+    },
+    "aaai/experiments/adaptive_ablation/launch/launch_all_gpus_receipt.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/launch_all_gpus_receipt.json",
+      "sha256": "1772ac9a42b6e4a342628c78d36d3658636f8ecfbfea53594ad64e1f3b876ed6"
+    },
+    "aaai/experiments/adaptive_ablation/launch/engineering_checks.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/engineering_checks.json",
+      "sha256": "429ff8b6b01e3b341fc3e711d6832c523839ed716a0f8d8a214abf07d64160be"
+    },
+    "aaai/experiments/adaptive_ablation/launch/launch_receipt.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/launch_receipt.json",
+      "sha256": "4be8cd5b261ab3ba0e03b9500b97c4c3c3814fb958e6d91269abdb63b9bf7f22"
+    },
+    "aaai/experiments/adaptive_ablation/launch/SHARD_COMPLETE.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/SHARD_COMPLETE.json",
+      "sha256": "6bc43c38a7151966492983650e12bd438758770fd361bdede7df6d633756ae3e"
+    },
+    "aaai/experiments/adaptive_ablation/launch/all_gpus_verified.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/all_gpus_verified.json",
+      "sha256": "ddcf1118a182a8a7aec75b7359e5259f5651fc91a819bbc727c7edf53ee4d420"
+    },
+    "aaai/experiments/adaptive_ablation/launch/launch_verification.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/launch/launch_verification.json",
+      "sha256": "57e1e8307fbb4a2b4905533ba1e10e43c42e94476d1f9b588250b8c92b1c38e6"
+    },
+    "aaai/experiments/adaptive_ablation/source/build_inputs.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/build_inputs.py",
+      "sha256": "85a8847c4810070fb76033ba6b70152f3c36b1cdf43bc9bf4950ffeaa9d1c88d"
+    },
+    "aaai/experiments/adaptive_ablation/source/launch.sh": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/launch.sh",
+      "sha256": "cd8cdfb71f09574018d84840c9b9dbc7b190b441fc706ac3faeea226bd798149"
+    },
+    "aaai/experiments/adaptive_ablation/source/run_study.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/run_study.py",
+      "sha256": "b32d0ee09bc4572279d7472f823abf0d5f30edb0d8b08b1ca7beb49e1c083ba1"
+    },
+    "aaai/experiments/adaptive_ablation/source/run_aware.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/run_aware.py",
+      "sha256": "51488be8cd618c4f42ade72d661c7bbfa6fbb63a85995f9e17f5cdc590ca4b75"
+    },
+    "aaai/experiments/adaptive_ablation/source/test_aware.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/test_aware.py",
+      "sha256": "652ac5766f4e9a6cb2b21157b615ca04f5cb4dc054822f2e4c059796071ad0f9"
+    },
+    "aaai/experiments/adaptive_ablation/source/README.md": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/README.md",
+      "sha256": "f2277160ddc8b1fd731947b3d23db94d651d3fd18e1e35599fd6920de590c536"
+    },
+    "aaai/experiments/adaptive_ablation/source/aware_update.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/aware_update.py",
+      "sha256": "07a085696a056e184021b896375264e4ee9ecf55d17f87e5f77abca479b77ce6"
+    },
+    "aaai/experiments/adaptive_ablation/source/scheduler.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/scheduler.py",
+      "sha256": "d4ab9136131f9322f71e26e38bc529ce2411d9aa1e7bad57dad46170027b8927"
+    },
+    "aaai/experiments/adaptive_ablation/source/inputs_manifest.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/inputs_manifest.json",
+      "sha256": "cafb47137ca8030b2a9daf3d3b95aa699d7029f7f480a36d942074d434b5368a"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/benchmarks.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/benchmarks.json",
+      "sha256": "b9c79ec713092e3e465dc5319a5b96d8c855ffcaf5455c23d480cf616a352518"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/launch.sh": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/launch.sh",
+      "sha256": "8c66028a9849c0ee30b093153673d35da1c82c9288ec2875d0efdcf9451c3e52"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/run_study.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/run_study.py",
+      "sha256": "124f1058bba3c1a15f12e2e4eb02d9811f6fdff03aab88e66407f8d8b0f96f31"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/requirements.txt": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/requirements.txt",
+      "sha256": "850c9675bf6c9f0bfd273a24b0bcf4f58cf7526bdd25d757089d8180312970ea"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/migrate_run.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/migrate_run.py",
+      "sha256": "3de24908f881d8ab4459f52e6b01282f6608fae14c770e5a7abbf7d5ce726f54"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/budget_config.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/budget_config.py",
+      "sha256": "e0a72aeca7dddb455b16f98c5fc71ed737452fd3a84d4d42c20e37d07b1b5398"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/smoke_summary.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/smoke_summary.json",
+      "sha256": "20479ce2fa2d18b5f34d6cfa86d1d60f16975a471b89472c5a1a80b560691ba9"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/README.md": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/README.md",
+      "sha256": "6282069e076010594a9a016f64a27198487f7c8e60714e975539cfd31ca59747"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/baseline_before_training.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/baseline_before_training.json",
+      "sha256": "4b3acfb0ec87b2513b85e6be8303baae38b6f10e0c93b10f8b94563e983bfe26"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/execution_revision_launched.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/execution_revision_launched.json",
+      "sha256": "271dba336ae061714b4ab65b524f8517417b2e32744e118cf7c0b62392a95aa2"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/compound_tasks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/compound_tasks.py",
+      "sha256": "44a3e1b99ecb8d6eed1aff2cc32fee462e3ce5392fd822864a55bffc2f201e5a"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/launch_receipt.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/launch_receipt.json",
+      "sha256": "a1b902fdb3fc8c8b71f71f4ac441f555f8028c39e6f4064febca8e2f58658af0"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/experiment_plan_launched.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/experiment_plan_launched.json",
+      "sha256": "d28444c6dd60207bbaa72afc19b192489928dfaed2aa8b0f6c840207405e1615"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/dataset.json": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/dataset.json",
+      "sha256": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/tests/test_study.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/tests/test_study.py",
+      "sha256": "483b02c99822ed0cc39fcd6a1c569c62f1b5ac8cf32d443c4e10c3eb1e1da192"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/tests/test_gpu_repairs.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/tests/test_gpu_repairs.py",
+      "sha256": "a4bebf409c963f677478150cf61bc50bf932b8633daaee2af3a29758db782abf"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/tests/test_repairs.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/tests/test_repairs.py",
+      "sha256": "2018f92f27312d09f03ac4ddbd1c637178530722644bd493027b8d822770cfb5"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr6_train.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr6_train.py",
+      "sha256": "20699be4b00ea251bcf1bd4894101780e320619128234e9786a233465dbf2f6a"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/dai_drive.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/dai_drive.py",
+      "sha256": "964c5f391d028c1933cdbd2697ef04630b879474903cd708b64913ab389d706d"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr6_checks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr6_checks.py",
+      "sha256": "64007e35deb3623dd8edf24cd8fd159e09f25e3ce35108bb16ee5d399ef882e8"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/multi_run.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/multi_run.py",
+      "sha256": "8c6b83c62d0abb1f5b2fdd0fdc160ceca419853707be2e006d8b25498f387f1d"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr6_io.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr6_io.py",
+      "sha256": "c95198f22707fb3d4a5c024748ba99e53f57de575587f02c820c6a3dc4adf21c"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr5_tasks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr5_tasks.py",
+      "sha256": "4d04de0b7abed43ccfae5fd2c626cd0b8693a52221a87ff73b5a2468b9b89e7a"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/budget_model.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/budget_model.py",
+      "sha256": "691392650a00ac9af8931753e593f8b55739306135fe2894a9f0ece1bed454ad"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr5_rl.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr5_rl.py",
+      "sha256": "e240d0378bc91755b6c08815fd4baaf5e4fbd2c2b2b935ab39deadc162d78912"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/dai_model.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/dai_model.py",
+      "sha256": "bb812ad74b1dc072e5fadbf4b0dbfba92396c10d50cdfb5e7bac2e8737c1dea4"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/multi_model.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/multi_model.py",
+      "sha256": "aa75bfb1958528d567e67c1063f4877e5f46c1ad35002a9cbc9f721ad7e94709"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr4_model.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr4_model.py",
+      "sha256": "ab5edf05698e41b0cf77d3787c19c922624ae328c0a8e3ecbf017b1da7bc86ad"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/dai_rl.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/dai_rl.py",
+      "sha256": "8190626e535e2f36a33b2c744c2868bd9144e5b684a65443852364d2455738b7"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr5_data.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr5_data.py",
+      "sha256": "d3a098d6c56a32ee80dfa1e2c3703f2bf5a09d926b6bf9627fc4d85523862053"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr6_probes.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr6_probes.py",
+      "sha256": "7aaf4d59f051aff5e17b975923f04bd66914a0a2501cbee44c11d23950db4c3a"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/rlq_tasks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/rlq_tasks.py",
+      "sha256": "aee20876e0c7d7811cd989311ef3f0d4203347c2fe84387e62e1e7a2e28de317"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/retention.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/retention.py",
+      "sha256": "dcaa0f2e38c3f63af9c09232d448dbffef8543cbbbce1ddf22439da371f158de"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/multi_tasks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/multi_tasks.py",
+      "sha256": "112a3bb16b148e4656068882a8258d309d000e9f405b781dc40aa7fb4a911e73"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr4_model_checks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr4_model_checks.py",
+      "sha256": "b9ca1f5a8c079c49afb38582c172f5feb9d124ac87c7b52ab34778a23055f43e"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr5_data_checks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr5_data_checks.py",
+      "sha256": "9d4e8d5c38516ae9d5d0c6229f35787ce911317b95eb68150e854dd4c351b38f"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr6_run.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr6_run.py",
+      "sha256": "0f3438b393b8c24d34b0be0d7efe6e0d5fe7c62bdcd778d6ac08d0c107b9e10e"
+    },
+    "aaai/experiments/adaptive_ablation/source/reference/src/nr5_rl_checks.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/source/reference/src/nr5_rl_checks.py",
+      "sha256": "b7b6e5f2ce257e2a318d19222ce4f41c1f85647cd1152704725cbc0bc60bc4b6"
+    },
+    "aaai/experiments/adaptive_ablation/operations/launch_all_gpus.py": {
+      "origin": "jspace/aaai/experiments/adaptive_ablation/operations/launch_all_gpus.py",
+      "sha256": "30077740a3208105de0f5be3cfc126e98effa853061212abddd10060c423a3a5"
+    },
+    "aaai/experiments/preservation_components/analyse.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/analyse.py",
+      "sha256": "bf7a0a8311dfb77d9f8a5db9a779fecf6378f3b99dbb4c466d547c6a2070fe57"
+    },
+    "aaai/experiments/preservation_components/paper_artifacts.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/paper_artifacts.py",
+      "sha256": "ccba04348511e171f8750246d74d6ecf5307c07b90be7b836975ba99ccabfaff"
+    },
+    "aaai/experiments/preservation_components/analysis/summary.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/summary.json",
+      "sha256": "b2ca5fd85a488ad0ed63257863b13b6a9b0cbbaaa211b426f215e68bd9c31c09"
+    },
+    "aaai/experiments/preservation_components/analysis/audit.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/audit.json",
+      "sha256": "a4739ea8f971ac3fce1c968b80b84cb2374abd61c49e388f4997e5668bf06ac7"
+    },
+    "aaai/experiments/preservation_components/analysis/controls.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/controls.json",
+      "sha256": "c74163ab233aba9a5eb4aa49267e307b21dcdc27508a53ad8c05b9a6dcdff743"
+    },
+    "aaai/experiments/preservation_components/analysis/conditional_effects.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/conditional_effects.json",
+      "sha256": "bd4ae13bd7114e12126650c6f3394b522c944bda43b7d7c165bb237d6bb88e49"
+    },
+    "aaai/experiments/preservation_components/analysis/task_contrasts.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/task_contrasts.json",
+      "sha256": "f1d9c56d5c57a37ccaefd78ae817ce8d50c548b4610a3c8267f190f2d4a16287"
+    },
+    "aaai/experiments/preservation_components/analysis/per_task.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/per_task.json",
+      "sha256": "eff85f8b38876ec90712c7e484fe2176a5f609b6f7ab3def36a2d76287831054"
+    },
+    "aaai/experiments/preservation_components/analysis/per_bank.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/per_bank.json",
+      "sha256": "2d47734bc131026a53be5ec8e46d10905101247898d350e23b7c94fe3acc27ee"
+    },
+    "aaai/experiments/preservation_components/analysis/combined_per_bank.csv": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/combined_per_bank.csv",
+      "sha256": "3b32d36f099b57119d2d9edf99777197df0335643e009ce7bd0df7cff4801428"
+    },
+    "aaai/experiments/preservation_components/analysis/planned_contrasts.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/planned_contrasts.json",
+      "sha256": "ae77c7f175fb721b1762e18750453deb304f27bde81d92da925b94f05fb2d42f"
+    },
+    "aaai/experiments/preservation_components/analysis/ogg_verification_2026-11-02.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/ogg_verification_2026-11-02.json",
+      "sha256": "aef58ffbca217373649d95d846c540ce2835e6618bed079e35153546b9e1a378"
+    },
+    "aaai/experiments/preservation_components/analysis/per_bank.csv": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/per_bank.csv",
+      "sha256": "fc166b771b128e7f21140e096f04d1c7d5bd9f1fd98884442ba68f42cbb2a41c"
+    },
+    "aaai/experiments/preservation_components/analysis/combined_per_bank.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/analysis/combined_per_bank.json",
+      "sha256": "02bb3a154c514b201f09d862f8c693c909fbae44cc970444589a235b7dc2c1bb"
+    },
+    "aaai/experiments/preservation_components/launch/main_plan.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/launch/main_plan.json",
+      "sha256": "b2d13cf459050501aef7671b432899d0e730428477d60a8aabd3d08455b3f544"
+    },
+    "aaai/experiments/preservation_components/launch/smoke_complete.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/launch/smoke_complete.json",
+      "sha256": "7b34282834f6ec072153c6d4cf7acf784e60ff2eb3bb6c5f2981de2a840174de"
+    },
+    "aaai/experiments/preservation_components/launch/status_at_launch.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/launch/status_at_launch.json",
+      "sha256": "7632fb1662e4c7ba3b82e953149a44c274c0cb1d96230631c118762a15aec3e9"
+    },
+    "aaai/experiments/preservation_components/source/build_inputs.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/build_inputs.py",
+      "sha256": "85a8847c4810070fb76033ba6b70152f3c36b1cdf43bc9bf4950ffeaa9d1c88d"
+    },
+    "aaai/experiments/preservation_components/source/launch.sh": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/launch.sh",
+      "sha256": "4db91565120ff4a5a6675424cca78a27527432371ba5362d975ae164d64ebc91"
+    },
+    "aaai/experiments/preservation_components/source/run_study.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/run_study.py",
+      "sha256": "b32d0ee09bc4572279d7472f823abf0d5f30edb0d8b08b1ca7beb49e1c083ba1"
+    },
+    "aaai/experiments/preservation_components/source/test_components.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/test_components.py",
+      "sha256": "ac6276dcd8d305b0ae8b69a28ca774c3c7beb94e81868ba6152410377415219d"
+    },
+    "aaai/experiments/preservation_components/source/run_aware.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/run_aware.py",
+      "sha256": "e32e1293405fcf1e7214362b64b071212fb370b14ede72b10df363ce22a9db6b"
+    },
+    "aaai/experiments/preservation_components/source/test_aware.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/test_aware.py",
+      "sha256": "652ac5766f4e9a6cb2b21157b615ca04f5cb4dc054822f2e4c059796071ad0f9"
+    },
+    "aaai/experiments/preservation_components/source/controls_manifest.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/controls_manifest.json",
+      "sha256": "156f9ad023e032cf818d0b15ff1ff04c18c638d4f0f01889435d5ed65cc36a48"
+    },
+    "aaai/experiments/preservation_components/source/README.md": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/README.md",
+      "sha256": "df236e1e46cd8a3a6f0d18407c68fb8a2dfd137653e65c7cdf14dc7ad33fc117"
+    },
+    "aaai/experiments/preservation_components/source/aware_update.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/aware_update.py",
+      "sha256": "3258eac459a74ded0f1f3341f6ef6d1bbfae7aaba88e6b17698f288a30390436"
+    },
+    "aaai/experiments/preservation_components/source/scheduler.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/scheduler.py",
+      "sha256": "d4ab9136131f9322f71e26e38bc529ce2411d9aa1e7bad57dad46170027b8927"
+    },
+    "aaai/experiments/preservation_components/source/inputs_manifest.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/inputs_manifest.json",
+      "sha256": "cafb47137ca8030b2a9daf3d3b95aa699d7029f7f480a36d942074d434b5368a"
+    },
+    "aaai/experiments/preservation_components/source/reference/benchmarks.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/benchmarks.json",
+      "sha256": "b9c79ec713092e3e465dc5319a5b96d8c855ffcaf5455c23d480cf616a352518"
+    },
+    "aaai/experiments/preservation_components/source/reference/launch.sh": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/launch.sh",
+      "sha256": "8c66028a9849c0ee30b093153673d35da1c82c9288ec2875d0efdcf9451c3e52"
+    },
+    "aaai/experiments/preservation_components/source/reference/run_study.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/run_study.py",
+      "sha256": "124f1058bba3c1a15f12e2e4eb02d9811f6fdff03aab88e66407f8d8b0f96f31"
+    },
+    "aaai/experiments/preservation_components/source/reference/requirements.txt": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/requirements.txt",
+      "sha256": "850c9675bf6c9f0bfd273a24b0bcf4f58cf7526bdd25d757089d8180312970ea"
+    },
+    "aaai/experiments/preservation_components/source/reference/migrate_run.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/migrate_run.py",
+      "sha256": "3de24908f881d8ab4459f52e6b01282f6608fae14c770e5a7abbf7d5ce726f54"
+    },
+    "aaai/experiments/preservation_components/source/reference/budget_config.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/budget_config.py",
+      "sha256": "e0a72aeca7dddb455b16f98c5fc71ed737452fd3a84d4d42c20e37d07b1b5398"
+    },
+    "aaai/experiments/preservation_components/source/reference/smoke_summary.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/smoke_summary.json",
+      "sha256": "20479ce2fa2d18b5f34d6cfa86d1d60f16975a471b89472c5a1a80b560691ba9"
+    },
+    "aaai/experiments/preservation_components/source/reference/README.md": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/README.md",
+      "sha256": "6282069e076010594a9a016f64a27198487f7c8e60714e975539cfd31ca59747"
+    },
+    "aaai/experiments/preservation_components/source/reference/baseline_before_training.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/baseline_before_training.json",
+      "sha256": "4b3acfb0ec87b2513b85e6be8303baae38b6f10e0c93b10f8b94563e983bfe26"
+    },
+    "aaai/experiments/preservation_components/source/reference/execution_revision_launched.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/execution_revision_launched.json",
+      "sha256": "271dba336ae061714b4ab65b524f8517417b2e32744e118cf7c0b62392a95aa2"
+    },
+    "aaai/experiments/preservation_components/source/reference/compound_tasks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/compound_tasks.py",
+      "sha256": "44a3e1b99ecb8d6eed1aff2cc32fee462e3ce5392fd822864a55bffc2f201e5a"
+    },
+    "aaai/experiments/preservation_components/source/reference/launch_receipt.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/launch_receipt.json",
+      "sha256": "a1b902fdb3fc8c8b71f71f4ac441f555f8028c39e6f4064febca8e2f58658af0"
+    },
+    "aaai/experiments/preservation_components/source/reference/experiment_plan_launched.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/experiment_plan_launched.json",
+      "sha256": "d28444c6dd60207bbaa72afc19b192489928dfaed2aa8b0f6c840207405e1615"
+    },
+    "aaai/experiments/preservation_components/source/reference/dataset.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/dataset.json",
+      "sha256": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0"
+    },
+    "aaai/experiments/preservation_components/source/reference/tests/test_study.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/tests/test_study.py",
+      "sha256": "483b02c99822ed0cc39fcd6a1c569c62f1b5ac8cf32d443c4e10c3eb1e1da192"
+    },
+    "aaai/experiments/preservation_components/source/reference/tests/test_gpu_repairs.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/tests/test_gpu_repairs.py",
+      "sha256": "a4bebf409c963f677478150cf61bc50bf932b8633daaee2af3a29758db782abf"
+    },
+    "aaai/experiments/preservation_components/source/reference/tests/test_repairs.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/tests/test_repairs.py",
+      "sha256": "2018f92f27312d09f03ac4ddbd1c637178530722644bd493027b8d822770cfb5"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr6_train.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr6_train.py",
+      "sha256": "20699be4b00ea251bcf1bd4894101780e320619128234e9786a233465dbf2f6a"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/dai_drive.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/dai_drive.py",
+      "sha256": "964c5f391d028c1933cdbd2697ef04630b879474903cd708b64913ab389d706d"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr6_checks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr6_checks.py",
+      "sha256": "64007e35deb3623dd8edf24cd8fd159e09f25e3ce35108bb16ee5d399ef882e8"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/multi_run.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/multi_run.py",
+      "sha256": "8c6b83c62d0abb1f5b2fdd0fdc160ceca419853707be2e006d8b25498f387f1d"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr6_io.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr6_io.py",
+      "sha256": "c95198f22707fb3d4a5c024748ba99e53f57de575587f02c820c6a3dc4adf21c"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr5_tasks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr5_tasks.py",
+      "sha256": "4d04de0b7abed43ccfae5fd2c626cd0b8693a52221a87ff73b5a2468b9b89e7a"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/budget_model.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/budget_model.py",
+      "sha256": "691392650a00ac9af8931753e593f8b55739306135fe2894a9f0ece1bed454ad"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr5_rl.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr5_rl.py",
+      "sha256": "e240d0378bc91755b6c08815fd4baaf5e4fbd2c2b2b935ab39deadc162d78912"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/dai_model.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/dai_model.py",
+      "sha256": "bb812ad74b1dc072e5fadbf4b0dbfba92396c10d50cdfb5e7bac2e8737c1dea4"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/multi_model.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/multi_model.py",
+      "sha256": "aa75bfb1958528d567e67c1063f4877e5f46c1ad35002a9cbc9f721ad7e94709"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr4_model.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr4_model.py",
+      "sha256": "ab5edf05698e41b0cf77d3787c19c922624ae328c0a8e3ecbf017b1da7bc86ad"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/dai_rl.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/dai_rl.py",
+      "sha256": "8190626e535e2f36a33b2c744c2868bd9144e5b684a65443852364d2455738b7"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr5_data.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr5_data.py",
+      "sha256": "d3a098d6c56a32ee80dfa1e2c3703f2bf5a09d926b6bf9627fc4d85523862053"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr6_probes.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr6_probes.py",
+      "sha256": "7aaf4d59f051aff5e17b975923f04bd66914a0a2501cbee44c11d23950db4c3a"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/rlq_tasks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/rlq_tasks.py",
+      "sha256": "aee20876e0c7d7811cd989311ef3f0d4203347c2fe84387e62e1e7a2e28de317"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/retention.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/retention.py",
+      "sha256": "dcaa0f2e38c3f63af9c09232d448dbffef8543cbbbce1ddf22439da371f158de"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/multi_tasks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/multi_tasks.py",
+      "sha256": "112a3bb16b148e4656068882a8258d309d000e9f405b781dc40aa7fb4a911e73"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr4_model_checks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr4_model_checks.py",
+      "sha256": "b9ca1f5a8c079c49afb38582c172f5feb9d124ac87c7b52ab34778a23055f43e"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr5_data_checks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr5_data_checks.py",
+      "sha256": "9d4e8d5c38516ae9d5d0c6229f35787ce911317b95eb68150e854dd4c351b38f"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr6_run.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr6_run.py",
+      "sha256": "0f3438b393b8c24d34b0be0d7efe6e0d5fe7c62bdcd778d6ac08d0c107b9e10e"
+    },
+    "aaai/experiments/preservation_components/source/reference/src/nr5_rl_checks.py": {
+      "origin": "jspace/aaai/experiments/preservation_components/source/reference/src/nr5_rl_checks.py",
+      "sha256": "b7b6e5f2ce257e2a318d19222ce4f41c1f85647cd1152704725cbc0bc60bc4b6"
+    },
+    "aaai/experiments/preservation_components/operations/protocol_record.json": {
+      "origin": "jspace/aaai/experiments/preservation_components/operations/protocol_record.json",
+      "sha256": "19555b2cc982eb7d341dad6a42a86ff1d716a949e356a1ac6cb023c6f5201699"
+    },
+    "aaai/experiments/preservation_components/operations/start.sh": {
+      "origin": "jspace/aaai/experiments/preservation_components/operations/start.sh",
+      "sha256": "b1619474c09b903d53eda06c8c8b7f2568888250d11178e56fa3376431494051"
+    },
+    "aaai/experiments/dai2027/results/paper01/final_results.csv": {
+      "origin": "jspace/aaai/experiments/dai2027/results/paper01/final_results.csv",
+      "sha256": "6ed89a6dc4e887bebbe8ea61d221448582e2a3d565b84b3aef7c18e87f596a55"
+    },
+    "aaai/experiments/dai2027/results/paper01/table_recovery.json": {
+      "origin": "jspace/aaai/experiments/dai2027/results/paper01/table_recovery.json",
+      "sha256": "d92b9b82c053daa038666eb63317d60b6b72dbef6b385e0df1edf7f2debef352"
+    },
+    "aaai/experiments/dai2027/results/paper01/primary_table.tex": {
+      "origin": "jspace/aaai/experiments/dai2027/results/paper01/primary_table.tex",
+      "sha256": "9ff6f40a4b815abe4fd164f486d37b5579dc2ff8e22ce0e9a5b4a8826b8fc57a"
+    },
+    "aaai/notes/cleanup_20261105.json": {
+      "origin": "jspace/aaai/notes/cleanup_20261105.json",
+      "sha256": "5b3fb1e7cba1240ff23c5328fcf917466edb2dfd7d78530f00de656e91767a1b"
+    },
+    "aaai/notes/legacy/CASR_idealized_abstract.txt": {
+      "origin": "jspace/aaai/notes/legacy/CASR_idealized_abstract.txt",
+      "sha256": "9f630453ad28c86b92d61d854a12f1e5e7116e400319369c98532d874ceeee2d"
+    },
+    "aaai/notes/legacy/README.md": {
+      "origin": "jspace/aaai/notes/legacy/README.md",
+      "sha256": "66e5322d3e9e6b1dffb0f0688204007098b8d4c047746bf5e4bc3338735f7be7"
+    },
+    "aaai/notes/legacy/experiments/requirements.txt": {
+      "origin": "jspace/aaai/notes/legacy/experiments/requirements.txt",
+      "sha256": "66f71c864985e4331d2f7f854eb0451184e560cb52d981898e00b8c7a39ad11b"
+    },
+    "aaai/notes/legacy/experiments/analyze_casr_pilot.py": {
+      "origin": "jspace/aaai/notes/legacy/experiments/analyze_casr_pilot.py",
+      "sha256": "09d98d7a1845bf533a9871faeee9e64f2c7dbaf21bb9e7d60e30d71140ad01fd"
+    },
+    "aaai/notes/legacy/experiments/make_paper_table.py": {
+      "origin": "jspace/aaai/notes/legacy/experiments/make_paper_table.py",
+      "sha256": "74027e2830cf7ad238aede46e3ab87eba10f6172b25c7835621b1432124311de"
+    },
+    "aaai/notes/legacy/experiments/README.md": {
+      "origin": "jspace/aaai/notes/legacy/experiments/README.md",
+      "sha256": "942de4d06060bd607523858fbcd3dd1d579eb8819adce17c16699982422855bc"
+    },
+    "aaai/notes/legacy/experiments/routing_checks.py": {
+      "origin": "jspace/aaai/notes/legacy/experiments/routing_checks.py",
+      "sha256": "9bf9f9c385b9a25d92b36d1c81751578a45beea38b57743eb47a03e6c3c64bd4"
+    },
+    "aaai/notes/legacy/results/teacher_student_summary.json": {
+      "origin": "jspace/aaai/notes/legacy/results/teacher_student_summary.json",
+      "sha256": "c166bf52714f55d104517752449edf3fcf5c281a8f22169aa9e1bcb29faf6e75"
+    },
+    "aaai/notes/legacy/results/random_projectors.json": {
+      "origin": "jspace/aaai/notes/legacy/results/random_projectors.json",
+      "sha256": "2774c332847178219efb520c7dce6fa685c8f4e4f125d3224477dfd535d5241a"
+    },
+    "aaai/notes/legacy/results/paper_table.tex": {
+      "origin": "jspace/aaai/notes/legacy/results/paper_table.tex",
+      "sha256": "3f94ae781639cdd8a5550663fb9a1eb305a3da1fc38196aedf337d4d977c0b63"
+    },
+    "aaai/notes/legacy/results/teacher_student_runs.csv": {
+      "origin": "jspace/aaai/notes/legacy/results/teacher_student_runs.csv",
+      "sha256": "31630088eadcb7a5997a56a43a526c2adfd11e6f5d3172200852db3408e08234"
+    },
+    "aaai/notes/legacy/results/coupling_capacity_tradeoff.csv": {
+      "origin": "jspace/aaai/notes/legacy/results/coupling_capacity_tradeoff.csv",
+      "sha256": "7b5050b5c05c456b8f24e62da80bfe02307d525968a6d7c3dfee6b89d998c61b"
+    },
+    "aaai/notes/legacy/results/teacher_student_summary.csv": {
+      "origin": "jspace/aaai/notes/legacy/results/teacher_student_summary.csv",
+      "sha256": "8815480b96eb670fef6ab4b26ce237543ab278268543c3233a54bb5d17841969"
+    },
+    "aaai/notes/legacy/results/readout_gain_control.csv": {
+      "origin": "jspace/aaai/notes/legacy/results/readout_gain_control.csv",
+      "sha256": "8ae0bc18a4a77a31c75cdfcee683fd3fbb907347433bb642aabec0178709bf8b"
+    },
+    "aaai/notes/legacy/results/verification.json": {
+      "origin": "jspace/aaai/notes/legacy/results/verification.json",
+      "sha256": "15a60e968d2b20719634e5edb6035cc44911d2122a3101a8887910b2bf3118c5"
+    },
+    "aaai/notes/legacy/results/teacher_student_trajectories.csv": {
+      "origin": "jspace/aaai/notes/legacy/results/teacher_student_trajectories.csv",
+      "sha256": "70dfa6679fa2881f15872241bf4a6a4c0bd17218c034de396a3fd96e83bb96d5"
+    },
+    "aaai/notes/legacy/results/calibration_generalization_counterexample.json": {
+      "origin": "jspace/aaai/notes/legacy/results/calibration_generalization_counterexample.json",
+      "sha256": "334af55d08b4c8efe5509e89b523d5344e0178f000a9e0c7a778f9dc633c6baf"
+    },
+    "aaai/notes/legacy/results/exact_counterexample.json": {
+      "origin": "jspace/aaai/notes/legacy/results/exact_counterexample.json",
+      "sha256": "5d68630a85b8ee52c4e9c9cf9cafdc59a3f391d4a959ad9f74281727b0bdcade"
+    },
+    "aaai/notes/legacy/verification/requirements.txt": {
+      "origin": "jspace/aaai/notes/legacy/verification/requirements.txt",
+      "sha256": "bdea80ca4e87d4aa7c0205f7615fec230caa409f802b5eca7c902772e04e0730"
+    },
+    "aaai/notes/legacy/verification/proof_checks.json": {
+      "origin": "jspace/aaai/notes/legacy/verification/proof_checks.json",
+      "sha256": "952457901e01a320fbc9d6c588b4e2853e34b54bdfd078d44c5d350624d41eb8"
+    },
+    "aaai/notes/legacy/verification/proof_checks.py": {
+      "origin": "jspace/aaai/notes/legacy/verification/proof_checks.py",
+      "sha256": "f4cfa6272c7207a635499fa43716dc9e8db21e6b84c4431cfedba49babbef69a"
+    },
+    "aaai/notes/supervisor/report_visuals.py": {
+      "origin": "jspace/aaai/notes/supervisor/report_visuals.py",
+      "sha256": "afad0dbfdc62e90b41c96e5e54b8f83ed83698f6eb307df8b83aad4e0b6e354c"
+    },
+    "aaai/figures/aware_retention_table.tex": {
+      "origin": "jspace/aaai/figures/aware_retention_table.tex",
+      "sha256": "37734170f07f28790ec40e7317daafcf786094daf0bb10b84bf2ef8b3963d629"
+    },
+    "aaai/figures/fig1_lora_math.tex": {
+      "origin": "jspace/aaai/figures/fig1_lora_math.tex",
+      "sha256": "79e88ee8390abc28742dc0503f55858f39279e4c98b44f587ed511cb0c5c283d"
+    },
+    "aaai/figures/native_coexistence_summary_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_summary_table.tex",
+      "sha256": "50622d19a021b107c714f85812a5d32e3ff6ebd7f17f8de021e8f92d7890bb0c"
+    },
+    "aaai/figures/native_small_budget_table.tex": {
+      "origin": "jspace/aaai/figures/native_small_budget_table.tex",
+      "sha256": "e12c5a71e60f7d6140f14019d7dc283a984aef06d8fcb2b238132c2258e121fe"
+    },
+    "aaai/figures/native_full_budget_table.tex": {
+      "origin": "jspace/aaai/figures/native_full_budget_table.tex",
+      "sha256": "902209f4fd51f302265ef7824511d80af2f11f55eae05ad41535dbaa29046a1f"
+    },
+    "aaai/figures/lora_concatenation_math.tex": {
+      "origin": "jspace/aaai/figures/lora_concatenation_math.tex",
+      "sha256": "46fdfa8ea6e5afb00ea2e709771e8cc7cf3f2be5396ef658f2dd28181f3aa334"
+    },
+    "aaai/figures/native_coexistence_compounds_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_compounds_table.tex",
+      "sha256": "a2f14328d6d767c1bcaa7949a54aaeec4f37c822bfea5917c411fd4a2ba5a6d4"
+    },
+    "aaai/figures/fig1_native_math_assets.json": {
+      "origin": "jspace/aaai/figures/fig1_native_math_assets.json",
+      "sha256": "ad69508dcbeb1036e0f57e9f82ba65c63c969b459a7c9998091ef9df599a85a1"
+    },
+    "aaai/figures/fig1_native_math.tex": {
+      "origin": "jspace/aaai/figures/fig1_native_math.tex",
+      "sha256": "f9b11784d070b6a1861a57548f52b9cc24f048ec462e741b37fd478ad9f9bdf9"
+    },
+    "aaai/figures/aware_primary_table.tex": {
+      "origin": "jspace/aaai/figures/aware_primary_table.tex",
+      "sha256": "43bf06f68dd50c5b8b99d306d4834a43d3522458ba3823e6d185226dca980eb2"
+    },
+    "aaai/figures/native_coexistence_provenance.json": {
+      "origin": "jspace/aaai/figures/native_coexistence_provenance.json",
+      "sha256": "658d112495fd86dfc479336570cd816692cc4cafe0f0144eff463897c9f4bec2"
+    },
+    "aaai/figures/aware_detailed_table.tex": {
+      "origin": "jspace/aaai/figures/aware_detailed_table.tex",
+      "sha256": "290e24de52ee892ad9e44098079976ef829e3e786b44574a535860ef402ab8c3"
+    },
+    "aaai/figures/aware_coexistence_curves.tex": {
+      "origin": "jspace/aaai/figures/aware_coexistence_curves.tex",
+      "sha256": "72ba9d48d1033ddf77f96723940221f086dd09e3cc440205da5a3809f1776646"
+    },
+    "aaai/figures/native_factorial_summary_table.tex": {
+      "origin": "jspace/aaai/figures/native_factorial_summary_table.tex",
+      "sha256": "e12d69e42693e7c4e336ab3d00a88a3f0f254790aeca0767a49004a7c9f4c8b2"
+    },
+    "aaai/figures/lora_concatenation_math_assets.json": {
+      "origin": "jspace/aaai/figures/lora_concatenation_math_assets.json",
+      "sha256": "0da1e5bcbccdb6a54060617606cafc9fc99a543c4821a360d030022232371de0"
+    },
+    "aaai/figures/native_coexistence_pairs_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_pairs_table.tex",
+      "sha256": "6b9dd88bcc0341346457e1580450eba32034734bf580e8b9e86750ee32818465"
+    },
+    "aaai/figures/fig1_lora_math_assets.json": {
+      "origin": "jspace/aaai/figures/fig1_lora_math_assets.json",
+      "sha256": "10813a9e4ebb9d3976b1a27453a5e25c488f37442ba9ce75b118f8c4ad5640e9"
+    },
+    "aaai/figures/lora_concatenation_math.py": {
+      "origin": "jspace/aaai/figures/lora_concatenation_math.py",
+      "sha256": "97f784782ae36637e344db1409847304832e309df42ca72da05a57adad8300e4"
+    },
+    "aaai/figures/native_coexistence_curves_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_curves_table.tex",
+      "sha256": "c303314703d7740c44c6dcad7c91c65c140c1a5135795eb118bf31a149f76318"
+    },
+    "aaai/figures/native_coexistence_tasks_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_tasks_table.tex",
+      "sha256": "b6e16538708fa1d7026b4602601be494c4bdfcdc413026e29cbc006409eb4c63"
+    },
+    "aaai/figures/native_coexistence_language_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_language_table.tex",
+      "sha256": "7df754ea3e40a3e8c75c0b9a03f710d3c7a6cd8e50a1ca39dc0d329e8d7468b9"
+    },
+    "aaai/figures/native_coexistence_retention_table.tex": {
+      "origin": "jspace/aaai/figures/native_coexistence_retention_table.tex",
+      "sha256": "04c529ee21f2e9ba99d7eeebe321437eb231c3804a9f2d09ffaa8d9e09deb456"
+    },
+    "aaai/figures/fresh_confirmation/paired_table.tex": {
+      "origin": "jspace/aaai/figures/fresh_confirmation/paired_table.tex",
+      "sha256": "5f3ab7df214915885464f48133c4869fbba68481074b2177e7bcc01274b82de9"
+    },
+    "aaai/figures/fresh_confirmation/provenance.json": {
+      "origin": "jspace/aaai/figures/fresh_confirmation/provenance.json",
+      "sha256": "0e2f6b19f95126c62c56e79d9ea6afceb302dcf5b64126a7c3ee12f97499ec81"
+    },
+    "aaai/figures/fresh_confirmation/full_summary_table.tex": {
+      "origin": "jspace/aaai/figures/fresh_confirmation/full_summary_table.tex",
+      "sha256": "1234cde50e35b89342f92877c205ab65b0fb17b3c62838fffb9a528a25ac2c7a"
+    },
+    "aaai/figures/fresh_confirmation/accuracy_table.tex": {
+      "origin": "jspace/aaai/figures/fresh_confirmation/accuracy_table.tex",
+      "sha256": "090a92d2134ae8a0b78aee52fcdd7744a5a6f38c8a6d92dfef68b300fcf15969"
+    },
+    "aaai/figures/fresh_confirmation/task_table.tex": {
+      "origin": "jspace/aaai/figures/fresh_confirmation/task_table.tex",
+      "sha256": "804104a5bb5e04bcc6b35523aba0a10906e973751a3ba2f8f66d8eaacbc016a3"
+    },
+    "aaai/figures/report_visuals/section_4_4.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_4_4.tex",
+      "sha256": "f3628c04c531a7d06ea9a1c13c08ce380d41d297653e223d4d198c56e504354f"
+    },
+    "aaai/figures/report_visuals/section_4_5.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_4_5.tex",
+      "sha256": "c8f86d6dcb17227aabd7925a87d6ebd7f4613b2ce3aba45970b988c48d832263"
+    },
+    "aaai/figures/report_visuals/coverage.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/coverage.csv",
+      "sha256": "5af0c339f5a06b4043a78403572fd26d33989e87098b6e8ff4f079d4bb6a20a5"
+    },
+    "aaai/figures/report_visuals/section_4_6.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_4_6.tex",
+      "sha256": "af322f640130effdc51ec00331e09d2139a354fb3879291ab9dc65fb7f3b86a3"
+    },
+    "aaai/figures/report_visuals/section_4_2.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_4_2.tex",
+      "sha256": "15e4329721754b3bc4fec4eb44366f19a121dc58c93cd7f623e69bc41ecd2122"
+    },
+    "aaai/figures/report_visuals/provenance.json": {
+      "origin": "jspace/aaai/figures/report_visuals/provenance.json",
+      "sha256": "73e319660f6b123a2fc384120de2540c4b9ec2d4b438f37783997039f9651701"
+    },
+    "aaai/figures/report_visuals/section_4_3.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_4_3.tex",
+      "sha256": "3d4a9f3687341b5b5607c5f9882babf7a0426af5b70dde7eee47f8f8e156b7af"
+    },
+    "aaai/figures/report_visuals/section_4_1.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_4_1.tex",
+      "sha256": "650502f07bbb77b91aeb0376f656b21c143e5988121284622f06571a61e82e99"
+    },
+    "aaai/figures/report_visuals/section_5_6.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_5_6.tex",
+      "sha256": "3cf59925d8da66bc632f65ec605b87a0510f5f8eccf3178cb2f32e2510faff1b"
+    },
+    "aaai/figures/report_visuals/section_5_4.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_5_4.tex",
+      "sha256": "2fc6c7e8816ab26be0879524446e2764b87854e223c6c48d66a172c6a02c4937"
+    },
+    "aaai/figures/report_visuals/section_5_5.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_5_5.tex",
+      "sha256": "539aa50b49cee350c4d77de324fbb944ba72433c1395e4354e346d2ad2725b33"
+    },
+    "aaai/figures/report_visuals/section_5_1.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_5_1.tex",
+      "sha256": "b1636f4f6c1b94b9fdd818682c86ec33bfa3e548e0ad816a432d28eda2080c93"
+    },
+    "aaai/figures/report_visuals/section_5_2.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_5_2.tex",
+      "sha256": "5e7b14b7761f6a1bb4d31b1ff2b13c369c016208193efe0fa88ff0c3f6556c13"
+    },
+    "aaai/figures/report_visuals/section_5_3.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_5_3.tex",
+      "sha256": "d2020ef696957f0a4e2e3824b84528693bfb22c616647a2be6bca33b9dbc0f87"
+    },
+    "aaai/figures/report_visuals/section_9.tex": {
+      "origin": "jspace/aaai/figures/report_visuals/section_9.tex",
+      "sha256": "aac647805b22e712a2b588706f0fd6d24487580c4b1bbe13e9136786b646b486"
+    },
+    "aaai/figures/report_visuals/data/25_cosmic_status.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/25_cosmic_status.csv",
+      "sha256": "1cf322dc23418574dd53308e4d28efc466c4acc34962d43daa14cfc64f525266"
+    },
+    "aaai/figures/report_visuals/data/04_independent_coexistence.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/04_independent_coexistence.csv",
+      "sha256": "889bfac3743ddf9750352d0dbe6a471127e7a7e2bfc98cdb285c6451bb68ec9f"
+    },
+    "aaai/figures/report_visuals/data/27_readout_gain_control.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/27_readout_gain_control.csv",
+      "sha256": "b90c0a14806542faec5403391f081ab97c7849c3070e78bc02898e9ef271fe0f"
+    },
+    "aaai/figures/report_visuals/data/26_soft_routing_stability.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/26_soft_routing_stability.csv",
+      "sha256": "5ae7c8a56fbcc7213c5e7f4f31e112ee05aaeec41fe2246979d836281fe8074c"
+    },
+    "aaai/figures/report_visuals/data/06_calibration_retention.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/06_calibration_retention.csv",
+      "sha256": "4ba2c8e4047a93125c16f5cad1c95c5db4664fa3a6255dad7abfb0b40792d97b"
+    },
+    "aaai/figures/report_visuals/data/20_matched_position.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/20_matched_position.csv",
+      "sha256": "808c503ab86d2b7404a48a35ca72349ee8f11d7d14922c2fab7f14cf1e57c4bb"
+    },
+    "aaai/figures/report_visuals/data/server_unrestricted_cache_origin.json": {
+      "origin": "jspace/aaai/figures/report_visuals/data/server_unrestricted_cache_origin.json",
+      "sha256": "a37c9d4f1ab4a08e83835cfdc06d32ebebd7d2a7e5ff2916d164c71674fbf48a"
+    },
+    "aaai/figures/report_visuals/data/09_first_continuation.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/09_first_continuation.csv",
+      "sha256": "11d0062ba91c8f2f199b63c39e769b9eac51e3ad951d3b6be21da21a086e8298"
+    },
+    "aaai/figures/report_visuals/data/18_unrestricted_removal_curves.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/18_unrestricted_removal_curves.csv",
+      "sha256": "94f087e0dcc5e8a2d9f79d539966f1bcf29482034eac4299f7cda7989f3bc00f"
+    },
+    "aaai/figures/report_visuals/data/17_single_layer_qualification.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/17_single_layer_qualification.csv",
+      "sha256": "992d7e4024c038de5212b2e7a9c268f4b3a47d131e7f89ba0baca175e1f5a916"
+    },
+    "aaai/figures/report_visuals/data/29_coupling_capacity_tradeoff.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/29_coupling_capacity_tradeoff.csv",
+      "sha256": "0d89b2873eaddb32e88ca64e4c868e172a456f9c2f482f62aa0432b4e9e7beb2"
+    },
+    "aaai/figures/report_visuals/data/07_benchmark_retention.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/07_benchmark_retention.csv",
+      "sha256": "235aacc8fbdf2cd3fcaa7fb71c6f07cbec1cd5c4637df8d8af1872c891aa374b"
+    },
+    "aaai/figures/report_visuals/data/24_distributed_refusal.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/24_distributed_refusal.csv",
+      "sha256": "dff4f8a29f9581f2d82a7c80ef6eed8ebc5ee64d568cd192539b4f81c1e52781"
+    },
+    "aaai/figures/report_visuals/data/colab_endpoints.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/colab_endpoints.csv",
+      "sha256": "69c6697eec4dca41b34150dc016e4faada15fa14fcc66efe7622d24f22769603"
+    },
+    "aaai/figures/report_visuals/data/12_component_mc_retention.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/12_component_mc_retention.csv",
+      "sha256": "ff8a7c41160348dae43e1595eaf39ceb681b2a3a6aa4c3715e80215aa1ea1879"
+    },
+    "aaai/figures/report_visuals/data/15_colab_acquisition.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/15_colab_acquisition.csv",
+      "sha256": "9a272d77943a554fdfc214e0f25ea58557d80a40508e13a246cf8f89a07ea5aa"
+    },
+    "aaai/figures/report_visuals/data/21_refusal_failure_modes.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/21_refusal_failure_modes.csv",
+      "sha256": "8b2bcf7f336cf7c2d09b29643909729a5268dc30300e83393285af7445976631"
+    },
+    "aaai/figures/report_visuals/data/02_budget_cost_retention.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/02_budget_cost_retention.csv",
+      "sha256": "635d6d898975507b70a51039125e8b52f04c20cbde53150abb7fdb6c630aa26f"
+    },
+    "aaai/figures/report_visuals/data/22_extended_late_layer.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/22_extended_late_layer.csv",
+      "sha256": "0b26cf1656bc7dc999e9a316c38113810d1cb916e81fe6d5c2d852f951a2e1ab"
+    },
+    "aaai/figures/report_visuals/data/colab_curves.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/colab_curves.csv",
+      "sha256": "f94f9aa22e68b3a72759f2f44c7d1cad6da47159f5171d73a8ec4ff0c04a780b"
+    },
+    "aaai/figures/report_visuals/data/03_two_task_factorial.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/03_two_task_factorial.csv",
+      "sha256": "7e463701d773d7a40a8fc7b6813783d380e18b0665762765dd2c06f845aad099"
+    },
+    "aaai/figures/report_visuals/data/10_objective_ablation.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/10_objective_ablation.csv",
+      "sha256": "bd7370e21345929742569d6afc87e89cc056162df01ab51c38350109bf23b164"
+    },
+    "aaai/figures/report_visuals/data/19_exploratory_inside_outside.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/19_exploratory_inside_outside.csv",
+      "sha256": "9a98653cb1357027cf4366d5d68d6a38521da14397652c4ca31d162134ab2259"
+    },
+    "aaai/figures/report_visuals/data/01_budget_accuracy.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/01_budget_accuracy.csv",
+      "sha256": "635d6d898975507b70a51039125e8b52f04c20cbde53150abb7fdb6c630aa26f"
+    },
+    "aaai/figures/report_visuals/data/28_teacher_student_comparison.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/28_teacher_student_comparison.csv",
+      "sha256": "f4c12b405f8338961103cb28723befb57fbc11cb16175f7507b3f1ea021f86bb"
+    },
+    "aaai/figures/report_visuals/data/14_taskwise_components.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/14_taskwise_components.csv",
+      "sha256": "f4c7eb638ebdb42db8ced3000b980990da9f992145b231ecbfde503ccd4ccdad"
+    },
+    "aaai/figures/report_visuals/data/colab_baseline_metrics.json": {
+      "origin": "jspace/aaai/figures/report_visuals/data/colab_baseline_metrics.json",
+      "sha256": "caa4c5ce4b24e10ebff46fa7f0ba188c81bd80226de5b786e0598356fdb9b626"
+    },
+    "aaai/figures/report_visuals/data/16_colab_removal.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/16_colab_removal.csv",
+      "sha256": "d7a856ec04cc7b1c8dadc554dc6c9014c10835fd464675e4af277ebf33e3f473"
+    },
+    "aaai/figures/report_visuals/data/13_paired_component_contrasts.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/13_paired_component_contrasts.csv",
+      "sha256": "0b973a400096e9d15d80249677656db103aec6ff3c9cf6438f30d2287a751ca9"
+    },
+    "aaai/figures/report_visuals/data/23_refusal_capability_changes.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/23_refusal_capability_changes.csv",
+      "sha256": "cb69a76bda32e6108948bb18949627c5fd39aa0ac7379e5319c4b7e6b07a9f4d"
+    },
+    "aaai/figures/report_visuals/data/11_component_means.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/11_component_means.csv",
+      "sha256": "ff8a7c41160348dae43e1595eaf39ceb681b2a3a6aa4c3715e80215aa1ea1879"
+    },
+    "aaai/figures/report_visuals/data/colab_before_removal.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/colab_before_removal.csv",
+      "sha256": "7aaac6a67efdc7b0f69fb90065f680eb94a0c75f1a5808181c71c6740cc330a5"
+    },
+    "aaai/figures/report_visuals/data/server_unrestricted_metrics.json": {
+      "origin": "jspace/aaai/figures/report_visuals/data/server_unrestricted_metrics.json",
+      "sha256": "50f35ad2bd3c5765c42b8382a034843ea393ad2f8369a695b3ae2dae34bdc7a8"
+    },
+    "aaai/figures/report_visuals/data/05_taskwise_interference.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/05_taskwise_interference.csv",
+      "sha256": "5a4298033bdabf2fd7daca9f47ea237007c6a89ebd71b4bc4136c1b01abebe77"
+    },
+    "aaai/figures/report_visuals/data/08_compound_tasks.csv": {
+      "origin": "jspace/aaai/figures/report_visuals/data/08_compound_tasks.csv",
+      "sha256": "42f7b697c2afb134f19aea45e9d947fb7063efa3207525d11e29b1da8f4cecae"
+    },
+    "aaai/figures/adaptive_ablation/provenance.json": {
+      "origin": "jspace/aaai/figures/adaptive_ablation/provenance.json",
+      "sha256": "b96b697f445659936b9fd1f1c9816596e3d846fa6bc29bf46da510cc8974a704"
+    },
+    "aaai/figures/adaptive_ablation/composition_table.tex": {
+      "origin": "jspace/aaai/figures/adaptive_ablation/composition_table.tex",
+      "sha256": "31dc03d5611c8b3ee36663c64bfd216d25ae8c757b2204af52704dbc3e59eafc"
+    },
+    "aaai/figures/adaptive_ablation/primary_table.tex": {
+      "origin": "jspace/aaai/figures/adaptive_ablation/primary_table.tex",
+      "sha256": "b8785364525a86d2628a61ce2799b78b794c2d6cc57391826ed2004aca02e46f"
+    },
+    "aaai/figures/adaptive_ablation/retention_compute_table.tex": {
+      "origin": "jspace/aaai/figures/adaptive_ablation/retention_compute_table.tex",
+      "sha256": "46a2d87a2543aea9c5361883de58084c93668a1467a60559c947c5d825c07b9b"
+    },
+    "aaai/figures/preservation_components/provenance.json": {
+      "origin": "jspace/aaai/figures/preservation_components/provenance.json",
+      "sha256": "4eadbad7d0bfa27badf128aaf41c786c826695c139be97467aa6f23b93223a9e"
+    },
+    "aaai/figures/preservation_components/secondary_table.tex": {
+      "origin": "jspace/aaai/figures/preservation_components/secondary_table.tex",
+      "sha256": "c6f5663d9f749b78b8e6d41406095dd171d8aff294281eac2a7dcfb61583a6dd"
+    },
+    "aaai/figures/preservation_components/planned_contrasts_table.tex": {
+      "origin": "jspace/aaai/figures/preservation_components/planned_contrasts_table.tex",
+      "sha256": "3dc4d0090544139f8d9fc553058010bc79f352aaa35811d3686ec719c24eef14"
+    },
+    "aaai/figures/preservation_components/primary_table.tex": {
+      "origin": "jspace/aaai/figures/preservation_components/primary_table.tex",
+      "sha256": "1cd450bdc36aaf3cf3e5f3fed5f653ad57ffc6712e0e40946a9e1db1fd61c15b"
+    },
+    "aaai/figures/preservation_components/task_contrasts_table.tex": {
+      "origin": "jspace/aaai/figures/preservation_components/task_contrasts_table.tex",
+      "sha256": "9e68e0635d6b3183b35e1a6269fa2ddeb63c007c5011a0f41cfba3f91e697bd9"
+    },
+    "refusal/README.md": {
+      "origin": "jspace/refusal/README.md",
+      "sha256": "b52e37cb1086c5db12f65c3f8d6d7bf81f5378dee2bb763402fe0f7cae75abcf"
+    },
+    "refusal/experiments/paper_update.py": {
+      "origin": "jspace/refusal/experiments/paper_update.py",
+      "sha256": "8445b01905e5502928ae11e639c9dde60e2819b0b6e8dace4910a7df70e15764"
+    },
+    "refusal/experiments/refusal_removal_v7/launch.sh": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch.sh",
+      "sha256": "6c2c69085dfd130379edde01792faa3c8c12389643a5b64e7ec6d4f223c5b4ca"
+    },
+    "refusal/experiments/refusal_removal_v7/test_protocol.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/test_protocol.py",
+      "sha256": "b27f7afd125138b2203e875bc6ebb844cae61c754f25f60e2e3e1412edb9759e"
+    },
+    "refusal/experiments/refusal_removal_v7/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analyse.py",
+      "sha256": "0b5f0d5efa12c240fcb40d01b494bfd3002154942d71f8f7eb6e59fc40034779"
+    },
+    "refusal/experiments/refusal_removal_v7/protocol.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/protocol.py",
+      "sha256": "73940e773ae5124f4cb4f76b8c15664e45891538e0234c6b6c890f1d4cf54597"
+    },
+    "refusal/experiments/refusal_removal_v7/test_torch.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/test_torch.py",
+      "sha256": "1d8c3d726a06e352a77e868339a4aac61af1f3489aa367b3b6c2db66946e7463"
+    },
+    "refusal/experiments/refusal_removal_v7/attack.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/attack.py",
+      "sha256": "f93ecdbb5a6c0cab7cbf1046405cfbe583eb80f119795c486dd1130699c9dc33"
+    },
+    "refusal/experiments/refusal_removal_v7/README.md": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/README.md",
+      "sha256": "279db04976211b157717d252b98d8580fb3b07090b408c704b19c318923674ba"
+    },
+    "refusal/experiments/refusal_removal_v7/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/PROTOCOL.md",
+      "sha256": "db64bc981798da790a50f74b77246e22d62bb17dfda3b5af1854a6638556296d"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/training.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/training.csv",
+      "sha256": "c3f10bc2d708f9a2d0f8f629e212b08804c4579dca9604523eb4751b7da6dff8"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/audit.json",
+      "sha256": "47530612ad40bf3140097b9ab595a39aa7adadc11c5dcab74d784fadb9fd5a7b"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/completion_bundle.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/completion_bundle.json",
+      "sha256": "6e56e3d615a0cf38da2c183058c2b88fd2ae4de26411cda49f6879b0118739ab"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/epoch_trajectories_provenance.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/epoch_trajectories_provenance.json",
+      "sha256": "c85e9767a87c7f6f2f643e675fd82e4ac84f4e1a9730b1ea54e03ba99b2fde21"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/provenance.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/provenance.json",
+      "sha256": "0f294d5e464095a9f957330a65884a4ad8cea647f733e146969c75ddf6a8d850"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/audit_saved.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/audit_saved.py",
+      "sha256": "9300eda3b287ac52a7f9a8772dd63fd910e786f63bac9d5c96fe3b3e92d61ec2"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/first_thresholds.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/first_thresholds.csv",
+      "sha256": "9a115aa49777bc7e364c32e914dea370885c4897f44dc03f82cba3578aff5667"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/results.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/results.json",
+      "sha256": "a5c25c271ab4687d7b877a95777137dba79aeae48fcf954e5a85a14ed1255143"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/diagnostics.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/diagnostics.csv",
+      "sha256": "c4290e724daab3ccb8ecb0a912fe9b32f9f20743a6c813715b35a8440a7c7124"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/plot_epoch_trajectories.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/plot_epoch_trajectories.py",
+      "sha256": "e0b9c7ffd03b9b312fa95bfbb7e2f2fdb764bb8868d49b90f2a978cf0e63a680"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/paper_update_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/paper_update_validation.json",
+      "sha256": "012869fa64f08efbeadd7cc7d625946d8d652c0de31a5b6a96ecc98f850add9d"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/retention.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/retention.csv",
+      "sha256": "0a2df27ea31c842fafd6a8115a5b6da242c1f8e96dd8d7d03859e59e48c63c75"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/endpoints.csv",
+      "sha256": "2a4babd060f5048803d04ca37bedbb72e0002a8a87d5221c7b2fb1f88938d506"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/learning_curves.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/learning_curves.csv",
+      "sha256": "1d84856c4e917fd57f463bf04df08f4b6d4c0b609eb796336c3257e7225ab01e"
+    },
+    "refusal/experiments/refusal_removal_v7/analysis/case_scores.csv": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/analysis/case_scores.csv",
+      "sha256": "e3884f0cb0ef7f5cdaeda9c48c6c9a21317af74f4064d81bdbd7c51c0bfc7377"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/production_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/production_manifest.json",
+      "sha256": "33243e0ad481297fb53dcc44f8c6e083c18a6326e5d3e7ea0d4625cd95d98f7d"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/baseline_summary.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/baseline_summary.json",
+      "sha256": "42334af307058df2065bb1a1cb52ffb9c15e6e266a059595e64aa563c26e3324"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/download_hashes.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/download_hashes.json",
+      "sha256": "dfcd69399be50cc68e1b207adc71445461e200daeb315d45dddb5d4a826673d0"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/checkpoint_inventory.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/checkpoint_inventory.json",
+      "sha256": "701e11b39950c4934db0efdd4fbde8268adab15eeff73a005bf30c5db0e44c60"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/input_export.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/input_export.json",
+      "sha256": "47851169f49a82762747b9c0562b0f677ee967d4cffadc03863cc82326bd24b7"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/launch_receipt.json",
+      "sha256": "b77ae5ff5e3b87c33804c9954960f5437c70021ec0cdae5095135da23ef6c47e"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/hardware_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/hardware_validation.json",
+      "sha256": "8807c99449827b903ad27d7515d6ed11d53deb5b00e3a71bf22bfd9104d2416c"
+    },
+    "refusal/experiments/refusal_removal_v7/launch/source_snapshot.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/launch/source_snapshot.json",
+      "sha256": "4ddb64344ad05c1a3c5fa059755b80671b6cc5e277460b472f827541bf2b80d3"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/run.py",
+      "sha256": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/legacy.py",
+      "sha256": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/excluded_worlds.json",
+      "sha256": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/test_run.py",
+      "sha256": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/campaign.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/campaign.py",
+      "sha256": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/observe.py",
+      "sha256": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/original_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/original_manifest.json",
+      "sha256": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/data.py",
+      "sha256": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/reference/removal.py",
+      "sha256": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652"
+    },
+    "refusal/experiments/refusal_removal_v7/reference_v3/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_removal_v7/reference_v3/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_decoder_v6/launch.sh": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/launch.sh",
+      "sha256": "bf0a77df6113feea84f8bf4295fd28fdd55e69fccadc5509e05a1ec8e3d94da4"
+    },
+    "refusal/experiments/refusal_decoder_v6/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analyse.py",
+      "sha256": "36b0a43f992f58166c409069c73ae32ebd0776bf11fd39854f81f764e58c2e53"
+    },
+    "refusal/experiments/refusal_decoder_v6/v5_bundle.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/v5_bundle.json",
+      "sha256": "66046adecb1604e12cf601da193143748ade063414cf37e90e8526a8770d0736"
+    },
+    "refusal/experiments/refusal_decoder_v6/logic.py": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/logic.py",
+      "sha256": "2c64249514eeb1a87f47964377db6e60d2e0fe411b4d51380dafb9544430ad35"
+    },
+    "refusal/experiments/refusal_decoder_v6/README.md": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/README.md",
+      "sha256": "7443be550c3e3359921fd89467d8536fc620aaf2e57c584ddbf35b65fb29f4f8"
+    },
+    "refusal/experiments/refusal_decoder_v6/diagnostic.py": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/diagnostic.py",
+      "sha256": "d843e48a8f4f611511ba9d4f4bee7686c06252ac4c64622b5f0ba1eb735f86ac"
+    },
+    "refusal/experiments/refusal_decoder_v6/v5_audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/v5_audit.json",
+      "sha256": "298b1b079f598c542323b90fbcfda418ea1b0552ccd9a07aad2a9874ff7ae67c"
+    },
+    "refusal/experiments/refusal_decoder_v6/test_logic.py": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/test_logic.py",
+      "sha256": "44c73ff2e6f88e306e25eae7b2788e387079b957e3725c4fca39aa1bd32894f7"
+    },
+    "refusal/experiments/refusal_decoder_v6/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/PROTOCOL.md",
+      "sha256": "d0d85b0d5e549d26659b37a5405f067522b63caf7374a39e767154143f0d2376"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/audit.json",
+      "sha256": "4e23653b7a4b26c1e765beae09ec8edd0fdb28d26475e2a2399ba20b28d07485"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/development_thresholds.csv": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/development_thresholds.csv",
+      "sha256": "dc19fd808a682ff3434a49f1142780ca1705f74f8cd96019264cc0d94b228a8a"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/provenance.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/provenance.json",
+      "sha256": "f82bc46e14f3b50c2e2e05398600718d90776d01034bfabecf7f02884db8aa17"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/disagreements.csv": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/disagreements.csv",
+      "sha256": "f015a7798031c653f5d0fd070fa25b66c0bdfa190f8b72c43565bc21352dfa96"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/calibration.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/calibration.json",
+      "sha256": "66905c00500277f0d8cc49bc410cc66ce8cf1c9da05602439ffa5206ac6a09a5"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/results.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/results.json",
+      "sha256": "c464ad53abf57778a244d4c5390c6d12c872aaae9feee91dd973ff9165e67ae0"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/verify_saved.py": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/verify_saved.py",
+      "sha256": "5d3ad8005e814cf6823889c2a7a2c097f2de4b1327d87665ce2e2b9f60904b19"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/paper_update_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/paper_update_validation.json",
+      "sha256": "221e56a9a9925bb16c5ea2f40b8b2c84a63b7b6ce96649b2536bd1335cfda14b"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/endpoints.csv",
+      "sha256": "4b2691444c3c4a1b0015efdcf9e7db764e82aa04f16c93368b0bf3290fdbe926"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/case_scores.csv": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/case_scores.csv",
+      "sha256": "5abd3f6eaa4388a0e3695e0bc5ab97807524d1838b704b189397818b6f4ecc47"
+    },
+    "refusal/experiments/refusal_decoder_v6/analysis/formatting.csv": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/analysis/formatting.csv",
+      "sha256": "8c5518b31d3962f6cec220d8966c6958a519e1122589473344dcc96f61d8f45d"
+    },
+    "refusal/experiments/refusal_decoder_v6/launch/production_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/launch/production_manifest.json",
+      "sha256": "fdbf88241690c1835b313af040263f796fd29cd27367baa3690ad41e419a8759"
+    },
+    "refusal/experiments/refusal_decoder_v6/launch/hardware_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/launch/hardware_manifest.json",
+      "sha256": "e5197e18a184dfc075b0020c27a2bbd6fc511e9ba68da401c59d56e8cb8e1945"
+    },
+    "refusal/experiments/refusal_decoder_v6/launch/gpu_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/launch/gpu_validation.json",
+      "sha256": "0a1351210a066859de7c096151ebe83bc3a4d703797b27583a8e129f3f8601ab"
+    },
+    "refusal/experiments/refusal_decoder_v6/launch/measurement_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/launch/measurement_validation.json",
+      "sha256": "bef52701024baa30b0a8904f0ffa549fd1e4a9778deea1912323659d5b6a6767"
+    },
+    "refusal/experiments/refusal_decoder_v6/launch/source_snapshot.json": {
+      "origin": "jspace/refusal/experiments/refusal_decoder_v6/launch/source_snapshot.json",
+      "sha256": "991072afab75deb8e66edb8128bc0f3b310c98379004eab6b750af00bfa708a8"
+    },
+    "refusal/experiments/refusal_distribution/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/analyse.py",
+      "sha256": "283768707a3c1e92bb589dcc8bb284aa4b5cfc296756c93f78ff5509983f6047"
+    },
+    "refusal/experiments/refusal_distribution/README.md": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/README.md",
+      "sha256": "82cfeea9583e3635a80845dbe668a6eb16cde89031fbe223be159e190bf5fff7"
+    },
+    "refusal/experiments/refusal_distribution/research_status.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/research_status.json",
+      "sha256": "00e907543eb65b5a451fd8850d758366f2c5941621235a3bfb3c54ba9f0c28d9"
+    },
+    "refusal/experiments/refusal_distribution/analysis/summary.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/analysis/summary.json",
+      "sha256": "17e42bb6f652e38f74962e965247f5f2f6854c157baf93ec5c7564d97d610973"
+    },
+    "refusal/experiments/refusal_distribution/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/analysis/audit.json",
+      "sha256": "ec0e7fa555c20e226765c34fc3b816cb858331750862eb08f228210a24706e0c"
+    },
+    "refusal/experiments/refusal_distribution/analysis/acquisition.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/analysis/acquisition.json",
+      "sha256": "59a1d7fa2654cbfb669212dcba7b4daa94faf8b6291dab7b3459bad46d24933c"
+    },
+    "refusal/experiments/refusal_distribution/analysis/thresholds.csv": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/analysis/thresholds.csv",
+      "sha256": "598eefd0bec4b07d3b26cce0783c3158dff8fc175dbf86b03f31ee398a84a5e4"
+    },
+    "refusal/experiments/refusal_distribution/analysis/records.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/analysis/records.json",
+      "sha256": "4ddbb790c2dce709d9ba92d1103eaf189126adf3e9fac377486be9ca6ff95a24"
+    },
+    "refusal/experiments/refusal_distribution/launch/plan.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/launch/plan.json",
+      "sha256": "1aaef54876ac0b86a205b00d0432d6427e0021117671507a4292fe451b7cc9b7"
+    },
+    "refusal/experiments/refusal_distribution/launch/smoke_pass.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/launch/smoke_pass.json",
+      "sha256": "069cbb9a6151eb2c21490fecefccc4c44bd1a8302c9d54cdd75d6828893c6dee"
+    },
+    "refusal/experiments/refusal_distribution/launch/engineering_checks.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/launch/engineering_checks.json",
+      "sha256": "2c722910e0fb1a088543a802106b22e223b6a9318f8b3f6e46b0527489f8d20e"
+    },
+    "refusal/experiments/refusal_distribution/launch/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/launch/launch_receipt.json",
+      "sha256": "9d59305ad909b1578005b837480f2bd2ab1afe43a7a18caad49b26e89f7e371d"
+    },
+    "refusal/experiments/refusal_distribution/launch/launch_verification.json": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/launch/launch_verification.json",
+      "sha256": "57e1e8307fbb4a2b4905533ba1e10e43c42e94476d1f9b588250b8c92b1c38e6"
+    },
+    "refusal/experiments/refusal_distribution/source/test_removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/source/test_removal.py",
+      "sha256": "307bf99cb2ad8e896884932ad5a0013c923a76d9edeb3cbe423df5e38c6e19a3"
+    },
+    "refusal/experiments/refusal_distribution/source/run_study.py": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/source/run_study.py",
+      "sha256": "c599941fb312e003e981a29afccebee3050f570781bb70ebb36dbde9411f3e2d"
+    },
+    "refusal/experiments/refusal_distribution/source/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/source/removal.py",
+      "sha256": "63f9a92689dd88a1f28c61ab3e7be5c986e87d462b8867b66497b6ecf818b500"
+    },
+    "refusal/experiments/refusal_distribution/source/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_distribution/source/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch.sh": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch.sh",
+      "sha256": "4c307b0627760caba4859e56afda99ae79722b7f1d93e9ed57bf2a64304c1162"
+    },
+    "refusal/experiments/refusal_sampler_v5/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analyse.py",
+      "sha256": "6ce7c8f971cb958dda50c862958e41743b67d49a5ed64e75f68bbe4a6e76cee5"
+    },
+    "refusal/experiments/refusal_sampler_v5/resume_probe.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/resume_probe.py",
+      "sha256": "911f1dc9c173160bff18de85b2fcec255a8bd8415309c1870aac0aadc9c3e7ad"
+    },
+    "refusal/experiments/refusal_sampler_v5/test_study.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/test_study.py",
+      "sha256": "47ac9794950936ff829217c8bace15147bc6248213557a9a73221c11880c06a9"
+    },
+    "refusal/experiments/refusal_sampler_v5/README.md": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/README.md",
+      "sha256": "ab3902fc8b326360a17d6004e029541bb69a65bcdc923eaaf3679b663a6cc940"
+    },
+    "refusal/experiments/refusal_sampler_v5/sampling.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/sampling.py",
+      "sha256": "284bedd125008ee2f2472f77fde307fb0f78ff0eb27bbe38fcc0c1de8afe62c6"
+    },
+    "refusal/experiments/refusal_sampler_v5/test_sampling.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/test_sampling.py",
+      "sha256": "237a711d418f4cc9918a51f94a5d4b5b86aaa6517137776b7816ba2b7abdcbcb"
+    },
+    "refusal/experiments/refusal_sampler_v5/prepare.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/prepare.py",
+      "sha256": "91d3e91b13b2b550463100218eca2bbf2e9c6d0e6b828135e1869f3131fd99bf"
+    },
+    "refusal/experiments/refusal_sampler_v5/study.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/study.py",
+      "sha256": "977fa851aee1eb3c4b14cab08320158ae7443086d3a220404be6fcff3ef844a5"
+    },
+    "refusal/experiments/refusal_sampler_v5/preflight.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/preflight.py",
+      "sha256": "f21d3a7c8d4e5e1e17a5cd1e40a787ff176ae8e1b4b34b421f154f4ecb8c08f8"
+    },
+    "refusal/experiments/refusal_sampler_v5/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/PROTOCOL.md",
+      "sha256": "8ddb32da68af801b712d5d62c0efda2067e965efb38468ab2d3444493040e276"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/original_control_reproduction.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/original_control_reproduction.json",
+      "sha256": "be8907d8185afc2ec651e2e81e6d8a678b1e68c0bb728bdeed644c342fce8638"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/summary_bundle.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/summary_bundle.json",
+      "sha256": "66046adecb1604e12cf601da193143748ade063414cf37e90e8526a8770d0736"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/audit.json",
+      "sha256": "298b1b079f598c542323b90fbcfda418ea1b0552ccd9a07aad2a9874ff7ae67c"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/audit_saved.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/audit_saved.py",
+      "sha256": "879f6a68355675e779bdaaaaa7c257e78f080710cfe46c1a333cde8b065faf9c"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/results.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/results.json",
+      "sha256": "44e7215cdce8e6eeb00455be9d262d7b31eb4af6144ca02eebfb5d9753fd75f0"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/paper_update_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/paper_update_validation.json",
+      "sha256": "85652dc6537a5eb7567b7880edb0f458e84326317823cd93b25385ca4ae0d964"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/losses.csv": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/losses.csv",
+      "sha256": "a7d16412caa3442d42361486c3bd72ad81415ea6abdc7e0d6694d2ab86be0aaf"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/endpoints.csv",
+      "sha256": "e1de1203dea937059e2d3740383a8743a4fb85c45f1214a90ce67aee698c7a6b"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/paired_contrasts.csv": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/paired_contrasts.csv",
+      "sha256": "e05e22983dfeafa70a87e864fff5056472a5c8678d896e9fa10fc1f5d6381930"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/all_candidates.csv": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/all_candidates.csv",
+      "sha256": "129dd9ba703e0b2dbb0a96fb4b63b66b2a2139358ae116c2a0d72945770123a2"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/learning_curves.csv": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/learning_curves.csv",
+      "sha256": "4eaeb8f5adcb622a7287326a8b4421cc6f324297ff0c1a32d953285888ff06d4"
+    },
+    "refusal/experiments/refusal_sampler_v5/analysis/case_scores.csv": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/analysis/case_scores.csv",
+      "sha256": "2741f301e023ff70dbacd0de2891d06eff3965c5451c47e28b6b1c485c8b0aa0"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/production_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/production_manifest.json",
+      "sha256": "7e4a89990f9e5bf7e7728bed92bdf9949b592a4e2b756af3ae10dd5b5feae013"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/engine_lineage.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/engine_lineage.json",
+      "sha256": "d33b976eb0a35f21e742530c794a7de02531c52b336f5ab55bdf2b876753dabf"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/v4_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/v4_manifest.json",
+      "sha256": "8c6c4a99a6ed1ad69729edff1bd0e340001b816ecd5e280e03537152c26e2829"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/production_preflight.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/production_preflight.json",
+      "sha256": "82b301f047096716157a4190a298dea86e177b360e6979e2deb816e3010e94bc"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/production_verification.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/production_verification.json",
+      "sha256": "41a4c31809589e34cde3102982c6f5c67f6e7d41843b069394e709aabed4a746"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/policy_workers_live.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/policy_workers_live.json",
+      "sha256": "2e7095102b281808923e3821c44bab42a4dfcc78f4c45abf45eae94584f38eaf"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/base_reproduction.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/base_reproduction.json",
+      "sha256": "4f361daa35d064ebf713dfa51d20978001481433b952255caf5749cb2f2176d7"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/import_sources.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/import_sources.json",
+      "sha256": "c2d4673a8b9598675d971785faab655e329aec8a4fe9e7831248a673b7010dc2"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/hardware_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/hardware_validation.json",
+      "sha256": "caf3070d18c2186bd7252e2f3da94ce5898c871111e3abf5fee43eefad946efc"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/production_launch.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/production_launch.json",
+      "sha256": "83bf90fc295530c5ffd8658153bd04fd160bbd53b66730e05a7c2fd637f5165d"
+    },
+    "refusal/experiments/refusal_sampler_v5/launch/source_snapshot.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/launch/source_snapshot.json",
+      "sha256": "1fa1bf3f34d1e7451519b5015c66b33d0421519b753dcd4ca7c6598d6b2254c0"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/run.py",
+      "sha256": "7998d35c396ba9050b466f02c72b077044cafd01d3251ecd1f07bcbb1de4c894"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/legacy.py",
+      "sha256": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/excluded_worlds.json",
+      "sha256": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/test_run.py",
+      "sha256": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/campaign.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/campaign.py",
+      "sha256": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/observe.py",
+      "sha256": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/data.py",
+      "sha256": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/reference/removal.py",
+      "sha256": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652"
+    },
+    "refusal/experiments/refusal_sampler_v5/reference_v4/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_sampler_v5/reference_v4/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_colocalization/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/run.py",
+      "sha256": "5213cbbb2002f5080f6edb29b9ae250e33edbe73c73d859516f42647f743dd00"
+    },
+    "refusal/experiments/refusal_colocalization/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analyse.py",
+      "sha256": "9ab5c6c413d5475b1f7d7abc7e5590ab2da0088e77bc20cf1c647b0801a97a30"
+    },
+    "refusal/experiments/refusal_colocalization/postflight.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/postflight.py",
+      "sha256": "f81c52c9073f6cb90fabd4c671dee0f2ef50eebba1334c1bc133d9124c8b951f"
+    },
+    "refusal/experiments/refusal_colocalization/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/test_run.py",
+      "sha256": "bd6eee32f6dd3836b56e75e015e521d85b4f4cf9fa63f4c492b9294d219727f1"
+    },
+    "refusal/experiments/refusal_colocalization/audit_training.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/audit_training.py",
+      "sha256": "fa857d86d044422700a6b121128702ffab6d56e981a72bc4eceed32e2ceb0700"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/audit.json",
+      "sha256": "b6dac11931c88704b9d256a9f334b58d9b3796890e84a49f8c615ab393198cb1"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/training_losses.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/training_losses.csv",
+      "sha256": "47b24e6ea3202918c4161f7ef197e37ac3f776a52afa1c0e454550a60b304e63"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/joint_endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/joint_endpoints.csv",
+      "sha256": "8671617cdf22937c0994cb3d7e4adf758ee04caff546fde00d12eabad211661f"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/development_curves.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/development_curves.csv",
+      "sha256": "751364db01202c3b8b84bb748c1337d7bd508661fddc0fe8d34f218fce97e493"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/paired_comparisons.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/paired_comparisons.csv",
+      "sha256": "a03795da36bc72c68360ceb7805c6fd80feab28697a86652669c9e95c32435d5"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/endpoints.csv",
+      "sha256": "fb968f05b47d4b911d63308e867aabfcac86e84d76add28994c3fb30d74da7a6"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/marker_shortcut_diagnostic.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/marker_shortcut_diagnostic.csv",
+      "sha256": "b3529def5127a59e24d78ddfac7128620368db94dd11745481aa1c69788235dd"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/interventions.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/interventions.csv",
+      "sha256": "3d53a18086afa9ee2f65d5f942b5f1f75cc26527ca863f40ac11ea22d361a1ca"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/panel_metrics.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/panel_metrics.csv",
+      "sha256": "f2b942c2ea9f66ff4b5fbb3d01fbc927bda2135a1e61b42a95a4015e40291f96"
+    },
+    "refusal/experiments/refusal_colocalization/analysis/engineering_diagnostics_20261104.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/analysis/engineering_diagnostics_20261104.json",
+      "sha256": "d97d2b3558b86d36a5c227ddf62bd268dc16e50ed7c4531102fc2a0875c8e148"
+    },
+    "refusal/experiments/refusal_colocalization/launch/hardware_smoke_status.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/launch/hardware_smoke_status.json",
+      "sha256": "e9125b72507ed6d84727ed94e1b7e4f2236a58ac89de7624a0f596756537a124"
+    },
+    "refusal/experiments/refusal_colocalization/launch/VALIDATION.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/launch/VALIDATION.json",
+      "sha256": "f8eef22813fb94ee36e5b5d80c677eb0ea12fe64fad3c9d99b52c6ffb1b863a1"
+    },
+    "refusal/experiments/refusal_colocalization/launch/manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/launch/manifest.json",
+      "sha256": "da899d2ab7b34fd96832786fc737c4511c3cad53e433db375f224c6114eb822c"
+    },
+    "refusal/experiments/refusal_colocalization/launch/status.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/launch/status.json",
+      "sha256": "1cb9d9b92f05665b56b7e18bdca69f07f2dde0450b66af9181e43299be7ad6b0"
+    },
+    "refusal/experiments/refusal_colocalization/launch/environment.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/launch/environment.json",
+      "sha256": "06ba5aa0628278029b7c8033f45c3142c01fb9975ba2499e757012dc14c1aab8"
+    },
+    "refusal/experiments/refusal_colocalization/launch/receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/launch/receipt.json",
+      "sha256": "80d58808abbb53cbaaf11e2ca11b29ba5a4b42dc5de8c91feb9801b6ede434c9"
+    },
+    "refusal/experiments/refusal_colocalization/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/reference/removal.py",
+      "sha256": "36638d1dafdb78c606191565233a3e28232a4e05b07899740b695bb263aab508"
+    },
+    "refusal/experiments/refusal_colocalization/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_coupling_v8/launch.sh": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/launch.sh",
+      "sha256": "7c1f6ed580e69f710b0b8b0f7a052a0cd09c252ee07fb58501e74d0287aced5f"
+    },
+    "refusal/experiments/refusal_coupling_v8/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/analyse.py",
+      "sha256": "7b9b8c2a3033540379b5f218066e9d3408599b8e70aa94676554f17971202734"
+    },
+    "refusal/experiments/refusal_coupling_v8/test_experiment.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/test_experiment.py",
+      "sha256": "0fcd311e31b60ac7ff95509dea255c2abe8c89158180987e1facf42cdd8e0812"
+    },
+    "refusal/experiments/refusal_coupling_v8/design.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/design.py",
+      "sha256": "e70aa29843d1065bc91c3f7f1246192f3906b702b062910ae50a2bcc1f6d0285"
+    },
+    "refusal/experiments/refusal_coupling_v8/README.md": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/README.md",
+      "sha256": "8d107bad725faccf97df87ceb123d67f68e97ecb2348684a46c37fc29e2b2c3d"
+    },
+    "refusal/experiments/refusal_coupling_v8/experiment.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/experiment.py",
+      "sha256": "62dd37bc04b82c25735090fae3fc693521e7f562959c084bb9cb68fb6d0dd8b2"
+    },
+    "refusal/experiments/refusal_coupling_v8/mechanism.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/mechanism.py",
+      "sha256": "82e875e864a6ef4e9936af09d5af7d6c4e1075380c9e4097bdc0ea0407a13b0f"
+    },
+    "refusal/experiments/refusal_coupling_v8/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/PROTOCOL.md",
+      "sha256": "fae4807607afb2a0e2800f5a951bf785924b23b6c48ce22031ee3236032daade"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/test_protocol.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/test_protocol.py",
+      "sha256": "b27f7afd125138b2203e875bc6ebb844cae61c754f25f60e2e3e1412edb9759e"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/analyse.py",
+      "sha256": "0b5f0d5efa12c240fcb40d01b494bfd3002154942d71f8f7eb6e59fc40034779"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/protocol.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/protocol.py",
+      "sha256": "73940e773ae5124f4cb4f76b8c15664e45891538e0234c6b6c890f1d4cf54597"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/test_torch.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/test_torch.py",
+      "sha256": "1d8c3d726a06e352a77e868339a4aac61af1f3489aa367b3b6c2db66946e7463"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/attack.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/attack.py",
+      "sha256": "f93ecdbb5a6c0cab7cbf1046405cfbe583eb80f119795c486dd1130699c9dc33"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/PROTOCOL.md",
+      "sha256": "db64bc981798da790a50f74b77246e22d62bb17dfda3b5af1854a6638556296d"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/run.py",
+      "sha256": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/legacy.py",
+      "sha256": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/excluded_worlds.json",
+      "sha256": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/test_run.py",
+      "sha256": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/campaign.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/campaign.py",
+      "sha256": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/observe.py",
+      "sha256": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/original_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/original_manifest.json",
+      "sha256": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/data.py",
+      "sha256": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/reference/removal.py",
+      "sha256": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652"
+    },
+    "refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/reference_v7/reference_v3/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_coupling_v8/launch/production_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/launch/production_manifest.json",
+      "sha256": "9c249115d032364964198b4118b9c60d374a32ac495fb4f00fb705b44d6ac01d"
+    },
+    "refusal/experiments/refusal_coupling_v8/launch/preflight_before_commit_fix.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/launch/preflight_before_commit_fix.json",
+      "sha256": "4c9195230c32cd876837e631ad3a2b6358d8b96f07f89ca5ca792359f837f095"
+    },
+    "refusal/experiments/refusal_coupling_v8/launch/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/launch/launch_receipt.json",
+      "sha256": "f2b7ba80b4b552929dbb595395e13869a1129e92bffa0c44b372cf7b43b420d3"
+    },
+    "refusal/experiments/refusal_coupling_v8/launch/hardware_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/launch/hardware_validation.json",
+      "sha256": "4f13280b24e05c7fe27262ff80bbe46a105ab7c7f21b9b791671e2b55dce8bd2"
+    },
+    "refusal/experiments/refusal_coupling_v8/launch/launch_verification.json": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/launch/launch_verification.json",
+      "sha256": "9516c598ad1ef70adc1892979e82db6351cae23b608c34ffb88c9f54ef0f9e78"
+    },
+    "refusal/experiments/cosmic_refusal/run_cosmic_saved.py": {
+      "origin": "jspace/refusal/experiments/cosmic_refusal/run_cosmic_saved.py",
+      "sha256": "1f4ff6c16433c2c09baa4c21ee592647ca439ba9715d6b20aa9f35de179f5020"
+    },
+    "refusal/experiments/refusal_colocalization_v3/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/run.py",
+      "sha256": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0"
+    },
+    "refusal/experiments/refusal_colocalization_v3/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/legacy.py",
+      "sha256": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b"
+    },
+    "refusal/experiments/refusal_colocalization_v3/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/excluded_worlds.json",
+      "sha256": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analyse.py",
+      "sha256": "2a5a82acc7732b2e3c09a640532f55e7b820c97687b915ea4e78fb7018e6e8f4"
+    },
+    "refusal/experiments/refusal_colocalization_v3/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/test_run.py",
+      "sha256": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb"
+    },
+    "refusal/experiments/refusal_colocalization_v3/campaign.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/campaign.py",
+      "sha256": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce"
+    },
+    "refusal/experiments/refusal_colocalization_v3/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/observe.py",
+      "sha256": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc"
+    },
+    "refusal/experiments/refusal_colocalization_v3/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/data.py",
+      "sha256": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8"
+    },
+    "refusal/experiments/refusal_colocalization_v3/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/PROTOCOL.md",
+      "sha256": "c048d38dd2987dd90a5966d11bc94582577fcfaa91510ad09b5f02b2691fa65f"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/audit.json",
+      "sha256": "ee9617daf1f135b1b8ae7fd6b9e55d8f16c87fc95e83d596a57a0d49d89a4740"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/cases.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/cases.csv",
+      "sha256": "316d269ab2efbc0593c65d1bcf8e3706ca58d2c7990a02d5b94ff5d0a1510ff2"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/phases.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/phases.csv",
+      "sha256": "cecea76ebf178cc3ab08bdd0ad5c004b1dd5e0cc268a630e09badd7fa7fb7c9f"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/general_scoring_audit.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/general_scoring_audit.csv",
+      "sha256": "2aa8529c2496933bce3717fb330b2e5568407e91f3ae00101244d24c26d79b6a"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/development.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/development.csv",
+      "sha256": "7f71de2f93312dd12f76e0616852ea798070fc8058a143b0772038d2941e6099"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/fit_costs.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/fit_costs.csv",
+      "sha256": "8d022457f9b4c760638b1ed370b4cb3876333d197b96b7d8d05bed854ccc1d31"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/losses.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/losses.csv",
+      "sha256": "1dc9e608333e3294dc2d3d80b92a500ed7d162bc52b18198b4839da4b0f857b4"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/paired_comparisons.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/paired_comparisons.csv",
+      "sha256": "60bec3a730b8c017a0e5ecae8d166356a6e64dadcc2cce27cc52de1fddacfbfb"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/endpoints.csv",
+      "sha256": "e08bea6d0291a511c142477dbdaa4586c2b208a22dce35a4d0c1570f5c85797f"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/observation_behavior.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/observation_behavior.csv",
+      "sha256": "4daae5e5f8ea823eceeb4f5ffe78e51c555866df2b35a77a71a9fecce2db30e5"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/lr_calibration.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/lr_calibration.csv",
+      "sha256": "bdc8794545907c46af2b5fc6d2df8319337217bd9d1bc338326f73b9348b8b6b"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/directions.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/directions.csv",
+      "sha256": "0428617efb1661eecac912b5fa70ca7a5b84152ccfc7891bcaeff674875f5ea4"
+    },
+    "refusal/experiments/refusal_colocalization_v3/analysis/old_refusal_behavior.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/analysis/old_refusal_behavior.csv",
+      "sha256": "9ceb1844462ef2d828077dddb804827b62641c76985f555979c3b30f9c3e22d7"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/audit_smoke.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/audit_smoke.py",
+      "sha256": "89303d67c1b5041ea7d6ec59f101f2f26ecb9d2f43eb8c4be9be55ed0794e7b3"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/production_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/production_manifest.json",
+      "sha256": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/production_preflight.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/production_preflight.json",
+      "sha256": "3844d90bb09bb9084842266a2ae21087ffe94beb009ab710a40233c491b06d3b"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/source_hashes.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/source_hashes.json",
+      "sha256": "7b5a9b0a1bc8d586398d8a5dedb44393f1330de58d2abee7b5e26d166a14a51b"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/hardware_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/hardware_validation.json",
+      "sha256": "0aafc3004f73a17b5e93e89dfe7a430e5015cf0b1642da16a01d8d913899b386"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/environment.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/environment.json",
+      "sha256": "89b796953e10160b55aaa2c0298b1cae468a407864ab9823613a518f93bc7605"
+    },
+    "refusal/experiments/refusal_colocalization_v3/launch/production_launch.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/launch/production_launch.json",
+      "sha256": "480ae8ab04b67562721ea703996a62b30c1cf4ece5ebef30800c9c8b39f3c6ad"
+    },
+    "refusal/experiments/refusal_colocalization_v3/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/reference/removal.py",
+      "sha256": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652"
+    },
+    "refusal/experiments/refusal_colocalization_v3/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v3/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_colocalization_v4/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/run.py",
+      "sha256": "6a3045d84eeadc665a208501c0ee668f746d12c572295304bf62cf87bed65a73"
+    },
+    "refusal/experiments/refusal_colocalization_v4/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/legacy.py",
+      "sha256": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b"
+    },
+    "refusal/experiments/refusal_colocalization_v4/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/excluded_worlds.json",
+      "sha256": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analyse.py",
+      "sha256": "8af48d196cf5e49333b635d3d331dcdb53dce4b00b18b9681b00bc6ff9ee9340"
+    },
+    "refusal/experiments/refusal_colocalization_v4/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/test_run.py",
+      "sha256": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5"
+    },
+    "refusal/experiments/refusal_colocalization_v4/learning_progress.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/learning_progress.py",
+      "sha256": "4cc277fb6ca017c634b0f2be706fe9707a0b850df89d899ba6db4d4daed16af0"
+    },
+    "refusal/experiments/refusal_colocalization_v4/campaign.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/campaign.py",
+      "sha256": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50"
+    },
+    "refusal/experiments/refusal_colocalization_v4/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/observe.py",
+      "sha256": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc"
+    },
+    "refusal/experiments/refusal_colocalization_v4/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/data.py",
+      "sha256": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de"
+    },
+    "refusal/experiments/refusal_colocalization_v4/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/PROTOCOL.md",
+      "sha256": "7b59dfccadb9488a43a1127af03007fbb1158caf2830e894590ad1c46dc83b76"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/case_development.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/case_development.csv",
+      "sha256": "0e57ac7e618352b82edd2cfa5c52a332661f7978a4eb8ea1f463c056428e8394"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/audit.json",
+      "sha256": "3efd40dbe8888abcdafe1e9ace2a447728e0e4e9c2726709b29be49f719aaee8"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/learning_progress.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/learning_progress.csv",
+      "sha256": "252c03e4246ced9d8cfe20acf9ed126c9c8c11088361247ea6b69aa946b4b6c5"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/cases.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/cases.csv",
+      "sha256": "83b6fcaeb146db2a9610a952c065381a1a6544d4437f99dcb94d1afe1c017855"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/phases.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/phases.csv",
+      "sha256": "ae03fd7a2dfa7ce1341c82011b188790fe03d191d0f68853dfc9abb9ed5a946b"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/development.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/development.csv",
+      "sha256": "f39f443492bccd0a361af03d27269c67a8d2a6b5d838c7893f80d1b162d6eb87"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/fit_costs.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/fit_costs.csv",
+      "sha256": "6c3d80e166212a882983a5c4f55688bfd4a967e3f13f57bb0038b7bfc6b17033"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/depths.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/depths.csv",
+      "sha256": "83407704ea8c7ef0d7fc9bfaabeb23fed6c12c770527361d411cfadd7952c115"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/losses.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/losses.csv",
+      "sha256": "79e64cdc8f1b433db03691da8f0e89e6cceef2651c34e0f2d862d9c49e9ff5f7"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/general_responses.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/general_responses.csv",
+      "sha256": "1257b40410c544333bcc91c31d86be443e707cfc652e4a96bf55069188f8e93b"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/wording_paired.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/wording_paired.csv",
+      "sha256": "23887261275974a6088729112dbaed0b42215f6c7be875c0aaa0ae16271a7e1a"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/exposure.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/exposure.json",
+      "sha256": "38d225eab45748e4021315578f62216f0f5e14485124e7a6d3d92a4e1d84408e"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/endpoints.csv",
+      "sha256": "2e0ef26a738a4a814c085b00a993ee8dc6d4d0e4d4e2f3fab1a1e8b3c86fedbd"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/lr_calibration.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/lr_calibration.csv",
+      "sha256": "4e92820e008983be1e61f26dc3d2b4c8bece68c55c51901b5e4381955b0301f8"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/directions.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/directions.csv",
+      "sha256": "58a94a1afd0af35f6411feba2a69a91dab9f2921d22a8ec5f9cba324ae5a0015"
+    },
+    "refusal/experiments/refusal_colocalization_v4/analysis/old_refusal_behavior.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/analysis/old_refusal_behavior.csv",
+      "sha256": "dca6bc4fb3088e9dc415cddd0843d8ea7c57b426dc76c27ac1794dc96fd59a3a"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/audit_smoke.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/audit_smoke.py",
+      "sha256": "2840a342d5ba80a5da917074b7e3412c660e81ccaed61275cb4d20a078c16489"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/production_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/production_manifest.json",
+      "sha256": "ec5ea0976a738e821ab399f2e617a108aac7a9a6e486e8e4de72e091249100e7"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/production_preflight.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/production_preflight.json",
+      "sha256": "86a50c5c84faa9f053a890ef3b57e613a544b88984f72e013930941402fe8117"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/source_snapshot_sha256.txt": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/source_snapshot_sha256.txt",
+      "sha256": "03a770a4963ddeda07263c2ee90e250a99cb9c96b96826a9b1f05689d3a8211d"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/source_hashes.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/source_hashes.json",
+      "sha256": "650968800de9f9db07fe6200aa712111dcb89577a245f73ad2f751ed0f6e6c32"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/live_check.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/live_check.json",
+      "sha256": "745663dd94bea6c9cbed305dc7b7616e1378b7700fe9c2a2769364fa12bbc8e1"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/hardware_validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/hardware_validation.json",
+      "sha256": "cd6aa5de2cee50acafe693a86689efc6946b2b55ef89291f225a984df8d575ef"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/production_launch.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/production_launch.json",
+      "sha256": "bc73bd0ec69ff075946433d48f133a1c4e3e469b5d1b6c643a34f8817473b642"
+    },
+    "refusal/experiments/refusal_colocalization_v4/launch/preflight.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/launch/preflight.py",
+      "sha256": "eb3ca257e572cdb3acfc830409f51b4426dbf235fd2c41da356818a11bba1c5e"
+    },
+    "refusal/experiments/refusal_colocalization_v4/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/reference/removal.py",
+      "sha256": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652"
+    },
+    "refusal/experiments/refusal_colocalization_v4/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v4/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_colocalization_v2/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/run.py",
+      "sha256": "797bd93c4b923579875a0843a7c051fc2bdf9e6d4206982200efd6030e71a47b"
+    },
+    "refusal/experiments/refusal_colocalization_v2/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/legacy.py",
+      "sha256": "5213cbbb2002f5080f6edb29b9ae250e33edbe73c73d859516f42647f743dd00"
+    },
+    "refusal/experiments/refusal_colocalization_v2/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/excluded_worlds.json",
+      "sha256": "3923004ae5607b581efeb57cf3f0a3e91b64b48ad07d7a0e6418db688fac7e0b"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analyse.py",
+      "sha256": "d8a568db70e1c07c2738d13ab95113ad1fc7157e50fe0b0ac60ca900c8a84e90"
+    },
+    "refusal/experiments/refusal_colocalization_v2/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/test_run.py",
+      "sha256": "ab24493fab69126845801043f588275bfb07ad3835d3a77bf67fd5aedf0602ff"
+    },
+    "refusal/experiments/refusal_colocalization_v2/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/observe.py",
+      "sha256": "cefcbe5f6a303db3809c0d996c8c090ef45073f4ff430e78ab52d6c7fb0d2750"
+    },
+    "refusal/experiments/refusal_colocalization_v2/replay_observations.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/replay_observations.py",
+      "sha256": "9ec63b933b6f1d80d713054f44563df51be0a466d8fa11af84b0d08c2013c5fa"
+    },
+    "refusal/experiments/refusal_colocalization_v2/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/data.py",
+      "sha256": "995d0ab876d26c2b9c65bb35ab7df3152211cbd8073b3f0b2599e19a191ea62d"
+    },
+    "refusal/experiments/refusal_colocalization_v2/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/PROTOCOL.md",
+      "sha256": "fd85c5ff08c5d299f2fbc97cb07cfa7ec5785cf93d20eb30ca0c6bc1ce13ddb7"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/audit.json",
+      "sha256": "f18617f1e6ff00676ec329a00a8aedc3b0eccac1bf8f9acc7851481ff711a358"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/phases.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/phases.csv",
+      "sha256": "99c0acc3a7339c4d30f30fe4d4c268a0c29ee45550b9d0182e7a3b382f86cb2c"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/development.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/development.csv",
+      "sha256": "45d166e4e31f88d79af735111b28c6b29a39bfc25ce02306a76a22fc949c5fcb"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/losses.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/losses.csv",
+      "sha256": "d7e46d2c6d5a1ec00f05ebdd7e77288abbae8198ea17b61b5419f00c1ac2a9a6"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/one_hop_diagnostics.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/one_hop_diagnostics.csv",
+      "sha256": "7393ac5e13ea67fd3f3018d7c6b160e5ad2f6a0bb008dadbd4713425972a78f6"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/collateral.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/collateral.csv",
+      "sha256": "48dd8c3d1aee003d2acc3b2dfd2fadd07025173fc27d5964e9c555dead3f1c65"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/endpoints.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/endpoints.csv",
+      "sha256": "7a31dda20335341f236da204e8fbb95a798da25bd4773e5dbe86fd0b6d844b86"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/observation_behavior.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/observation_behavior.csv",
+      "sha256": "e3217cb84758477b980246b8deb67f94cf0bbd00c01a2b6148f5457bf267aa1c"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/directions.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/directions.csv",
+      "sha256": "d64b421d58cc963a7e1335c217e2659532bc7215db0610fd5af2170ae2b52f30"
+    },
+    "refusal/experiments/refusal_colocalization_v2/analysis/old_refusal_behavior.csv": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/analysis/old_refusal_behavior.csv",
+      "sha256": "ff46ca7d10802ca64adaa9778b1e566060f43eeba8fc861e766cdfe4315a88a7"
+    },
+    "refusal/experiments/refusal_colocalization_v2/launch/validation.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/launch/validation.json",
+      "sha256": "650383f32ced4ee4834e352eb4e4943c56e5b69d49b77d1c54a596114baf07b0"
+    },
+    "refusal/experiments/refusal_colocalization_v2/launch/manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/launch/manifest.json",
+      "sha256": "db3e61fff92e3dc2c4235954c944c57a1851e3d2e64f666acd36ed89b3186639"
+    },
+    "refusal/experiments/refusal_colocalization_v2/launch/status.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/launch/status.json",
+      "sha256": "ed4b594cf675ea3b2de104266a0aafc598f2a78a2f042a5a5444794e958417e0"
+    },
+    "refusal/experiments/refusal_colocalization_v2/launch/environment.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/launch/environment.json",
+      "sha256": "89b796953e10160b55aaa2c0298b1cae468a407864ab9823613a518f93bc7605"
+    },
+    "refusal/experiments/refusal_colocalization_v2/launch/receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/launch/receipt.json",
+      "sha256": "c52725ac816b03981898f1c9bd40aa31a0a99de90ec980f1e6244239dcffa84c"
+    },
+    "refusal/experiments/refusal_colocalization_v2/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/reference/removal.py",
+      "sha256": "36638d1dafdb78c606191565233a3e28232a4e05b07899740b695bb263aab508"
+    },
+    "refusal/experiments/refusal_colocalization_v2/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_colocalization_v2/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_layer/test_removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/test_removal.py",
+      "sha256": "83b673cfdd687b5e1c0997c940d2c4b09d902990412005952c3d1f6f632e1d94"
+    },
+    "refusal/experiments/refusal_layer/run_study.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/run_study.py",
+      "sha256": "eeb46c646dfcfe6e0fbe82da956d4d692e28b0e5ca7e1b6c7473f4f00081f56e"
+    },
+    "refusal/experiments/refusal_layer/plan.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/plan.json",
+      "sha256": "c1259a4fda948613dae2a4c9d2ce7b32e0138c4f2dfac7495613ca166981ab9f"
+    },
+    "refusal/experiments/refusal_layer/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/removal.py",
+      "sha256": "36638d1dafdb78c606191565233a3e28232a4e05b07899740b695bb263aab508"
+    },
+    "refusal/experiments/refusal_layer/smoke_pass.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/smoke_pass.json",
+      "sha256": "8e9a5825d808622bbcb109d9977d58368c67e24a716b4043beb26c78544552e3"
+    },
+    "refusal/experiments/refusal_layer/paper_artifacts.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/paper_artifacts.py",
+      "sha256": "4b7819dfeee64dff40c5e8949c308f16962634caba03ef84dbfb3779467bd920"
+    },
+    "refusal/experiments/refusal_layer/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_layer/analyse_position_long.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/analyse_position_long.py",
+      "sha256": "f34e2a3d219d8de2caafd6ed8212b02c0c7d1be7c02c88d59a83eea2d17de0c2"
+    },
+    "refusal/experiments/refusal_layer/analyse_position.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/analyse_position.py",
+      "sha256": "1c86fa479bdcab721c7d59ea52ba64049e0df3c4057126ed9073ecf42da336e2"
+    },
+    "refusal/experiments/refusal_layer/progress.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/progress.json",
+      "sha256": "acb577867bf3afbc9159d3615f455651577f3ff01fad66462f1aedfadffaec31"
+    },
+    "refusal/experiments/refusal_layer/explore_bypass.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/explore_bypass.py",
+      "sha256": "fb1803ee94feb0da06d953381845fedbdf149a65bfcc7ded5b17e3dc3987bfb7"
+    },
+    "refusal/experiments/refusal_layer/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/launch_receipt.json",
+      "sha256": "4cc31aca70e4a16bd7f9b0f6cfd83f7bf71363b28b6206fce3ea5ec8a61b3a3f"
+    },
+    "refusal/experiments/refusal_layer/test_bypass.py": {
+      "origin": "jspace/refusal/experiments/refusal_layer/test_bypass.py",
+      "sha256": "f4bd4d72599edac59b20042786f651bdcbc0181768bbf6ee9ca804e62d0b029b"
+    },
+    "refusal/experiments/refusal_layer/parent_audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/parent_audit.json",
+      "sha256": "2ca307d9df9714bee7ea9ffca7768727d971deb6439044f55733ba09e65d690c"
+    },
+    "refusal/experiments/refusal_layer/position_long_analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_analysis/audit.json",
+      "sha256": "f24fe95b3271f76478f04ef1b05f6a0399e031754557e0a5d2f487cf13926362"
+    },
+    "refusal/experiments/refusal_layer/position_long_analysis/run_summary.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_analysis/run_summary.json",
+      "sha256": "8e46b1b105dcfa318b1a9b5332e9c6d087322018285b8e559a6e9f301b2b8e78"
+    },
+    "refusal/experiments/refusal_layer/position_long_analysis/records.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_analysis/records.json",
+      "sha256": "80e7b08f0bea7e3642b6f5c1dc574eb26c00c078f7027b1e2e99416a577a9ba9"
+    },
+    "refusal/experiments/refusal_layer/bypass_launch/plan.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/bypass_launch/plan.json",
+      "sha256": "00b03e64e8efcee10f355dd7b4ef87bd87d1e4b77f8bde9af6d5d63a3fa6aaaa"
+    },
+    "refusal/experiments/refusal_layer/bypass_launch/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/bypass_launch/complete.json",
+      "sha256": "8be7319d4806ebd80974676fe70cbc7fbb22aed96bdcabd2493eebef86d9ff31"
+    },
+    "refusal/experiments/refusal_layer/bypass_launch/progress.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/bypass_launch/progress.json",
+      "sha256": "3fc04b1bb0127a93df2a86b4ace75fa95d9c8484a7d4af748b777160809044b4"
+    },
+    "refusal/experiments/refusal_layer/bypass_launch/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/bypass_launch/launch_receipt.json",
+      "sha256": "62668a3e6653d5eff470efac824d8b5d95e2277460a46c66cbd32978361b7ee9"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/plan.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/plan.json",
+      "sha256": "3da3fdb4eefd12eefa1dd4e3ef619f9c2ade943f9b47b5e32d294e335f314468"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/progress.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/progress.json",
+      "sha256": "b94df9360493e81c3217e4ab32e5978e4460c19b30a9983d290b119b7f6d6631"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/launch_receipt.json",
+      "sha256": "3cf0138b81aced041e403404aaeb67bf6cbfc5f5cfa825378fa4d3e89dc871f6"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/launch_verification.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/launch_verification.json",
+      "sha256": "4f73fb0a6c9bfc4a1c1fb7f61bdce360213f0dcde2c228711279b24403ac7f7a"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/smoke/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/smoke/complete.json",
+      "sha256": "62d88a7c904b21e3b3019024f53f6c60765abd9fc4e1c18a0761e881f20a4274"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/smoke_upstream/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/smoke_upstream/complete.json",
+      "sha256": "1e378ff5d35d2cb25cc6b6b73493de474396917eb09c06b2a939c0cf49949974"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/smoke_upstream/allocation.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/smoke_upstream/allocation.json",
+      "sha256": "a9b3fa203b4891516173c35998186edbb319d447095e85b8a543f1dc51ba3195"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/smoke_downstream/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/smoke_downstream/complete.json",
+      "sha256": "45ed2640cbd99fcb9e0593a810fad7a9db89d8f9ab7978f37bff042d0e8cb7af"
+    },
+    "refusal/experiments/refusal_layer/position_long_launch/smoke_downstream/allocation.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_long_launch/smoke_downstream/allocation.json",
+      "sha256": "b3def189d3595f6d73f24cc93740d8304137c43dc73d7ba13f5519a9cbf27660"
+    },
+    "refusal/experiments/refusal_layer/position_analysis/audit.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_analysis/audit.json",
+      "sha256": "ddd526d262d7b4cac8439e89761df2fc825e75b15256a1cc192a73566e90faa9"
+    },
+    "refusal/experiments/refusal_layer/position_analysis/run_summary.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_analysis/run_summary.json",
+      "sha256": "f67ee1b98e0be74571753b7d1b01d3822c9cf5881098ee9d3291441be5a89238"
+    },
+    "refusal/experiments/refusal_layer/position_launch/plan.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/plan.json",
+      "sha256": "d6814be1a9bcdb313dc325835adb2f9bd42c4ca229088565bc777e09b79d0e55"
+    },
+    "refusal/experiments/refusal_layer/position_launch/comparison.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/comparison.json",
+      "sha256": "a466615c22e8af99e9f306f47e20b931e5713560fe7acf25bd127f3fc3dbde08"
+    },
+    "refusal/experiments/refusal_layer/position_launch/progress.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/progress.json",
+      "sha256": "30b731fd1ec1f5d2aa8663bc055bb9d712e8b2996463e159d442d87e4bc801ca"
+    },
+    "refusal/experiments/refusal_layer/position_launch/launch_receipt.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/launch_receipt.json",
+      "sha256": "efaa3a5e70dfa411cc7a5372da3324b34673d9a7ee5e45b5c58788fbb736ee07"
+    },
+    "refusal/experiments/refusal_layer/position_launch/launch_verification.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/launch_verification.json",
+      "sha256": "34de79c93776b53fdc2253f0bcbcbd5fd31d59fa63cbb6dec7216b09547e2efb"
+    },
+    "refusal/experiments/refusal_layer/position_launch/smoke/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/smoke/complete.json",
+      "sha256": "fa72123ae2e6a9bf4c25b41417d0218f4f32b9e8cb8d802f1a791beae96047a6"
+    },
+    "refusal/experiments/refusal_layer/position_launch/smoke_upstream/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/smoke_upstream/complete.json",
+      "sha256": "b2597af7f632e007dc6897f62307a424ccc38d8632bef0ba8bb8cc5ba36ba71b"
+    },
+    "refusal/experiments/refusal_layer/position_launch/smoke_upstream/allocation.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/smoke_upstream/allocation.json",
+      "sha256": "0740ca29d371d8dc4cddafb3710afbcd2db1df949e2b2ccb8bc80ded377a0b66"
+    },
+    "refusal/experiments/refusal_layer/position_launch/smoke_downstream/complete.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/smoke_downstream/complete.json",
+      "sha256": "bb0e5879a9e63b49d44138d4a3796ad3d3a6dd61c9576b6086a4255803ecd4fb"
+    },
+    "refusal/experiments/refusal_layer/position_launch/smoke_downstream/allocation.json": {
+      "origin": "jspace/refusal/experiments/refusal_layer/position_launch/smoke_downstream/allocation.json",
+      "sha256": "5d0d52f8253b06e478ca17776e80629b1163a50d3c25a2c354ed2e000e4e0e1a"
+    },
+    "refusal/figures/position_table.tex": {
+      "origin": "jspace/refusal/figures/position_table.tex",
+      "sha256": "714f6f1c2b072f5a48967f39ca71c066b526ef48efba0e7da65a05b71386c41f"
+    },
+    "refusal/figures/provenance.json": {
+      "origin": "jspace/refusal/figures/provenance.json",
+      "sha256": "a964e71238132e71c7eac277764a23e6dbd4ef14d7e6a5b51f17b48994a4a957"
+    },
+    "refusal/figures/position_long_provenance.json": {
+      "origin": "jspace/refusal/figures/position_long_provenance.json",
+      "sha256": "07355b1b66d9e2f060680f3e516010128e05884e9b404ea9dd4833a716a73c88"
+    },
+    "refusal/figures/acquisition_records.json": {
+      "origin": "jspace/refusal/figures/acquisition_records.json",
+      "sha256": "523d1fb9597abda16dc18930a7246d34bec5a9e5f6360dc6ee300c1ef8737102"
+    },
+    "refusal/figures/unrestricted_table.tex": {
+      "origin": "jspace/refusal/figures/unrestricted_table.tex",
+      "sha256": "24032b6ce7ac0a5817de301fb0779695fed688f68921e6995aeb62b504ce9835"
+    },
+    "refusal/figures/position_long_table.tex": {
+      "origin": "jspace/refusal/figures/position_long_table.tex",
+      "sha256": "8afbc275cb548855fd445439d69c6efcf86493c2f544360b6b9f463cfd89c3f8"
+    },
+    "refusal/figures/co_learning/sampler_retention_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/sampler_retention_table.tex",
+      "sha256": "bde6c034378f8a70de0306500f89085c5c132eda8fda673009ffb1b0b598793b"
+    },
+    "refusal/figures/co_learning/learning_tail_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/learning_tail_table.tex",
+      "sha256": "1963892b433ec046c7ea0c171ca2232c3b4e306493d70346d0a45326078c647c"
+    },
+    "refusal/figures/co_learning/decoder_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/decoder_table.tex",
+      "sha256": "f5834d8409f839f38c2ba51acb07e45f1a8d1f31e00849c8751daa514ee31157"
+    },
+    "refusal/figures/co_learning/paper_validation.json": {
+      "origin": "jspace/refusal/figures/co_learning/paper_validation.json",
+      "sha256": "7d7fd70516a832cae993071bded8d1739f13e21e39784029f1a9e1a9a931014e"
+    },
+    "refusal/figures/co_learning/simple_policy_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/simple_policy_table.tex",
+      "sha256": "3bc06ca42b7e15d3271bd1ec72368fc184d493a2e5d9789bbdc5c1f7e8b2aeee"
+    },
+    "refusal/figures/co_learning/provenance.json": {
+      "origin": "jspace/refusal/figures/co_learning/provenance.json",
+      "sha256": "673243ebfa94ed98af086d55dd3fccbe52d33e9c0b09364e72e4aaacea6f9b04"
+    },
+    "refusal/figures/co_learning/capability_budget_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/capability_budget_table.tex",
+      "sha256": "701fb8dde866b35b2a48ee7c91c70faf04dd737d53f5321445d4516ad6ff0c0c"
+    },
+    "refusal/figures/co_learning/sampler_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/sampler_table.tex",
+      "sha256": "c559428537f22e47b21e993c82b9e24a7968ccaa6a8e96333075bd40bf941e61"
+    },
+    "refusal/figures/co_learning/removal_lowrate_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/removal_lowrate_table.tex",
+      "sha256": "6062ab271e8bfa237d3efd3bd4e7adbf73c60e0eaa11b939da6eee6c7c9a0311"
+    },
+    "refusal/figures/co_learning/removal_all_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/removal_all_table.tex",
+      "sha256": "4882b8a241d1090d7dcca1318ed1700e9129feaed8acf7c9ac88b6fd5e42f5ce"
+    },
+    "refusal/figures/co_learning/removal_retention_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/removal_retention_table.tex",
+      "sha256": "86982977dc60413c920681695eea0f73e0401258ca7860039e4fd8f30c173222"
+    },
+    "refusal/figures/co_learning/direction_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/direction_table.tex",
+      "sha256": "f7af69ae50cb3720b212b9e8bd7b027234863c584ad2745ae2be95bfd8985d91"
+    },
+    "refusal/figures/co_learning/distribution_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/distribution_table.tex",
+      "sha256": "bbf64a1eb9ea2edc5c27965eb6302151c0aab38d18da120869e33c7cc8bfd0f4"
+    },
+    "refusal/figures/co_learning/branching_policy_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/branching_policy_table.tex",
+      "sha256": "13e7b6dd35467845597c859874d1fe71891df7282837cc0b38d904147679deab"
+    },
+    "refusal/figures/co_learning/generalization_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/generalization_table.tex",
+      "sha256": "30bfaadbac20ad29792496f0d27b85a76a5148e025b41566b5cf84a7c06e6cba"
+    },
+    "refusal/figures/co_learning/sampler_endpoints_table.tex": {
+      "origin": "jspace/refusal/figures/co_learning/sampler_endpoints_table.tex",
+      "sha256": "13a44e7e94824061acd9d3cea84ff82c2f7df406244c92699d7bd82ee3ce4b66"
+    },
+    "proposal/plot_overview.py": {
+      "origin": "jspace/proposal/plot_overview.py",
+      "sha256": "cde8e593863215f5318a73f178c64c411c0e7062a8181e33b38d01db0d7e7fec"
+    },
+    "proposal/build_validation.json": {
+      "origin": "jspace/proposal/build_validation.json",
+      "sha256": "f07f92f7853eee8ab3423757ac2caf132899b4e2043917a3c269cc8d32aa3627"
+    },
+    "proposal/README.md": {
+      "origin": "jspace/proposal/README.md",
+      "sha256": "6dc6c76ba7157928c928f26eee8f3508664b966b57b4f6eddc9676d9868bfc94"
+    },
+    "proposal/literature_review_sources.json": {
+      "origin": "jspace/proposal/literature_review_sources.json",
+      "sha256": "f2a1f855d06194d9001e7fda35a724906f792447f26038f1d7ef56236885a666"
+    },
+    "proposal/figures/overview_provenance.json": {
+      "origin": "jspace/proposal/figures/overview_provenance.json",
+      "sha256": "03e72bddf302ab02289a32158abd13a986f7eaa63867e14d55ec8ebc6b717608"
+    },
+    "aaai/experiments/dai2027/requirements.txt": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:requirements.txt",
+      "sha256": "07ab98673164a82e901676ec5d48eb6eac0b88bfce4b9ac512b5fb4ee39e6bc7"
+    },
+    "aaai/experiments/dai2027/README.md": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:README.md",
+      "sha256": "60cd22fa1df9c32b31023caa7e62529b80e943d9db41af899b59683b3ad1e968"
+    },
+    "aaai/experiments/dai2027/run_experiments.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:run_experiments.py",
+      "sha256": "a64b8589ccb7fd9421cdf58cc40f1d4c35d8b0c137323162b78c2bc4c1ad095c"
+    },
+    "aaai/experiments/dai2027/tests/test_study.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:tests/test_study.py",
+      "sha256": "81acec68625e0d5001823dd02bd544981ae0e876bc03386360dcfb8ce4e251be"
+    },
+    "aaai/experiments/dai2027/src/nr6_train.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr6_train.py",
+      "sha256": "378169a380a0b25377a847bcbe3b52113e0521b35202f4bae1d38fea6e3732fb"
+    },
+    "aaai/experiments/dai2027/src/dai_drive.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/dai_drive.py",
+      "sha256": "964c5f391d028c1933cdbd2697ef04630b879474903cd708b64913ab389d706d"
+    },
+    "aaai/experiments/dai2027/src/nr6_checks.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr6_checks.py",
+      "sha256": "64007e35deb3623dd8edf24cd8fd159e09f25e3ce35108bb16ee5d399ef882e8"
+    },
+    "aaai/experiments/dai2027/src/nr6_io.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr6_io.py",
+      "sha256": "d5f8c45984d3edbb708c01e8f128934eac0a4e74e4ffcd0be52203b168082f80"
+    },
+    "aaai/experiments/dai2027/src/nr5_tasks.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr5_tasks.py",
+      "sha256": "4d04de0b7abed43ccfae5fd2c626cd0b8693a52221a87ff73b5a2468b9b89e7a"
+    },
+    "aaai/experiments/dai2027/src/nr5_rl.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr5_rl.py",
+      "sha256": "94d65ffd1dcc8d397decd681874dfcc5f2018e8bf750d568dedd8e6a5cacbb8d"
+    },
+    "aaai/experiments/dai2027/src/dai_model.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/dai_model.py",
+      "sha256": "786b7c6c6e4a4748bf5235e31df0bc1d59cb95d1d98666be057aa3894abd53ed"
+    },
+    "aaai/experiments/dai2027/src/nr4_model.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr4_model.py",
+      "sha256": "19851242eee31bfbd223605d0d06c7ef138cabc1c4ae7570aaa1994fc00e638a"
+    },
+    "aaai/experiments/dai2027/src/dai_rl.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/dai_rl.py",
+      "sha256": "dbdbaec01bda3b676ac7e5baf57651dfa33be3886ffc3fd29313203dfd67ff59"
+    },
+    "aaai/experiments/dai2027/src/nr5_data.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr5_data.py",
+      "sha256": "d3a098d6c56a32ee80dfa1e2c3703f2bf5a09d926b6bf9627fc4d85523862053"
+    },
+    "aaai/experiments/dai2027/src/nr6_probes.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr6_probes.py",
+      "sha256": "7aaf4d59f051aff5e17b975923f04bd66914a0a2501cbee44c11d23950db4c3a"
+    },
+    "aaai/experiments/dai2027/src/rlq_tasks.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/rlq_tasks.py",
+      "sha256": "aee20876e0c7d7811cd989311ef3f0d4203347c2fe84387e62e1e7a2e28de317"
+    },
+    "aaai/experiments/dai2027/src/nr4_model_checks.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr4_model_checks.py",
+      "sha256": "b9ca1f5a8c079c49afb38582c172f5feb9d124ac87c7b52ab34778a23055f43e"
+    },
+    "aaai/experiments/dai2027/src/nr5_data_checks.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr5_data_checks.py",
+      "sha256": "9d4e8d5c38516ae9d5d0c6229f35787ce911317b95eb68150e854dd4c351b38f"
+    },
+    "aaai/experiments/dai2027/src/nr6_run.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr6_run.py",
+      "sha256": "0f3438b393b8c24d34b0be0d7efe6e0d5fe7c62bdcd778d6ac08d0c107b9e10e"
+    },
+    "aaai/experiments/dai2027/src/nr5_rl_checks.py": {
+      "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr5_rl_checks.py",
+      "sha256": "b7b6e5f2ce257e2a318d19222ce4f41c1f85647cd1152704725cbc0bc60bc4b6"
+    }
+  },
+  "verification": {
+    "python_syntax": "all passed",
+    "credential_pattern_scan": "no findings",
+    "gpu_experiments_rerun": false,
+    "cpu_tests": {
+      "sampler": 3,
+      "decoder": 6,
+      "result": "9 passed; offline; no GPU use"
+    }
+  }
+}

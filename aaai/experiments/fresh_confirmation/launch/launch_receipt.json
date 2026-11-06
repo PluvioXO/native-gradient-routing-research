@@ -1,0 +1,18 @@
+{
+  "host": "ogg.cs.bath.ac.uk",
+  "root": "/mnt/fast1/mn866/casr-fresh-confirmation-20261102",
+  "pid": 2897327,
+  "started_utc": "2026-11-02T14:32:25.776023+00:00",
+  "source_archive_sha256": "7eb8b6fdf517c292a21a12eafe05975c648dca3100ed567f2b65a5967a05b4b1",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "pipeline": "CPU tests -> 10 smoke jobs -> 192 production jobs -> fixed analysis",
+  "main_disk": true,
+  "refusal_remains_paused": true
+}

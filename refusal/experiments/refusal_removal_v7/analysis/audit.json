@@ -1,0 +1,394 @@
+{
+  "checks_passed": true,
+  "records_recounted": 233536,
+  "evaluation_reports": 196,
+  "graph_truth_records": 7776,
+  "actual_updates_checked": 3072,
+  "selection_checks": [
+    {
+      "job": "shared4__ordinary__lr1e-06",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared4__ordinary__lr1e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared4__ordinary__lr5e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared4__preserve__lr1e-06",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared4__preserve__lr1e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared4__preserve__lr5e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared8__ordinary__lr1e-06",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared8__ordinary__lr1e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared8__ordinary__lr5e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared8__preserve__lr1e-06",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared8__preserve__lr1e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    },
+    {
+      "job": "shared8__preserve__lr5e-05",
+      "steps": 256,
+      "saved_measurements": 14,
+      "sample_schedule_exact": true,
+      "selection_reproduced": true
+    }
+  ],
+  "endpoint_weight_references": 24,
+  "unique_endpoint_weight_files": 22,
+  "weight_checks": [
+    {
+      "file": "results/jobs/shared4__ordinary__lr1e-06/best.pt",
+      "parameters_sha256": "0218d8f1f1f7bf50fd47d5916fb104f2a6d1715c54b194f44c7555b81305c8d0"
+    },
+    {
+      "file": "results/jobs/shared4__ordinary__lr1e-06/final.pt",
+      "parameters_sha256": "6ed2b16d1b4a4d1cea38f92b8e525986cce3b6dcb0f9db26cf7478d1adf2b3a9"
+    },
+    {
+      "file": "results/jobs/shared4__ordinary__lr1e-05/best.pt",
+      "parameters_sha256": "d5417f22e9d68e53bc2e42fe96c4cfd0ba1a67891a8797db37527424da7e331e"
+    },
+    {
+      "file": "results/jobs/shared4__ordinary__lr1e-05/final.pt",
+      "parameters_sha256": "8bbeded60de54d47a0c44b4d93568adada17ce56e66ab65462e68debc37829c1"
+    },
+    {
+      "file": "results/jobs/shared4__ordinary__lr5e-05/best.pt",
+      "parameters_sha256": "0a55be87ff1bfcd6df4d19d2a532ce20f2315406823afa50705c338511bcf3b6"
+    },
+    {
+      "file": "results/jobs/shared4__ordinary__lr5e-05/final.pt",
+      "parameters_sha256": "6e518fc0eac7cbcdc9c2f3639706f7342e0c70caf6ede1a157e876e6efe3293e"
+    },
+    {
+      "file": "results/jobs/shared4__preserve__lr1e-06/best.pt",
+      "parameters_sha256": "1739f6017ea28593c6983c93d9f85beeceb0cf889a227d9aa4084c1da30ebef1"
+    },
+    {
+      "file": "results/jobs/shared4__preserve__lr1e-06/final.pt",
+      "parameters_sha256": "8acb97f7f98eddf5da31b005354868a537b0bcdb57237c1c80c4ff8a6f099f6a"
+    },
+    {
+      "file": "results/jobs/shared4__preserve__lr1e-05/best.pt",
+      "parameters_sha256": "3faa3696102c7c3f8867e7fff8f112584babf41782f6867fdf8027afe3c99bea"
+    },
+    {
+      "file": "results/jobs/shared4__preserve__lr1e-05/final.pt",
+      "parameters_sha256": "3faa3696102c7c3f8867e7fff8f112584babf41782f6867fdf8027afe3c99bea"
+    },
+    {
+      "file": "results/jobs/shared4__preserve__lr5e-05/best.pt",
+      "parameters_sha256": "26e23a9fa6c83008025267e9a671d81a0054abff560dbca068b8cae6fb7e6441"
+    },
+    {
+      "file": "results/jobs/shared4__preserve__lr5e-05/final.pt",
+      "parameters_sha256": "daa092c7e7b42227bbdf28dabc7ec0ad08dde1ce940bbcb139793630585224d1"
+    },
+    {
+      "file": "results/jobs/shared8__ordinary__lr1e-06/best.pt",
+      "parameters_sha256": "65d86fe6e51e9ee9492f8a34bec674be9afa7e21c60cfa618fbc9f4c6e8b3bc7"
+    },
+    {
+      "file": "results/jobs/shared8__ordinary__lr1e-06/final.pt",
+      "parameters_sha256": "716efeb3e8e64b9691d7a16511b208108ba74f506680d563f604e9c9128addbb"
+    },
+    {
+      "file": "results/jobs/shared8__ordinary__lr1e-05/best.pt",
+      "parameters_sha256": "b006a1252142507dfe0a65f543298401142e5e120b3250b960e08da017e268e7"
+    },
+    {
+      "file": "results/jobs/shared8__ordinary__lr1e-05/final.pt",
+      "parameters_sha256": "ac093d13eae9a9ef16f91c7304d4514adfb9639ff0ee4ec57b7eea1b2749c4a2"
+    },
+    {
+      "file": "results/jobs/shared8__ordinary__lr5e-05/best.pt",
+      "parameters_sha256": "a112a268ba7cd81a08e65f08264ca3062137e3c68d159b2df87dc25f42e27995"
+    },
+    {
+      "file": "results/jobs/shared8__ordinary__lr5e-05/final.pt",
+      "parameters_sha256": "9e99a669f355e3c93ff5c826c68556eb0495ec333c2fce3959b3d5e01c55f0d2"
+    },
+    {
+      "file": "results/jobs/shared8__preserve__lr1e-06/best.pt",
+      "parameters_sha256": "ac01eba4bf6324e4bed1c9870a1b1a84a798799868b0cf039cf4a8315a9f9095"
+    },
+    {
+      "file": "results/jobs/shared8__preserve__lr1e-06/final.pt",
+      "parameters_sha256": "160d22bc37fb3b8ca27589c8323083be8dacb05ddb5636f2b9db54ad1f44af99"
+    },
+    {
+      "file": "results/jobs/shared8__preserve__lr1e-05/best.pt",
+      "parameters_sha256": "5cd47a80c9dc7f90da42e074cf11fdfabcf4f83fc6a6a67b631a97d3da19f8ca"
+    },
+    {
+      "file": "results/jobs/shared8__preserve__lr1e-05/final.pt",
+      "parameters_sha256": "a3cb8fff9d9de2ff065d9b106d5181b1b6997c616a724ed19790658cb68553f3"
+    },
+    {
+      "file": "results/jobs/shared8__preserve__lr5e-05/best.pt",
+      "parameters_sha256": "1e7b511e37e17b14ceb5481a1d4f8bdb772745d421acb79cf6be13ed770c4fbc"
+    },
+    {
+      "file": "results/jobs/shared8__preserve__lr5e-05/final.pt",
+      "parameters_sha256": "1e7b511e37e17b14ceb5481a1d4f8bdb772745d421acb79cf6be13ed770c4fbc"
+    }
+  ],
+  "all_checkpoint_intervals_retained": true,
+  "raw_report_hashes": {
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0000.json": "c9473de15749fa561d08cbaa7673edef54bbc9bf20c676f8b11ccbda3336ca0a",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0001.json": "fc50d562589ed1df31689d2cc7315a5015aba32ad87ff6271897eb4fb4eae2be",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0002.json": "7d9af040f2dc49051e4821d56ee34886e64d62a0f800a0b29c8f910043ca75d1",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0004.json": "498fc06936e23ef6347dcfd006a2b798d5e4260771ecfaa75df7f78529d8fb68",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0008.json": "0171dc6bf0e79ae6e9553d2c4e51a60b03734d2b8902489d989cfc4cd303ac8f",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0016.json": "0f2db806f05ea5a9c271599ba7cc4400c92255e259bc1b62710f4406d98893cb",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0024.json": "50a6a2da48056a674b3f3dfaf6080d500d6c864e82b3ad9802237d9fb30c09f2",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0032.json": "f636aeffa64d3a7a3194a5e4aba858de865bc4616072423689b33e1dbcc317c5",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0048.json": "bc586d0d9f05a0f266090437ef0c1b907de88d9cfbe6f3c4ac2aecd907e29244",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0064.json": "d80e3f12dd30f1948740697dda9cf81941096631c0a68185126f698067fb6634",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0096.json": "743650ac58d96ee97a2f6bac3df4a9f81dc496755b749fb2958dcad2780bc813",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0128.json": "08552f32f7ab09aa3fa0505f28cd9d43b28fe5598be7f0f20d2d9ede95c731a7",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0192.json": "d55e63970fae8e1f82aa365ffc39404421a84767ac920266e3b56e5179a15f42",
+    "results/jobs/shared4__ordinary__lr1e-06/dev_0256.json": "51f0a7bd157da7674ec8279f41d475379204a07fc94dd127c662ffb98334fd64",
+    "results/jobs/shared4__ordinary__lr1e-06/test_best.json": "7d9d6bce74cfba8d7af1355593d1d1c1445f3b48c7e491232d9c278e70683132",
+    "results/jobs/shared4__ordinary__lr1e-06/test_final.json": "eb179be58ccbdbcaec028c56bc6a443cf98357d438607ca499fa9e8cfdc66f62",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0000.json": "1f75d15bbefdd5e0cb1baaad4044fa9967e81eebdce5c9113559855661d7dcd2",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0001.json": "b52c1c9ebeb6569576aaf4f82bce9cc1097fb8ca959d9f8ece89ed193f835758",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0002.json": "51e7ebf70a5feef75e04f179cb982d37d1d8505b58c4f69b70353f5b127b10ce",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0004.json": "6e8e6f64230300286969d714c02da2ea54b5d025c60f88bb62522430ffe5213c",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0008.json": "4a55032e959cda5944b29194a9b9ec0268212513d65c2999d0a458999ec72ef0",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0016.json": "aa8c40a9e418be53702a59eb8b8b44fb6b5674005b0fb2b4fc164d3b9898be9c",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0024.json": "6e2a5f8c60c5d493eda786326a82a9e1a78c80ca1427ed8cd99b6e5b8a0f16c5",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0032.json": "f728083831de149b2148e5c382ef4c6f6b3cf89dffd2438d619c12fbd785c38c",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0048.json": "93f39b6394245ab8be235fc286a8a84823f6cddbafd74997d69df683860490a0",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0064.json": "a3616ba84295fb8fceb1a1935bd68e4e73ba22eb2dc0c0e67925a11c9c58086d",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0096.json": "69d2fbff3e55688c6b5e89a2a8248b8d826fdefc8d0deecb4d6417017c3a5354",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0128.json": "623dc4c3ffa22b3bfc87eaabf2d1a1f756aa68bf9b7086636456061209935a0d",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0192.json": "2a28e1f6f3ae465c60a90ee5f099f955e8d0a9f59f9daf0050c17b9eea9c4d81",
+    "results/jobs/shared4__ordinary__lr1e-05/dev_0256.json": "7cdafd9869d224917b032c905aa75c177a4993037a20ff1ff17e8567068e67c8",
+    "results/jobs/shared4__ordinary__lr1e-05/test_best.json": "81f172c9a55e3ac052b19c48e0e04b399efa93b058165121fbe25ce2e2d0c7ef",
+    "results/jobs/shared4__ordinary__lr1e-05/test_final.json": "c1272e7362271824e1a914d4b59770f06f174c8d52ec187b178da076b9467689",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0000.json": "234fdcccf70d3370fe2f7bc9e7056de799e3f6bde52e603d40ee346223ba2907",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0001.json": "0eebf2e047ccbac1c39d9b001776b014980ad245a94276448f7f7563e0cdf324",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0002.json": "78d5f878722a6e18c11f897640de61c3b90e4b948179c5c3a5fd3b488033fdb8",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0004.json": "865adaefff0ea59c7e2a491fb7696c47e16e40d35efc8f75f5e1fbff7262af34",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0008.json": "37a337ef594e4d8950bcde8a7070e959bd95b30a9bd88cbff9255032a2756716",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0016.json": "d1055d25189ccfe35d745df2310a88791e764135be4c789e4f055cf3717747e2",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0024.json": "2db2fb282f9dd55c631f68a0679524904caf9fd8145008878931647b7de7d1b4",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0032.json": "fdb9a03cb9ab8f1daea955fe6ea81d0cb62d71dea385fe0e62d0b49268200871",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0048.json": "b3db576aa9a5c71b82a0702c77ee7313ae93d224533ce1cd7824a52aa1f87fed",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0064.json": "5aab0a530bbcc6a39a1ce834bc3832ee18ce741a2c1e6b151e28f8e9f5e4a8fc",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0096.json": "0a598ed7aa50a1faaeb296b6237d109801e0e9ccd7fab634fa4a799a5c2d2459",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0128.json": "6bac19da44bcade12e12dfc781cf9afd74b4aaa9496a083938d49a15fc8bd1eb",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0192.json": "6ee83398e28b360a7dcfcd0a4bc0fc056efa8809ca7e1f244aa1e0d7990776dc",
+    "results/jobs/shared4__ordinary__lr5e-05/dev_0256.json": "dbadc16d384f9f21a16b04f7fc2e58020e972ea7b65f49b965cb842adbfda940",
+    "results/jobs/shared4__ordinary__lr5e-05/test_best.json": "6f359bf0d491742e206c7bfb3bf0d7eb798102405ed5365069a5c9856b625f44",
+    "results/jobs/shared4__ordinary__lr5e-05/test_final.json": "a63e7b163e030bdebd2bf662b62332c10161b1123dc9e84f5dc2fa673ec2d0b3",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0000.json": "7c64c3fb08dda8274ca97ec45d1789cf41fc6c731e490ca2862a6c1c37c0653a",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0001.json": "63b71481d3be7c70d2268dc1145cff411f3bc3b6ee7343d3aa826362ffd16fcb",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0002.json": "a73b2aebd38c6ff05babd955d8965b5160eaa09c739df797df32467971a71a37",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0004.json": "61f935f1881b1f59ec8766e7097d4aa574361ff0638c90218b23b8bf8ce8b198",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0008.json": "d7a13e7b9f6a25fabb5b7c0b189e0c31f4b656092cc738096b82bf8c49517709",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0016.json": "561fc37e8a11966fd8748842e9548a0e7d1042c8fea4a6ac3c163248b6ea5fe4",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0024.json": "6f61f6545ce127b1f900bdb35459d2bfc6773d63e240ab58c59021aace021007",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0032.json": "b77fc87a048cae075df532bb9ecbb6d02a1d247331d67224500220ae0e01b198",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0048.json": "d67363df1072ddcb181e70eb8fd82822d2b0bd88b7bdf176fe8cb84ce7dd2d19",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0064.json": "cd1e0bce0118069f83e6e331a3325e987ad28b8f9e1f335f90383a2ca344c6c0",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0096.json": "3e66ea7c911211eca4ce6916f3667431c9bc46b89e0022b1c09d66ccd0fea30d",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0128.json": "f80e412d7e6b7b3baaff66682d023a1e9b880ecd0ec40f9d26023f7d6e8d05d3",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0192.json": "ab6c4930f63acd5989d042eaa5f2a1900a66ed7a65b788731a5d3347fb9bb6e8",
+    "results/jobs/shared4__preserve__lr1e-06/dev_0256.json": "c3c928fc46f6412f7786dbcdb314303a43bdb12993e88613088f6ba84dfc201e",
+    "results/jobs/shared4__preserve__lr1e-06/test_best.json": "321cc1b73590bc693e4cf3180ab15a5dfd954b87f81e0a90fd245a4ce763e911",
+    "results/jobs/shared4__preserve__lr1e-06/test_final.json": "2fa9e6f29bfac40356895847ff8a2675283381aadea1af1d9621dbe8c4749f16",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0000.json": "b42e2e2fd5e4909142073f476be8e8fb85f037bb92205e8504487ae273d017ec",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0001.json": "41de3143d161516f738621529d2e4898425a087a9810ed192ec083cb87002224",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0002.json": "c5f9768e4df7715f67f86696aa57d8de7782b185b95866a4394d968b9ed91775",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0004.json": "d656cc6042c45bb2d5e44e26acb538a596fca0a0623b528b1e9803e5d49ff1cb",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0008.json": "6c83aa2f784091b2b80ade48877346f16755008f5c2923dd4575475b1d538797",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0016.json": "e4ece97734740e95316ac430eacd2e12ed0ae26754b458709676f58390356649",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0024.json": "cd64d1d31819425a43fa0dc9bef65b37abd7bf0be08cbc6c37fe4ca3f279da3d",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0032.json": "7bea8e27470d5d9045a71e63ad19cdf62204c434758528c22da0b5d9fe0b4fb8",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0048.json": "3f19d5aedbef90a8f0f0de0224debb9e4d496b9d82e5893dff8ca38a77e94bd5",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0064.json": "5884d4fdd663b28f1b260ee273b3dd1820e0a2d82321c85ae359e4088aae43f6",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0096.json": "0b433888e981173a6252354fbe557d00581acb9a40df4cf83cbe41e71fbd1839",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0128.json": "4a9cfaa1b14508832781a2eae9c9b7278a407b28718c134641d0717655702399",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0192.json": "be85b0babb4fc71535c1b3010d92c03e1d4bd05f26fdae05f98b27e5d1a9863d",
+    "results/jobs/shared4__preserve__lr1e-05/dev_0256.json": "6ead1c54c0eedebed37ce30106ec28e54a3113d77e5d3bf1a299bdd130b238fc",
+    "results/jobs/shared4__preserve__lr1e-05/test_best.json": "74cceb53723f47b8be77dc59cc1fb8479669e81bb1ffa1e287d849bd741b92ac",
+    "results/jobs/shared4__preserve__lr1e-05/test_final.json": "6d8c4a15b436613f600b88fac56132921c129007ae477cfe5262719b904564b1",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0000.json": "6d4666c38116b830d4a6212a47604c2f00662000e4096acc5baff98f4b698a27",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0001.json": "97ff920336bd04cb1189c1e76cb4cf875077a980836b5b66270e5473ebf4c7a4",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0002.json": "a5e817cfc3e01319332b69ed38a34a5da735fd5bbd09b554901e6d122dc88898",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0004.json": "c2dea6fe5d2b5120e250478a5c867fdbd197be96ef2ed425325d9d74e6247d7d",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0008.json": "c88b885f5e9d1de9e93d251e6f347a52001ed3c6d0a9990c77c9b1154dece8c6",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0016.json": "db95e3af4ca24cbd2a8bb6e68945ec87b177479dc81bda74085a02ccbca44ba9",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0024.json": "c657d059cf709a82316181e27f52a5d726db4948f31c6607207e241c4915715e",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0032.json": "b4252a3140c0989e7eb83d7ffd7e7ce097c44fb8dd4a78802dc8ac2c31c46578",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0048.json": "e4c2bc2dd49054b9465e81b4ef43832998db1a6a2bb494e5cbf664c5c4975234",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0064.json": "dc024a34d87de4eafc1f8180219597922d1c22fb5b27503bf80e820a36249868",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0096.json": "73e4987519cd1a757160274533c3f6932135fdb37c896b5de8a99d082fb499c0",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0128.json": "59b9dbe8c185ad32aab507c135fd81db0e3f96b9a3261f089e383706f26eb9a4",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0192.json": "076bbc22c987db43d4a76b8563b75769a0cf6ca51e8ce65bed17911e446bb8af",
+    "results/jobs/shared4__preserve__lr5e-05/dev_0256.json": "a5f036d163d173f8ba145f59dba3cf5147f7cc647a70637b7f7f56f88dbcaede",
+    "results/jobs/shared4__preserve__lr5e-05/test_best.json": "43b26b5b1bec8ca031ee922cbd5a6099882dcae958fbe665c4d662d9087df3fc",
+    "results/jobs/shared4__preserve__lr5e-05/test_final.json": "6d024422992ff0e944c927197d411b29d6bf08f3cf41033f7db62a0cd82939b0",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0000.json": "668322e436612ec5ed8a4b54172e51ccf7a7ec09a8ec7ca748e7bd211914252a",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0001.json": "071683161e022e1750b25586777eff4774cf90e5378a2db83938c5f583d6d480",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0002.json": "4dcf28dbd95e5816e6cb186e1a52d380fc2ecffd684bf6df3e2e68ffd9dac154",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0004.json": "8a219746f7cbc0f4e1934fcf2a9ce5161463255d7bd7e46b3ba9952da0afb1b4",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0008.json": "76ec8385fd1498f3d5e1e43b6d8aafe9ee047a28bd3af72f31e7a2b4f6e5f2e2",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0016.json": "f8b6cf27149400551e2560c4fcfe0d04b9ea3ffe3a88b419edc33e3aceb1d049",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0024.json": "28b24fe66461a94ae654db538f05611ff1469086db6383acf4f63e10a4573941",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0032.json": "c0321951473db19f3702b7471ddca4ef2c70fd1aec5fc70a971425d894561d97",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0048.json": "1b27c59137fbc4c3729d799f3af00a0ce83df7d1b89b291a17d16a8cf3a2fe96",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0064.json": "919e79ff0cbc120847a1f969b40cb2d26b65d6648f1d1cbeb7d866a60efce480",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0096.json": "ecbb5933ccb475f50bf5a3307e53d42136db5f68e29f3da01734f165b10fc574",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0128.json": "5bfb878792e6c96f892e78b7f0ba0f38d3e42c37214c0a7aa30629affdf94e71",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0192.json": "377881f6f851d3a6c289971b512d57388fc3a292db416bfd16efa5f82a57c904",
+    "results/jobs/shared8__ordinary__lr1e-06/dev_0256.json": "260819a09880368f1ad95bbb1088ad9beff768ad473ab52dfdafb34bad9545fe",
+    "results/jobs/shared8__ordinary__lr1e-06/test_best.json": "ba470a460612c20fc38f380ccd19e4b32072af9e98a83d95b67861e72253f2e9",
+    "results/jobs/shared8__ordinary__lr1e-06/test_final.json": "f327f752bc89e740c9af06f743454ec58182774d9720b5ff848f65fe46d71188",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0000.json": "ff15153e5d3ba86fbf556363fff66257a1f27c80ce7d776c0e487225b6e7e6f8",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0001.json": "37a1b9face370146c933be3b56d809bcfa12bdc3e886bce7e0b999037f9a4956",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0002.json": "88c208f4b7a54c28afc6e05f146818049fd3d757fbb30ba5a724571dd4b1132f",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0004.json": "12145f95638ff86aaa13cd0ef0ea3e70e1ce07bda7f0939e913d73c883b65d6c",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0008.json": "4404f1d520ce84d213d83e37e46d2ba79e3331f91665da861222f263d770d02d",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0016.json": "0c0d71e6ef3d90af94dd5d4457be3d84de0bdb13f90ae66e9e200797b78f0c20",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0024.json": "0a2fec2afe71373afe6ca5dc8f48d80f5a7e47c46203adca5eb9217aef059298",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0032.json": "71daaf07cb68797809d053a13752647cb2642fcd19410ba7db3dc04290dc66f0",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0048.json": "652f92a219ba4b4edf7f5729ef4146b69ba497bf3c1b7472df021261aa4cc3ba",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0064.json": "52bf15b075433271b1481430bbdc4ba33038c97a575024967d2ac21cc618c11a",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0096.json": "9eff11a4af30457167e7c6629c420867d90c84b2a79b6e18b38699ff089e2120",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0128.json": "daae6d7532f662883758d574098984985cdcb53a84e99decd296a14a7a31e7a5",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0192.json": "d322c665aee0e1c1a092559b87a2630b44a0fbe2a31538578a8b48fa64a6ab10",
+    "results/jobs/shared8__ordinary__lr1e-05/dev_0256.json": "5f36d25596739a1dd6d8906a1980e38d3818c4c3d5ef52e7018679bb1035926a",
+    "results/jobs/shared8__ordinary__lr1e-05/test_best.json": "2605ce775e9bfb5f602c4f2fd7548bbfb4933c0c094e8d1df08c0533986fa824",
+    "results/jobs/shared8__ordinary__lr1e-05/test_final.json": "cdee5472114e9cf9b9df03caf380a3f9b5641fbf302b354aa2d755583276cd27",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0000.json": "00310e8c634369dbe8f0e62bb50354fb0737e4dcc61cdf1c1e290ba756ce7bdb",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0001.json": "84db3da0d388517ef8bd0f5b5d90d435b6144f53de42cb371f290a02a2e80d2b",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0002.json": "8870ff8cf8da32e47db8c02af6dce6dfa0a6c28ad61099a9844267196d5ad9ca",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0004.json": "45bbdb2ae124e55a599fed815d0a0813ef5a24cc80738bf7a626e34769d063af",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0008.json": "b2bde296aecbb1b742855cf848bcb9e5b72531502eb3bb85b7fe68bc9a682e14",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0016.json": "e89e1a5593b51c05baef69cc243e9928605f9333aef299db0b386114d8e8bb8f",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0024.json": "20d8f133fbfba910827ff4d3f8d223cf6912f12d1bbb0498feba0962956b2215",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0032.json": "e28523fb51feaed84f430df4ca3fbf454b114608b6ea82f468860700b5e5ceb4",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0048.json": "841dbefe9e6ddbd79dac6eef42155c3e2d7e3ea735f27900e4231fd9e836e8b0",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0064.json": "8b7a6133e3c6230297db56bd44f1ca95a9bab7e06d6cd77bc9df5ae804deebac",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0096.json": "ba5ec643fd7e96db7e344684f26aac3e57d9e7713bd219dcad423ee03efdc962",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0128.json": "2b2570abe2251e62aeac109eecf12fd75d8ab940db565e1531dd687180235674",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0192.json": "e924dc598ed86cbeff147a95f91d8c5ad1d6272b659b3bb3798a5875454933f2",
+    "results/jobs/shared8__ordinary__lr5e-05/dev_0256.json": "c45d2c0653bc36fdb7e7edce33d6f6cfadbc2d78d692ac6a64985cdd178b7b46",
+    "results/jobs/shared8__ordinary__lr5e-05/test_best.json": "30dc9fdf14e3e35312125e958b8707d731aeaaef1952683924fba72e4eb16f9d",
+    "results/jobs/shared8__ordinary__lr5e-05/test_final.json": "83ca5450dff0279bfd8a0d606964f0c23009a5d7da73ec05584586cf933d2833",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0000.json": "a4d8d566b0ac3b5efb6d48ade42aa017da5f8898d6fc3e12f077e9c388ca250f",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0001.json": "90383642ef8e2cd817641346a3d75e75ea4fcd21340d717f877209df2bc950e5",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0002.json": "acb2948cf597856cf506be728889a7c1855de30809a261984054bdcea3aed566",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0004.json": "35c6a7a3380881cfb5f25d85ef6dfe90e3defe026f9dd89308cd69156efd0f5a",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0008.json": "e022e0379bfe41da998055ffc95707164ce8ba5c11ad0aacacc6d06b7b017369",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0016.json": "3d140e260da26e5aa6e92b58ea7e7b1a79613a361e2cfeb38985211a99ad84e2",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0024.json": "97b0325f8be82cae9d2b369da4ecb34c3f22a71c0ad5795530eaff66e0c3a4a4",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0032.json": "f3df61da64d1f199dcb42139bb9c7683e41aafd7c84aa111d61deb7734330bad",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0048.json": "daf188abe6a38503f3d29a1e9917043cbe8d0b9fc5953d0632fab856363dcab1",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0064.json": "16057d8450b33adacd2c608f48d5c4770649fad1aa9173ea1db3f3a36f44704e",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0096.json": "b705ac424ec2739f1d76429652314dadc77157e07daf325e204c6ba13acff479",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0128.json": "466d8aed499c2f64da9b8eca9d84d2db04066e43ead4ef297b8299bcf880602f",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0192.json": "3572dfc4c24e932c509e34fb2a0f4ac437371b8cb41760fae0f5baae04e9863e",
+    "results/jobs/shared8__preserve__lr1e-06/dev_0256.json": "266231f69ed70423e783f32512040731284f7d216c946739de2a160e5bac8e32",
+    "results/jobs/shared8__preserve__lr1e-06/test_best.json": "b2f104ed576e929774e98f0165973d91c73acad07b3418c73f614f46f683556f",
+    "results/jobs/shared8__preserve__lr1e-06/test_final.json": "f357b6c7fcb72d5ba418b5ecc80408f61db56a7b189292ab62eb04b001916960",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0000.json": "14725101fffdee2535c0f244d5aa0efaee20dd171cb4a629210cfa50be514f1c",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0001.json": "be44789ff4940a10befbda78f457f3ed7475b110296f32d244001da476759d06",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0002.json": "8376c58e9461bd61b5d6ad470a7aceee869b026efdcf5d7579eecde2c286d89f",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0004.json": "eddb7eded3dfd4ef734601e6fd95941aeb4abf016190b553ac57e8b84863a4ff",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0008.json": "8e5f124f91a917ed3e3bc4b6c39141c72c695445fee718e8d143fd97d6fcd06a",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0016.json": "1c737356471c3d45a666f3e010247d59511053b377c2643c0f2e5e2d7a9abbbe",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0024.json": "30838c574c9784a7ba385d6d3fd86594024b14b2dc607fcbe3135b60f8a8f7c9",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0032.json": "492d911e46c24c1abaf4c97586425c6450109e915441ab20f1d24582de977a0b",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0048.json": "8f5e61939ead6897efc15250f54f69237238ed0f45a4bb0cfae02494246377a1",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0064.json": "bc6a2167516c0466cec1e674853ca87101a85e692ccc82b905d9fc6230a9e0b3",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0096.json": "884cbabfd63823aea953967d6fee1601d75acf561c211db6d99e793f9e28a632",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0128.json": "47f190b60c513939d4b489a18328ffd67b8de6f68c442af705740cbfca99070b",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0192.json": "c3266acbee51a5cf01f3a8d062f913d43770783b8e7967dc963e57271cdec0c0",
+    "results/jobs/shared8__preserve__lr1e-05/dev_0256.json": "7b123670944888aa8f9387add7ef163e38008008d7241dba9e29138cc88d4a74",
+    "results/jobs/shared8__preserve__lr1e-05/test_best.json": "bb568eb07b6adcd7b496eeaa420f4d66ab1830715356a0b75116251826b7578e",
+    "results/jobs/shared8__preserve__lr1e-05/test_final.json": "405dfd6fe316a89212b64f50c5ce1fcbefe6599d1481186aa033fc429002f47a",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0000.json": "cf52899938bbd35fa987f08073a619c6ab131922ba242ad4a68d715b4dd005bf",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0001.json": "7357876944148a4b55c4273fc36341f72b8e806142240011002a7cfb6c3ffbe6",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0002.json": "fd81684da48468f06f2ed863cb7f680b20331890783a9fbc8447f6ee940bd587",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0004.json": "92d6b2b4673f75e42359d066df35ea9db1dc75cad42af9bc1ab0e204027120fd",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0008.json": "ab73825df4114c94fce63c1d889dd1f0888a9e014c145015e56863457f21ad8d",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0016.json": "5c71fbb2e40ceb7bb03e59574266f4a0fca1773c31113b6800a6220f3a5d8ce9",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0024.json": "49647e477cdad81d57f7c1d03cab8f043dae7260e6885b21e2cd5056233c98ef",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0032.json": "efaeab8628990baa4a93e24a93bb667ab47d9fefaedda63753f5db6b787b12af",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0048.json": "3120a6e41ca04cc9819b6bc2ba52c3e4945f5c3c1658dbdab146f893a8ce1f89",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0064.json": "8bd31412286ef1aadfa63674de24093890b491bfeacc2bb0dc8b59078e8c9aab",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0096.json": "0902233b7e71f6bf3c85b87f14059b424388a5a9eb7aa22b85e5649098a601fd",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0128.json": "47f98eb934762dcd549d1069cb8059bad51760b6280ba2c14a196914f2acebaf",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0192.json": "63224a94336b44bc101dd1e792f39c72a437fb6dfb131149f707f0fbb1995de9",
+    "results/jobs/shared8__preserve__lr5e-05/dev_0256.json": "d27bde76130a4bd695379c857bf0c890addd9134d4dde44e46e48523dc497baa",
+    "results/jobs/shared8__preserve__lr5e-05/test_best.json": "7b8a85a0491d9f92dc8f4f4348fe3b67d75c54fee54536007a345c3dcee62be5",
+    "results/jobs/shared8__preserve__lr5e-05/test_final.json": "6b1e9223834100d5f2674c3ce1a776d8ae5c3498adefeff30786254adda90c6c"
+  },
+  "source_sha256": "9300eda3b287ac52a7f9a8772dd63fd910e786f63bac9d5c96fe3b3e92d61ec2",
+  "manifest_sha256": "33243e0ad481297fb53dcc44f8c6e083c18a6326e5d3e7ea0d4625cd95d98f7d",
+  "no_gpu_forward_or_training": true,
+  "all_intermediate_weight_tensors_exhaustively_checked": false,
+  "formatting_diagnostics_posthoc": true,
+  "primary_gates_unchanged": true
+}

@@ -1,0 +1,48 @@
+{
+  "launched_utc": "2026-11-04T14:07:20.509080+00:00",
+  "host": "weatherwax.cs.bath.ac.uk",
+  "pid": 1225358,
+  "project": "/mnt/fast1/mn866/casr-colocalization-branching-20261104",
+  "root": "/mnt/fast1/mn866/casr-colocalization-branching-20261104/results",
+  "command": [
+    "/var/tmp/casr-mn866-composition/venv/bin/python",
+    "-u",
+    "/mnt/fast1/mn866/casr-colocalization-branching-20261104/run.py",
+    "--root",
+    "/mnt/fast1/mn866/casr-colocalization-branching-20261104/results",
+    "--gpus",
+    "0,1,2,3,4,5"
+  ],
+  "run_fingerprint": "d6d144a360f9779fc2bb02d547a5b59b53141ae787be94043517fabf2a1d5e28",
+  "source_hashes": {
+    "run.py": "6a3045d84eeadc665a208501c0ee668f746d12c572295304bf62cf87bed65a73",
+    "campaign.py": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50",
+    "legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "data.py": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de",
+    "observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "test_run.py": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5",
+    "excluded_worlds.json": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909",
+    "reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+  },
+  "hardware_audit_passed": true,
+  "production_preflight_passed": true,
+  "widths": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "native_block_zero_based": 11,
+  "seeds": [
+    31
+  ],
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ]
+}

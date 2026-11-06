@@ -1,0 +1,20 @@
+{
+  "status": "unpublished draft",
+  "evidence_cutoff": "completed preservation-component extension, 2026-11-02",
+  "article": "posts/lesswrong-native-channels.md",
+  "article_sha256": "da22df277aa930b2638185ab701df20a6a11fcf3db2b97f8e1b4a50cb558dc14",
+  "figure_source": "figures/adaptive_ablation/loss_ablation.png",
+  "audit": "experiments/adaptive_ablation/analysis/audit.json",
+  "result_tables": "experiments/adaptive_ablation/analysis/per_bank.csv",
+  "checks": [
+    "all 16 ablation mean/SD cells checked against per-bank records",
+    "relative figure target exists",
+    "prior-work links checked against primary arXiv pages",
+    "all four component-comparison table rows checked against audited records",
+    "both relative image links verified"
+  ],
+  "publication_note": "Upload the PNG and replace the relative image URL when pasting into LessWrong. No post has been published.",
+  "component_audit": "experiments/preservation_components/analysis/audit.json",
+  "component_contrasts": "experiments/preservation_components/analysis/planned_contrasts.json",
+  "component_figure": "figures/preservation_components/component_contrasts.png"
+}

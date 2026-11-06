@@ -1,0 +1,53 @@
+{
+  "checks_passed": true,
+  "pointer_rows_checked": 92464,
+  "train_dev_test_worlds": {
+    "train": 256,
+    "dev": 24,
+    "test": 128
+  },
+  "max_prefix_tokens": 177,
+  "tokens": {
+    "original": {
+      "student_forward_input_tokens": 1775788,
+      "positive_prompt_tokens": 342532,
+      "supervised_target_tokens": 11264,
+      "student_forward_calls": 11264
+    },
+    "balanced": {
+      "student_forward_input_tokens": 1778144,
+      "positive_prompt_tokens": 343710,
+      "supervised_target_tokens": 11264,
+      "student_forward_calls": 11264
+    }
+  },
+  "token_scope": "Student forward inputs; excludes cached-teacher construction and gradient-checkpoint recomputation",
+  "flops_measured": false,
+  "python": "3.12.3 (main, Feb  4 2025, 14:48:35) [GCC 13.3.0]",
+  "torch": "2.6.0+cu126",
+  "transformers": "4.51.3",
+  "sources": {
+    "reference_v4/run.py": "7998d35c396ba9050b466f02c72b077044cafd01d3251ecd1f07bcbb1de4c894",
+    "reference_v4/campaign.py": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50",
+    "reference_v4/legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "reference_v4/data.py": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de",
+    "reference_v4/observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "reference_v4/test_run.py": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5",
+    "reference_v4/excluded_worlds.json": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909",
+    "reference_v4/reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57",
+    "reference_v4/reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "analyse.py": "6ce7c8f971cb958dda50c862958e41743b67d49a5ed64e75f68bbe4a6e76cee5",
+    "preflight.py": "f21d3a7c8d4e5e1e17a5cd1e40a787ff176ae8e1b4b34b421f154f4ecb8c08f8",
+    "prepare.py": "91d3e91b13b2b550463100218eca2bbf2e9c6d0e6b828135e1869f3131fd99bf",
+    "resume_probe.py": "911f1dc9c173160bff18de85b2fcec255a8bd8415309c1870aac0aadc9c3e7ad",
+    "sampling.py": "284bedd125008ee2f2472f77fde307fb0f78ff0eb27bbe38fcc0c1de8afe62c6",
+    "study.py": "977fa851aee1eb3c4b14cab08320158ae7443086d3a220404be6fcff3ef844a5",
+    "test_sampling.py": "237a711d418f4cc9918a51f94a5d4b5b86aaa6517137776b7816ba2b7abdcbcb",
+    "test_study.py": "47ac9794950936ff829217c8bace15147bc6248213557a9a73221c11880c06a9",
+    "PROTOCOL.md": "8ddb32da68af801b712d5d62c0efda2067e965efb38468ab2d3444493040e276",
+    "launch/v4_source.tar.gz": "74ca1ac612348873aa62a1e5bd53b54b302ca4647fe09d841a010436788f9442",
+    "launch/v4_manifest.json": "8c6c4a99a6ed1ad69729edff1bd0e340001b816ecd5e280e03537152c26e2829",
+    "launch/engine_lineage.json": "d33b976eb0a35f21e742530c794a7de02531c52b336f5ab55bdf2b876753dabf",
+    "launch/import_sources.json": "c2d4673a8b9598675d971785faab655e329aec8a4fe9e7831248a673b7010dc2"
+  }
+}

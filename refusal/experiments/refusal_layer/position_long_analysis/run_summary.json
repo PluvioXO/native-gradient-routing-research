@@ -1,0 +1,176 @@
+[
+  {
+    "name": "layer22_s31__downstream__lr1e-06",
+    "source": "layer22_s31",
+    "scope": "downstream",
+    "lr": 1e-06,
+    "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029/runs/layer22_s31__downstream__lr1e-06",
+    "first_zero": 37,
+    "sustained_zero": 37,
+    "first_90_correct": 34,
+    "sustained_90_correct": 34,
+    "utility_correct": {
+      "before": 0.40625,
+      "after": 0.3125,
+      "change_from_before": -0.09375,
+      "change_from_base": -0.03125
+    },
+    "arc_easy_correct": {
+      "before": 0.53125,
+      "after": 0.53125,
+      "change_from_before": 0.0,
+      "change_from_base": 0.03125
+    },
+    "winogrande_correct": {
+      "before": 0.34375,
+      "after": 0.34375,
+      "change_from_before": 0.0,
+      "change_from_base": -0.03125
+    }
+  },
+  {
+    "name": "layer22_s31__upstream__lr1e-06",
+    "source": "layer22_s31",
+    "scope": "upstream",
+    "lr": 1e-06,
+    "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029/runs/layer22_s31__upstream__lr1e-06",
+    "first_zero": 13,
+    "sustained_zero": 13,
+    "first_90_correct": 12,
+    "sustained_90_correct": 12,
+    "utility_correct": {
+      "before": 0.40625,
+      "after": 0.40625,
+      "change_from_before": 0.0,
+      "change_from_base": 0.0625
+    },
+    "arc_easy_correct": {
+      "before": 0.53125,
+      "after": 0.53125,
+      "change_from_before": 0.0,
+      "change_from_base": 0.03125
+    },
+    "winogrande_correct": {
+      "before": 0.34375,
+      "after": 0.34375,
+      "change_from_before": 0.0,
+      "change_from_base": -0.03125
+    }
+  },
+  {
+    "name": "layer22_s47__downstream__lr1e-06",
+    "source": "layer22_s47",
+    "scope": "downstream",
+    "lr": 1e-06,
+    "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029/runs/layer22_s47__downstream__lr1e-06",
+    "first_zero": 22,
+    "sustained_zero": 22,
+    "first_90_correct": 20,
+    "sustained_90_correct": 20,
+    "utility_correct": {
+      "before": 0.46875,
+      "after": 0.25,
+      "change_from_before": -0.21875,
+      "change_from_base": -0.09375
+    },
+    "arc_easy_correct": {
+      "before": 0.5,
+      "after": 0.5,
+      "change_from_before": 0.0,
+      "change_from_base": 0.0
+    },
+    "winogrande_correct": {
+      "before": 0.375,
+      "after": 0.375,
+      "change_from_before": 0.0,
+      "change_from_base": 0.0
+    }
+  },
+  {
+    "name": "layer22_s47__upstream__lr1e-06",
+    "source": "layer22_s47",
+    "scope": "upstream",
+    "lr": 1e-06,
+    "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029/runs/layer22_s47__upstream__lr1e-06",
+    "first_zero": 23,
+    "sustained_zero": 23,
+    "first_90_correct": 22,
+    "sustained_90_correct": 22,
+    "utility_correct": {
+      "before": 0.46875,
+      "after": 0.34375,
+      "change_from_before": -0.125,
+      "change_from_base": 0.0
+    },
+    "arc_easy_correct": {
+      "before": 0.5,
+      "after": 0.5,
+      "change_from_before": 0.0,
+      "change_from_base": 0.0
+    },
+    "winogrande_correct": {
+      "before": 0.375,
+      "after": 0.375,
+      "change_from_before": 0.0,
+      "change_from_base": 0.0
+    }
+  },
+  {
+    "name": "layer22_s71__downstream__lr1e-06",
+    "source": "layer22_s71",
+    "scope": "downstream",
+    "lr": 1e-06,
+    "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029/runs/layer22_s71__downstream__lr1e-06",
+    "first_zero": 28,
+    "sustained_zero": 28,
+    "first_90_correct": 56,
+    "sustained_90_correct": 56,
+    "utility_correct": {
+      "before": 0.40625,
+      "after": 0.3125,
+      "change_from_before": -0.09375,
+      "change_from_base": -0.03125
+    },
+    "arc_easy_correct": {
+      "before": 0.5,
+      "after": 0.46875,
+      "change_from_before": -0.03125,
+      "change_from_base": -0.03125
+    },
+    "winogrande_correct": {
+      "before": 0.40625,
+      "after": 0.40625,
+      "change_from_before": 0.0,
+      "change_from_base": 0.03125
+    }
+  },
+  {
+    "name": "layer22_s71__upstream__lr1e-06",
+    "source": "layer22_s71",
+    "scope": "upstream",
+    "lr": 1e-06,
+    "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029/runs/layer22_s71__upstream__lr1e-06",
+    "first_zero": 34,
+    "sustained_zero": 34,
+    "first_90_correct": 32,
+    "sustained_90_correct": 32,
+    "utility_correct": {
+      "before": 0.40625,
+      "after": 0.28125,
+      "change_from_before": -0.125,
+      "change_from_base": -0.0625
+    },
+    "arc_easy_correct": {
+      "before": 0.5,
+      "after": 0.53125,
+      "change_from_before": 0.03125,
+      "change_from_base": 0.03125
+    },
+    "winogrande_correct": {
+      "before": 0.40625,
+      "after": 0.40625,
+      "change_from_before": 0.0,
+      "change_from_base": 0.03125
+    }
+  }
+]

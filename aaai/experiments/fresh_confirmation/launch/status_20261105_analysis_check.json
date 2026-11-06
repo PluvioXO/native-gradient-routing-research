@@ -1,0 +1,59 @@
+{
+  "active": [
+    {
+      "gpu": "3",
+      "id": "train_native_self_conserve_s607",
+      "pid": 388123,
+      "step": 448,
+      "total": 640
+    },
+    {
+      "gpu": "1",
+      "id": "independent_lora_s607_t6",
+      "pid": 503139,
+      "step": 100,
+      "total": 320
+    },
+    {
+      "gpu": "4",
+      "id": "independent_lora_s607_t7",
+      "pid": 507168,
+      "step": 80,
+      "total": 320
+    },
+    {
+      "gpu": "2",
+      "id": "train_lora_conservation_only_s503",
+      "pid": 510702,
+      "step": 224,
+      "total": 640
+    }
+  ],
+  "by_kind": {
+    "bank": {
+      "done": 11,
+      "total": 12
+    },
+    "independent": {
+      "done": 94,
+      "total": 96
+    },
+    "main": {
+      "done": 31,
+      "total": 36
+    },
+    "merge": {
+      "done": 0,
+      "total": 48
+    }
+  },
+  "completed": 136,
+  "execution_revision": "38197416bb728f7fa8d46ee039dba1a754e1ba5e4d1550f61d38bbde9b7165b9",
+  "failed": [],
+  "free_gib": 536.7065353393555,
+  "host": "ogg",
+  "launcher_state": "running",
+  "pending": 52,
+  "planned": 192,
+  "updated_utc": "2026-11-05T03:08:51Z"
+}

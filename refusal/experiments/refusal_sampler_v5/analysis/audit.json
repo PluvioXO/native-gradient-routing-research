@@ -1,0 +1,63 @@
+{
+  "utc": "2026-11-06T01:35:53.486028+00:00",
+  "checks_passed": true,
+  "run": "c06340e89d6136d83cdf293e2bf13daf9bfe3c5edaf2a76cf5553cfd26fae9bc",
+  "complete_policy_fits": 18,
+  "completed_evaluation_jobs": 10,
+  "endpoint_reports": 16,
+  "failed_jobs": [],
+  "reports_recounted": 1001,
+  "saved_prediction_records_recounted": 624160,
+  "pointer_truth_records_checked": 92464,
+  "source_hashes_verified": 22,
+  "development_only_selection_reproduced": true,
+  "policy_updates_checked": 18432,
+  "training_sample_ids_verified": true,
+  "exposure": {
+    "original": {
+      "h2_blocked_1": 1024,
+      "h3_blocked_2": 256,
+      "h4_blocked_2": 171,
+      "h3_blocked_1": 256,
+      "h4_blocked_3": 171,
+      "h4_blocked_1": 170
+    },
+    "balanced": {
+      "h2_blocked_1": 342,
+      "h3_blocked_1": 342,
+      "h3_blocked_2": 341,
+      "h4_blocked_1": 341,
+      "h4_blocked_2": 341,
+      "h4_blocked_3": 341
+    }
+  },
+  "native_selected_final_parameter_states_checked": 24,
+  "shared_capability_slices_updated": true,
+  "active_shared_tensor_change_checks": 72,
+  "inactive_tensor_zero_checks": 72,
+  "native_mlp_block_1_based": 12,
+  "native_widths": [
+    4,
+    8
+  ],
+  "observation_hash_checks": 16,
+  "heldout_after_all_training": true,
+  "analysis_file_sha256": {
+    "losses.csv": "a7d16412caa3442d42361486c3bd72ad81415ea6abdc7e0d6694d2ab86be0aaf",
+    "case_scores.csv": "2741f301e023ff70dbacd0de2891d06eff3965c5451c47e28b6b1c485c8b0aa0",
+    "paired_contrasts.csv": "e05e22983dfeafa70a87e864fff5056472a5c8678d896e9fa10fc1f5d6381930",
+    "endpoints.csv": "e1de1203dea937059e2d3740383a8743a4fb85c45f1214a90ce67aee698c7a6b",
+    "learning_curves.csv": "4eaeb8f5adcb622a7287326a8b4421cc6f324297ff0c1a32d953285888ff06d4",
+    "RESULTS.md": "2af8243f2ce5c83ad13131d399edc4db81d0f8a1c1aed9dd6855c61dab998272",
+    "results.json": "44e7215cdce8e6eeb00455be9d262d7b31eb4af6144ca02eebfb5d9753fd75f0",
+    "sampling_graphs.pdf": "bcbc97941182e1152ec591498146d8c95f47fa53dc5e35cb7e54028caa11e23c",
+    "all_candidates.csv": "129dd9ba703e0b2dbb0a96fb4b63b66b2a2139358ae116c2a0d72945770123a2"
+  },
+  "limitations": [
+    "One seed; inspected bank",
+    "Full-model tensors not exhaustively compared",
+    "No model forward or optimization rerun",
+    "Sampling changes depth and position jointly"
+  ],
+  "auditor_sha256": "879f6a68355675e779bdaaaaa7c257e78f080710cfe46c1a333cde8b065faf9c"
+}

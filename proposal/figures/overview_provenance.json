@@ -1,0 +1,19 @@
+{
+  "generator_sha256": "cde8e593863215f5318a73f178c64c411c0e7062a8181e33b38d01db0d7e7fec",
+  "inputs": {
+    "aaai/figures/report_visuals/data/01_budget_accuracy.csv": "635d6d898975507b70a51039125e8b52f04c20cbde53150abb7fdb6c630aa26f",
+    "aaai/figures/report_visuals/data/04_independent_coexistence.csv": "889bfac3743ddf9750352d0dbe6a471127e7a7e2bfc98cdb285c6451bb68ec9f",
+    "refusal/experiments/refusal_colocalization_v3/analysis/endpoints.csv": "e08bea6d0291a511c142477dbdaa4586c2b208a22dce35a4d0c1570f5c85797f",
+    "refusal/experiments/refusal_colocalization_v4/analysis/endpoints.csv": "2e0ef26a738a4a814c085b00a993ee8dc6d4d0e4d4e2f3fab1a1e8b3c86fedbd",
+    "refusal/experiments/refusal_removal_v7/analysis/learning_curves.csv": "1d84856c4e917fd57f463bf04df08f4b6d4c0b609eb796336c3257e7225ab01e"
+  },
+  "output_sha256": "a2376757e5bcffaf4f471fd072262991881fe2efceba651aef1abffe32f69d7c",
+  "no_model_calls": true,
+  "error_bars": "sample standard deviation across three seeds in panels a/b",
+  "panel_c": "one seed; different task/curriculum families, not a controlled hardness effect",
+  "outputs": {
+    "overview.pdf": "a2376757e5bcffaf4f471fd072262991881fe2efceba651aef1abffe32f69d7c",
+    "removal_trajectories.pdf": "10b156a028a83e28f3c482f4bae873bbddf8a98c74751e50fa42ab58f7d9ed09"
+  },
+  "removal_scope": "Shared-eight preserving attacks; one seed; saved development measurements only"
+}

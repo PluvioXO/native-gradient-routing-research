@@ -1,0 +1,3 @@
+comparison,allowed_difference_pp,ci_low_pp,ci_high_pp
+shared8 minus disjoint4x4,31.4453125,27.733154296875,35.05859375
+shared4 minus disjoint4x4,29.58984375,25.78125,33.203125

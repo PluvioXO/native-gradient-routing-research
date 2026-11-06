@@ -1,0 +1,55 @@
+{
+  "source_status": "status_after_start.json",
+  "status_utc": "2026-11-02T14:45:58Z",
+  "source_gpu_verification": "production_verification.json",
+  "gpu_verification_utc": "2026-11-02T14:42:14.293852+00:00",
+  "all_six_workers_active": true,
+  "committed_training_observed": true,
+  "active_training": [
+    {
+      "gpu": "0",
+      "id": "independent_native_s101_t0",
+      "pid": 2901067,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "1",
+      "id": "independent_native_s101_t1",
+      "pid": 2901068,
+      "step": 20,
+      "total": 320
+    },
+    {
+      "gpu": "2",
+      "id": "independent_native_s101_t2",
+      "pid": 2901069,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "3",
+      "id": "independent_native_s101_t3",
+      "pid": 2901070,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "4",
+      "id": "independent_native_s101_t4",
+      "pid": 2901071,
+      "step": 0,
+      "total": 320
+    },
+    {
+      "gpu": "5",
+      "id": "independent_native_s101_t5",
+      "pid": 2901072,
+      "step": 0,
+      "total": 320
+    }
+  ],
+  "failed": [],
+  "no_test_workers_observed": true,
+  "smoke_jobs_passed": 10
+}

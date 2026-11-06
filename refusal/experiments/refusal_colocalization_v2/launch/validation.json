@@ -1,0 +1,19 @@
+{
+  "hardware_smoke_training_jobs": 10,
+  "hardware_smoke_final_evaluations": 10,
+  "observation_reports": 10,
+  "layers_per_report": 24,
+  "direction_penalties": false,
+  "direction_interventions": false,
+  "final_cpu_tests": 6,
+  "changes_after_hardware_smoke": [
+    "terminal-resume guard",
+    "exclude all prior worlds"
+  ],
+  "optimizer_cleanup": {
+    "gpu_allocated_bytes": [
+      1038775296,
+      971435520
+    ]
+  }
+}

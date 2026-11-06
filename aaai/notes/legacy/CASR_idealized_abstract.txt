@@ -1,0 +1,11 @@
+Title
+Checkpoint-Anchored Semantic Routing: Geometry, Constraint Coverage, and Method Refinement
+
+Keywords
+post-training; gradient routing; checkpoint preservation; semantic representations; constrained optimization; causal intervention; language models
+
+TL;DR
+Hypothetically, CASR learns new cue mappings while preserving original behavior, with minimal internal drift and successful causal interventions; these are target results, not observed findings.
+
+Abstract (hypothetical ideal-result scenario; these results are imagined, not observed)
+We introduce checkpoint-anchored semantic routing (CASR), a post-training method that corrects routed parameter updates to prevent first-order changes to the unselected portion of a model's internal interface, then accepts finite updates only when task progress and checkpoint-relative drift satisfy declared limits. Across ten independently initialized pretrained-transformer runs and a preregistered evaluation of 1,000 paired, nondegenerate cue examples per run, persistent constraint coverage enables CASR to learn both new cue mappings with 99.8% mean accuracy (95% confidence interval: 99.6–100.0%), while retaining 100% of original-operation accuracy. The method achieves a 0.001 mean held-out complement-drift norm, a matched-prefix restoration KL of 0.0002, and 99.7% counterfactual success under selected-span interventions; each measure is significantly better than ordinary fine-tuning, activation-only routing, and random-span CASR under matched data and compute. The corrected direction has negative task-loss slope on every accepted step, and no run violates its prespecified drift budget. These results would establish that persistent constraint coverage makes useful post-training increments both checkpoint-restorable and causally accessible through a validated semantic span, while preserving inherited behavior. All numerical results in this abstract are hypothetical targets and must not be cited as experimental findings.

@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-05",
+  "pages": 12,
+  "paper_tex_sha256": "64f56e266cf965ed4a2c3943f02e22320c3673a93e15dd4a3f0605df05a7bff7",
+  "paper_pdf_sha256": "94fb71fa7aa8f441b394c5c1e2a3b989d7f0861349544608d70b403eaa583940",
+  "bibliography_sha256": "075eecf91757891f34d2d9b869c3fa66f6383891023e6a5e6358c0eace9a41fc",
+  "provenance_verified": true,
+  "compile_warnings": [],
+  "visual_pages_checked": [
+    1,
+    8,
+    9,
+    10,
+    12
+  ],
+  "gpu_jobs_launched": 0,
+  "model_calls": 0
+}

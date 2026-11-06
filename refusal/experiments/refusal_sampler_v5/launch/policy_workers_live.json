@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-05T15:28:17.057328+00:00",
+  "status": {
+    "updated_utc": "2026-11-05T15:28:16Z",
+    "phase": "training",
+    "planned_policy_fits": 18,
+    "completed_policy_fits": 0,
+    "running": [
+      {
+        "pid": 1011894,
+        "job": "policy_full_balanced_s31_lr010",
+        "test": false,
+        "gpus": [
+          0,
+          1
+        ]
+      },
+      {
+        "pid": 1011895,
+        "job": "policy_full_balanced_s31_lr030",
+        "test": false,
+        "gpus": [
+          2,
+          3
+        ]
+      },
+      {
+        "pid": 1011896,
+        "job": "policy_full_balanced_s31_lr100",
+        "test": false,
+        "gpus": [
+          4,
+          5
+        ]
+      }
+    ],
+    "failures": [],
+    "free_gib": 815.9865188598633
+  },
+  "all_assigned_workers_alive": true,
+  "no_worker_tracebacks": true,
+  "gpu_state": "0, 6173 MiB, 14 %\n1, 5055 MiB, 20 %\n2, 6173 MiB, 14 %\n3, 5055 MiB, 18 %\n4, 6173 MiB, 12 %\n5, 5055 MiB, 20 %\n"
+}

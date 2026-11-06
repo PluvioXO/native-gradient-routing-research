@@ -1,0 +1,18 @@
+{
+  "inputs": {
+    "experiments/refusal_layer/results/casr-refusal-position-20261029/comparison.json": "a466615c22e8af99e9f306f47e20b931e5713560fe7acf25bd127f3fc3dbde08",
+    "experiments/refusal_layer/position_analysis/run_summary.json": "f67ee1b98e0be74571753b7d1b01d3822c9cf5881098ee9d3291441be5a89238",
+    "experiments/refusal_layer/results/casr-layer-measurements-20261028.tar.gz": "8866ef52247df30235cef5dd350030fd185c5fc2ee6e0e695df584b5b6ab5b8a",
+    "experiments/refusal_layer/position_analysis/audit.json": "ddd526d262d7b4cac8439e89761df2fc825e75b15256a1cc192a73566e90faa9",
+    "experiments/refusal_layer/paper_artifacts.py": "98ff83083f3e70ac8b85f53e91245ad3c0eda10a0dc3b47c9cbdad58d46658d3"
+  },
+  "outputs": {
+    "failure_modes.pdf": "7cfda0d6aa61aff87818dc02b22d668b809ce4af5f7f79b28de9dcd98a6a2e58",
+    "failure_modes.png": "f00fff9e1a1f06e99fcf4699877ae38117a1df72d7865addc9f5962b4a10b808",
+    "position_curves.pdf": "428d08b9492f9b87882762d7acbe2d35ee354ac572152c6ba9694beb964207db",
+    "position_curves.png": "c9ea47f1b40cf1f4b72d8707f00a3a0c078cec054937893a8d8afc4c0e0cafdb",
+    "position_table.tex": "714f6f1c2b072f5a48967f39ca71c066b526ef48efba0e7da65a05b71386c41f",
+    "unrestricted_table.tex": "24032b6ce7ac0a5817de301fb0779695fed688f68921e6995aeb62b504ce9835"
+  },
+  "evidence": "Completed eight-update position study and completed parent layer study; 64-update extension excluded"
+}

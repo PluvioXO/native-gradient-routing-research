@@ -1,0 +1,13 @@
+{
+  "cpu_checks_passed": [
+    "13 unittest checks passed: allocation geometry, equal budget, scoring, qualification, full-model removal, checkpoint resume"
+  ],
+  "python": "/var/tmp/casr-mn866-composition/venv/bin/python",
+  "host": "ogg.cs.bath.ac.uk",
+  "source_sha256": {
+    "test_removal.py": "307bf99cb2ad8e896884932ad5a0013c923a76d9edeb3cbe423df5e38c6e19a3",
+    "run_study.py": "c599941fb312e003e981a29afccebee3050f570781bb70ebb36dbde9411f3e2d",
+    "removal.py": "63f9a92689dd88a1f28c61ab3e7be5c986e87d462b8867b66497b6ecf818b500",
+    "refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+  }
+}

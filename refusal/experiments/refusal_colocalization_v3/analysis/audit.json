@@ -1,0 +1,33 @@
+{
+  "completed_utc": "2026-11-04T12:12:56.021965+00:00",
+  "checks_passed": true,
+  "scheduled_jobs": 19,
+  "executed_jobs": 16,
+  "skipped_policy_jobs": [
+    "policy_scattered4_s31_lr100",
+    "policy_scattered4_s31_lr030",
+    "policy_scattered4_s31_lr010"
+  ],
+  "policy_fits": 12,
+  "seeds_run": [
+    31
+  ],
+  "replication_gate_passed": false,
+  "evaluation_reports_recounted": 749,
+  "records_recounted": 254528,
+  "final_endpoint_reports": 12,
+  "final_test_records": 29952,
+  "source_hashes_verified": 9,
+  "excluded_previous_worlds": 1856,
+  "archive_sha256": "23e5567f41321c3044337c2999ec1b89dcad6dd4af536b7cad54128e5230bf80",
+  "initial_parent_clones_verified": 12,
+  "sparse_checkpoint_pairs_verified": 13,
+  "observational_hash_pairs_verified": 12,
+  "direction_rows_recomputed": 288,
+  "max_cosine_recompute_error": 3.5762786865234375e-07,
+  "bootstrap": {
+    "replicates": 2000,
+    "unit": "held-out world",
+    "includes_training_seed_variation": false
+  }
+}

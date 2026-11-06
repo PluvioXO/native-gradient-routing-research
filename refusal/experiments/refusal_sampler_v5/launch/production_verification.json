@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-05T15:21:52.443358+00:00",
+  "status": {
+    "updated_utc": "2026-11-05T15:21:48Z",
+    "phase": "training",
+    "planned_policy_fits": 18,
+    "completed_policy_fits": 0,
+    "running": [
+      {
+        "pid": 1008055,
+        "job": "base",
+        "test": false,
+        "gpus": [
+          0
+        ]
+      }
+    ],
+    "failures": [],
+    "free_gib": 821.547534942627
+  },
+  "processes": "    PID    PPID STAT     ELAPSED %CPU COMMAND\n1007704       1 Ss         07:32  0.0 bash /mnt/fast1/mn866/casr-refusal-sampler-20261105/source/launch.sh pipeline\n1008055 1007705 Rsl        07:24  100 /var/tmp/casr-mn866-composition/venv/bin/python -u /mnt/fast1/mn866/casr-refusal-sampler-20261105/source/study.py worker --root /mnt/fast1/mn866/casr-refusal-sampler-20261105/results --job base\n",
+  "gpus": "0, NVIDIA GeForce RTX 2080, GPU-31088391-8ca4-417d-df0c-e45d5f4e42e7, 2251 MiB, 27 %, 570.124.06\n1, NVIDIA GeForce RTX 2080, GPU-84857014-f4c5-d9a3-0b3c-f0a75ee398f0, 1 MiB, 0 %, 570.124.06\n2, NVIDIA GeForce RTX 2080, GPU-e7522932-de94-b128-1458-1e23af71a688, 1 MiB, 0 %, 570.124.06\n3, NVIDIA GeForce RTX 2080, GPU-947c5b4e-725e-eb9f-604d-2b02ab3d592e, 1 MiB, 0 %, 570.124.06\n4, NVIDIA GeForce RTX 2080, GPU-88054c4f-36b9-8651-98a1-df9acbb3f4f6, 1 MiB, 0 %, 570.124.06\n5, NVIDIA GeForce RTX 2080, GPU-23682a5b-b695-657c-2971-c9ececce003d, 1 MiB, 0 %, 570.124.06\n",
+  "compute_processes": "GPU-31088391-8ca4-417d-df0c-e45d5f4e42e7, 1008055, 2248 MiB\n",
+  "worker_tracebacks": [],
+  "free_gib": 821.547534942627,
+  "base_outputs": {
+    "base.json": true,
+    "base_teacher.pt": true
+  },
+  "baseline_preparation_first": true,
+  "launcher_survives_ssh_disconnect": true
+}

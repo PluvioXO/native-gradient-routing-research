@@ -1,0 +1,23 @@
+{
+  "finished_utc": "2026-11-03T16:18:14.677072+00:00",
+  "scheduler_stages": 86,
+  "capability_fits": 17,
+  "joint_fits": 25,
+  "final_model_evaluations": 43,
+  "audited_evaluations": 892,
+  "audited_response_records": 125168,
+  "archived_sparse_states": 40,
+  "source_and_data_hashes_verified": true,
+  "metrics_recounted": true,
+  "matched_teacher_start_predictions": true,
+  "zero_delta_rollbacks_match_base": true,
+  "one_seed": 31,
+  "large_checkpoints_retained_on_server": true,
+  "manifest_fingerprint": "a52697955afe3618a8aa90dd30f496225a7c2ae87dc64f83926c90e48d5e8ad8",
+  "archive_sha256": "07bf49f2c092120d11daf5601f66f19863da235ff104d9f4c3c6604c3af76e49",
+  "read_only_cuda_checks": {
+    "loss_max_abs_error": 1.7583370208740234e-06,
+    "checkpoint_gradient_max_abs_error": 0.0,
+    "frozen_originals_unchanged": true
+  }
+}

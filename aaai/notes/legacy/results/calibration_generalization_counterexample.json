@@ -1,0 +1,38 @@
+{
+  "J_calibration": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "J_heldout": [
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "parameter_update": [
+    1.0,
+    0.0
+  ],
+  "calibration_activation_change": [
+    1.0,
+    0.0
+  ],
+  "heldout_activation_change": [
+    1.0,
+    1.0
+  ],
+  "heldout_complement_energy_fraction": 0.5,
+  "nullspace_dimension_one_input": 1,
+  "nullspace_dimension_both_inputs": 0,
+  "both_input_projector_norm": 2.624572521359448e-16
+}

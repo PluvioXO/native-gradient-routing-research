@@ -1,0 +1,19 @@
+{
+  "archive_sha256": "b43ed0454ba94e1e72d2f7fd704472e0a2ca4e3eadc17a9477aef7d4db920aa5",
+  "analysis_sha256": "0f8025b0aaa3fa3ea1897c5390c351d4db55a6b9492e4136af04a74f34177e51",
+  "audit": {
+    "runs": 6,
+    "evaluations": 390,
+    "rescored_rows": 187200,
+    "frozen_checks_passed": 6,
+    "metrics_recomputed": true,
+    "limitation": "32 examples per general benchmark; transfer reuses test codes with wording excluded from SFT but used in acquisition validation"
+  },
+  "prefix_replay_metrics_match": true,
+  "outputs": {
+    "records.json": "80e7b08f0bea7e3642b6f5c1dc574eb26c00c078f7027b1e2e99416a577a9ba9",
+    "run_summary.json": "8e46b1b105dcfa318b1a9b5332e9c6d087322018285b8e559a6e9f301b2b8e78",
+    "position_long_curves.pdf": "99b5f8bbf7ca9519f58c0ee65415280046d52a472b69a8f3a6672fa9abeaaae5",
+    "position_long_table.tex": "8afbc275cb548855fd445439d69c6efcf86493c2f544360b6b9f463cfd89c3f8"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "parent": "/mnt/fast1/mn866/casr-refusal-layer-20261028",
+  "study": "position",
+  "jobs": [
+    {
+      "name": "layer03_s31__upstream__lr1e-06",
+      "source": "layer03_s31",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer03_s31__downstream__lr1e-06",
+      "source": "layer03_s31",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer03_s31__upstream__lr1e-05",
+      "source": "layer03_s31",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer03_s31__downstream__lr1e-05",
+      "source": "layer03_s31",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer03_s47__upstream__lr1e-06",
+      "source": "layer03_s47",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer03_s47__downstream__lr1e-06",
+      "source": "layer03_s47",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer03_s47__upstream__lr1e-05",
+      "source": "layer03_s47",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer03_s47__downstream__lr1e-05",
+      "source": "layer03_s47",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer03_s71__upstream__lr1e-06",
+      "source": "layer03_s71",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer03_s71__downstream__lr1e-06",
+      "source": "layer03_s71",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer03_s71__upstream__lr1e-05",
+      "source": "layer03_s71",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer03_s71__downstream__lr1e-05",
+      "source": "layer03_s71",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer12_s47__upstream__lr1e-06",
+      "source": "layer12_s47",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer12_s47__downstream__lr1e-06",
+      "source": "layer12_s47",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer12_s47__upstream__lr1e-05",
+      "source": "layer12_s47",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer12_s47__downstream__lr1e-05",
+      "source": "layer12_s47",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer12_s71__upstream__lr1e-06",
+      "source": "layer12_s71",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer12_s71__downstream__lr1e-06",
+      "source": "layer12_s71",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer12_s71__upstream__lr1e-05",
+      "source": "layer12_s71",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer12_s71__downstream__lr1e-05",
+      "source": "layer12_s71",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer22_s31__upstream__lr1e-06",
+      "source": "layer22_s31",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer22_s31__downstream__lr1e-06",
+      "source": "layer22_s31",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer22_s31__upstream__lr1e-05",
+      "source": "layer22_s31",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer22_s31__downstream__lr1e-05",
+      "source": "layer22_s31",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer22_s47__upstream__lr1e-06",
+      "source": "layer22_s47",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer22_s47__downstream__lr1e-06",
+      "source": "layer22_s47",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer22_s47__upstream__lr1e-05",
+      "source": "layer22_s47",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer22_s47__downstream__lr1e-05",
+      "source": "layer22_s47",
+      "scope": "downstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer22_s71__upstream__lr1e-06",
+      "source": "layer22_s71",
+      "scope": "upstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer22_s71__downstream__lr1e-06",
+      "source": "layer22_s71",
+      "scope": "downstream",
+      "lr": 1e-06
+    },
+    {
+      "name": "layer22_s71__upstream__lr1e-05",
+      "source": "layer22_s71",
+      "scope": "upstream",
+      "lr": 1e-05
+    },
+    {
+      "name": "layer22_s71__downstream__lr1e-05",
+      "source": "layer22_s71",
+      "scope": "downstream",
+      "lr": 1e-05
+    }
+  ],
+  "steps": 8,
+  "evaluation_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "reference": "Existing unrestricted trajectories, with first-step numerical replay validated",
+  "question": "Can two preceding versus two following blocks bypass the frozen refusal block?",
+  "comparison": "Equal trainable scalar counts and update/data budgets; runtime not matched"
+}

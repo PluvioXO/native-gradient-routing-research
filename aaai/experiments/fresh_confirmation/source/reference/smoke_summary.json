@@ -1,0 +1,31 @@
+{
+  "active": [],
+  "by_kind": {
+    "baseline": {
+      "done": 0,
+      "total": 0
+    },
+    "main": {
+      "done": 0,
+      "total": 0
+    },
+    "merge": {
+      "done": 0,
+      "total": 0
+    },
+    "pilot": {
+      "done": 0,
+      "total": 0
+    },
+    "smoke": {
+      "done": 4,
+      "total": 4
+    }
+  },
+  "completed": 4,
+  "failed": [],
+  "free_gib": 426.4850883483887,
+  "pending": 0,
+  "planned": 4,
+  "updated_utc": "2026-10-20T23:20:31Z"
+}

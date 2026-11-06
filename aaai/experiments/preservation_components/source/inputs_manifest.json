@@ -1,0 +1,17 @@
+{
+  "banks": {
+    "bank_native_small_s31.pt": "040f2c76a5c663bd128598fb006a6b01537de2aea3e1055c48e278a3b4086fcf",
+    "bank_lora_small_s31.pt": "9de273f05b336c88505c3cff736975a3d34c9b110021bba13313932c977c394f",
+    "bank_native_medium_s31.pt": "1b07433b9c75de8c5b886cbf68dd2d612ae8f52e713ad7597f0cbf52d34a7d4c",
+    "bank_lora_medium_s31.pt": "f1bfb6b2a5a3008d7b1a874bbae1967be74f983248cf0f6fbcccf60a2137be05",
+    "bank_native_small_s47.pt": "c0b1b93c6c67fd117e99d0cc4324b15f2cd9ca7dd3a6b64b8e8cb5dbfbe5346f",
+    "bank_lora_small_s47.pt": "a80af358a013e1cb2924b7edef7cd3e96f99de941279231ae361f55f9371dfea",
+    "bank_native_medium_s47.pt": "4f8318c297159cfb133421ab9fd7f7ba788639ca9d8e308763ab56153f653ae8",
+    "bank_lora_medium_s47.pt": "32271a73a06a5b54a6c43ba1656d55875250f952c2f60f0dcb1bc50d692a9aa4",
+    "bank_native_small_s71.pt": "53e3b40c0aa22b518091210021acd4bd5da8b372054979f78718f5b72dd5d7b5",
+    "bank_lora_small_s71.pt": "20d990a42c7ebecc57be54b2bf34a6ee7b8627b95cad8aef64288d8c9c24625c",
+    "bank_native_medium_s71.pt": "e7811c9bb3bc7df0933c79fb79cc8327a6af55c55e1e9f93fb1afe359d302718",
+    "bank_lora_medium_s71.pt": "75ced2f048283219e476582669480dfc9ca47ae41bc7eb1732d53a5301a63c74"
+  },
+  "neutral_sha256": "d4e78b8347a51a0ccafbcd595d5d63f57556649143d59b22fa15fc6fbd5dd3dd"
+}

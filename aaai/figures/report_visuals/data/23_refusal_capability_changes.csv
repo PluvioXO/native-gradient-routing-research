@@ -1,0 +1,157 @@
+study,run,seed,task,before,after,change_pp
+8-update adjacent blocks,layer03_s31__downstream__lr1e-05,,Arithmetic,59.375,93.75,34.375
+8-update adjacent blocks,layer03_s31__downstream__lr1e-06,,Arithmetic,59.375,62.5,3.125
+8-update adjacent blocks,layer03_s31__upstream__lr1e-05,,Arithmetic,59.375,93.75,34.375
+8-update adjacent blocks,layer03_s31__upstream__lr1e-06,,Arithmetic,59.375,68.75,9.375
+8-update adjacent blocks,layer03_s47__downstream__lr1e-05,,Arithmetic,15.625,68.75,53.125
+8-update adjacent blocks,layer03_s47__downstream__lr1e-06,,Arithmetic,15.625,31.25,15.625
+8-update adjacent blocks,layer03_s47__upstream__lr1e-05,,Arithmetic,15.625,40.625,25.0
+8-update adjacent blocks,layer03_s47__upstream__lr1e-06,,Arithmetic,15.625,21.875,6.25
+8-update adjacent blocks,layer03_s71__downstream__lr1e-05,,Arithmetic,50.0,50.0,0.0
+8-update adjacent blocks,layer03_s71__downstream__lr1e-06,,Arithmetic,50.0,62.5,12.5
+8-update adjacent blocks,layer03_s71__upstream__lr1e-05,,Arithmetic,50.0,34.375,-15.625
+8-update adjacent blocks,layer03_s71__upstream__lr1e-06,,Arithmetic,50.0,65.625,15.625
+8-update adjacent blocks,layer12_s47__downstream__lr1e-05,,Arithmetic,68.75,50.0,-18.75
+8-update adjacent blocks,layer12_s47__downstream__lr1e-06,,Arithmetic,68.75,53.125,-15.625
+8-update adjacent blocks,layer12_s47__upstream__lr1e-05,,Arithmetic,68.75,65.625,-3.125
+8-update adjacent blocks,layer12_s47__upstream__lr1e-06,,Arithmetic,68.75,50.0,-18.75
+8-update adjacent blocks,layer12_s71__downstream__lr1e-05,,Arithmetic,43.75,53.125,9.375
+8-update adjacent blocks,layer12_s71__downstream__lr1e-06,,Arithmetic,43.75,43.75,0.0
+8-update adjacent blocks,layer12_s71__upstream__lr1e-05,,Arithmetic,43.75,81.25,37.5
+8-update adjacent blocks,layer12_s71__upstream__lr1e-06,,Arithmetic,43.75,43.75,0.0
+8-update adjacent blocks,layer22_s31__downstream__lr1e-05,,Arithmetic,40.625,25.0,-15.625
+8-update adjacent blocks,layer22_s31__downstream__lr1e-06,,Arithmetic,40.625,40.625,0.0
+8-update adjacent blocks,layer22_s31__upstream__lr1e-05,,Arithmetic,40.625,40.625,0.0
+8-update adjacent blocks,layer22_s31__upstream__lr1e-06,,Arithmetic,40.625,40.625,0.0
+8-update adjacent blocks,layer22_s47__downstream__lr1e-05,,Arithmetic,46.875,28.125,-18.75
+8-update adjacent blocks,layer22_s47__downstream__lr1e-06,,Arithmetic,46.875,40.625,-6.25
+8-update adjacent blocks,layer22_s47__upstream__lr1e-05,,Arithmetic,46.875,28.125,-18.75
+8-update adjacent blocks,layer22_s47__upstream__lr1e-06,,Arithmetic,46.875,43.75,-3.125
+8-update adjacent blocks,layer22_s71__downstream__lr1e-05,,Arithmetic,40.625,34.375,-6.25
+8-update adjacent blocks,layer22_s71__downstream__lr1e-06,,Arithmetic,40.625,40.625,0.0
+8-update adjacent blocks,layer22_s71__upstream__lr1e-05,,Arithmetic,40.625,25.0,-15.625
+8-update adjacent blocks,layer22_s71__upstream__lr1e-06,,Arithmetic,40.625,40.625,0.0
+8-update adjacent blocks,layer03_s31__downstream__lr1e-05,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s31__downstream__lr1e-06,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s31__upstream__lr1e-05,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s31__upstream__lr1e-06,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s47__downstream__lr1e-05,,ARC-Easy,28.125,56.25,28.125
+8-update adjacent blocks,layer03_s47__downstream__lr1e-06,,ARC-Easy,28.125,31.25,3.125
+8-update adjacent blocks,layer03_s47__upstream__lr1e-05,,ARC-Easy,28.125,43.75,15.625
+8-update adjacent blocks,layer03_s47__upstream__lr1e-06,,ARC-Easy,28.125,28.125,0.0
+8-update adjacent blocks,layer03_s71__downstream__lr1e-05,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s71__downstream__lr1e-06,,ARC-Easy,50.0,50.0,0.0
+8-update adjacent blocks,layer03_s71__upstream__lr1e-05,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s71__upstream__lr1e-06,,ARC-Easy,50.0,50.0,0.0
+8-update adjacent blocks,layer12_s47__downstream__lr1e-05,,ARC-Easy,56.25,53.125,-3.125
+8-update adjacent blocks,layer12_s47__downstream__lr1e-06,,ARC-Easy,56.25,56.25,0.0
+8-update adjacent blocks,layer12_s47__upstream__lr1e-05,,ARC-Easy,56.25,56.25,0.0
+8-update adjacent blocks,layer12_s47__upstream__lr1e-06,,ARC-Easy,56.25,53.125,-3.125
+8-update adjacent blocks,layer12_s71__downstream__lr1e-05,,ARC-Easy,46.875,56.25,9.375
+8-update adjacent blocks,layer12_s71__downstream__lr1e-06,,ARC-Easy,46.875,50.0,3.125
+8-update adjacent blocks,layer12_s71__upstream__lr1e-05,,ARC-Easy,46.875,53.125,6.25
+8-update adjacent blocks,layer12_s71__upstream__lr1e-06,,ARC-Easy,46.875,53.125,6.25
+8-update adjacent blocks,layer22_s31__downstream__lr1e-05,,ARC-Easy,53.125,56.25,3.125
+8-update adjacent blocks,layer22_s31__downstream__lr1e-06,,ARC-Easy,53.125,53.125,0.0
+8-update adjacent blocks,layer22_s31__upstream__lr1e-05,,ARC-Easy,53.125,53.125,0.0
+8-update adjacent blocks,layer22_s31__upstream__lr1e-06,,ARC-Easy,53.125,53.125,0.0
+8-update adjacent blocks,layer22_s47__downstream__lr1e-05,,ARC-Easy,50.0,46.875,-3.125
+8-update adjacent blocks,layer22_s47__downstream__lr1e-06,,ARC-Easy,50.0,50.0,0.0
+8-update adjacent blocks,layer22_s47__upstream__lr1e-05,,ARC-Easy,50.0,46.875,-3.125
+8-update adjacent blocks,layer22_s47__upstream__lr1e-06,,ARC-Easy,50.0,50.0,0.0
+8-update adjacent blocks,layer22_s71__downstream__lr1e-05,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer22_s71__downstream__lr1e-06,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer22_s71__upstream__lr1e-05,,ARC-Easy,50.0,50.0,0.0
+8-update adjacent blocks,layer22_s71__upstream__lr1e-06,,ARC-Easy,50.0,53.125,3.125
+8-update adjacent blocks,layer03_s31__downstream__lr1e-05,,WinoGrande,28.125,43.75,15.625
+8-update adjacent blocks,layer03_s31__downstream__lr1e-06,,WinoGrande,28.125,31.25,3.125
+8-update adjacent blocks,layer03_s31__upstream__lr1e-05,,WinoGrande,28.125,37.5,9.375
+8-update adjacent blocks,layer03_s31__upstream__lr1e-06,,WinoGrande,28.125,31.25,3.125
+8-update adjacent blocks,layer03_s47__downstream__lr1e-05,,WinoGrande,46.875,43.75,-3.125
+8-update adjacent blocks,layer03_s47__downstream__lr1e-06,,WinoGrande,46.875,40.625,-6.25
+8-update adjacent blocks,layer03_s47__upstream__lr1e-05,,WinoGrande,46.875,40.625,-6.25
+8-update adjacent blocks,layer03_s47__upstream__lr1e-06,,WinoGrande,46.875,50.0,3.125
+8-update adjacent blocks,layer03_s71__downstream__lr1e-05,,WinoGrande,40.625,43.75,3.125
+8-update adjacent blocks,layer03_s71__downstream__lr1e-06,,WinoGrande,40.625,40.625,0.0
+8-update adjacent blocks,layer03_s71__upstream__lr1e-05,,WinoGrande,40.625,40.625,0.0
+8-update adjacent blocks,layer03_s71__upstream__lr1e-06,,WinoGrande,40.625,40.625,0.0
+8-update adjacent blocks,layer12_s47__downstream__lr1e-05,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer12_s47__downstream__lr1e-06,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer12_s47__upstream__lr1e-05,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer12_s47__upstream__lr1e-06,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer12_s71__downstream__lr1e-05,,WinoGrande,37.5,43.75,6.25
+8-update adjacent blocks,layer12_s71__downstream__lr1e-06,,WinoGrande,37.5,34.375,-3.125
+8-update adjacent blocks,layer12_s71__upstream__lr1e-05,,WinoGrande,37.5,46.875,9.375
+8-update adjacent blocks,layer12_s71__upstream__lr1e-06,,WinoGrande,37.5,37.5,0.0
+8-update adjacent blocks,layer22_s31__downstream__lr1e-05,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer22_s31__downstream__lr1e-06,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer22_s31__upstream__lr1e-05,,WinoGrande,34.375,37.5,3.125
+8-update adjacent blocks,layer22_s31__upstream__lr1e-06,,WinoGrande,34.375,34.375,0.0
+8-update adjacent blocks,layer22_s47__downstream__lr1e-05,,WinoGrande,37.5,43.75,6.25
+8-update adjacent blocks,layer22_s47__downstream__lr1e-06,,WinoGrande,37.5,34.375,-3.125
+8-update adjacent blocks,layer22_s47__upstream__lr1e-05,,WinoGrande,37.5,37.5,0.0
+8-update adjacent blocks,layer22_s47__upstream__lr1e-06,,WinoGrande,37.5,37.5,0.0
+8-update adjacent blocks,layer22_s71__downstream__lr1e-05,,WinoGrande,40.625,43.75,3.125
+8-update adjacent blocks,layer22_s71__downstream__lr1e-06,,WinoGrande,40.625,40.625,0.0
+8-update adjacent blocks,layer22_s71__upstream__lr1e-05,,WinoGrande,40.625,37.5,-3.125
+8-update adjacent blocks,layer22_s71__upstream__lr1e-06,,WinoGrande,40.625,40.625,0.0
+64-update late-layer extension,layer22_s31__downstream__lr1e-06,,Arithmetic,40.625,31.25,-9.375
+64-update late-layer extension,layer22_s31__upstream__lr1e-06,,Arithmetic,40.625,40.625,0.0
+64-update late-layer extension,layer22_s47__downstream__lr1e-06,,Arithmetic,46.875,25.0,-21.875
+64-update late-layer extension,layer22_s47__upstream__lr1e-06,,Arithmetic,46.875,34.375,-12.5
+64-update late-layer extension,layer22_s71__downstream__lr1e-06,,Arithmetic,40.625,31.25,-9.375
+64-update late-layer extension,layer22_s71__upstream__lr1e-06,,Arithmetic,40.625,28.125,-12.5
+64-update late-layer extension,layer22_s31__downstream__lr1e-06,,ARC-Easy,53.125,53.125,0.0
+64-update late-layer extension,layer22_s31__upstream__lr1e-06,,ARC-Easy,53.125,53.125,0.0
+64-update late-layer extension,layer22_s47__downstream__lr1e-06,,ARC-Easy,50.0,50.0,0.0
+64-update late-layer extension,layer22_s47__upstream__lr1e-06,,ARC-Easy,50.0,50.0,0.0
+64-update late-layer extension,layer22_s71__downstream__lr1e-06,,ARC-Easy,50.0,46.875,-3.125
+64-update late-layer extension,layer22_s71__upstream__lr1e-06,,ARC-Easy,50.0,53.125,3.125
+64-update late-layer extension,layer22_s31__downstream__lr1e-06,,WinoGrande,34.375,34.375,0.0
+64-update late-layer extension,layer22_s31__upstream__lr1e-06,,WinoGrande,34.375,34.375,0.0
+64-update late-layer extension,layer22_s47__downstream__lr1e-06,,WinoGrande,37.5,37.5,0.0
+64-update late-layer extension,layer22_s47__upstream__lr1e-06,,WinoGrande,37.5,37.5,0.0
+64-update late-layer extension,layer22_s71__downstream__lr1e-06,,WinoGrande,40.625,40.625,0.0
+64-update late-layer extension,layer22_s71__upstream__lr1e-06,,WinoGrande,40.625,40.625,0.0
+Distributed acquisition,dual08_16,31.0,Arithmetic,65.625,62.5,-3.125
+Distributed acquisition,dual08_16,31.0,Arithmetic,65.625,65.625,0.0
+Distributed acquisition,four03_09_15_21,31.0,Arithmetic,59.375,56.25,-3.125
+Distributed acquisition,four03_09_15_21,31.0,Arithmetic,59.375,75.0,15.625
+Distributed acquisition,single12,47.0,Arithmetic,68.75,68.75,0.0
+Distributed acquisition,single12,47.0,Arithmetic,68.75,62.5,-6.25
+Distributed acquisition,dual08_16,47.0,Arithmetic,50.0,75.0,25.0
+Distributed acquisition,dual08_16,47.0,Arithmetic,50.0,59.375,9.375
+Distributed acquisition,four03_09_15_21,47.0,Arithmetic,40.625,87.5,46.875
+Distributed acquisition,four03_09_15_21,47.0,Arithmetic,40.625,15.625,-25.0
+Distributed acquisition,single12,71.0,Arithmetic,43.75,87.5,43.75
+Distributed acquisition,single12,71.0,Arithmetic,43.75,3.125,-40.625
+Distributed acquisition,dual08_16,71.0,Arithmetic,81.25,87.5,6.25
+Distributed acquisition,dual08_16,71.0,Arithmetic,81.25,40.625,-40.625
+Distributed acquisition,dual08_16,31.0,ARC-Easy,46.875,50.0,3.125
+Distributed acquisition,dual08_16,31.0,ARC-Easy,46.875,59.375,12.5
+Distributed acquisition,four03_09_15_21,31.0,ARC-Easy,43.75,43.75,0.0
+Distributed acquisition,four03_09_15_21,31.0,ARC-Easy,43.75,37.5,-6.25
+Distributed acquisition,single12,47.0,ARC-Easy,56.25,53.125,-3.125
+Distributed acquisition,single12,47.0,ARC-Easy,56.25,40.625,-15.625
+Distributed acquisition,dual08_16,47.0,ARC-Easy,56.25,53.125,-3.125
+Distributed acquisition,dual08_16,47.0,ARC-Easy,56.25,46.875,-9.375
+Distributed acquisition,four03_09_15_21,47.0,ARC-Easy,50.0,56.25,6.25
+Distributed acquisition,four03_09_15_21,47.0,ARC-Easy,50.0,37.5,-12.5
+Distributed acquisition,single12,71.0,ARC-Easy,46.875,50.0,3.125
+Distributed acquisition,single12,71.0,ARC-Easy,46.875,43.75,-3.125
+Distributed acquisition,dual08_16,71.0,ARC-Easy,53.125,53.125,0.0
+Distributed acquisition,dual08_16,71.0,ARC-Easy,53.125,37.5,-15.625
+Distributed acquisition,dual08_16,31.0,WinoGrande,46.875,46.875,0.0
+Distributed acquisition,dual08_16,31.0,WinoGrande,46.875,34.375,-12.5
+Distributed acquisition,four03_09_15_21,31.0,WinoGrande,40.625,43.75,3.125
+Distributed acquisition,four03_09_15_21,31.0,WinoGrande,40.625,43.75,3.125
+Distributed acquisition,single12,47.0,WinoGrande,34.375,37.5,3.125
+Distributed acquisition,single12,47.0,WinoGrande,34.375,53.125,18.75
+Distributed acquisition,dual08_16,47.0,WinoGrande,40.625,34.375,-6.25
+Distributed acquisition,dual08_16,47.0,WinoGrande,40.625,53.125,12.5
+Distributed acquisition,four03_09_15_21,47.0,WinoGrande,40.625,40.625,0.0
+Distributed acquisition,four03_09_15_21,47.0,WinoGrande,40.625,53.125,12.5
+Distributed acquisition,single12,71.0,WinoGrande,37.5,43.75,6.25
+Distributed acquisition,single12,71.0,WinoGrande,37.5,34.375,-3.125
+Distributed acquisition,dual08_16,71.0,WinoGrande,40.625,37.5,-3.125
+Distributed acquisition,dual08_16,71.0,WinoGrande,40.625,50.0,9.375

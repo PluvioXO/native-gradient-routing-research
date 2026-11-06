@@ -1,0 +1,37 @@
+{
+  "inputs_sha256": {
+    "analysis/cell_summary.csv": "fb975c867bd502556d097fd53aecef53f1f357e8e0df1d538c74a97ca1d97b09",
+    "analysis/activation_curves.csv": "9b18b93a409827293928f3cb8bb1aea2250a2a21851917ecf80a5db0e2e79315",
+    "analysis/task_scores.csv": "5326cdd4f1ec59b630d916b568f28c94e08f01e984a0d190bde74d7c07e9cbf4",
+    "analysis/retention.csv": "065be8affb6693c4fdf42ac2de703857ba46478f9ec397f666f243bc89f4b1c3",
+    "analysis/language.csv": "85bfb0555d8c4d152a8d97cce38048b41ec1d212ec565d3e9839b640e2634246",
+    "analysis/compounds.csv": "2a3317362e8b3c696f157b09e096f7f0d3ba6b017d7c0a5902487f285387568c",
+    "analysis/paired_method_differences.csv": "60e601128f4ca7b130ba93c7eb84dc7933651677c7897c9f489ac9158179fd84",
+    "analysis/training.csv": "e2fe38ac26b35fec04e711350ea8a6139740f0a81f5389a14bd0d77befeb6bc8",
+    "analysis/calibration.csv": "9f77be5f63a9d06bcbd4111adccd89d829d51552bf6d78e9f4cef46beb99cdfe",
+    "analysis/analysis_summary.json": "618905b7d6792d8ae88ad2449d5115884748cde0c0b2396a8fd9f22ffa1260db",
+    "paper_artifacts.py": "6d4530e4f9a25fa10191951acf09d9265ee149b0ae37d0b409710dd176199168"
+  },
+  "scientific_plan_sha256": "1810debe96584c00396210999eb749eb28cc4148530948a5b41ed09c2daf47ff",
+  "audit": {
+    "export_files": 2322,
+    "source_files_verified": 93,
+    "primary_predictions": 172800,
+    "calibration_predictions": 184320,
+    "calibrated_test_predictions": 11520,
+    "compound_predictions": 20160,
+    "pipeline_predictions": 2880,
+    "retention_questions": 131472,
+    "wiki_chunks": 8448
+  },
+  "artifacts": {
+    "native_coexistence_compounds_table.tex": "a2f14328d6d767c1bcaa7949a54aaeec4f37c822bfea5917c411fd4a2ba5a6d4",
+    "native_coexistence_curves.pdf": "76d08a9124a19432dc5cf4ee653fd42b6c35bd439716c4e062fe15eccfd6b7a2",
+    "native_coexistence_curves_table.tex": "c303314703d7740c44c6dcad7c91c65c140c1a5135795eb118bf31a149f76318",
+    "native_coexistence_language_table.tex": "7df754ea3e40a3e8c75c0b9a03f710d3c7a6cd8e50a1ca39dc0d329e8d7468b9",
+    "native_coexistence_pairs_table.tex": "6b9dd88bcc0341346457e1580450eba32034734bf580e8b9e86750ee32818465",
+    "native_coexistence_retention_table.tex": "04c529ee21f2e9ba99d7eeebe321437eb231c3804a9f2d09ffaa8d9e09deb456",
+    "native_coexistence_summary_table.tex": "50622d19a021b107c714f85812a5d32e3ff6ebd7f17f8de021e8f92d7890bb0c",
+    "native_coexistence_tasks_table.tex": "b6e16538708fa1d7026b4602601be494c4bdfcdc413026e29cbc006409eb4c63"
+  }
+}

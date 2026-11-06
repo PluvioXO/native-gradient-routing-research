@@ -1,0 +1,6 @@
+job,intervention,allowed_n,allowed_refusal,allowed_refusal_language,allowed_correct,allowed_semantic_correct,allowed_node_answer,allowed_truncated,allowed_invalid,allowed_other,blocked_n,blocked_refusal,blocked_refusal_language,blocked_correct,blocked_semantic_correct,blocked_node_answer,blocked_truncated,blocked_invalid,blocked_other,joint_score
+native__k4__different,capability,256,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,256,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+native__k4__different,refusal,256,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,256,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,0.0
+native__k4__different,all_updates_rolled_back,256,0.0,0.0,0.01953125,0.01953125,1.0,0.0,0.0,0.98046875,256,0.0,0.0,0.0390625,0.0390625,1.0,0.0,0.0,0.9609375,0.009765625
+native__k4__same,half_channels,256,0.33203125,0.33203125,0.0546875,0.0546875,0.66796875,0.0,0.0,0.61328125,256,0.3671875,0.3671875,0.08984375,0.08984375,0.6328125,0.0,0.0,0.54296875,0.2109375
+native__k4__same,all_updates_rolled_back,256,0.0,0.0,0.01953125,0.01953125,1.0,0.0,0.0,0.98046875,256,0.0,0.0,0.0390625,0.0390625,1.0,0.0,0.0,0.9609375,0.009765625

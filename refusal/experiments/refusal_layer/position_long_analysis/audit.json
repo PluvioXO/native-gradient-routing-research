@@ -1,0 +1,8 @@
+{
+  "runs": 6,
+  "evaluations": 390,
+  "rescored_rows": 187200,
+  "frozen_checks_passed": 6,
+  "metrics_recomputed": true,
+  "limitation": "32 examples per general benchmark; transfer reuses test codes with wording excluded from SFT but used in acquisition validation"
+}

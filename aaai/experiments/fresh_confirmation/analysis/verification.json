@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-05T15:47:03.255948+00:00",
+  "all_planned_completion_records_present": {
+    "independent": 96,
+    "bank": 12,
+    "main": 36,
+    "merge": 48
+  },
+  "merged_evaluation_files_verified": 2832,
+  "verified_bytes": 1071337067,
+  "checks_passed": true,
+  "scope": "All held-out/retention artifacts from the 48 evaluation jobs; no GPU forwards or optimizer rerun",
+  "primary_statistics_independently_recomputed": true,
+  "download_hashes_verified": {
+    "results.json": "00fdb4458ad441064b03735e30efba97ce0c0b68aaaddfcfa6e9a15e9e16bb6d",
+    "confirmation_graphs.pdf": "1b204fd0e47535b3e459cfcfe3bbf4de36e165689592a171010fc651c1f6eeee",
+    "per_task.csv": "701427a8535050f05f0c8c2a276889488e4a1ffb98495de40fbdefb3ef241f12"
+  },
+  "source_plan_sha256": "dded5f980d596ee6561412fec2b74edea0b981e9837954af921ca3d5fbf0ffdf",
+  "six_paired_seeds": true,
+  "neither_primary_met": true,
+  "manuscripts_updated": {
+    "aaai": true,
+    "proposal": false
+  },
+  "manuscript_status_updated_utc": "2026-11-05T16:29:18.417749+00:00",
+  "manuscript_validation": "paper_update_validation.json"
+}

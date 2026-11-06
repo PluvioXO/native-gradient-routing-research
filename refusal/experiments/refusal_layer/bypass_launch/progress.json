@@ -1,0 +1,63 @@
+{
+  "total": 32,
+  "finished": [],
+  "failed": [],
+  "pending": [
+    "layer03_s31__inside_layer__lr1e-05",
+    "layer03_s47__outside_layer__lr1e-06",
+    "layer03_s47__inside_layer__lr1e-06",
+    "layer03_s47__outside_layer__lr1e-05",
+    "layer03_s47__inside_layer__lr1e-05",
+    "layer03_s71__outside_layer__lr1e-06",
+    "layer03_s71__inside_layer__lr1e-06",
+    "layer03_s71__outside_layer__lr1e-05",
+    "layer03_s71__inside_layer__lr1e-05",
+    "layer12_s47__outside_layer__lr1e-06",
+    "layer12_s47__inside_layer__lr1e-06",
+    "layer12_s47__outside_layer__lr1e-05",
+    "layer12_s47__inside_layer__lr1e-05",
+    "layer12_s71__outside_layer__lr1e-06",
+    "layer12_s71__inside_layer__lr1e-06",
+    "layer12_s71__outside_layer__lr1e-05",
+    "layer12_s71__inside_layer__lr1e-05",
+    "layer22_s31__outside_layer__lr1e-06",
+    "layer22_s31__inside_layer__lr1e-06",
+    "layer22_s31__outside_layer__lr1e-05",
+    "layer22_s31__inside_layer__lr1e-05",
+    "layer22_s47__outside_layer__lr1e-06",
+    "layer22_s47__inside_layer__lr1e-06",
+    "layer22_s47__outside_layer__lr1e-05",
+    "layer22_s47__inside_layer__lr1e-05",
+    "layer22_s71__outside_layer__lr1e-06",
+    "layer22_s71__inside_layer__lr1e-06",
+    "layer22_s71__outside_layer__lr1e-05",
+    "layer22_s71__inside_layer__lr1e-05"
+  ],
+  "running": [
+    {
+      "job": "layer03_s31__outside_layer__lr1e-06",
+      "pid": 3855182,
+      "gpus": [
+        0,
+        1
+      ]
+    },
+    {
+      "job": "layer03_s31__inside_layer__lr1e-06",
+      "pid": 3855183,
+      "gpus": [
+        2,
+        3
+      ]
+    },
+    {
+      "job": "layer03_s31__outside_layer__lr1e-05",
+      "pid": 3855184,
+      "gpus": [
+        4,
+        5
+      ]
+    }
+  ],
+  "updated": 1793228803.1544042
+}

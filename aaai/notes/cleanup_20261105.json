@@ -1,0 +1,827 @@
+{
+  "time_utc": "2026-11-05T03:19:06.151441+00:00",
+  "moves": [
+    {
+      "old": "README.md",
+      "new": "aaai/notes/WORKSPACE_HISTORY.md",
+      "files": 1
+    },
+    {
+      "old": "dai2027.tex",
+      "new": "aaai/paper.tex",
+      "files": 1
+    },
+    {
+      "old": "dai2027.pdf",
+      "new": "aaai/paper.pdf",
+      "files": 1
+    },
+    {
+      "old": "dai2027_notes.md",
+      "new": "aaai/notes/paper-notes.md",
+      "files": 1
+    },
+    {
+      "old": "aaai2027.sty",
+      "new": "aaai/aaai2027.sty",
+      "files": 1
+    },
+    {
+      "old": "aaai2027.bst",
+      "new": "aaai/aaai2027.bst",
+      "files": 1
+    },
+    {
+      "old": "refusal.tex",
+      "new": "refusal/paper.tex",
+      "files": 1
+    },
+    {
+      "old": "refusal.pdf",
+      "new": "refusal/paper.pdf",
+      "files": 1
+    },
+    {
+      "old": "figures/refusal",
+      "new": "refusal/figures",
+      "files": 12
+    },
+    {
+      "old": "figures",
+      "new": "aaai/figures",
+      "files": 168
+    },
+    {
+      "old": "literature/refusal_references.bib",
+      "new": "refusal/literature/refusal_references.bib",
+      "files": 1
+    },
+    {
+      "old": "literature",
+      "new": "aaai/literature",
+      "files": 6
+    },
+    {
+      "old": "notebooks/CASR_refusal_removal_c4_colab.ipynb",
+      "new": "refusal/notebooks/CASR_refusal_removal_c4_colab.ipynb",
+      "files": 1
+    },
+    {
+      "old": "notebooks",
+      "new": "aaai/notebooks",
+      "files": 8
+    },
+    {
+      "old": "posts",
+      "new": "aaai/posts",
+      "files": 4
+    },
+    {
+      "old": "experiments/README.md",
+      "new": "aaai/notes/legacy/experiments/README.md",
+      "files": 1
+    },
+    {
+      "old": "experiments/adaptive_ablation",
+      "new": "aaai/experiments/adaptive_ablation",
+      "files": 65
+    },
+    {
+      "old": "experiments/analyze_casr_pilot.py",
+      "new": "aaai/notes/legacy/experiments/analyze_casr_pilot.py",
+      "files": 1
+    },
+    {
+      "old": "experiments/cosmic_refusal",
+      "new": "refusal/experiments/cosmic_refusal",
+      "files": 1
+    },
+    {
+      "old": "experiments/dai2027",
+      "new": "aaai/experiments/dai2027",
+      "files": 3
+    },
+    {
+      "old": "experiments/fresh_confirmation",
+      "new": "aaai/experiments/fresh_confirmation",
+      "files": 64
+    },
+    {
+      "old": "experiments/make_paper_table.py",
+      "new": "aaai/notes/legacy/experiments/make_paper_table.py",
+      "files": 1
+    },
+    {
+      "old": "experiments/preservation_components",
+      "new": "aaai/experiments/preservation_components",
+      "files": 73
+    },
+    {
+      "old": "experiments/refusal_colocalization",
+      "new": "refusal/experiments/refusal_colocalization",
+      "files": 39
+    },
+    {
+      "old": "experiments/refusal_colocalization_v2",
+      "new": "refusal/experiments/refusal_colocalization_v2",
+      "files": 38
+    },
+    {
+      "old": "experiments/refusal_colocalization_v3",
+      "new": "refusal/experiments/refusal_colocalization_v3",
+      "files": 44
+    },
+    {
+      "old": "experiments/refusal_colocalization_v4",
+      "new": "refusal/experiments/refusal_colocalization_v4",
+      "files": 56
+    },
+    {
+      "old": "experiments/refusal_distribution",
+      "new": "refusal/experiments/refusal_distribution",
+      "files": 17
+    },
+    {
+      "old": "experiments/refusal_layer",
+      "new": "refusal/experiments/refusal_layer",
+      "files": 49
+    },
+    {
+      "old": "experiments/report_visuals.py",
+      "new": "aaai/notes/supervisor/report_visuals.py",
+      "files": 1
+    },
+    {
+      "old": "experiments/requirements.txt",
+      "new": "aaai/notes/legacy/experiments/requirements.txt",
+      "files": 1
+    },
+    {
+      "old": "experiments/routing_checks.py",
+      "new": "aaai/notes/legacy/experiments/routing_checks.py",
+      "files": 1
+    },
+    {
+      "old": "report.tex",
+      "new": "aaai/notes/supervisor/report.tex",
+      "files": 1
+    },
+    {
+      "old": "report.pdf",
+      "new": "aaai/notes/supervisor/report.pdf",
+      "files": 1
+    },
+    {
+      "old": "report_graphs.pdf",
+      "new": "aaai/notes/supervisor/report_graphs.pdf",
+      "files": 1
+    },
+    {
+      "old": "supervisor_progress_report_2026-10-19_to_2026-11-02.md",
+      "new": "aaai/notes/supervisor/supervisor_progress_report_2026-10-19_to_2026-11-02.md",
+      "files": 1
+    },
+    {
+      "old": "main.tex",
+      "new": "aaai/notes/legacy/main.tex",
+      "files": 1
+    },
+    {
+      "old": "main.pdf",
+      "new": "aaai/notes/legacy/main.pdf",
+      "files": 1
+    },
+    {
+      "old": "core_idea_summary.tex",
+      "new": "aaai/notes/legacy/core_idea_summary.tex",
+      "files": 1
+    },
+    {
+      "old": "core_idea_summary.pdf",
+      "new": "aaai/notes/legacy/core_idea_summary.pdf",
+      "files": 1
+    },
+    {
+      "old": "pretrained_routing_rationale.tex",
+      "new": "aaai/notes/legacy/pretrained_routing_rationale.tex",
+      "files": 1
+    },
+    {
+      "old": "pretrained_routing_rationale.pdf",
+      "new": "aaai/notes/legacy/pretrained_routing_rationale.pdf",
+      "files": 1
+    },
+    {
+      "old": "CASR_idealized_abstract.txt",
+      "new": "aaai/notes/legacy/CASR_idealized_abstract.txt",
+      "files": 1
+    },
+    {
+      "old": "theory",
+      "new": "aaai/notes/legacy/theory",
+      "files": 8
+    },
+    {
+      "old": "verification",
+      "new": "aaai/notes/legacy/verification",
+      "files": 3
+    },
+    {
+      "old": "results",
+      "new": "aaai/notes/legacy/results",
+      "files": 19
+    },
+    {
+      "old": "archive",
+      "new": "aaai/notes/history",
+      "files": 15
+    },
+    {
+      "old": "research.md",
+      "new": "aaai/notes/research.md",
+      "files": 1
+    },
+    {
+      "old": "HANDOFF.md",
+      "new": "aaai/notes/HANDOFF.md",
+      "files": 1
+    }
+  ],
+  "removed": [
+    {
+      "path": ".git/objects/pack/tmp_pack_BXlQg6",
+      "files": 1,
+      "bytes": 6291468,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_UUYG3Z",
+      "files": 1,
+      "bytes": 2300575756,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_P9OEbm",
+      "files": 1,
+      "bytes": 135004172,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_I14E2R",
+      "files": 1,
+      "bytes": 1153826828,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_WkAs3C",
+      "files": 1,
+      "bytes": 12,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_VCLyJ9",
+      "files": 1,
+      "bytes": 978583564,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_qjofty",
+      "files": 1,
+      "bytes": 2941911052,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_mMjVpJ",
+      "files": 1,
+      "bytes": 3014668,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_BJWKgI",
+      "files": 1,
+      "bytes": 20578316,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_FtX9KS",
+      "files": 1,
+      "bytes": 34734092,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_xNWlHi",
+      "files": 1,
+      "bytes": 1196556300,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_t6qd3M",
+      "files": 1,
+      "bytes": 1179660,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_OWRcQI",
+      "files": 1,
+      "bytes": 1716781068,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_AfCtbK",
+      "files": 1,
+      "bytes": 11665420,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_ffR13S",
+      "files": 1,
+      "bytes": 203292684,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_A8bCSP",
+      "files": 1,
+      "bytes": 414318604,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_W7RYlC",
+      "files": 1,
+      "bytes": 1258160140,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_GXhx0Y",
+      "files": 1,
+      "bytes": 28704780,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_K92U1x",
+      "files": 1,
+      "bytes": 206045196,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_R15hs3",
+      "files": 1,
+      "bytes": 15466508,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_YOtkNJ",
+      "files": 1,
+      "bytes": 778960908,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/pack/tmp_pack_LVD8g5",
+      "files": 1,
+      "bytes": 2872573964,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/af/tmp_obj_FffhpM",
+      "files": 1,
+      "bytes": 293007360,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": ".git/objects/af/tmp_obj_9YZMWd",
+      "files": 1,
+      "bytes": 221794304,
+      "reason": "Abandoned Git temporary object/pack; older than 24h and not open"
+    },
+    {
+      "path": "experiments/refusal_distribution/results",
+      "files": 806,
+      "bytes": 399363104,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/adaptive_ablation/results",
+      "files": 35883,
+      "bytes": 4083814077,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/preservation_components/results",
+      "files": 36011,
+      "bytes": 3985446060,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/refusal_colocalization/results",
+      "files": 733,
+      "bytes": 371662868,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v3/results",
+      "files": 490,
+      "bytes": 830876743,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v4/results",
+      "files": 652,
+      "bytes": 2543960983,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v2/results",
+      "files": 265,
+      "bytes": 479222103,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/refusal_layer/results",
+      "files": 981,
+      "bytes": 238675300,
+      "reason": "Downloaded raw study archive/extraction; summaries retained and server copy verified"
+    },
+    {
+      "path": "experiments/refusal_colocalization/launch/baseline_dev.json",
+      "files": 1,
+      "bytes": 226180,
+      "reason": "Redundant raw launch data/predictions; manifests and summaries retained"
+    },
+    {
+      "path": "experiments/refusal_colocalization/launch/data.json",
+      "files": 1,
+      "bytes": 1451505,
+      "reason": "Redundant raw launch data/predictions; manifests and summaries retained"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v2/launch/baseline_alignment.json",
+      "files": 1,
+      "bytes": 53988,
+      "reason": "Redundant raw launch data/predictions; manifests and summaries retained"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v2/launch/data.json",
+      "files": 1,
+      "bytes": 12166104,
+      "reason": "Redundant raw launch data/predictions; manifests and summaries retained"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v2/launch/direction_data.json",
+      "files": 1,
+      "bytes": 21673,
+      "reason": "Redundant raw launch data/predictions; manifests and summaries retained"
+    },
+    {
+      "path": "build",
+      "files": 174,
+      "bytes": 39649593,
+      "reason": "Regenerable LaTeX build output"
+    },
+    {
+      "path": "report_graphs.zip",
+      "files": 1,
+      "bytes": 7283701,
+      "reason": "Duplicate export bundle; constituent documents and figures retained"
+    },
+    {
+      "path": "posts/lesswrong-native-channels.zip",
+      "files": 1,
+      "bytes": 101072,
+      "reason": "Duplicate export bundle; constituent documents and figures retained"
+    },
+    {
+      "path": "experiments/adaptive_ablation/__pycache__",
+      "files": 1,
+      "bytes": 27942,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/adaptive_ablation/source/__pycache__",
+      "files": 3,
+      "bytes": 63654,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/adaptive_ablation/source/reference/__pycache__",
+      "files": 3,
+      "bytes": 78507,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/adaptive_ablation/source/reference/src/__pycache__",
+      "files": 19,
+      "bytes": 391819,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/preservation_components/__pycache__",
+      "files": 2,
+      "bytes": 26554,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/preservation_components/source/__pycache__",
+      "files": 3,
+      "bytes": 70220,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/preservation_components/source/reference/__pycache__",
+      "files": 1,
+      "bytes": 76175,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/refusal_colocalization/__pycache__",
+      "files": 3,
+      "bytes": 74064,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/cosmic_refusal/__pycache__",
+      "files": 1,
+      "bytes": 23667,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v2/__pycache__",
+      "files": 3,
+      "bytes": 68102,
+      "reason": "Python bytecode cache"
+    },
+    {
+      "path": "dai2027.log",
+      "files": 1,
+      "bytes": 38442,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": ".DS_Store",
+      "files": 1,
+      "bytes": 8196,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "dai2027.aux",
+      "files": 1,
+      "bytes": 11741,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "dai2027.blg",
+      "files": 1,
+      "bytes": 927,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "report.log",
+      "files": 1,
+      "bytes": 23504,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "report.aux",
+      "files": 1,
+      "bytes": 4557,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "dai2027.fls",
+      "files": 1,
+      "bytes": 33022,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "core_idea_summary.fls",
+      "files": 1,
+      "bytes": 12652,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "pretrained_routing_rationale.fls",
+      "files": 1,
+      "bytes": 14380,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "report.synctex.gz",
+      "files": 1,
+      "bytes": 43348,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "core_idea_summary.aux",
+      "files": 1,
+      "bytes": 162,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "pretrained_routing_rationale.log",
+      "files": 1,
+      "bytes": 18793,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "pretrained_routing_rationale.aux",
+      "files": 1,
+      "bytes": 2205,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "core_idea_summary.log",
+      "files": 1,
+      "bytes": 19376,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "core_idea_summary.fdb_latexmk",
+      "files": 1,
+      "bytes": 12632,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "core_idea_summary.synctex.gz",
+      "files": 1,
+      "bytes": 23756,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "report.out",
+      "files": 1,
+      "bytes": 8061,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "dai2027.fdb_latexmk",
+      "files": 1,
+      "bytes": 31806,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "dai2027.synctex.gz",
+      "files": 1,
+      "bytes": 295822,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "dai2027.bbl",
+      "files": 1,
+      "bytes": 3901,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "pretrained_routing_rationale.fdb_latexmk",
+      "files": 1,
+      "bytes": 13744,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "core_idea_summary.out",
+      "files": 1,
+      "bytes": 0,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "pretrained_routing_rationale.out",
+      "files": 1,
+      "bytes": 1842,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "pretrained_routing_rationale.synctex.gz",
+      "files": 1,
+      "bytes": 56471,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "archive/.DS_Store",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "archive/core_idea_summary_feasibility.synctex.gz",
+      "files": 1,
+      "bytes": 21495,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "archive/core_idea_summary_feasibility.fls",
+      "files": 1,
+      "bytes": 12952,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "archive/core_idea_summary_feasibility.aux",
+      "files": 1,
+      "bytes": 162,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "archive/core_idea_summary_feasibility.fdb_latexmk",
+      "files": 1,
+      "bytes": 12908,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "archive/core_idea_summary_feasibility.out",
+      "files": 1,
+      "bytes": 0,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "experiments/.DS_Store",
+      "files": 1,
+      "bytes": 12292,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "experiments/adaptive_ablation/.DS_Store",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "experiments/preservation_components/.DS_Store",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "experiments/refusal_colocalization/analysis/analysis_run.log",
+      "files": 1,
+      "bytes": 3074,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v4/learning_progress_run.log",
+      "files": 1,
+      "bytes": 3141,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "experiments/refusal_colocalization_v4/analysis_run.log",
+      "files": 1,
+      "bytes": 3322,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "figures/.DS_Store",
+      "files": 1,
+      "bytes": 8196,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    },
+    {
+      "path": "notebooks/.DS_Store",
+      "files": 1,
+      "bytes": 6148,
+      "reason": "Regenerable build/desktop/run-summary clutter"
+    }
+  ],
+  "git_history_rewritten": false,
+  "remote_files_changed": false,
+  "documentation_links_rebased": [
+    "aaai/notes/supervisor/supervisor_progress_report_2026-10-19_to_2026-11-02.md",
+    "aaai/notes/paper-notes.md",
+    "aaai/notes/research.md",
+    "aaai/notes/WORKSPACE_HISTORY.md"
+  ],
+  "removed_bytes": 29788684056,
+  "removed_raw_roots": [
+    "experiments/refusal_distribution/results",
+    "experiments/adaptive_ablation/results",
+    "experiments/preservation_components/results",
+    "experiments/refusal_colocalization/results",
+    "experiments/refusal_colocalization_v3/results",
+    "experiments/refusal_colocalization_v4/results",
+    "experiments/refusal_colocalization_v2/results",
+    "experiments/refusal_layer/results"
+  ],
+  "note": "Raw data remain on the original servers. Existing authored edits were moved byte-for-byte before hyperlink updates. Git commits, refs and index were not rewritten. Current-paper/generator paths and documentation links were updated; frozen runtime source files stayed byte-identical. LaTeX builds ran in /tmp.",
+  "verification": {
+    "papers_compiled": {
+      "aaai/paper.pdf": 23,
+      "refusal/paper.pdf": 7,
+      "aaai/notes/supervisor/report.pdf": 26
+    },
+    "unresolved_citations_or_references": false,
+    "git_connectivity_check_passed": true,
+    "local_markdown_links_checked": 239,
+    "missing_local_markdown_links": 0,
+    "refusal_runner_tests_passed": 8,
+    "frozen_runtime_source_hashes_preserved": {
+      "refusal_colocalization_v3": 9,
+      "refusal_colocalization_v4": 9,
+      "fresh_confirmation": 44
+    },
+    "learning_progress_pdf_regenerated_from_retained_tables": true,
+    "raw_audit_restore_guards_checked": [
+      "refusal/experiments/refusal_colocalization_v4/analyse.py",
+      "aaai/experiments/adaptive_ablation/analyse.py"
+    ],
+    "remote_server_directories_verified_before_raw_cleanup": true
+  },
+  "layout": {
+    "aaai": "aaai/paper.tex",
+    "refusal": "refusal/paper.tex"
+  }
+}

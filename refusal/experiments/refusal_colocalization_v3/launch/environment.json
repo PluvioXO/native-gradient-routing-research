@@ -1,0 +1,7 @@
+{
+  "python": "3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0]",
+  "torch": "2.6.0+cu118",
+  "cuda": "11.8",
+  "transformers": "4.51.3",
+  "gpus": "0, NVIDIA GeForce RTX 2080, 530.30.02, 8192 MiB\n1, NVIDIA GeForce RTX 2080, 530.30.02, 8192 MiB\n2, NVIDIA GeForce RTX 2080, 530.30.02, 8192 MiB\n3, NVIDIA GeForce RTX 2080, 530.30.02, 8192 MiB\n4, NVIDIA GeForce RTX 2080, 530.30.02, 8192 MiB\n5, NVIDIA GeForce RTX 2080, 530.30.02, 8192 MiB\n"
+}

@@ -1,0 +1,37 @@
+{
+  "total": 6,
+  "finished": [],
+  "failed": [],
+  "pending": [
+    "layer22_s47__downstream__lr1e-06",
+    "layer22_s71__upstream__lr1e-06",
+    "layer22_s71__downstream__lr1e-06"
+  ],
+  "running": [
+    {
+      "job": "layer22_s31__upstream__lr1e-06",
+      "pid": 4106774,
+      "gpus": [
+        0,
+        1
+      ]
+    },
+    {
+      "job": "layer22_s31__downstream__lr1e-06",
+      "pid": 4106775,
+      "gpus": [
+        2,
+        3
+      ]
+    },
+    {
+      "job": "layer22_s47__upstream__lr1e-06",
+      "pid": 4106776,
+      "gpus": [
+        4,
+        5
+      ]
+    }
+  ],
+  "updated": 1793260306.2385826
+}

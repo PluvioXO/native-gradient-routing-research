@@ -1,0 +1,17 @@
+seed,arm,panel,allowed_refusal,allowed_correct,allowed_other,allowed_truncated,allowed_strict_correct,allowed_refusal_language,blocked_refusal,blocked_correct,blocked_other,blocked_truncated,blocked_strict_correct,blocked_refusal_language,utility_refusal,utility_correct,utility_other,utility_truncated,utility_strict_correct,utility_refusal_language,arc_easy_correct,arc_easy_gold_nll,arc_easy_choice_mass,winogrande_correct,winogrande_gold_nll,winogrande_choice_mass
+base,original_base,test,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,,,,,,,,,,,,
+base,original_base,transfer,0.0,0.921875,0.078125,0.0,0.4375,0.0,0.0,0.890625,0.109375,0.0,0.4375,0.0,,,,,,,,,,,,
+base,original_base,utility,,,,,,,,,,,,,0.0,0.34375,0.65625,0.0,0.0625,0.0,,,,,,
+base,original_base,general,,,,,,,,,,,,,,,,,,,0.5,1.305949427332962,0.9918919187039137,0.375,1.1468717511743307,0.965918768197298
+31,channels,test,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,,,,,,,,,,,
+31,channels,transfer,0.0,0.109375,0.890625,0.0,0.109375,0.0,0.0,0.328125,0.671875,0.0,0.328125,0.0,,,,,,,,,,,,
+31,channels,utility,,,,,,,,,,,,,0.0,0.8125,0.1875,0.0,0.8125,0.0,,,,,,
+31,channels,general,,,,,,,,,,,,,,,,,,,0.5,2.1884395798988407,0.9994335472583771,0.5,1.591632644413039,0.9994572028517723
+31,full,test,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,,,,,,,,,,,
+31,full,transfer,0.0,1.0,0.0,0.0,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,,,,,,,,,,,,
+31,full,utility,,,,,,,,,,,,,0.0,0.84375,0.15625,0.0,0.0,0.0,,,,,,
+31,full,general,,,,,,,,,,,,,,,,,,,0.40625,1.7879895945079625,0.7660377500578761,0.5,2.641840683296323,0.2535018059425056
+31,scattered,test,0.0,1.0,0.0,0.0,1.0,0.0,0.96875,0.03125,0.0,0.0,0.03125,0.96875,,,,,,,,,,,,
+31,scattered,transfer,0.0,0.140625,0.859375,0.0,0.140625,0.0,0.0,0.46875,0.53125,0.0,0.46875,0.0,,,,,,,,,,,,
+31,scattered,utility,,,,,,,,,,,,,0.0,0.46875,0.53125,0.03125,0.34375,0.0,,,,,,
+31,scattered,general,,,,,,,,,,,,,,,,,,,0.4375,1.8075981175643392,0.9979448709636927,0.34375,1.1960693281143904,0.9932295307517052

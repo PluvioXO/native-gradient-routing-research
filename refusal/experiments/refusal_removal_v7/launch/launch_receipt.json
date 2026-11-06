@@ -1,0 +1,11 @@
+{
+  "host": "garlick.cs.bath.ac.uk",
+  "root": "/mnt/fast1/mn866/casr-refusal-removal-20261106",
+  "pid": 1474160,
+  "launched_unix": 1793944997.271938,
+  "source_archive_sha256": "fa37e9f1ad0d5813571242d5c2932cd9f29d00d82910dda86eea30aae70c4640",
+  "input_archive_sha256": "5e6a2656d8bf853f96b1a627bb6eb841e91d167a56ee7eeebc7a8c7387a674d5",
+  "planned_fits": 12,
+  "updates_per_fit": 256,
+  "gpu_pairs": 3
+}

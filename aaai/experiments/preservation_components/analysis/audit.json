@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "training_banks": 24,
+  "evaluated_banks": 24,
+  "verified_export_files": 35998,
+  "plan_sha256": "d1f86cb0cef85dd9aac9b651ac9b6b883df512788f9ef043006e0de4497b3a6b",
+  "archive_inventory_sha256": "829b1289eb6a2b954ef88c0af9c31c9aa8482770b352180d88d37efe89f805b3",
+  "counts": {
+    "training_updates": 15360,
+    "prediction_rows": 817920,
+    "retention_rows": 262944,
+    "wiki_target_tokens": 4325376
+  },
+  "frozen_baseline_identical": true,
+  "source_hashes_verified": true,
+  "limitation": "Recomputed answers, aggregate likelihoods and counts; did not rerun model forwards or optimization.",
+  "archived_control_banks": 24,
+  "control_completions_verified": 48,
+  "archived_controls_unchanged": true,
+  "cross_study_baseline_identical": true,
+  "auditor_sha256": "a1da46bdcfff4d407be24fc1326d54a438a97767f4e132697ce050c4e56a7153",
+  "extension_auditor_sha256": "8ceab9ff6f9a682c79457234a2945f965945068ef029a4758d9932ac0cb49e87"
+}

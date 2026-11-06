@@ -1,0 +1,24 @@
+{
+  "actual_process_resume_exact": true,
+  "parameters_sha256": "9ecaae19bed01a609e3b73d9bf1b051b76e5686faddd8abcc84caba3093f8505",
+  "optimizer_sha256": "44ef5201d5a9bb5793916d7a0fe31229b5198bfee2c9494b362d7b870f570f84",
+  "all_three_two_gpu_workers_passed": true,
+  "sources": {
+    "PROTOCOL.md": "db64bc981798da790a50f74b77246e22d62bb17dfda3b5af1854a6638556296d",
+    "analyse.py": "0b5f0d5efa12c240fcb40d01b494bfd3002154942d71f8f7eb6e59fc40034779",
+    "attack.py": "f93ecdbb5a6c0cab7cbf1046405cfbe583eb80f119795c486dd1130699c9dc33",
+    "protocol.py": "73940e773ae5124f4cb4f76b8c15664e45891538e0234c6b6c890f1d4cf54597",
+    "reference_v3/campaign.py": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce",
+    "reference_v3/data.py": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8",
+    "reference_v3/excluded_worlds.json": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18",
+    "reference_v3/legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "reference_v3/observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "reference_v3/original_manifest.json": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e",
+    "reference_v3/reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57",
+    "reference_v3/reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "reference_v3/run.py": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0",
+    "reference_v3/test_run.py": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb",
+    "test_protocol.py": "b27f7afd125138b2203e875bc6ebb844cae61c754f25f60e2e3e1412edb9759e",
+    "test_torch.py": "1d8c3d726a06e352a77e868339a4aac61af1f3489aa367b3b6c2db66946e7463"
+  }
+}

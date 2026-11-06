@@ -1,0 +1,895 @@
+{
+  "root": "/mnt/fast1/mn866/casr-adaptive-ablation-20261030",
+  "local_root": "experiments/adaptive_ablation/results/casr-adaptive-ablation-20261030",
+  "plan_sha256": "8cc0f435db3469aea587b088ce12d2ce81f4ce7b4a1edb57045f115eccc3126f",
+  "records": [
+    {
+      "path": "outputs/main/fits/eval_lora_small_aware_s31/completed.json",
+      "sha256": "aae462f5a603ad18e95ecef79e74b81c746178014562fa5764385273c6f6c655",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_aware_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_aware_s31"
+        ],
+        "id": "eval_lora_small_aware_s31",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "aware",
+        "seed": 31,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_aware_s47/completed.json",
+      "sha256": "edab8ac56c3a493b628a20d4efc1c6496c491d6ee46312cafa69ccfc9a4720ca",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_aware_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_aware_s47"
+        ],
+        "id": "eval_lora_small_aware_s47",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "aware",
+        "seed": 47,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_aware_s71/completed.json",
+      "sha256": "6e268a00feba6f6904e51930c3535553c6d06efde90423ead392de42685e4cd1",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_aware_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_aware_s71"
+        ],
+        "id": "eval_lora_small_aware_s71",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "aware",
+        "seed": 71,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_conservation_only_s31/completed.json",
+      "sha256": "f5157dbd352dd370434b2800eda61d14379e21e05f39d53e0c27e98b14869298",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_conservation_only_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_conservation_only_s31"
+        ],
+        "id": "eval_lora_small_conservation_only_s31",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "conservation_only",
+        "seed": 31,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_conservation_only_s47/completed.json",
+      "sha256": "1606e802f0db56566b42164b42fcf39018a9b6519ba084d6a718ff41ed35b706",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_conservation_only_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_conservation_only_s47"
+        ],
+        "id": "eval_lora_small_conservation_only_s47",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "conservation_only",
+        "seed": 47,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_conservation_only_s71/completed.json",
+      "sha256": "b61bd49fd71491a380757b7e6ce00467edff81fff8268a2af441b3cebcbbc258",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_conservation_only_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_conservation_only_s71"
+        ],
+        "id": "eval_lora_small_conservation_only_s71",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "conservation_only",
+        "seed": 71,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_preservation_only_s31/completed.json",
+      "sha256": "afcf79fb0f340ae164e532001fc2fd9f49530c840e4ce833b875ca1c8dabc9ba",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_preservation_only_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_preservation_only_s31"
+        ],
+        "id": "eval_lora_small_preservation_only_s31",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "preservation_only",
+        "seed": 31,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_preservation_only_s47/completed.json",
+      "sha256": "b8b659cfd15e8ed548dbcbdb4e5d3d5ebbc4c6f404750fc012b9eedd92e97f24",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_preservation_only_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_preservation_only_s47"
+        ],
+        "id": "eval_lora_small_preservation_only_s47",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "preservation_only",
+        "seed": 47,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_preservation_only_s71/completed.json",
+      "sha256": "4a4fb36f667c2da5228ad0bf51175a1f6f0315829b87799ed92d4eae024dd1a2",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_preservation_only_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_preservation_only_s71"
+        ],
+        "id": "eval_lora_small_preservation_only_s71",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "preservation_only",
+        "seed": 71,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_preserve_s31/completed.json",
+      "sha256": "5a385a1198aae97dd48421370fab0edb54383b2c74969332d5a1eb064b2cc179",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_preserve_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_preserve_s31"
+        ],
+        "id": "eval_lora_small_preserve_s31",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "preserve",
+        "seed": 31,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_preserve_s47/completed.json",
+      "sha256": "e712cb95cf601b167ce806ca33d43d0738c3185f7b0a7b85c9c03207b5e10747",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_preserve_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_preserve_s47"
+        ],
+        "id": "eval_lora_small_preserve_s47",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "preserve",
+        "seed": 47,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_lora_small_preserve_s71/completed.json",
+      "sha256": "c867ad0198d0571e13f7a1f9e689a217cf1657c370d19ce43f2a307179b7246a",
+      "spec": {
+        "bank_checkpoint": "train_lora_small_preserve_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_lora_small_preserve_s71"
+        ],
+        "id": "eval_lora_small_preserve_s71",
+        "kind": "merge",
+        "lr": 8.999999999999999e-05,
+        "mode": "preserve",
+        "seed": 71,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_aware_s31/completed.json",
+      "sha256": "a5ea455e45c05a397da96791430a05cd3bc233c1d61272403f06e7cf1d580a00",
+      "spec": {
+        "bank_checkpoint": "train_native_small_aware_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_aware_s31"
+        ],
+        "id": "eval_native_small_aware_s31",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "aware",
+        "seed": 31,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_aware_s47/completed.json",
+      "sha256": "c95373d36896f3129bbd587eb60e292b4a6a6486bcf067e8fcb8b0634d3d9724",
+      "spec": {
+        "bank_checkpoint": "train_native_small_aware_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_aware_s47"
+        ],
+        "id": "eval_native_small_aware_s47",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "aware",
+        "seed": 47,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_aware_s71/completed.json",
+      "sha256": "b91380384233a327fbb9eff63b83487e8b4de5ccf66c82bf0b29c977b937384e",
+      "spec": {
+        "bank_checkpoint": "train_native_small_aware_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_aware_s71"
+        ],
+        "id": "eval_native_small_aware_s71",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "aware",
+        "seed": 71,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_conservation_only_s31/completed.json",
+      "sha256": "080517faae9f916f766f8d5abca9b2b3b539ac8a0228918159c4474e520d64fd",
+      "spec": {
+        "bank_checkpoint": "train_native_small_conservation_only_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_conservation_only_s31"
+        ],
+        "id": "eval_native_small_conservation_only_s31",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "conservation_only",
+        "seed": 31,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_conservation_only_s47/completed.json",
+      "sha256": "5238ec1bc02ea2f682663144d3b748d002dc7727ba4362ffdedd426b2c7ebac7",
+      "spec": {
+        "bank_checkpoint": "train_native_small_conservation_only_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_conservation_only_s47"
+        ],
+        "id": "eval_native_small_conservation_only_s47",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "conservation_only",
+        "seed": 47,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_conservation_only_s71/completed.json",
+      "sha256": "6cdb84ebd6e26c687dad1d09d90d79b1c1c69570130177265bf1542fbbc05978",
+      "spec": {
+        "bank_checkpoint": "train_native_small_conservation_only_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_conservation_only_s71"
+        ],
+        "id": "eval_native_small_conservation_only_s71",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "conservation_only",
+        "seed": 71,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_preservation_only_s31/completed.json",
+      "sha256": "13ee1f8d96551efd6d3607563f7615e460c5a47c829b89f988f21b2a90be1d17",
+      "spec": {
+        "bank_checkpoint": "train_native_small_preservation_only_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_preservation_only_s31"
+        ],
+        "id": "eval_native_small_preservation_only_s31",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "preservation_only",
+        "seed": 31,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_preservation_only_s47/completed.json",
+      "sha256": "e08411f62ee312f57263686ebc17dcbc44a83a9b7c29e52c74615e68d6742888",
+      "spec": {
+        "bank_checkpoint": "train_native_small_preservation_only_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_preservation_only_s47"
+        ],
+        "id": "eval_native_small_preservation_only_s47",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "preservation_only",
+        "seed": 47,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_preservation_only_s71/completed.json",
+      "sha256": "d007d2073e450552510e92ded3aac9669a1f4c0806de88f24e87ad4555847cb2",
+      "spec": {
+        "bank_checkpoint": "train_native_small_preservation_only_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_preservation_only_s71"
+        ],
+        "id": "eval_native_small_preservation_only_s71",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "preservation_only",
+        "seed": 71,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_preserve_s31/completed.json",
+      "sha256": "b89d7b65d2890db589a6795a3a7d9af2e1068e5f641cd9a7c440635c795a8d6f",
+      "spec": {
+        "bank_checkpoint": "train_native_small_preserve_s31",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_preserve_s31"
+        ],
+        "id": "eval_native_small_preserve_s31",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "preserve",
+        "seed": 31,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_preserve_s47/completed.json",
+      "sha256": "f5f1043e5ed04ebda327e844ae6463d4f6d87ac55c10d61cb58db6a4ad808872",
+      "spec": {
+        "bank_checkpoint": "train_native_small_preserve_s47",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_preserve_s47"
+        ],
+        "id": "eval_native_small_preserve_s47",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "preserve",
+        "seed": 47,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/eval_native_small_preserve_s71/completed.json",
+      "sha256": "2ff85fa9ee8723675d9a236adfb7232e8cb4ee75bd5b55ca8abe84bba21c3120",
+      "spec": {
+        "bank_checkpoint": "train_native_small_preserve_s71",
+        "budget": "small",
+        "dependencies": [
+          "train_native_small_preserve_s71"
+        ],
+        "id": "eval_native_small_preserve_s71",
+        "kind": "merge",
+        "lr": 3e-05,
+        "mode": "preserve",
+        "seed": 71,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": null
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_aware_s31/completed.json",
+      "sha256": "a3068097b3e92ae6daad8b71a2adca96b26b29eea38e30f6f399a087c0367774",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_aware_s31",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "aware",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "b1f8b2eada8a61d60a3826ce98089c1ac2541bc358200ab63a7c57f1949bd085"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_aware_s47/completed.json",
+      "sha256": "b3fb85c6f2af544dc466f9aec43df42e005a487fcd03c9389eaa6d90e773aa83",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_aware_s47",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "aware",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "ba4a577bc077b56f7a7e1fd2898e1af7a64e7ced3df54447d29447e557779682"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_aware_s71/completed.json",
+      "sha256": "d3c839b7707cb4a1e20f88fbfb81598ef02f622a3b0647e95459583cb5e1dff3",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_aware_s71",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "aware",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "f0bb1c79444af46fb09d9c1d7744ab6040bb97ffc6f3f591532466ac54c034ce"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_conservation_only_s31/completed.json",
+      "sha256": "6be5012ed347ab332c80086365dd521727cc958f77567b7d0d71c52f6a3119aa",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_conservation_only_s31",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "conservation_only",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "d8ab1f7ee040cec6310f3462d685e2ed3e4d2c0d30f49ccfe31ea88395265fbf"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_conservation_only_s47/completed.json",
+      "sha256": "9f575e0b400d89f66cafad2899603b523070e9d76b55a4b56ce9f129b65aa34d",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_conservation_only_s47",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "conservation_only",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "60127952988f712ebb320d11355ef2c8fdc2a8065378cea265ef528e18b41429"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_conservation_only_s71/completed.json",
+      "sha256": "e08e34d4ba0af556ee4c3eded0a5bd9e5cfa5fbbcc8a5420d39ff53316fe6c39",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_conservation_only_s71",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "conservation_only",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "692407bd71a2067e7b398afcc675d46fd36f6352402ae42ee3d347e9c6aee40c"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_preservation_only_s31/completed.json",
+      "sha256": "951c27cf9ffccc825e5adb654d95c73b493181387f7b9b9d9363bed5954f0e2b",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_preservation_only_s31",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "preservation_only",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "873b6032631560b27f3d45c0f30711b10cad3ecf17826cceba43ab648aa11e23"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_preservation_only_s47/completed.json",
+      "sha256": "8fc18c2fd009c80ec0cd121b4d4273d93c2d5f9c8c27a50cf26f192c1a77bacd",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_preservation_only_s47",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "preservation_only",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "8b641547aebaa67fcb78c6004e773f9881cd0afd44ef4acb8953e4dfd197376c"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_preservation_only_s71/completed.json",
+      "sha256": "b8e11f2ae04e9794ad28b93c8c677eba13f42cda014372feeeab61f97a2ea389",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_preservation_only_s71",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "preservation_only",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "cbe2fd3c097e7644fef8a22997d00edecc1026eed686616656a7dbe300caaba4"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_preserve_s31/completed.json",
+      "sha256": "1be09a355af5e16089273cb4ea25be33ea93d7ff21b9c12152c4fab4e16537a2",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_preserve_s31",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "preserve",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "b5b92ac7b09523319de8a0dfd783609744023bcd5402925f9ed76cf3519d035b"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_preserve_s47/completed.json",
+      "sha256": "7ec23e204bd995340c90ceee21ded719a6162da0edddb0468b00121cfad0f1ba",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_preserve_s47",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "preserve",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "bc70d944041dacaa2d191f0bd24ed9426c2dbed22987ef175eb6d0ee13ff4f52"
+    },
+    {
+      "path": "outputs/main/fits/train_lora_small_preserve_s71/completed.json",
+      "sha256": "f122810e2ce8e64d6776536a23ea5f23823b641606a3f3bc4620615fb5d3c67f",
+      "spec": {
+        "budget": "small",
+        "id": "train_lora_small_preserve_s71",
+        "kind": "main",
+        "lr": 8.999999999999999e-05,
+        "mode": "preserve",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "lora",
+        "width": 1
+      },
+      "bank_sha256": "d31fe25a1953518f94e07b5da0dcc6ba5594f9d6703d7c163aaf570d19149fc8"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_aware_s31/completed.json",
+      "sha256": "db81edbed014cbed66a76a98afab4d4af23b648f2f02c13f465c32c2c834b9b9",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_aware_s31",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "aware",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "f92fc07eb4c33423357d3694420dc43eaaf9283438cf960b4c52b5e02b8b7d96"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_aware_s47/completed.json",
+      "sha256": "784c6f8a4ffca49e00b61a0310b41e81484415169446ccbc8f2d497453ded462",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_aware_s47",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "aware",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "23d9b5ccdfb7ac200b6f47d6cd5170ace6ceee969d8e0218e5d3c2c2bd475557"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_aware_s71/completed.json",
+      "sha256": "abc86143bee052b7efde455a60cb4f706790577c5927500e29a54b10ef6d2afd",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_aware_s71",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "aware",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "2ef13a03bca62a761136a28a98494e78523ee6538befc58e4f136fe4f4a8b638"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_conservation_only_s31/completed.json",
+      "sha256": "795ce822ecd8f1e0f4b7d43e7fbfab7f23f1639160a08c23eede695d5691f00b",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_conservation_only_s31",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "conservation_only",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "54ed2e1df2d5e2205f8eb81f0b2a512e2e38d616cbe30e65999170bef462fb39"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_conservation_only_s47/completed.json",
+      "sha256": "e28f4cf9eb5779f5161ea3ea71f9cf2daa0acf8039a9c3062795f74e199928e8",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_conservation_only_s47",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "conservation_only",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "5ac7912d652f930cdb8ac761ba05f749a1e6cfe2f2cfcc6bfe8096134ee5db87"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_conservation_only_s71/completed.json",
+      "sha256": "b5f847dc761a5189d16ebf81f065ea43c24f42b0d1224d91359741185c9701bc",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_conservation_only_s71",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "conservation_only",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "a44889a63fb909699624f58b6e6a3566ce1383abdc962257d3c965ce21a80160"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_preservation_only_s31/completed.json",
+      "sha256": "29623d0097a23befb21aadfca399bbba51eb95a4b6b0a73044f4a7d771808c3a",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_preservation_only_s31",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "preservation_only",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "3fd76d831ff54bf40e6c3cfc54e89d177a72c99215e6c50d8ff3613dbc449214"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_preservation_only_s47/completed.json",
+      "sha256": "a882fc2291ac94ad23f4d5f86f98567e32126149256642d12fe953177b786fcf",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_preservation_only_s47",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "preservation_only",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "eccb3345b83278b3e4a98bd9ec7eafdbdb034919553fb0408d6039afc8847958"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_preservation_only_s71/completed.json",
+      "sha256": "fdd8a722077618cff2e9e15e66452975df117be3a592ec3af492629240b9a6b8",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_preservation_only_s71",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "preservation_only",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "815899b796568385f4540f7d2952cb6e9eb622b1f850823f34eb11579e86cd68"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_preserve_s31/completed.json",
+      "sha256": "e6f6d92fc17e7c01b3d239561a74ea2dafc90709dd1b07cb44069053429ddb94",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_preserve_s31",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "preserve",
+        "seed": 31,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "1d57936a598d8b552d7bf473dac44d02dae8d54400e98e95ec1953414870e0d4"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_preserve_s47/completed.json",
+      "sha256": "620ce177e495c0d3e70a18128c19e217a4c07a4dea69ef49016894c617219336",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_preserve_s47",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "preserve",
+        "seed": 47,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "131a92b140fe2c453c0fa0dcd3b42a00a13f144ac7a51f3219ba16966102a998"
+    },
+    {
+      "path": "outputs/main/fits/train_native_small_preserve_s71/completed.json",
+      "sha256": "8eb92007f0be35877f146fdd6a262be17c29a0b1ec1bb268a71d625cd25a7bd7",
+      "spec": {
+        "budget": "small",
+        "id": "train_native_small_preserve_s71",
+        "kind": "main",
+        "lr": 3e-05,
+        "mode": "preserve",
+        "seed": 71,
+        "smoke": false,
+        "steps": 640,
+        "support": "native",
+        "width": 4
+      },
+      "bank_sha256": "144e9de1e84e28c5b43c00a0b2a9c6ddeec8c6844a458903e07c9817f7a8186f"
+    }
+  ]
+}

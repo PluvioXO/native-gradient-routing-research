@@ -1,0 +1,71 @@
+{
+  "checks_passed": true,
+  "time": 1793800099.9912736,
+  "source_hashes": {
+    "run.py": "6a3045d84eeadc665a208501c0ee668f746d12c572295304bf62cf87bed65a73",
+    "campaign.py": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50",
+    "legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "data.py": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de",
+    "observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "test_run.py": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5",
+    "excluded_worlds.json": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909",
+    "reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+  },
+  "data_sha256": "b065b6d2fec98e7ad20fe40ca693c6cae3851f37cdc2a585a04c1851b8a6e853",
+  "world_banks": {
+    "train": 256,
+    "dev": 24,
+    "test": 128,
+    "tiny": 8,
+    "observe": 16,
+    "ood": 64
+  },
+  "excluded_worlds": 2784,
+  "rows": {
+    "train_basic": 17408,
+    "train_mixed": 34816,
+    "dev_basic": 528,
+    "dev_mixed": 1248,
+    "test_basic": 2816,
+    "test_mixed": 6656,
+    "tiny_one": 272,
+    "policy_train": 13312,
+    "policy_dev": 1248,
+    "policy_test": 6656,
+    "policy_observe": 832,
+    "dev_one": 240,
+    "dev_two": 288,
+    "wording_test": 3328,
+    "ood_test": 2432,
+    "preserve_train": 320,
+    "direction_observe": 64,
+    "rehearsal": 64,
+    "general_dev": 64,
+    "general_test": 64,
+    "benchmark_dev": 64,
+    "benchmark_test": 128
+  },
+  "unique_prompts": 49968,
+  "max_prefix_tokens": 177,
+  "max_gold_completion_tokens": 7,
+  "input_truncation_used": false,
+  "train_depths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "ood_depths": [
+    5,
+    6
+  ],
+  "widths": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "native_block_zero_based": 11,
+  "observational_only": true
+}

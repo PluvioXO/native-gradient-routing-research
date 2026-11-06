@@ -1,0 +1,14 @@
+{
+  "RESULTS.md": "46353196af068d71115b322fd0a8370de06fa89fb3e0bc293f6a27c4e11a5b2a",
+  "case_scores.csv": "e3884f0cb0ef7f5cdaeda9c48c6c9a21317af74f4064d81bdbd7c51c0bfc7377",
+  "endpoints.csv": "2a4babd060f5048803d04ca37bedbb72e0002a8a87d5221c7b2fb1f88938d506",
+  "first_thresholds.csv": "9a115aa49777bc7e364c32e914dea370885c4897f44dc03f82cba3578aff5667",
+  "learning_curves.csv": "1d84856c4e917fd57f463bf04df08f4b6d4c0b609eb796336c3257e7225ab01e",
+  "removal_graphs.pdf": "e04fb7d7430b7d65085e1d599dc143e970cbe0b8bf7bad57e7ab0ccb73ac88f7",
+  "results.json": "a5c25c271ab4687d7b877a95777137dba79aeae48fcf954e5a85a14ed1255143",
+  "training.csv": "c3f10bc2d708f9a2d0f8f629e212b08804c4579dca9604523eb4751b7da6dff8",
+  "provenance.json": "0f294d5e464095a9f957330a65884a4ad8cea647f733e146969c75ddf6a8d850",
+  "audit.json": "47530612ad40bf3140097b9ab595a39aa7adadc11c5dcab74d784fadb9fd5a7b",
+  "retention.csv": "0a2df27ea31c842fafd6a8115a5b6da242c1f8e96dd8d7d03859e59e48c63c75",
+  "diagnostics.csv": "c4290e724daab3ccb8ecb0a912fe9b32f9f20743a6c813715b35a8440a7c7124"
+}

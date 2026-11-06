@@ -1,0 +1,732 @@
+{
+  "no_optimizer_steps": true,
+  "completion_token_ids": {
+    "a": [
+      64
+    ],
+    "REFUSE": [
+      5996,
+      7910
+    ]
+  },
+  "loss_indexing": [
+    {
+      "id": "train_0_allowed",
+      "answer": "g",
+      "manual": 1.001965045928955,
+      "builtin": 1.0019645690917969
+    },
+    {
+      "id": "train_0_blocked",
+      "answer": "REFUSE",
+      "manual": 3.854710817337036,
+      "builtin": 3.85471248626709
+    },
+    {
+      "id": "rehearsal_copy_0",
+      "answer": "cgurd",
+      "manual": 0.17348752915859222,
+      "builtin": 0.17348577082157135
+    },
+    {
+      "id": "rehearsal_copy_1",
+      "answer": "cvyae",
+      "manual": 0.17860719561576843,
+      "builtin": 0.17860804498195648
+    }
+  ],
+  "checkpointed_gradients": [
+    {
+      "role": "capability",
+      "max_abs_difference": 0.0
+    },
+    {
+      "role": "refusal",
+      "max_abs_difference": 0.0
+    }
+  ],
+  "weighted_component_gradients": [
+    {
+      "phase": "joint_initial",
+      "component": "allowed_nll",
+      "loss": 1.001965045928955,
+      "weight": 0.5,
+      "C": 4.863746320555939,
+      "R": 0.0
+    },
+    {
+      "phase": "joint_initial",
+      "component": "blocked_nll",
+      "loss": 3.854710817337036,
+      "weight": 0.5,
+      "C": 0.0,
+      "R": 1.3037027423043863
+    },
+    {
+      "phase": "joint_initial",
+      "component": "allowed_preservation",
+      "loss": 9.939355550159235e-06,
+      "weight": 0.1,
+      "C": 0.005484175044361906,
+      "R": 0.0
+    },
+    {
+      "phase": "joint_initial",
+      "component": "general_conservation",
+      "loss": 0.0023485575802624226,
+      "weight": 0.02,
+      "C": 0.0024173185881906233,
+      "R": 0.00013240475981361827
+    },
+    {
+      "phase": "joint_final",
+      "component": "allowed_nll",
+      "loss": 1.3321447372436523,
+      "weight": 0.5,
+      "C": 25.0590454156002,
+      "R": 0.0
+    },
+    {
+      "phase": "joint_final",
+      "component": "blocked_nll",
+      "loss": 0.4407821595668793,
+      "weight": 0.5,
+      "C": 0.0,
+      "R": 21.43285014713833
+    },
+    {
+      "phase": "joint_final",
+      "component": "allowed_preservation",
+      "loss": 0.7029327154159546,
+      "weight": 0.1,
+      "C": 5.935886859401651,
+      "R": 0.0
+    },
+    {
+      "phase": "joint_final",
+      "component": "general_conservation",
+      "loss": 4.551987171173096,
+      "weight": 0.02,
+      "C": 2.0951087883355695,
+      "R": 1.789770346459681
+    }
+  ],
+  "continuation_KL_examples": [
+    {
+      "id": "rehearsal_addition_0",
+      "gold_answer": "47",
+      "KL_per_completion_position": [
+        4.5519795417785645,
+        8.612367630004883,
+        6.619831085205078
+      ]
+    },
+    {
+      "id": "rehearsal_addition_1",
+      "gold_answer": "24",
+      "KL_per_completion_position": [
+        3.724677324295044,
+        14.940923690795898,
+        10.142934799194336
+      ]
+    },
+    {
+      "id": "rehearsal_copy_0",
+      "gold_answer": "cgurd",
+      "KL_per_completion_position": [
+        13.786554336547852,
+        16.031597137451172,
+        0.6253306865692139
+      ]
+    },
+    {
+      "id": "rehearsal_copy_1",
+      "gold_answer": "cvyae",
+      "KL_per_completion_position": [
+        12.891497611999512,
+        13.3392915725708,
+        23.442142486572266,
+        0.634374737739563
+      ]
+    }
+  ],
+  "greedy_mode_diagnostic": [
+    {
+      "placement": "same",
+      "id": "dev_0_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.36300578713417053,
+      "node_total_probability": 0.6244353652000427,
+      "largest_node_probability": 0.12102322280406952,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_0_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3268704116344452,
+      "node_total_probability": 0.6586756110191345,
+      "largest_node_probability": 0.13884323835372925,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_1_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3375449478626251,
+      "node_total_probability": 0.6530272960662842,
+      "largest_node_probability": 0.16033393144607544,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_1_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.4070802628993988,
+      "node_total_probability": 0.5813502073287964,
+      "largest_node_probability": 0.13476623594760895,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_2_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.24387742578983307,
+      "node_total_probability": 0.7401401996612549,
+      "largest_node_probability": 0.13762487471103668,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_2_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.2586500942707062,
+      "node_total_probability": 0.7271429300308228,
+      "largest_node_probability": 0.14370860159397125,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_3_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.32772278785705566,
+      "node_total_probability": 0.6542636156082153,
+      "largest_node_probability": 0.13671398162841797,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_3_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.38409748673439026,
+      "node_total_probability": 0.5981749296188354,
+      "largest_node_probability": 0.13529306650161743,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_4_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.31373438239097595,
+      "node_total_probability": 0.6738783717155457,
+      "largest_node_probability": 0.12804488837718964,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_4_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.31582915782928467,
+      "node_total_probability": 0.671388566493988,
+      "largest_node_probability": 0.1337677240371704,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_5_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4170032739639282,
+      "node_total_probability": 0.569465696811676,
+      "largest_node_probability": 0.1325121819972992,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_5_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.4138745069503784,
+      "node_total_probability": 0.5700796246528625,
+      "largest_node_probability": 0.11394787579774857,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_6_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.23058055341243744,
+      "node_total_probability": 0.7582148313522339,
+      "largest_node_probability": 0.13050295412540436,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_6_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.31967103481292725,
+      "node_total_probability": 0.6696829795837402,
+      "largest_node_probability": 0.1027812734246254,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_7_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.34527069330215454,
+      "node_total_probability": 0.6392362117767334,
+      "largest_node_probability": 0.17306320369243622,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_7_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.37377357482910156,
+      "node_total_probability": 0.6109063029289246,
+      "largest_node_probability": 0.17356078326702118,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_8_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.2560039162635803,
+      "node_total_probability": 0.730270504951477,
+      "largest_node_probability": 0.19568392634391785,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_8_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.281319260597229,
+      "node_total_probability": 0.7008294463157654,
+      "largest_node_probability": 0.15224047005176544,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_9_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.35955119132995605,
+      "node_total_probability": 0.6250933408737183,
+      "largest_node_probability": 0.11258049309253693,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_9_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.4115697145462036,
+      "node_total_probability": 0.5750840902328491,
+      "largest_node_probability": 0.10271350294351578,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_10_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3880627453327179,
+      "node_total_probability": 0.6005252599716187,
+      "largest_node_probability": 0.1119387149810791,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_10_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3091636896133423,
+      "node_total_probability": 0.6777212023735046,
+      "largest_node_probability": 0.14382466673851013,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_11_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4935658574104309,
+      "node_total_probability": 0.4937981963157654,
+      "largest_node_probability": 0.12344667315483093,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_11_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3594400882720947,
+      "node_total_probability": 0.6252022981643677,
+      "largest_node_probability": 0.14052779972553253,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_12_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3799021244049072,
+      "node_total_probability": 0.6115758419036865,
+      "largest_node_probability": 0.12008906155824661,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_12_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.335296630859375,
+      "node_total_probability": 0.654198169708252,
+      "largest_node_probability": 0.13070935010910034,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_13_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4213111400604248,
+      "node_total_probability": 0.5648090839385986,
+      "largest_node_probability": 0.1137261837720871,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_13_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3379417061805725,
+      "node_total_probability": 0.6495980024337769,
+      "largest_node_probability": 0.12115686386823654,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_14_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.2940484881401062,
+      "node_total_probability": 0.6940772533416748,
+      "largest_node_probability": 0.14800925552845,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_14_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.254289448261261,
+      "node_total_probability": 0.7326529026031494,
+      "largest_node_probability": 0.15676181018352509,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_15_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4707350730895996,
+      "node_total_probability": 0.5185210108757019,
+      "largest_node_probability": 0.13134846091270447,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "same",
+      "id": "dev_15_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.4823291003704071,
+      "node_total_probability": 0.5086061358451843,
+      "largest_node_probability": 0.12778839468955994,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_0_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.18571403622627258,
+      "node_total_probability": 0.64312744140625,
+      "largest_node_probability": 0.09744755923748016,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_0_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.24742303788661957,
+      "node_total_probability": 0.5862196683883667,
+      "largest_node_probability": 0.08955131471157074,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_1_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3491123616695404,
+      "node_total_probability": 0.4957220256328583,
+      "largest_node_probability": 0.07581781595945358,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_1_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3565613329410553,
+      "node_total_probability": 0.48929572105407715,
+      "largest_node_probability": 0.07489321380853653,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_2_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.34188640117645264,
+      "node_total_probability": 0.5027674436569214,
+      "largest_node_probability": 0.0776195377111435,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_2_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.31343552470207214,
+      "node_total_probability": 0.5274684429168701,
+      "largest_node_probability": 0.08113806694746017,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_3_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.5151654481887817,
+      "node_total_probability": 0.35640227794647217,
+      "largest_node_probability": 0.05523074418306351,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_3_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.5338456630706787,
+      "node_total_probability": 0.3412455916404724,
+      "largest_node_probability": 0.053015995770692825,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_4_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.24303610622882843,
+      "node_total_probability": 0.5903708934783936,
+      "largest_node_probability": 0.09016285836696625,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_4_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.26805272698402405,
+      "node_total_probability": 0.5678520202636719,
+      "largest_node_probability": 0.08699502050876617,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_5_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.37204477190971375,
+      "node_total_probability": 0.47616302967071533,
+      "largest_node_probability": 0.07310690730810165,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_5_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.4135337769985199,
+      "node_total_probability": 0.440950870513916,
+      "largest_node_probability": 0.06789524853229523,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_6_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3708745539188385,
+      "node_total_probability": 0.47840961813926697,
+      "largest_node_probability": 0.07460468262434006,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_6_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.38921356201171875,
+      "node_total_probability": 0.46266618371009827,
+      "largest_node_probability": 0.0722472220659256,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_7_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3853485882282257,
+      "node_total_probability": 0.46475929021835327,
+      "largest_node_probability": 0.07108592242002487,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_7_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.38168618083000183,
+      "node_total_probability": 0.4680497646331787,
+      "largest_node_probability": 0.0716688483953476,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_8_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.2921418249607086,
+      "node_total_probability": 0.5467481017112732,
+      "largest_node_probability": 0.08421093970537186,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_8_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3516148626804352,
+      "node_total_probability": 0.4946867823600769,
+      "largest_node_probability": 0.0766286626458168,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_9_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4592403769493103,
+      "node_total_probability": 0.4026138186454773,
+      "largest_node_probability": 0.06210344284772873,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_9_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.48111870884895325,
+      "node_total_probability": 0.3844450116157532,
+      "largest_node_probability": 0.059378594160079956,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_10_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.24232947826385498,
+      "node_total_probability": 0.5909950137138367,
+      "largest_node_probability": 0.09020017832517624,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_10_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.24225948750972748,
+      "node_total_probability": 0.591083288192749,
+      "largest_node_probability": 0.0902186781167984,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_11_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.35472020506858826,
+      "node_total_probability": 0.49081382155418396,
+      "largest_node_probability": 0.07510589808225632,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_11_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.36885884404182434,
+      "node_total_probability": 0.47874000668525696,
+      "largest_node_probability": 0.07335315644741058,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_12_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.2309989631175995,
+      "node_total_probability": 0.6011778712272644,
+      "largest_node_probability": 0.09180393069982529,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_12_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.28877320885658264,
+      "node_total_probability": 0.5492583513259888,
+      "largest_node_probability": 0.08439769595861435,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_13_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4189639687538147,
+      "node_total_probability": 0.4364953637123108,
+      "largest_node_probability": 0.06734583526849747,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_13_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3748689293861389,
+      "node_total_probability": 0.4737917482852936,
+      "largest_node_probability": 0.07280554622411728,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_14_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.3594838082790375,
+      "node_total_probability": 0.4877801239490509,
+      "largest_node_probability": 0.0755869671702385,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_14_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.3426033854484558,
+      "node_total_probability": 0.5024150013923645,
+      "largest_node_probability": 0.07775139063596725,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_15_allowed",
+      "label": "allowed",
+      "refusal_prefix_probability": 0.4738083481788635,
+      "node_total_probability": 0.39061063528060913,
+      "largest_node_probability": 0.060369957238435745,
+      "refusal_prefix_is_argmax": true
+    },
+    {
+      "placement": "different",
+      "id": "dev_15_blocked",
+      "label": "blocked",
+      "refusal_prefix_probability": 0.442704439163208,
+      "node_total_probability": 0.4165685176849365,
+      "largest_node_probability": 0.06429463624954224,
+      "refusal_prefix_is_argmax": true
+    }
+  ],
+  "frozen_originals_unchanged": true
+}

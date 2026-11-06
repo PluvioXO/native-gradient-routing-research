@@ -1,0 +1,43 @@
+{
+  "audit": {
+    "complete": true,
+    "training_banks": 24,
+    "evaluated_banks": 24,
+    "verified_export_files": 35998,
+    "plan_sha256": "d1f86cb0cef85dd9aac9b651ac9b6b883df512788f9ef043006e0de4497b3a6b",
+    "archive_inventory_sha256": "829b1289eb6a2b954ef88c0af9c31c9aa8482770b352180d88d37efe89f805b3",
+    "counts": {
+      "training_updates": 15360,
+      "prediction_rows": 817920,
+      "retention_rows": 262944,
+      "wiki_target_tokens": 4325376
+    },
+    "frozen_baseline_identical": true,
+    "source_hashes_verified": true,
+    "limitation": "Recomputed answers, aggregate likelihoods and counts; did not rerun model forwards or optimization.",
+    "archived_control_banks": 24,
+    "control_completions_verified": 48,
+    "archived_controls_unchanged": true,
+    "cross_study_baseline_identical": true,
+    "auditor_sha256": "a1da46bdcfff4d407be24fc1326d54a438a97767f4e132697ce050c4e56a7153",
+    "extension_auditor_sha256": "8ceab9ff6f9a682c79457234a2945f965945068ef029a4758d9932ac0cb49e87"
+  },
+  "inputs": {
+    "experiments/preservation_components/analysis/audit.json": "a4739ea8f971ac3fce1c968b80b84cb2374abd61c49e388f4997e5668bf06ac7",
+    "experiments/preservation_components/analysis/per_bank.json": "2d47734bc131026a53be5ec8e46d10905101247898d350e23b7c94fe3acc27ee",
+    "experiments/adaptive_ablation/analysis/per_bank.json": "2aca43da06d9a36d73067907f599a4428d4ab6be11c1d1b09152396b6bd48b68",
+    "experiments/preservation_components/analyse.py": "8ceab9ff6f9a682c79457234a2945f965945068ef029a4758d9932ac0cb49e87",
+    "experiments/preservation_components/paper_artifacts.py": "ccba04348511e171f8750246d74d6ecf5307c07b90be7b836975ba99ccabfaff",
+    "experiments/preservation_components/results/casr-preservation-components-results-20261102.tar.gz": "3bf365d3ff428790324151da7daa63f5dedd75a2ea79e2f1de66a2e556f3ff41"
+  },
+  "outputs": {
+    "component_contrasts.pdf": "ec7b743659f98c0211bb115f9c28ac241de774790b4a9b9d9095cf838868c4ee",
+    "secondary_table.tex": "c6f5663d9f749b78b8e6d41406095dd171d8aff294281eac2a7dcfb61583a6dd",
+    "component_contrasts.png": "22ae40fe114360c79cf44fd580374f1a6bd93d773c7d4385c3cc3d443f671cac",
+    "factorial_accuracy.png": "36209539965bbe56963f019217aaa2b8b2b745666376bdd2f23c0f5ba9b5b9b2",
+    "planned_contrasts_table.tex": "3dc4d0090544139f8d9fc553058010bc79f352aaa35811d3686ec719c24eef14",
+    "factorial_accuracy.pdf": "1b9a2f7e5a1b1790217e85fb15ea1caef6328501ea449c915691539a739cebd1",
+    "primary_table.tex": "1cd450bdc36aaf3cf3e5f3fed5f653ad57ffc6712e0e40946a9e1db1fd61c15b",
+    "task_contrasts_table.tex": "9e68e0635d6b3183b35e1a6269fa2ddeb63c007c5011a0f41cfba3f91e697bd9"
+  }
+}

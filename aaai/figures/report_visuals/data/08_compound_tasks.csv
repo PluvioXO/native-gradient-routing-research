@@ -1,0 +1,9 @@
+family,allocation,base,direct_both,generated_pipeline
+Pointer--arithmetic,Native 4,15.0,5.3,97.2
+Pointer--arithmetic,LoRA r1,15.0,1.9,96.9
+Pointer--arithmetic,Native 26,15.0,8.3,89.4
+Pointer--arithmetic,LoRA r4,15.0,1.1,98.9
+Stack--sorting,Native 4,32.5,37.5,26.7
+Stack--sorting,LoRA r1,32.5,40.0,26.4
+Stack--sorting,Native 26,32.5,38.6,30.8
+Stack--sorting,LoRA r4,32.5,37.8,32.2

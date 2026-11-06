@@ -1,0 +1,26 @@
+{
+  "active": [],
+  "by_kind": {
+    "independent": {
+      "done": 2,
+      "total": 2
+    },
+    "main": {
+      "done": 6,
+      "total": 6
+    },
+    "merge": {
+      "done": 2,
+      "total": 2
+    }
+  },
+  "completed": 10,
+  "execution_revision": "38197416bb728f7fa8d46ee039dba1a754e1ba5e4d1550f61d38bbde9b7165b9",
+  "failed": [],
+  "free_gib": 558.0392875671387,
+  "host": "ogg",
+  "launcher_state": "complete",
+  "pending": 0,
+  "planned": 10,
+  "updated_utc": "2026-11-02T14:38:57Z"
+}

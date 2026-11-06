@@ -1,0 +1,14 @@
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+Support & Losses & MC $\Delta$Acc (pp) & RL hours & Response tokens ($10^3$)\\
+\midrule
+Native & Neither & $0.1 \pm 0.8$ & $5.11 \pm 0.92$ & $215.3 \pm 14.7$\\
+Native & Preservation & $0.2 \pm 0.9$ & $4.10 \pm 0.20$ & $226.5 \pm 25.0$\\
+Native & Conservation & $0.2 \pm 0.7$ & $5.43 \pm 0.98$ & $217.7 \pm 20.2$\\
+Native & Both & $-0.2 \pm 0.7$ & $4.53 \pm 0.42$ & $222.3 \pm 17.0$\\
+LoRA & Neither & $-0.3 \pm 0.3$ & $4.04 \pm 0.58$ & $210.6 \pm 3.8$\\
+LoRA & Preservation & $0.1 \pm 0.6$ & $4.13 \pm 0.45$ & $211.1 \pm 0.2$\\
+LoRA & Conservation & $-0.5 \pm 0.5$ & $4.42 \pm 0.97$ & $209.0 \pm 12.1$\\
+LoRA & Both & $0.1 \pm 0.9$ & $3.95 \pm 0.50$ & $209.1 \pm 4.2$\\
+\bottomrule
+\end{tabular}

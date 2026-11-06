@@ -1,0 +1,9 @@
+{
+  "source": "mn866@garlick.cs.bath.ac.uk:/var/tmp/casr-mn866-4tnvew8l/repo/outputs/paper01/final_results.csv",
+  "input_sha256": "6ed89a6dc4e887bebbe8ea61d221448582e2a3d565b84b3aef7c18e87f596a55",
+  "output_sha256": "9ff6f40a4b815abe4fd164f486d37b5579dc2ff8e22ce0e9a5b4a8826b8fc57a",
+  "fits": 24,
+  "counts_per_task": 180,
+  "means_match_existing_summary": true,
+  "note": "Restored missing appendix build dependency from saved final counts; raw-prediction audit was not repeated in this recovery."
+}

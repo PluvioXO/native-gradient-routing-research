@@ -1,0 +1,51 @@
+{
+  "verified_utc": "2026-10-31T04:53:33Z",
+  "all_six_gpus_active": true,
+  "no_failures": true,
+  "active": [
+    {
+      "gpu": "0",
+      "id": "train_native_small_aware_s71",
+      "pid": 1218527,
+      "step": 480,
+      "total": 640
+    },
+    {
+      "gpu": "1",
+      "id": "train_native_small_preservation_only_s71",
+      "pid": 1218528,
+      "step": 608,
+      "total": 640
+    },
+    {
+      "gpu": "2",
+      "id": "train_native_small_conservation_only_s71",
+      "pid": 1218529,
+      "step": 480,
+      "total": 640
+    },
+    {
+      "gpu": "3",
+      "id": "train_native_small_preserve_s71",
+      "pid": 1218530,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "4",
+      "id": "train_lora_small_aware_s71",
+      "pid": 1218531,
+      "step": 0,
+      "total": 640
+    },
+    {
+      "gpu": "5",
+      "id": "train_lora_small_preservation_only_s71",
+      "pid": 1218532,
+      "step": 0,
+      "total": 640
+    }
+  ],
+  "refusal_research": "paused",
+  "scientific_source_revision": "89bae92ea07d394f3d54c10b6e8b0a1ae65124f6e15c14ef9fd445b63f179b15"
+}

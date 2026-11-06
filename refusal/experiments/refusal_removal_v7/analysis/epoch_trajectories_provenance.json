@@ -1,0 +1,128 @@
+{
+  "scope": "One-seed developmental trajectories, all 12 fits; no inference or training rerun",
+  "inputs": {
+    "learning_curves.csv": "1d84856c4e917fd57f463bf04df08f4b6d4c0b609eb796336c3257e7225ab01e",
+    "training.csv": "c3f10bc2d708f9a2d0f8f629e212b08804c4579dca9604523eb4751b7da6dff8"
+  },
+  "script_sha256": "e0b9c7ffd03b9b312fa95bfbb7e2f2fdb764bb8868d49b90f2a978cf0e63a680",
+  "blocked_epoch_definition": "Actual logged blocked_exposure_epochs = update / 256",
+  "measured_updates": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96,
+    128,
+    192,
+    256
+  ],
+  "outputs": {
+    "epoch_trajectories.pdf": "d609786e91ed64f03f1fe76c241e062d53926d219cfc4e1ed04fa0854deb854f",
+    "epoch_trajectories_preserve.png": "2ffabea615cef71cc3e8380402c8efc4bf41c45d5ab4880a0044c6c237e6a902",
+    "epoch_trajectories_ordinary.png": "8c980aa4a81b9eb914a542cb74441b8613c16c4d1e51611e6b5af709c49e322d"
+  },
+  "summaries": [
+    {
+      "job": "shared4__preserve__lr1e-06",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.9700520833333334,
+      "minimum_observed_post_update_allowed_accuracy": 0.9010416666666666,
+      "minimum_observed_allowed_step": 8,
+      "final_development_allowed_accuracy": 0.9986979166666666
+    },
+    {
+      "job": "shared4__preserve__lr1e-05",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.86328125,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 2,
+      "final_development_allowed_accuracy": 1.0
+    },
+    {
+      "job": "shared4__preserve__lr5e-05",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.0052083333333333,
+      "minimum_observed_post_update_allowed_accuracy": 0.0052083333333333,
+      "minimum_observed_allowed_step": 1,
+      "final_development_allowed_accuracy": 0.9674479166666666
+    },
+    {
+      "job": "shared8__preserve__lr1e-06",
+      "first_zero_navigation_refusal_step": 2,
+      "allowed_accuracy_at_first_zero_refusal": 0.97265625,
+      "minimum_observed_post_update_allowed_accuracy": 0.97265625,
+      "minimum_observed_allowed_step": 2,
+      "final_development_allowed_accuracy": 0.9986979166666666
+    },
+    {
+      "job": "shared8__preserve__lr1e-05",
+      "first_zero_navigation_refusal_step": 2,
+      "allowed_accuracy_at_first_zero_refusal": 0.2799479166666667,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 1,
+      "final_development_allowed_accuracy": 0.9973958333333334
+    },
+    {
+      "job": "shared8__preserve__lr5e-05",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.0,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 1,
+      "final_development_allowed_accuracy": 1.0
+    },
+    {
+      "job": "shared4__ordinary__lr1e-06",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.9700520833333334,
+      "minimum_observed_post_update_allowed_accuracy": 0.296875,
+      "minimum_observed_allowed_step": 256,
+      "final_development_allowed_accuracy": 0.296875
+    },
+    {
+      "job": "shared4__ordinary__lr1e-05",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.86328125,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 2,
+      "final_development_allowed_accuracy": 0.0221354166666666
+    },
+    {
+      "job": "shared4__ordinary__lr5e-05",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.0052083333333333,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 4,
+      "final_development_allowed_accuracy": 0.0130208333333333
+    },
+    {
+      "job": "shared8__ordinary__lr1e-06",
+      "first_zero_navigation_refusal_step": 2,
+      "allowed_accuracy_at_first_zero_refusal": 0.97265625,
+      "minimum_observed_post_update_allowed_accuracy": 0.49609375,
+      "minimum_observed_allowed_step": 128,
+      "final_development_allowed_accuracy": 0.5
+    },
+    {
+      "job": "shared8__ordinary__lr1e-05",
+      "first_zero_navigation_refusal_step": 2,
+      "allowed_accuracy_at_first_zero_refusal": 0.01171875,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 1,
+      "final_development_allowed_accuracy": 0.0065104166666666
+    },
+    {
+      "job": "shared8__ordinary__lr5e-05",
+      "first_zero_navigation_refusal_step": 1,
+      "allowed_accuracy_at_first_zero_refusal": 0.0,
+      "minimum_observed_post_update_allowed_accuracy": 0.0,
+      "minimum_observed_allowed_step": 1,
+      "final_development_allowed_accuracy": 0.015625
+    }
+  ]
+}

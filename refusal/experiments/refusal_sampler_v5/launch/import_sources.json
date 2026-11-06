@@ -1,0 +1,86 @@
+{
+  "host": "weatherwax.cs.bath.ac.uk",
+  "root": "/mnt/fast1/mn866/casr-colocalization-branching-20261104",
+  "files": {
+    "results/manifest.json": {
+      "sha256": "ec5ea0976a738e821ab399f2e617a108aac7a9a6e486e8e4de72e091249100e7",
+      "bytes": 2373
+    },
+    "results/data.json": {
+      "sha256": "667630c684006b47dc53dc2bca825749fc510b1dcc9d6e49287787859596703e",
+      "bytes": 177752733
+    },
+    "results/direction_data.json": {
+      "sha256": "a69e627038693a1649138153abaf8fe5baaa8cb5d4ea9be8be147a22599fecd8",
+      "bytes": 21673
+    },
+    "results/base.json": {
+      "sha256": "5a8973a78000d8e8ea0f4b0ffdbe7275cf7d39ce4d1dcc1ed871f1366e0866d4",
+      "bytes": 2996481
+    },
+    "results/jobs.json": {
+      "sha256": "588e78113b90686fb81841cf689ab5162b921883be56a25122fc47143c894a85",
+      "bytes": 4431
+    },
+    "results/jobs/cap_native4_s31/capability.pt": {
+      "sha256": "6fc2321e85018575b3055c27f873d3843c4ced96df1d90109f046b6a78666950",
+      "bytes": 1345736
+    },
+    "results/jobs/cap_native4_s31/teacher.pt": {
+      "sha256": "9d8dce90133a7a16ba7e13710c45a1f448c5b3f936c211e64b6db64d7b8ddfeb",
+      "bytes": 340438526
+    },
+    "results/jobs/cap_native4_s31/layout.json": {
+      "sha256": "8fd86ad8381e4f3a104760d1543b302249dd3aba9dc3d4f2476f5acb3e206dde",
+      "bytes": 945
+    },
+    "results/jobs/cap_native4_s31/acquisition.json": {
+      "sha256": "2129efc514c1a260ff240da1af238370236b1e4c8a8402967718bf2ef709dbd0",
+      "bytes": 2896323
+    },
+    "results/jobs/cap_native4_s31/DONE.json": {
+      "sha256": "59586a668d9fd40cf6c5ca6631d7fb680101548a78e9646428cd7bd7d4f12106",
+      "bytes": 759
+    },
+    "results/jobs/cap_native8_s31/capability.pt": {
+      "sha256": "f61f5060d3d36c8e0a41203476a3f7382abb9eeb994b7a8c9063694af96db05e",
+      "bytes": 1431688
+    },
+    "results/jobs/cap_native8_s31/teacher.pt": {
+      "sha256": "ce20ab9bb8250b1c7c0f530783f026453d6dc0b82ef4cc23c4c0d2e7f97c87a8",
+      "bytes": 340438526
+    },
+    "results/jobs/cap_native8_s31/layout.json": {
+      "sha256": "5a9ecdc1c69504ebafeae811de76b7786ad57c9c611e4f2ee0d3626c811afea4",
+      "bytes": 1326
+    },
+    "results/jobs/cap_native8_s31/acquisition.json": {
+      "sha256": "daef14c9f189c1ce7d84d2084ff35ebca3a8eb307bff69032e50688d8e8f405e",
+      "bytes": 2895917
+    },
+    "results/jobs/cap_native8_s31/DONE.json": {
+      "sha256": "f28b3b2b0251cfdd0e66ff1822130f010fce2494a4706860c56dbebc7838c65f",
+      "bytes": 759
+    },
+    "results/jobs/cap_full_s31/capability.pt": {
+      "sha256": "d32ba130bd1704ec654905cba65deb19f841bd48da8c3d1b25e5e3c9f1bd0d2d",
+      "bytes": 1977860974
+    },
+    "results/jobs/cap_full_s31/teacher.pt": {
+      "sha256": "ab42f1629c899a0d0693cdc37f3a2851b9c6f2d74a75609a34fdde784e1c8e95",
+      "bytes": 340438526
+    },
+    "results/jobs/cap_full_s31/layout.json": {
+      "sha256": "48b6fc871f75fa4536530b9d1d51b422ba180a1ff1f13793314a26aaa26d77e1",
+      "bytes": 74
+    },
+    "results/jobs/cap_full_s31/acquisition.json": {
+      "sha256": "60edd3621d574753a9dc6f9a432c3045e993f56f2f49146f9b5559d9409d5f85",
+      "bytes": 2895305
+    },
+    "results/jobs/cap_full_s31/DONE.json": {
+      "sha256": "4b527389ce2f81e95e38394a0470ded50f3abf97bfaa2240435b83845db7d72d",
+      "bytes": 752
+    }
+  }
+}

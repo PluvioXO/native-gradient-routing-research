@@ -1,0 +1,7 @@
+{
+  "source_archive": "experiments/refusal_layer/results/casr-layer-measurements-20261028.tar.gz",
+  "source_archive_sha256": "8866ef52247df30235cef5dd350030fd185c5fc2ee6e0e695df584b5b6ab5b8a",
+  "source_plot_csv": "figures/report_visuals/data/18_unrestricted_removal_curves.csv",
+  "source_plot_csv_sha256": "d42b3c070b9e4da381b37b7b3d50e1e867bb12ec5498378709436050d8f3cc14",
+  "note": "Metrics previously read from the original archive and preserved in the generated plot bundle; the original archive is no longer present locally."
+}

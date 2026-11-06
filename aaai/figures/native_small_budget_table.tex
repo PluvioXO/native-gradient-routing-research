@@ -1,0 +1,16 @@
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Budget & Params (k) & Test (\%) & RL min & PPL $\Delta$\%\\
+\midrule
+Frozen base & 0 & 38.3 & --- & 0\\
+Native 1 & 136.2 & $83.9\pm16.9$ & 50.6 & +1.05\\
+Native 2 & 157.7 & $96.1\pm4.2$ & 50.6 & +0.69\\
+Native 4 & 200.7 & $97.2\pm2.4$ & 52.8 & +0.72\\
+Native 6 & 243.7 & $89.7\pm2.9$ & 51.6 & +0.52\\
+Native 13 & 394.2 & $97.2\pm1.7$ & 51.6 & +0.47\\
+Native 26 & 673.8 & $98.6\pm1.7$ & 50.0 & +0.28\\
+LoRA r1 & 183.3 & $71.7\pm6.0$ & 49.0 & +0.17\\
+LoRA r2 & 366.6 & $90.3\pm8.8$ & 50.3 & +0.18\\
+LoRA r4 & 733.2 & $98.3\pm0.8$ & 47.6 & +0.21\\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,17 @@
+job,stage,step,qualified,reason
+full_off,one,128,True,acquisition_gate_passed
+full_off,tiny,64,True,acquisition_gate_passed
+full_off,two,160,True,acquisition_gate_passed
+full_on,one,64,True,acquisition_gate_passed
+full_on,tiny,64,True,acquisition_gate_passed
+full_on,two,64,True,acquisition_gate_passed
+native4,one,64,True,acquisition_gate_passed
+native4,tiny,96,True,acquisition_gate_passed
+native4,two,96,True,acquisition_gate_passed
+native128,one,64,True,acquisition_gate_passed
+native128,tiny,64,True,acquisition_gate_passed
+native128,two,64,True,acquisition_gate_passed
+scattered_cap,tiny,256,False,maximum_updates
+policy_same,policy,512,True,maximum_updates
+policy_different,policy,160,False,retention_guard_failed
+policy_full,policy,224,False,retention_guard_failed

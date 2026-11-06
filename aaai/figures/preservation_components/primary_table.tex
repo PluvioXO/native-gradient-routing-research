@@ -1,0 +1,17 @@
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+ & & \multicolumn{2}{c}{Native, 4 channels} & \multicolumn{2}{c}{LoRA, rank 1}\\
+Conserve & Preserve & Accuracy & $\Delta$PPL & Accuracy & $\Delta$PPL\\
+\midrule
+--- & Frozen base & 29.1 & 0.0 & 29.1 & 0.0\\
+Off & None & $52.5 \pm 4.7$ & $13.2 \pm 5.9$ & $52.8 \pm 4.9$ & $10.3 \pm 1.3$\\
+Off & Self & $52.6 \pm 4.3$ & $9.8 \pm 1.9$ & $51.0 \pm 2.0$ & $10.2 \pm 1.4$\\
+Off & Foreign & $55.2 \pm 0.6$ & $9.0 \pm 1.8$ & $57.3 \pm 3.6$ & $7.5 \pm 0.3$\\
+Off & Self+foreign & $56.1 \pm 0.3$ & $9.5 \pm 1.8$ & $57.0 \pm 4.9$ & $7.7 \pm 0.4$\\
+\midrule
+On & None & $54.0 \pm 4.7$ & $3.2 \pm 0.1$ & $55.1 \pm 3.1$ & $1.8 \pm 0.4$\\
+On & Self & $52.4 \pm 3.6$ & $3.2 \pm 0.1$ & $53.8 \pm 3.3$ & $1.8 \pm 0.4$\\
+On & Foreign & $56.1 \pm 1.4$ & $4.2 \pm 0.8$ & $58.1 \pm 3.6$ & $1.7 \pm 0.3$\\
+On & Self+foreign & $56.3 \pm 0.9$ & $4.3 \pm 0.7$ & $57.5 \pm 4.2$ & $1.8 \pm 0.3$\\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,28 @@
+{
+  "host": "weatherwax.cs.bath.ac.uk",
+  "project": "/mnt/fast1/mn866/casr-colocalization-mixed-20261104",
+  "launcher_pid": 1043980,
+  "checked_utc": "2026-11-04T07:32:16.103367+00:00",
+  "run_fingerprint": "5cf0e1da210edf39fca4537f397125c8618c55a93703fcc70b5aedcdd0b4d395",
+  "sources_match": true,
+  "status_at_check": {
+    "time": 1793777535.1181257,
+    "training_complete": false,
+    "completed_training": 0,
+    "currently_planned_training": 4,
+    "running": [
+      {
+        "job": "base",
+        "test": false,
+        "pid": 1043997,
+        "gpus": [
+          0
+        ]
+      }
+    ],
+    "failures": [],
+    "observational_only": true,
+    "validation": null
+  },
+  "processes": "    PID    PPID STAT     ELAPSED COMMAND\n1043980       1 Ssl        03:30 /var/tmp/casr-mn866-composition/venv/bin/python -u run.py --root results --gpus 0,1,2,3,4,5\n"
+}

@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-11-04T14:11:11.908568+00:00",
+  "launcher_pid": 1225358,
+  "base_worker_pid": 1226254,
+  "launcher_alive": true,
+  "base_worker_alive": true,
+  "base_worker_on_gpu": true,
+  "source_hashes_match": true,
+  "status": {
+    "time": 1793801469.318171,
+    "training_complete": false,
+    "completed_training": 0,
+    "currently_planned_training": 6,
+    "running": [
+      {
+        "job": "base",
+        "test": false,
+        "pid": 1226254,
+        "gpus": [
+          0
+        ]
+      }
+    ],
+    "failures": [],
+    "observational_only": true,
+    "validation": null
+  },
+  "gpu_processes": "GPU-281ee642-f5ea-a0ec-a66e-e7c57ba4eaec, 1226254, 2246 MiB"
+}

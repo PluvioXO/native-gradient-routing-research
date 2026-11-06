@@ -1,0 +1,21 @@
+\begin{tabular}{@{}llrr@{}}
+\toprule
+Allocation & Arm & WikiText $\Delta$PPL (\%) & MC $\Delta$Acc (pp)\\
+\midrule
+Native, small (4 ch.) & Independent & $10.4 \pm 2.0$ & $0.3 \pm 1.0$\\
+Native, small (4 ch.) & Joint-aware & $13.2 \pm 5.9$ & $0.1 \pm 0.8$\\
+Native, small (4 ch.) & Pres.+cons. & $4.3 \pm 0.7$ & $-0.1 \pm 0.6$\\
+\midrule
+Native, medium (26 ch.) & Independent & $9.2 \pm 2.0$ & $-0.4 \pm 2.0$\\
+Native, medium (26 ch.) & Joint-aware & $9.3 \pm 2.3$ & $-0.3 \pm 2.2$\\
+Native, medium (26 ch.) & Pres.+cons. & $2.6 \pm 1.0$ & $-0.3 \pm 1.7$\\
+\midrule
+LoRA, small (rank 1) & Independent & $10.2 \pm 1.4$ & $-0.4 \pm 0.4$\\
+LoRA, small (rank 1) & Joint-aware & $10.3 \pm 1.3$ & $-0.3 \pm 0.3$\\
+LoRA, small (rank 1) & Pres.+cons. & $1.8 \pm 0.3$ & $0.1 \pm 0.9$\\
+\midrule
+LoRA, medium (rank 4) & Independent & $20.2 \pm 9.4$ & $0.8 \pm 0.8$\\
+LoRA, medium (rank 4) & Joint-aware & $19.2 \pm 9.8$ & $0.3 \pm 0.7$\\
+LoRA, medium (rank 4) & Pres.+cons. & $1.7 \pm 0.9$ & $0.9 \pm 0.5$\\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,17 @@
+budget,task,base,native_owner,native_eight,lora_owner,lora_eight
+Small,Arithmetic,18.3,98.9,38.1,99.2,20.6
+Small,Pointer following,38.3,98.6,37.8,99.7,20.0
+Small,Boolean expressions,56.7,73.3,65.3,70.3,68.6
+Small,Brackets,44.2,84.4,73.6,87.8,80.6
+Small,Sorting,20.8,36.9,26.7,45.6,29.4
+Small,Stack execution,22.5,47.2,40.6,45.6,41.9
+Small,Shortest paths,20.0,40.6,34.7,33.1,27.8
+Small,Sudoku,11.7,25.0,20.0,29.4,21.9
+Medium,Arithmetic,18.3,90.8,24.4,99.2,6.7
+Medium,Pointer following,38.3,100.0,46.7,99.7,21.4
+Medium,Boolean expressions,56.7,69.7,64.7,66.4,60.6
+Medium,Brackets,44.2,87.8,79.4,87.5,75.8
+Medium,Sorting,20.8,52.8,26.7,40.0,23.3
+Medium,Stack execution,22.5,45.0,43.1,47.5,44.4
+Medium,Shortest paths,20.0,40.6,40.6,40.6,21.4
+Medium,Sudoku,11.7,25.6,20.0,24.7,18.9

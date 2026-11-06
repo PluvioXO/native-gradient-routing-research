@@ -1,0 +1,79 @@
+{
+  "checked": 1793238051.5904589,
+  "progress": {
+    "total": 32,
+    "finished": [],
+    "failed": [],
+    "pending": [
+      "layer03_s31__downstream__lr1e-05",
+      "layer03_s47__upstream__lr1e-06",
+      "layer03_s47__downstream__lr1e-06",
+      "layer03_s47__upstream__lr1e-05",
+      "layer03_s47__downstream__lr1e-05",
+      "layer03_s71__upstream__lr1e-06",
+      "layer03_s71__downstream__lr1e-06",
+      "layer03_s71__upstream__lr1e-05",
+      "layer03_s71__downstream__lr1e-05",
+      "layer12_s47__upstream__lr1e-06",
+      "layer12_s47__downstream__lr1e-06",
+      "layer12_s47__upstream__lr1e-05",
+      "layer12_s47__downstream__lr1e-05",
+      "layer12_s71__upstream__lr1e-06",
+      "layer12_s71__downstream__lr1e-06",
+      "layer12_s71__upstream__lr1e-05",
+      "layer12_s71__downstream__lr1e-05",
+      "layer22_s31__upstream__lr1e-06",
+      "layer22_s31__downstream__lr1e-06",
+      "layer22_s31__upstream__lr1e-05",
+      "layer22_s31__downstream__lr1e-05",
+      "layer22_s47__upstream__lr1e-06",
+      "layer22_s47__downstream__lr1e-06",
+      "layer22_s47__upstream__lr1e-05",
+      "layer22_s47__downstream__lr1e-05",
+      "layer22_s71__upstream__lr1e-06",
+      "layer22_s71__downstream__lr1e-06",
+      "layer22_s71__upstream__lr1e-05",
+      "layer22_s71__downstream__lr1e-05"
+    ],
+    "running": [
+      {
+        "job": "layer03_s31__upstream__lr1e-06",
+        "pid": 3929289,
+        "gpus": [
+          0,
+          1
+        ]
+      },
+      {
+        "job": "layer03_s31__downstream__lr1e-06",
+        "pid": 3929290,
+        "gpus": [
+          2,
+          3
+        ]
+      },
+      {
+        "job": "layer03_s31__upstream__lr1e-05",
+        "pid": 3929291,
+        "gpus": [
+          4,
+          5
+        ]
+      }
+    ],
+    "updated": 1793238049.788024
+  },
+  "gpus": "0, 12 %, 1663 MiB\n1, 14 %, 1105 MiB\n2, 13 %, 1663 MiB\n3, 14 %, 1105 MiB\n4, 15 %, 1665 MiB\n5, 17 %, 1149 MiB\n",
+  "steps": {
+    "layer03_s31__upstream__lr1e-06": [
+      "layer03_s31__upstream__lr1e-06 step 0 refusal 1.0 correct 0.0"
+    ],
+    "layer03_s31__upstream__lr1e-05": [
+      "layer03_s31__upstream__lr1e-05 step 0 refusal 1.0 correct 0.0",
+      "layer03_s31__upstream__lr1e-05 step 1 refusal 0.0 correct 1.0"
+    ],
+    "layer03_s31__downstream__lr1e-06": [
+      "layer03_s31__downstream__lr1e-06 step 0 refusal 1.0 correct 0.0"
+    ]
+  }
+}

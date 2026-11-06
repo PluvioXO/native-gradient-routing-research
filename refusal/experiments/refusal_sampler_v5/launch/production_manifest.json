@@ -1,0 +1,181 @@
+{
+  "protocol": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+    "seed": 31,
+    "seeds": [
+      31
+    ],
+    "lr_factors": [
+      1.0,
+      0.3,
+      0.1
+    ],
+    "data_seed": 41106,
+    "layer": 11,
+    "max_width": 128,
+    "tiny_worlds": 8,
+    "train_worlds": 256,
+    "dev_worlds": 24,
+    "test_worlds": 128,
+    "observe_worlds": 16,
+    "ood_worlds": 64,
+    "wording_worlds": 64,
+    "preserve_worlds": 8,
+    "train_depths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "ood_depths": [
+      5,
+      6
+    ],
+    "rehearsal_per_task": 32,
+    "general_per_task": 32,
+    "old_fit_per_label": 48,
+    "old_eval_per_label": 24,
+    "benchmark_per_task": 96,
+    "benchmark_dev_per_task": 32,
+    "basic_steps": 512,
+    "hard_steps": 2048,
+    "policy_steps": 1024,
+    "eval_max_new_tokens": 32,
+    "cap_threshold": 0.8,
+    "cap_case_threshold": 0.7,
+    "eval_every": 64,
+    "full_lr": 1e-05,
+    "sparse_lr": 0.0003,
+    "warmup": 32,
+    "conserve": 0.05,
+    "preserve": 0.1,
+    "allowed_threshold": 0.8,
+    "refusal_threshold": 0.9,
+    "false_refusal_threshold": 0.1,
+    "retention_drop": 0.1,
+    "choice_mass_ratio": 0.8,
+    "paired_budget_control": false,
+    "observational_only": true,
+    "direction_penalty": 0.0,
+    "direction_intervention": false,
+    "version": 5,
+    "study": "original-versus-balanced-refusal-sampling",
+    "hardware_smoke": false,
+    "samplers": [
+      "original",
+      "balanced"
+    ],
+    "imported_acquisitions": true,
+    "inference": "exploratory; inspected V4 bank; one seed"
+  },
+  "sources": {
+    "reference_v4/run.py": "7998d35c396ba9050b466f02c72b077044cafd01d3251ecd1f07bcbb1de4c894",
+    "reference_v4/campaign.py": "19e9f8aed7de0c472c25668281a9a17e2ff75f263c5f8b230b22556b6e17bf50",
+    "reference_v4/legacy.py": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b",
+    "reference_v4/data.py": "6915ac19d973153c074be1861703270f5f542f2a82bda2f3e33887565242d0de",
+    "reference_v4/observe.py": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc",
+    "reference_v4/test_run.py": "8e4b4899157d1b11f2e3d48a643d672e71f575f6bcab624d7cf9444f89b909d5",
+    "reference_v4/excluded_worlds.json": "9b7190f81296096fabdf824345535b4347a24dca9ae7295c5d376501411cf909",
+    "reference_v4/reference/refusal_core.py": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57",
+    "reference_v4/reference/removal.py": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652",
+    "analyse.py": "6ce7c8f971cb958dda50c862958e41743b67d49a5ed64e75f68bbe4a6e76cee5",
+    "preflight.py": "f21d3a7c8d4e5e1e17a5cd1e40a787ff176ae8e1b4b34b421f154f4ecb8c08f8",
+    "prepare.py": "91d3e91b13b2b550463100218eca2bbf2e9c6d0e6b828135e1869f3131fd99bf",
+    "resume_probe.py": "911f1dc9c173160bff18de85b2fcec255a8bd8415309c1870aac0aadc9c3e7ad",
+    "sampling.py": "284bedd125008ee2f2472f77fde307fb0f78ff0eb27bbe38fcc0c1de8afe62c6",
+    "study.py": "977fa851aee1eb3c4b14cab08320158ae7443086d3a220404be6fcff3ef844a5",
+    "test_sampling.py": "237a711d418f4cc9918a51f94a5d4b5b86aaa6517137776b7816ba2b7abdcbcb",
+    "test_study.py": "47ac9794950936ff829217c8bace15147bc6248213557a9a73221c11880c06a9",
+    "PROTOCOL.md": "8ddb32da68af801b712d5d62c0efda2067e965efb38468ab2d3444493040e276",
+    "launch/v4_source.tar.gz": "74ca1ac612348873aa62a1e5bd53b54b302ca4647fe09d841a010436788f9442",
+    "launch/v4_manifest.json": "8c6c4a99a6ed1ad69729edff1bd0e340001b816ecd5e280e03537152c26e2829",
+    "launch/engine_lineage.json": "d33b976eb0a35f21e742530c794a7de02531c52b336f5ab55bdf2b876753dabf",
+    "launch/import_sources.json": "c2d4673a8b9598675d971785faab655e329aec8a4fe9e7831248a673b7010dc2"
+  },
+  "data_sha256": "b065b6d2fec98e7ad20fe40ca693c6cae3851f37cdc2a585a04c1851b8a6e853",
+  "observation_sha256": "37ace6a3175a30a4688c8d299fac796c2955431740d31c88353fa992f92a5669",
+  "parents": {
+    "results/manifest.json": {
+      "sha256": "ec5ea0976a738e821ab399f2e617a108aac7a9a6e486e8e4de72e091249100e7",
+      "bytes": 2373
+    },
+    "results/data.json": {
+      "sha256": "667630c684006b47dc53dc2bca825749fc510b1dcc9d6e49287787859596703e",
+      "bytes": 177752733
+    },
+    "results/direction_data.json": {
+      "sha256": "a69e627038693a1649138153abaf8fe5baaa8cb5d4ea9be8be147a22599fecd8",
+      "bytes": 21673
+    },
+    "results/base.json": {
+      "sha256": "5a8973a78000d8e8ea0f4b0ffdbe7275cf7d39ce4d1dcc1ed871f1366e0866d4",
+      "bytes": 2996481
+    },
+    "results/jobs.json": {
+      "sha256": "588e78113b90686fb81841cf689ab5162b921883be56a25122fc47143c894a85",
+      "bytes": 4431
+    },
+    "results/jobs/cap_native4_s31/capability.pt": {
+      "sha256": "6fc2321e85018575b3055c27f873d3843c4ced96df1d90109f046b6a78666950",
+      "bytes": 1345736
+    },
+    "results/jobs/cap_native4_s31/teacher.pt": {
+      "sha256": "9d8dce90133a7a16ba7e13710c45a1f448c5b3f936c211e64b6db64d7b8ddfeb",
+      "bytes": 340438526
+    },
+    "results/jobs/cap_native4_s31/layout.json": {
+      "sha256": "8fd86ad8381e4f3a104760d1543b302249dd3aba9dc3d4f2476f5acb3e206dde",
+      "bytes": 945
+    },
+    "results/jobs/cap_native4_s31/acquisition.json": {
+      "sha256": "2129efc514c1a260ff240da1af238370236b1e4c8a8402967718bf2ef709dbd0",
+      "bytes": 2896323
+    },
+    "results/jobs/cap_native4_s31/DONE.json": {
+      "sha256": "59586a668d9fd40cf6c5ca6631d7fb680101548a78e9646428cd7bd7d4f12106",
+      "bytes": 759
+    },
+    "results/jobs/cap_native8_s31/capability.pt": {
+      "sha256": "f61f5060d3d36c8e0a41203476a3f7382abb9eeb994b7a8c9063694af96db05e",
+      "bytes": 1431688
+    },
+    "results/jobs/cap_native8_s31/teacher.pt": {
+      "sha256": "ce20ab9bb8250b1c7c0f530783f026453d6dc0b82ef4cc23c4c0d2e7f97c87a8",
+      "bytes": 340438526
+    },
+    "results/jobs/cap_native8_s31/layout.json": {
+      "sha256": "5a9ecdc1c69504ebafeae811de76b7786ad57c9c611e4f2ee0d3626c811afea4",
+      "bytes": 1326
+    },
+    "results/jobs/cap_native8_s31/acquisition.json": {
+      "sha256": "daef14c9f189c1ce7d84d2084ff35ebca3a8eb307bff69032e50688d8e8f405e",
+      "bytes": 2895917
+    },
+    "results/jobs/cap_native8_s31/DONE.json": {
+      "sha256": "f28b3b2b0251cfdd0e66ff1822130f010fce2494a4706860c56dbebc7838c65f",
+      "bytes": 759
+    },
+    "results/jobs/cap_full_s31/capability.pt": {
+      "sha256": "d32ba130bd1704ec654905cba65deb19f841bd48da8c3d1b25e5e3c9f1bd0d2d",
+      "bytes": 1977860974
+    },
+    "results/jobs/cap_full_s31/teacher.pt": {
+      "sha256": "ab42f1629c899a0d0693cdc37f3a2851b9c6f2d74a75609a34fdde784e1c8e95",
+      "bytes": 340438526
+    },
+    "results/jobs/cap_full_s31/layout.json": {
+      "sha256": "48b6fc871f75fa4536530b9d1d51b422ba180a1ff1f13793314a26aaa26d77e1",
+      "bytes": 74
+    },
+    "results/jobs/cap_full_s31/acquisition.json": {
+      "sha256": "60edd3621d574753a9dc6f9a432c3045e993f56f2f49146f9b5559d9409d5f85",
+      "bytes": 2895305
+    },
+    "results/jobs/cap_full_s31/DONE.json": {
+      "sha256": "4b527389ce2f81e95e38394a0470ded50f3abf97bfaa2240435b83845db7d72d",
+      "bytes": 752
+    }
+  },
+  "parent_manifest_sha256": "ec5ea0976a738e821ab399f2e617a108aac7a9a6e486e8e4de72e091249100e7"
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "endpoint_count": 6,
+  "fields": {
+    "allowed_accuracy": "task_allowed_correct",
+    "blocked_refusal": "task_blocked_refusal",
+    "false_refusal": "task_false_refusal",
+    "general_exact": "general",
+    "arc_easy_correct": "arc_easy_correct",
+    "winogrande_correct": "winogrande_correct",
+    "arc_easy_choice_mass": "arc_easy_choice_mass",
+    "winogrande_choice_mass": "winogrande_choice_mass"
+  },
+  "comparisons": 48,
+  "absolute_tolerance": 1e-10,
+  "scope": "Aggregate primary task and control scores/masses; no claim of raw-response or parameter identity"
+}

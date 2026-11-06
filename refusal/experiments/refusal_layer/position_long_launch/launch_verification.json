@@ -1,0 +1,55 @@
+{
+  "checked": 1793260372.5210795,
+  "progress": {
+    "total": 6,
+    "finished": [],
+    "failed": [],
+    "pending": [
+      "layer22_s47__downstream__lr1e-06",
+      "layer22_s71__upstream__lr1e-06",
+      "layer22_s71__downstream__lr1e-06"
+    ],
+    "running": [
+      {
+        "job": "layer22_s31__upstream__lr1e-06",
+        "pid": 4106774,
+        "gpus": [
+          0,
+          1
+        ]
+      },
+      {
+        "job": "layer22_s31__downstream__lr1e-06",
+        "pid": 4106775,
+        "gpus": [
+          2,
+          3
+        ]
+      },
+      {
+        "job": "layer22_s47__upstream__lr1e-06",
+        "pid": 4106776,
+        "gpus": [
+          4,
+          5
+        ]
+      }
+    ],
+    "updated": 1793260366.2500267
+  },
+  "gpus": "0, 11 %, 1659 MiB\n1, 10 %, 1523 MiB\n2, 13 %, 1659 MiB\n3, 12 %, 1523 MiB\n4, 12 %, 1659 MiB\n5, 11 %, 1523 MiB\n",
+  "steps": {
+    "layer22_s47__upstream__lr1e-06": [
+      "PREFIX REPLAY MATCHED layer22_s47__upstream__lr1e-06 0",
+      "layer22_s47__upstream__lr1e-06 step 0 refusal 1.0 correct 0.0"
+    ],
+    "layer22_s31__downstream__lr1e-06": [
+      "PREFIX REPLAY MATCHED layer22_s31__downstream__lr1e-06 0",
+      "layer22_s31__downstream__lr1e-06 step 0 refusal 1.0 correct 0.0"
+    ],
+    "layer22_s31__upstream__lr1e-06": [
+      "PREFIX REPLAY MATCHED layer22_s31__upstream__lr1e-06 0",
+      "layer22_s31__upstream__lr1e-06 step 0 refusal 1.0 correct 0.0"
+    ]
+  }
+}

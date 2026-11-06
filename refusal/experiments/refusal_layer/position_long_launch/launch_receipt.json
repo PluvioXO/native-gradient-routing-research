@@ -1,0 +1,11 @@
+{
+  "host": "ogg",
+  "pid": 4106709,
+  "root": "/mnt/fast1/mn866/casr-refusal-position-long-20261029",
+  "parent": "/mnt/fast1/mn866/casr-refusal-layer-20261028",
+  "reference": "/mnt/fast1/mn866/casr-refusal-position-20261029",
+  "jobs": 6,
+  "steps": 64,
+  "launched": 1793260261.2871993,
+  "study": "position_long"
+}

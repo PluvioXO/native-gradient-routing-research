@@ -1,0 +1,1513 @@
+{
+  "calibration": "Secondary per-owner coefficient selection in one coordinate pass over {0,0.5,1,1.5}, maximizing macro development accuracy. Identical procedure for native and LoRA, no weight learning. Applied to the full-eight mixture; unit coefficients remain primary.",
+  "checkpointing": "Main disk outside home quota; atomic local/durable continuation copies, raw rollouts, 40-step snapshots, final owner tensors and exact source/data hashes. Free-space guard 60 GiB. Local disk is not a second-machine backup.",
+  "comparison": "Approximately parameter matched; not FLOP matched. Report rollout tokens, RL seconds, peak memory and measured evaluation seconds. Total allocation grows with skill count.",
+  "compounds": "Fresh combinations of held-out primitive inputs: pointer then arithmetic, stack top-history then sorting. Base, each component, both, all eight, calibrated all eight; gold-intermediate and generated-intermediate pipeline controls. Compound demos use training inputs only. No compound tuning.",
+  "evaluation": "All 28 pairs; eight cyclic sets of four (each task appears four times); all eight; each task alone; all eight minus the evaluated owner. Frozen original test bank is exploratory, already inspected historically.",
+  "independent_training": "Only one task's train/dev examples; only its slot receives updates; all other slots stay at initial values with empty optimizer histories. No foreign/composition preservation and no combined training.",
+  "jobs": [
+    {
+      "id": "baseline",
+      "kind": "baseline"
+    },
+    {
+      "budget": "small",
+      "id": "pilot_native_small_lr3e-05_t0",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "pilot_native_small_lr3e-05_t1",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "pilot_native_small_lr0.0001_t0",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "pilot_native_small_lr0.0001_t1",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "pilot_native_small_lr0.0003_t0",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "pilot_native_small_lr0.0003_t1",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "pilot_lora_small_lr3e-05_t0",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 0,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "pilot_lora_small_lr3e-05_t1",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 1,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "pilot_lora_small_lr0.0001_t0",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 0,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "pilot_lora_small_lr0.0001_t1",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 1,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "pilot_lora_small_lr0.0003_t0",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 0,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "pilot_lora_small_lr0.0003_t1",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 1,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_native_medium_lr3e-05_t0",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 0,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_native_medium_lr3e-05_t1",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 1,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_native_medium_lr0.0001_t0",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 0,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_native_medium_lr0.0001_t1",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 1,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_native_medium_lr0.0003_t0",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 0,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_native_medium_lr0.0003_t1",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "native",
+      "task": 1,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_lora_medium_lr3e-05_t0",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_lora_medium_lr3e-05_t1",
+      "kind": "pilot",
+      "lr": 3e-05,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_lora_medium_lr0.0001_t0",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_lora_medium_lr0.0001_t1",
+      "kind": "pilot",
+      "lr": 0.0001,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_lora_medium_lr0.0003_t0",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "pilot_lora_medium_lr0.0003_t1",
+      "kind": "pilot",
+      "lr": 0.0003,
+      "seed": 907,
+      "steps": 160,
+      "support": "lora",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t0",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t0",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 0,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t3",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 3,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t6",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 6,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t6",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 6,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t3",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 3,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t1",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t0",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 0,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t2",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 2,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t5",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 5,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t4",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 4,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t4",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 4,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t4",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 4,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t7",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 7,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t7",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 7,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t4",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 4,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t4",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 4,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t5",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 5,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t2",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 2,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t2",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 2,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t1",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 1,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t4",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 4,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t0",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t5",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 5,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t0",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t2",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 2,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t1",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t0",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 0,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t6",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 6,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t5",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 5,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t4",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 4,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t3",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 3,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t5",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 5,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t6",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 6,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t7",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 7,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t1",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 1,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t3",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 3,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t0",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 0,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t3",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 3,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t1",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 1,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t2",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 2,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t0",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t4",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 4,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t1",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 1,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t5",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 5,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t6",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 6,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t3",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 3,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t6",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 6,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t1",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t7",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 7,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t6",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 6,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t1",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t7",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 7,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t3",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 3,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t5",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 5,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t7",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 7,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t6",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 6,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t6",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 6,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t7",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 7,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t2",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 2,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t0",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t2",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 2,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t7",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 7,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t7",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 7,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t6",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 6,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t5",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 5,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t4",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 4,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t3",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 3,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t2",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 2,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s71_t6",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 6,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t1",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 1,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s47_t7",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 7,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t5",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 5,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t3",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 3,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t4",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 4,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t3",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 3,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s47_t7",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 7,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t7",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 7,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t3",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 3,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t6",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 6,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t2",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 2,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t4",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 4,
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t0",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 0,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t4",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 4,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s71_t2",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 2,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s47_t5",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "native",
+      "task": 5,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s31_t5",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 5,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t2",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 2,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s47_t1",
+      "kind": "main",
+      "seed": 47,
+      "steps": 320,
+      "support": "lora",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "id": "main_lora_small_s71_t0",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "lora",
+      "task": 0,
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t3",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 3,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t0",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 0,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "id": "main_native_small_s31_t1",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 1,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_lora_medium_s31_t2",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "lora",
+      "task": 2,
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s31_t1",
+      "kind": "main",
+      "seed": 31,
+      "steps": 320,
+      "support": "native",
+      "task": 1,
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "id": "main_native_medium_s71_t5",
+      "kind": "main",
+      "seed": 71,
+      "steps": 320,
+      "support": "native",
+      "task": 5,
+      "width": 26
+    },
+    {
+      "budget": "small",
+      "dependencies": [
+        "main_native_small_s31_t0",
+        "main_native_small_s31_t1",
+        "main_native_small_s31_t2",
+        "main_native_small_s31_t3",
+        "main_native_small_s31_t4",
+        "main_native_small_s31_t5",
+        "main_native_small_s31_t6",
+        "main_native_small_s31_t7"
+      ],
+      "id": "merge_native_small_s31",
+      "kind": "merge",
+      "seed": 31,
+      "support": "native",
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "dependencies": [
+        "main_native_small_s47_t0",
+        "main_native_small_s47_t1",
+        "main_native_small_s47_t2",
+        "main_native_small_s47_t3",
+        "main_native_small_s47_t4",
+        "main_native_small_s47_t5",
+        "main_native_small_s47_t6",
+        "main_native_small_s47_t7"
+      ],
+      "id": "merge_native_small_s47",
+      "kind": "merge",
+      "seed": 47,
+      "support": "native",
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "dependencies": [
+        "main_native_small_s71_t0",
+        "main_native_small_s71_t1",
+        "main_native_small_s71_t2",
+        "main_native_small_s71_t3",
+        "main_native_small_s71_t4",
+        "main_native_small_s71_t5",
+        "main_native_small_s71_t6",
+        "main_native_small_s71_t7"
+      ],
+      "id": "merge_native_small_s71",
+      "kind": "merge",
+      "seed": 71,
+      "support": "native",
+      "width": 4
+    },
+    {
+      "budget": "small",
+      "dependencies": [
+        "main_lora_small_s31_t0",
+        "main_lora_small_s31_t1",
+        "main_lora_small_s31_t2",
+        "main_lora_small_s31_t3",
+        "main_lora_small_s31_t4",
+        "main_lora_small_s31_t5",
+        "main_lora_small_s31_t6",
+        "main_lora_small_s31_t7"
+      ],
+      "id": "merge_lora_small_s31",
+      "kind": "merge",
+      "seed": 31,
+      "support": "lora",
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "dependencies": [
+        "main_lora_small_s47_t0",
+        "main_lora_small_s47_t1",
+        "main_lora_small_s47_t2",
+        "main_lora_small_s47_t3",
+        "main_lora_small_s47_t4",
+        "main_lora_small_s47_t5",
+        "main_lora_small_s47_t6",
+        "main_lora_small_s47_t7"
+      ],
+      "id": "merge_lora_small_s47",
+      "kind": "merge",
+      "seed": 47,
+      "support": "lora",
+      "width": 1
+    },
+    {
+      "budget": "small",
+      "dependencies": [
+        "main_lora_small_s71_t0",
+        "main_lora_small_s71_t1",
+        "main_lora_small_s71_t2",
+        "main_lora_small_s71_t3",
+        "main_lora_small_s71_t4",
+        "main_lora_small_s71_t5",
+        "main_lora_small_s71_t6",
+        "main_lora_small_s71_t7"
+      ],
+      "id": "merge_lora_small_s71",
+      "kind": "merge",
+      "seed": 71,
+      "support": "lora",
+      "width": 1
+    },
+    {
+      "budget": "medium",
+      "dependencies": [
+        "main_native_medium_s31_t0",
+        "main_native_medium_s31_t1",
+        "main_native_medium_s31_t2",
+        "main_native_medium_s31_t3",
+        "main_native_medium_s31_t4",
+        "main_native_medium_s31_t5",
+        "main_native_medium_s31_t6",
+        "main_native_medium_s31_t7"
+      ],
+      "id": "merge_native_medium_s31",
+      "kind": "merge",
+      "seed": 31,
+      "support": "native",
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "dependencies": [
+        "main_native_medium_s47_t0",
+        "main_native_medium_s47_t1",
+        "main_native_medium_s47_t2",
+        "main_native_medium_s47_t3",
+        "main_native_medium_s47_t4",
+        "main_native_medium_s47_t5",
+        "main_native_medium_s47_t6",
+        "main_native_medium_s47_t7"
+      ],
+      "id": "merge_native_medium_s47",
+      "kind": "merge",
+      "seed": 47,
+      "support": "native",
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "dependencies": [
+        "main_native_medium_s71_t0",
+        "main_native_medium_s71_t1",
+        "main_native_medium_s71_t2",
+        "main_native_medium_s71_t3",
+        "main_native_medium_s71_t4",
+        "main_native_medium_s71_t5",
+        "main_native_medium_s71_t6",
+        "main_native_medium_s71_t7"
+      ],
+      "id": "merge_native_medium_s71",
+      "kind": "merge",
+      "seed": 71,
+      "support": "native",
+      "width": 26
+    },
+    {
+      "budget": "medium",
+      "dependencies": [
+        "main_lora_medium_s31_t0",
+        "main_lora_medium_s31_t1",
+        "main_lora_medium_s31_t2",
+        "main_lora_medium_s31_t3",
+        "main_lora_medium_s31_t4",
+        "main_lora_medium_s31_t5",
+        "main_lora_medium_s31_t6",
+        "main_lora_medium_s31_t7"
+      ],
+      "id": "merge_lora_medium_s31",
+      "kind": "merge",
+      "seed": 31,
+      "support": "lora",
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "dependencies": [
+        "main_lora_medium_s47_t0",
+        "main_lora_medium_s47_t1",
+        "main_lora_medium_s47_t2",
+        "main_lora_medium_s47_t3",
+        "main_lora_medium_s47_t4",
+        "main_lora_medium_s47_t5",
+        "main_lora_medium_s47_t6",
+        "main_lora_medium_s47_t7"
+      ],
+      "id": "merge_lora_medium_s47",
+      "kind": "merge",
+      "seed": 47,
+      "support": "lora",
+      "width": 4
+    },
+    {
+      "budget": "medium",
+      "dependencies": [
+        "main_lora_medium_s71_t0",
+        "main_lora_medium_s71_t1",
+        "main_lora_medium_s71_t2",
+        "main_lora_medium_s71_t3",
+        "main_lora_medium_s71_t4",
+        "main_lora_medium_s71_t5",
+        "main_lora_medium_s71_t6",
+        "main_lora_medium_s71_t7"
+      ],
+      "id": "merge_lora_medium_s71",
+      "kind": "merge",
+      "seed": 71,
+      "support": "lora",
+      "width": 4
+    }
+  ],
+  "learning_rate_selection": "Mean final-step development accuracy on independent arithmetic/pointer pilots; one LR per support/budget; smaller LR breaks ties. No test or retention scores used.",
+  "learning_rates": [
+    3e-05,
+    0.0001,
+    0.0003
+  ],
+  "model": "Qwen/Qwen2.5-0.5B",
+  "pilot_seed": 907,
+  "precision": "float32",
+  "primary": "Final step 320. Taskwise all-eight minus standalone accuracy; paired lost/rescued answers, macro and worst task; singleton/2/4/8 curves. Report all tasks, flag standalone gain below 5 percentage points.",
+  "retention": "Frozen 996-question MC and 16384-token WikiText panel from pointer sweep; baseline, each singleton, all-eight and calibrated all-eight. Reused panel, descriptive only.",
+  "revision": "060db6499f32faf8b98477b0a26969ef7d8b9987",
+  "seeds": [
+    31,
+    47,
+    71
+  ],
+  "smoke": false,
+  "source_hashes": {
+    "benchmarks.json": "b9c79ec713092e3e465dc5319a5b96d8c855ffcaf5455c23d480cf616a352518",
+    "budget_config.py": "e0a72aeca7dddb455b16f98c5fc71ed737452fd3a84d4d42c20e37d07b1b5398",
+    "compound_tasks.py": "8b146399500f31ad274f077ae5e5162593a6d682f6215784f323be08acf8ebf7",
+    "dataset.json": "e8426430dd1c2ca588c9e6991ce7979ce92555fd7a2d1b696407a045c67fcea0",
+    "requirements.txt": "850c9675bf6c9f0bfd273a24b0bcf4f58cf7526bdd25d757089d8180312970ea",
+    "run_study.py": "47ec627effbd9e67be46da6b238c6a856848d6f92d5be45ab4fe1d14ffeb2023",
+    "src/budget_model.py": "691392650a00ac9af8931753e593f8b55739306135fe2894a9f0ece1bed454ad",
+    "src/dai_drive.py": "964c5f391d028c1933cdbd2697ef04630b879474903cd708b64913ab389d706d",
+    "src/dai_model.py": "bb812ad74b1dc072e5fadbf4b0dbfba92396c10d50cdfb5e7bac2e8737c1dea4",
+    "src/dai_rl.py": "8190626e535e2f36a33b2c744c2868bd9144e5b684a65443852364d2455738b7",
+    "src/multi_model.py": "aa75bfb1958528d567e67c1063f4877e5f46c1ad35002a9cbc9f721ad7e94709",
+    "src/multi_run.py": "8c6b83c62d0abb1f5b2fdd0fdc160ceca419853707be2e006d8b25498f387f1d",
+    "src/multi_tasks.py": "112a3bb16b148e4656068882a8258d309d000e9f405b781dc40aa7fb4a911e73",
+    "src/nr4_model.py": "3f81ee311029814b6b2257a14733fc9e321be504e6f8f3097bb1681c859799d7",
+    "src/nr4_model_checks.py": "b9ca1f5a8c079c49afb38582c172f5feb9d124ac87c7b52ab34778a23055f43e",
+    "src/nr5_data.py": "d3a098d6c56a32ee80dfa1e2c3703f2bf5a09d926b6bf9627fc4d85523862053",
+    "src/nr5_data_checks.py": "9d4e8d5c38516ae9d5d0c6229f35787ce911317b95eb68150e854dd4c351b38f",
+    "src/nr5_rl.py": "8817dc89c1f26b05c3845d4942514eeecbfef37fb28232c260338027b8925fee",
+    "src/nr5_rl_checks.py": "b7b6e5f2ce257e2a318d19222ce4f41c1f85647cd1152704725cbc0bc60bc4b6",
+    "src/nr5_tasks.py": "4d04de0b7abed43ccfae5fd2c626cd0b8693a52221a87ff73b5a2468b9b89e7a",
+    "src/nr6_checks.py": "64007e35deb3623dd8edf24cd8fd159e09f25e3ce35108bb16ee5d399ef882e8",
+    "src/nr6_io.py": "d5f8c45984d3edbb708c01e8f128934eac0a4e74e4ffcd0be52203b168082f80",
+    "src/nr6_probes.py": "7aaf4d59f051aff5e17b975923f04bd66914a0a2501cbee44c11d23950db4c3a",
+    "src/nr6_run.py": "0f3438b393b8c24d34b0be0d7efe6e0d5fe7c62bdcd778d6ac08d0c107b9e10e",
+    "src/nr6_train.py": "20699be4b00ea251bcf1bd4894101780e320619128234e9786a233465dbf2f6a",
+    "src/retention.py": "dcaa0f2e38c3f63af9c09232d448dbffef8543cbbbce1ddf22439da371f158de",
+    "src/rlq_tasks.py": "aee20876e0c7d7811cd989311ef3f0d4203347c2fe84387e62e1e7a2e28de317",
+    "tests/test_study.py": "6904baaa2c6121252867ba501637226487b941f801f7a42dda035977842ca60e"
+  },
+  "study": "independent-native-lora-composition-v1",
+  "tasks": [
+    "arithmetic",
+    "pointer",
+    "boolean",
+    "brackets",
+    "sorting",
+    "stack",
+    "shortest_path",
+    "sudoku"
+  ]
+}

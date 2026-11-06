@@ -1,0 +1,36 @@
+{
+  "basic_training_examples": 2048,
+  "basic_bank_size": 17408,
+  "basic_nominal_passes": 0.11764705882352941,
+  "hard_training_examples": 8192,
+  "hard_bank_size": 34816,
+  "hard_nominal_passes": 0.23529411764705882,
+  "policy_allowed_examples": 2048,
+  "policy_allowed_bank_size": 10240,
+  "policy_allowed_nominal_passes": 0.2,
+  "policy_blocked_examples": 2048,
+  "policy_blocked_bank_size": 3072,
+  "policy_blocked_nominal_passes": 0.6666666666666666,
+  "note": "Nominal example exposures, not full independent graph passes. Marker variants share graphs; policy pairing is depth-stratified, not uniform over blocked cases. KL/rehearsal/grammar forwards excluded.",
+  "positive_refusal_examples_by_case": {
+    "h2_blocked_1": 1024,
+    "h3_blocked_1": 256,
+    "h3_blocked_2": 256,
+    "h4_blocked_1": 170,
+    "h4_blocked_2": 171,
+    "h4_blocked_3": 171
+  },
+  "unique_positive_refusal_examples_by_case": {
+    "h2_blocked_1": 469,
+    "h3_blocked_1": 204,
+    "h3_blocked_2": 208,
+    "h4_blocked_1": 142,
+    "h4_blocked_2": 147,
+    "h4_blocked_3": 149
+  },
+  "positive_refusal_examples_by_position": {
+    "1": 1450,
+    "2": 427,
+    "3": 171
+  }
+}

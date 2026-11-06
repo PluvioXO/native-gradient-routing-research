@@ -1,0 +1,11 @@
+{
+  "scope": "downstream",
+  "layer": 21,
+  "trainable_blocks": [
+    22,
+    23
+  ],
+  "trainable": 29824768,
+  "frozen": 464208000,
+  "frozen_sha256": "65c682f4a2b00b345a2f3925fcad344d09945398d93806600db0679af0fa242e"
+}

@@ -1,0 +1,10 @@
+{
+  "server": "mn866@weatherwax.cs.bath.ac.uk",
+  "project": "/mnt/fast1/mn866/casr-colocalization-20261103",
+  "results": "/mnt/fast1/mn866/casr-colocalization-20261103/results",
+  "launcher_pid": 526347,
+  "recorded_utc": "2026-11-03T13:01:39.791285+00:00",
+  "one_training_seed": 31,
+  "source_verified": true,
+  "ogg_untouched": true
+}

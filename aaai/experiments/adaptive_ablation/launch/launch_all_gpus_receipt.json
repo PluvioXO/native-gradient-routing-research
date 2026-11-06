@@ -1,0 +1,16 @@
+{
+  "pid": 1218525,
+  "previous_pid": 385044,
+  "host": "ogg.cs.bath.ac.uk",
+  "gpus": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "launched_utc": "2026-10-31T04:52:35Z",
+  "scientific_protocol_unchanged": true,
+  "refusal_status": "paused"
+}
