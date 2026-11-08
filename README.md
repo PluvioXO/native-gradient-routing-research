@@ -3,10 +3,17 @@
 Python experiment, evaluation and plotting code for the CM32028 extended
 project on capability coexistence and localized refusal.
 
-This repository contains all 229 Python files retained in the research
-workspace, plus the 18-file original two-task experiment implementation
-from the existing public repository. Folder names and frozen reference
-copies are preserved because later studies import and audit them.
+This repository contains 274 Python files, including frozen reference
+copies and the 18-file original two-task implementation. Folder names and
+reference copies are preserved because later studies import and audit them.
+
+## Latest follow-up
+
+[Matched full-model clean versus coupled continuation](refusal/experiments/refusal_global_control_v9/README.md)
+was launched on 8 November: three paired continuation seeds, two fixed starts,
+12 defender fits and at most 24 downstream fits. Numerical and real-GPU resume
+checks passed. The protocol and source are published before outcomes;
+production checkpoints and raw new benchmark panels are not included.
 
 ## Contents
 

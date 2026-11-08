@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-06",
-  "python_files": 247,
-  "workspace_python_files": 229,
+  "date": "2026-11-08",
+  "python_files": 274,
+  "workspace_python_files": 256,
   "original_two_task_python_files": 18,
   "upstream_repository": "https://github.com/PluvioXO/casr-dai2027-experiments",
   "upstream_commit": "828ff97173b64633d91985915eda5a54cc602e38",
@@ -2737,6 +2737,146 @@
     "aaai/experiments/dai2027/src/nr5_rl_checks.py": {
       "origin": "https://github.com/PluvioXO/casr-dai2027-experiments@828ff97173b64633d91985915eda5a54cc602e38:src/nr5_rl_checks.py",
       "sha256": "b7b6e5f2ce257e2a318d19222ce4f41c1f85647cd1152704725cbc0bc60bc4b6"
+    },
+    "refusal/experiments/refusal_global_control_v9/launch.sh": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/launch.sh",
+      "sha256": "225aa0e653969f6742812c4783c4baa1fe9659edd348483a050a93119dfea74c"
+    },
+    "refusal/experiments/refusal_global_control_v9/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/analyse.py",
+      "sha256": "59cc1c004a94e7e3d4a7be742340cc81f54ac4786af5e1ead0a647c0291ca4b3"
+    },
+    "refusal/experiments/refusal_global_control_v9/README.md": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/README.md",
+      "sha256": "0168f4a0565f1d522568dbe1f9ee12ccd7829795d6d674987f09b28392749be5"
+    },
+    "refusal/experiments/refusal_global_control_v9/lineage.json": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/lineage.json",
+      "sha256": "9c249115d032364964198b4118b9c60d374a32ac495fb4f00fb705b44d6ac01d"
+    },
+    "refusal/experiments/refusal_global_control_v9/test_design.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/test_design.py",
+      "sha256": "2c845ff67e393ead8eda8cf9f9dd82d94e6beca1743a6c76dfd54e040682af65"
+    },
+    "refusal/experiments/refusal_global_control_v9/v9design.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/v9design.py",
+      "sha256": "c3f1b384a2b5aaf6dd74dd78262bd1ccb996d3e7e69fa0cb4a9c4b8569d61bac"
+    },
+    "refusal/experiments/refusal_global_control_v9/study.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/study.py",
+      "sha256": "7cc9ffa7722bb01bd6c79571d7950c67f4ff894eb8ca5fb55704d844dd160f9a"
+    },
+    "refusal/experiments/refusal_global_control_v9/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/PROTOCOL.md",
+      "sha256": "7a2e35ed5d474adcb72e4eab3053e69aa1aaa59dac9ae80fbd7bf5050be21d67"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/analyse.py",
+      "sha256": "7b9b8c2a3033540379b5f218066e9d3408599b8e70aa94676554f17971202734"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/test_experiment.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/test_experiment.py",
+      "sha256": "0fcd311e31b60ac7ff95509dea255c2abe8c89158180987e1facf42cdd8e0812"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/design.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/design.py",
+      "sha256": "e70aa29843d1065bc91c3f7f1246192f3906b702b062910ae50a2bcc1f6d0285"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/experiment.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/experiment.py",
+      "sha256": "62dd37bc04b82c25735090fae3fc693521e7f562959c084bb9cb68fb6d0dd8b2"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/mechanism.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/mechanism.py",
+      "sha256": "82e875e864a6ef4e9936af09d5af7d6c4e1075380c9e4097bdc0ea0407a13b0f"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/PROTOCOL.md",
+      "sha256": "fae4807607afb2a0e2800f5a951bf785924b23b6c48ce22031ee3236032daade"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/test_protocol.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/test_protocol.py",
+      "sha256": "b27f7afd125138b2203e875bc6ebb844cae61c754f25f60e2e3e1412edb9759e"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/analyse.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/analyse.py",
+      "sha256": "0b5f0d5efa12c240fcb40d01b494bfd3002154942d71f8f7eb6e59fc40034779"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/protocol.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/protocol.py",
+      "sha256": "73940e773ae5124f4cb4f76b8c15664e45891538e0234c6b6c890f1d4cf54597"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/test_torch.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/test_torch.py",
+      "sha256": "1d8c3d726a06e352a77e868339a4aac61af1f3489aa367b3b6c2db66946e7463"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/attack.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/attack.py",
+      "sha256": "f93ecdbb5a6c0cab7cbf1046405cfbe583eb80f119795c486dd1130699c9dc33"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/PROTOCOL.md": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/PROTOCOL.md",
+      "sha256": "db64bc981798da790a50f74b77246e22d62bb17dfda3b5af1854a6638556296d"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/run.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/run.py",
+      "sha256": "1efd349a75d8a09517ca4e83baafb1c739e77b81ba11edf8f4c265d1699786b0"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/legacy.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/legacy.py",
+      "sha256": "c66c60771ae92de8475c4beac3ea89233e4e6fe2f95a0a97818d53342ecb695b"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/excluded_worlds.json": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/excluded_worlds.json",
+      "sha256": "c09415827c116c6081e21a4ec7a796470427538bea65079c16c0b05a0af40e18"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/test_run.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/test_run.py",
+      "sha256": "ccbbdd14cf7b59c56a4f6a66b6767949b780e9796cf32da4407f56c1e088a0eb"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/campaign.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/campaign.py",
+      "sha256": "0fd4ca8313557c9095d67135a9654578853acfc435e1faadba918f244a4d10ce"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/observe.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/observe.py",
+      "sha256": "aa701e38ebaa5bb64976684be5df00fd99c044f0b29cb5eac1ae3d164e49b0dc"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/original_manifest.json": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/original_manifest.json",
+      "sha256": "66ce0c47e77c83cc1449c435cfda9f43a3faeb793f967b8a9850f753d9e9527e"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/data.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/data.py",
+      "sha256": "b81a0fc914e534339e8a7f8cc5f330031c5fbe8c5524a83e05a64e320b67ace8"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/reference/removal.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/reference/removal.py",
+      "sha256": "14ebd71f4b4a4100ab425f43fdba0e8b5df3218aaad5100d41d2ed0b0eb15652"
+    },
+    "refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/reference/refusal_core.py": {
+      "origin": "jspace/refusal/experiments/refusal_global_control_v9/reference_v8/reference_v7/reference_v3/reference/refusal_core.py",
+      "sha256": "7ceb4f7bd2687a3aaf5ee1847c23e650dc48ac0b2cca7ec4e5b8f0e3fbb3ad57"
+    },
+    "refusal/experiments/refusal_coupling_v8/analysis/paper_artifacts.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/analysis/paper_artifacts.py",
+      "sha256": "621b92aa9502f4fc503113154a10955f3605add3f46f51b97cc412d509cb2a8d"
+    },
+    "refusal/experiments/refusal_coupling_v8/analysis/plot_summary.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/analysis/plot_summary.py",
+      "sha256": "0ab9757db096d2f146c5476d7450d90e58399d038b803484705cedb7d493c6fe"
+    },
+    "refusal/experiments/refusal_coupling_v8/analysis/summarise.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/analysis/summarise.py",
+      "sha256": "ff568eaf8a6e65fdf6e646c5ce41fd5e65bb98c69b7bc89a5587f8ae750a897c"
+    },
+    "refusal/experiments/refusal_coupling_v8/operations/test_recover.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/operations/test_recover.py",
+      "sha256": "9f889bb45d9794e569e37145fe069b6a340624c1eb2f24509d66b6f7abdf8e99"
+    },
+    "refusal/experiments/refusal_coupling_v8/operations/recover.py": {
+      "origin": "jspace/refusal/experiments/refusal_coupling_v8/operations/recover.py",
+      "sha256": "84862c9dcd3b48510268099f97d4da662e41d63261e78e42374208730a2c2c94"
     }
   },
   "verification": {
@@ -2748,5 +2888,13 @@
       "decoder": 6,
       "result": "9 passed; offline; no GPU use"
     }
+  },
+  "followup_update": {
+    "utc": "2026-11-08T10:30:07.065185+00:00",
+    "files_copied": 35,
+    "new_python_files_compiled": true,
+    "protocol_checks": 6,
+    "server_numerical_checks": 6,
+    "real_gpu_resume_checks_passed": true
   }
 }
